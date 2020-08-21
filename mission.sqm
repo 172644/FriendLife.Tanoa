@@ -437,7 +437,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Tanoa Life RPG v5.0.0";
+		briefingName="Friends LIFE";
 		startWeather=0.099999994;
 		startWind=0.29999998;
 		startWindDir=20;
@@ -9443,7 +9443,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_1";
-						description="Public Slot - Cop 1";
+						description="Gendarme 1";
 						isPlayable=1;
 					};
 					id=769;
@@ -9464,7 +9464,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_2";
-						description="Public Slot - Cop 2";
+						description="Gendarme 2";
 						isPlayable=1;
 					};
 					id=770;
@@ -9485,7 +9485,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_3";
-						description="Public Slot - Cop 3";
+						description="Gendarme 3";
 						isPlayable=1;
 					};
 					id=771;
@@ -9506,7 +9506,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_4";
-						description="Public Slot - Cop 4";
+						description="Gendarme 4";
 						isPlayable=1;
 					};
 					id=772;
@@ -9527,7 +9527,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_5";
-						description="WhiteListed - Cop 5";
+						description="Gendarme 5";
 						isPlayable=1;
 					};
 					id=773;
@@ -9548,7 +9548,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_6";
-						description="WhiteListed - Cop 6";
+						description="Gendarme 6";
 						isPlayable=1;
 					};
 					id=774;
@@ -9569,7 +9569,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_7";
-						description="WhiteListed - Cop 7";
+						description="Gendarme 7";
 						isPlayable=1;
 					};
 					id=775;
@@ -9590,7 +9590,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_8";
-						description="WhiteListed - Cop 8";
+						description="Gendarme 8";
 						isPlayable=1;
 					};
 					id=776;
@@ -9611,7 +9611,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_9";
-						description="WhiteListed - Cop 9";
+						description="Gendarme 9";
 						isPlayable=1;
 					};
 					id=777;
@@ -9632,7 +9632,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_10";
-						description="WhiteListed - Cop 10";
+						description="Gendarme 10";
 						isPlayable=1;
 					};
 					id=778;
@@ -9674,7 +9674,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_12";
-						description="WhiteListed - Cop 12";
+						description="Gendarme 12";
 						isPlayable=1;
 					};
 					id=780;
@@ -9695,7 +9695,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_13";
-						description="WhiteListed - Cop 13";
+						description="Gendarme 13";
 						isPlayable=1;
 					};
 					id=781;
@@ -9716,7 +9716,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_14";
-						description="WhiteListed - Cop 14";
+						description="Gendarme 14";
 						isPlayable=1;
 					};
 					id=782;
@@ -9737,7 +9737,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_15";
-						description="WhiteListed - Cop 15";
+						description="Gendarme 15";
 						isPlayable=1;
 					};
 					id=783;
@@ -9758,7 +9758,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_16";
-						description="WhiteListed - Cop 16";
+						description="Gendarme 16";
 						isPlayable=1;
 					};
 					id=784;
@@ -9779,7 +9779,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_17";
-						description="WhiteListed - Cop 17";
+						description="Gendarme 17";
 						isPlayable=1;
 					};
 					id=785;
@@ -9800,7 +9800,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_18";
-						description="WhiteListed - Cop 18";
+						description="Gendarme 18";
 						isPlayable=1;
 					};
 					id=786;
@@ -9821,7 +9821,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="cop_19";
-						description="WhiteListed - Cop 19";
+						description="Gendarme 19";
 						isPlayable=1;
 					};
 					id=787;
@@ -20653,7 +20653,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_1";
-						description="WhiteListed - EMS Medic 1";
+						description="Pompier 1";
 						isPlayable=1;
 					};
 					id=1058;
@@ -20674,7 +20674,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_2";
-						description="WhiteListed - EMS Medic 2";
+						description="Pompier 2";
 						isPlayable=1;
 					};
 					id=1059;
@@ -20695,7 +20695,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_3";
-						description="WhiteListed - EMS Medic 3";
+						description="Pompier 3";
 						isPlayable=1;
 					};
 					id=1060;
@@ -20716,7 +20716,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_4";
-						description="WhiteListed - EMS Medic 4";
+						description="Pompier 4";
 						isPlayable=1;
 					};
 					id=1061;
@@ -20737,7 +20737,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_5";
-						description="WhiteListed - EMS Medic 5";
+						description="Pompier 5";
 						isPlayable=1;
 					};
 					id=1162;
@@ -20758,7 +20758,7 @@ class Mission
 					{
 						skill=0.60000002;
 						name="medic_6";
-						description="WhiteListed - EMS Medic 6";
+						description="Pompier 6";
 						isPlayable=1;
 					};
 					id=1164;
