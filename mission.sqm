@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5604.0264,6.1195507,10047.777};
-		dir[]={0.90548772,-0.35944146,-0.22567682};
-		up[]={0.34878901,0.93316114,-0.086929321};
-		aside[]={-0.2418384,-1.352746e-007,-0.97033614};
+		pos[]={5586.2246,27.774773,10090.685};
+		dir[]={0.32717463,-0.20614411,-0.92223829};
+		up[]={0.068933003,0.97851473,-0.19430651};
+		aside[]={-0.94248122,2.5524059e-007,-0.33435673};
 	};
 };
 binarizationWanted=0;
@@ -49409,7 +49409,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5616.0576,4.2416153,10051.225};
+				position[]={5616.0576,4.2417936,10051.225};
 			};
 			side="Empty";
 			flags=4;
@@ -49418,10 +49418,11 @@ class Mission
 				ammo=0;
 				lock="LOCKEDPLAYER";
 				fuel=0;
+				createAsSimpleObject=1;
 			};
 			id=6210;
 			type="Zoech";
-			atlOffset=0.010605812;
+			atlOffset=0.010784149;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -49470,7 +49471,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5596.4438,4.267601,10041.845};
+				position[]={5596.4443,4.2673001,10041.845};
 			};
 			side="Empty";
 			flags=4;
@@ -49479,10 +49480,11 @@ class Mission
 				ammo=0;
 				lock="LOCKEDPLAYER";
 				fuel=0;
+				createAsSimpleObject=1;
 			};
 			id=6211;
 			type="chds3_noir";
-			atlOffset=0.0090842247;
+			atlOffset=0.0087833405;
 			class CustomAttributes
 			{
 				class Attribute0
