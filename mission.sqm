@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=6184;
+		nextID=6207;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4174.1396,119.04425,10018.752};
-		dir[]={0.69015414,-0.68559891,-0.23162995};
-		up[]={0.64996845,0.72798008,-0.21814291};
-		aside[]={-0.3181811,3.3286051e-007,-0.94803548};
+		pos[]={860.48236,19.521231,11505.028};
+		dir[]={-0.80054432,-0.49348179,-0.34002274};
+		up[]={-0.45421192,0.8697542,-0.19292127};
+		aside[]={-0.39093998,1.2820237e-007,0.9204222};
 	};
 };
 binarizationWanted=0;
@@ -105,13 +105,14 @@ addons[]=
 	"A3_Structures_F_Exp_Walls_Hedges",
 	"A3_Structures_F_Exp_Walls_Tin",
 	"Tanoa_Bridges",
-	"A3_Structures_F_Exp_Walls_Concrete"
+	"A3_Structures_F_Exp_Walls_Concrete",
+	"A3_Air_F_Heli_Heli_Transport_03"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=34;
+		items=35;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -338,6 +339,13 @@ class AddonsMetaData
 			author="HellBz";
 			url="https://github.com/hellbz";
 		};
+		class Item34
+		{
+			className="A3_Air_F_Heli";
+			name="Arma 3 Helicopters - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=2639488;
@@ -372,24 +380,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -404,6 +394,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -461,7 +469,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1351;
+		items=1353;
 		class Item0
 		{
 			dataType="Marker";
@@ -2429,7 +2437,7 @@ class Mission
 			position[]={6849.2598,2.6600001,7437.4902};
 			name="kart_shop_1";
 			type="Empty";
-			angle=229.15686;
+			angle=229.15674;
 			id=203;
 		};
 		class Item189
@@ -23539,7 +23547,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=272.67981;
 			id=1435;
-			atlOffset=0.098413467;
+			atlOffset=0.29624653;
 		};
 		class Item566
 		{
@@ -23558,6 +23566,7 @@ class Mission
 			};
 			id=1436;
 			type="Land_Atm_02_F";
+			atlOffset=0.20450211;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45227,7 +45236,7 @@ class Mission
 			};
 			id=5941;
 			type="Tanoa_Bridge_Long";
-			atlOffset=38.149094;
+			atlOffset=38.149097;
 		};
 		class Item1221
 		{
@@ -45604,22 +45613,6 @@ class Mission
 			id=5990;
 			type="Tanoa_Bridge_Long";
 			atlOffset=36.662163;
-		};
-		class Item1241
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4701.8198,13.321943,9647.2744};
-				angles[]={6.2624159,5.4977174,6.2694669};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=5992;
-			type="Tanoa_Bridge_Long";
-			atlOffset=14.023;
 		};
 		class Item1242
 		{
@@ -49322,6 +49315,61 @@ class Mission
 								};
 							};
 							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item1351
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4701.8198,13.321943,9647.2744};
+				angles[]={6.2624159,5.4977174,6.2694669};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=5992;
+			type="Tanoa_Bridge_Long";
+			atlOffset=14.023;
+		};
+		class Item1352
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={842.33154,12.34689,11491.523};
+				angles[]={0.08248426,1.6986941,6.2113123};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=6202;
+			type="B_Heli_Transport_03_unarmed_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""FirstAidKit"",""Medikit"",""launch_RPG7_F"",""MMG_01_hex_ARCO_LP_F"",""ACE_Flashlight_Maglite_ML300L"",""hgun_P07_khk_F"",""srifle_DMR_02_camo_AMS_LP_F"",""arifle_ARX_blk_F"",""arifle_ARX_ghex_F""],[10,2,1,1,2,1,1,1,1]],[[""HandGrenade"",""150Rnd_93x64_Mag"",""RPG7_F"",""SmokeShell"",""SmokeShellYellow"",""SmokeShellGreen"",""SmokeShellRed"",""SmokeShellPurple"",""SmokeShellOrange"",""SmokeShellBlue"",""ACE_CTS9"",""DemoCharge_Remote_Mag"",""10Rnd_9x21_Mag"",""16Rnd_9x21_Mag"",""16Rnd_9x21_red_Mag"",""30Rnd_9x21_Mag"",""10Rnd_338_Mag"",""30Rnd_65x39_caseless_khaki_mag"",""30Rnd_65x39_caseless_black_mag""],[2,7,5,2,2,2,2,2,2,2,5,2,4,1,1,1,10,4,4]],[[""Rangefinder"",""ToolKit"",""ItemRadio"",""O_NVGoggles_ghex_F"",""NVGogglesB_grn_F"",""ChemicalDetector_01_watch_F"",""U_O_T_FullGhillie_tna_F"",""H_HelmetSpecB_wdl"",""G_AirPurifyingRespirator_02_olive_F"",""V_PlateCarrierIA1_dgtl"",""V_PlateCarrierIA2_dgtl"",""muzzle_snds_93mmg_tan"",""muzzle_snds_338_black"",""muzzle_snds_H"",""muzzle_snds_H_khk_F"",""muzzle_snds_H_snd_F""],[1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],[[""B_Bergen_hex_F""],[1]]],false]";
 						};
 					};
 				};
