@@ -1,0 +1,29 @@
+#include "..\..\script_macros.hpp"
+/*
+    File: fn_syncData.sqf
+    Author: Bryan "Tonic" Boardwine"
+
+    Description:
+    Used for player manual sync to the server.
+*/
+_fnc_scriptName = "Player Synchronization";
+if (isNil "life_session_time") then {life_session_time = false;};
+if (life_session_time) exitWith {hint localize "STR_Session_SyncdAlready";};
+
+[] call SOCK_fnc_updateRequest;
+hint localize "STR_Session_SyncData";
+[] spawn {
+    life_session_time = true;
+    sleep (5 * 60);
+    life_session_time = false;
+};
+
+
+if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
+	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+		advanced_log = format [localize "STR_DL_ML_Sync",profileName,(getPlayerUID player),[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	} else {
+		advanced_log = format [localize "STR_DL_ML_Sync",profileName,(getPlayerUID player),[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	};
+	publicVariableServer "advanced_log";
+};
