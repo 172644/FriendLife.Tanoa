@@ -15,49 +15,16 @@ class new_HUD {
 	class controlsBackground {
 
 		// HUD Dx
-		
-		/*class SurvivalBackground_color: Life_RscPicture {
-			colorBackground[] = {0.02,0.06,0.06,1};
-			idc = -1;
-			text = "textures\hud_2.paa";
-		    x = 0.86 * safezoneW + safezoneX;
-		    y = 0.835 * safezoneH + safezoneY;
-		    //y = 0.97 * safezoneH + safezoneY;
-			w = 0.136 * safezoneW;
-			h = 0.060 * safezoneH;
-		};*/
-		class SurvivalBackground_water: Life_RscPicture {
-			colorBackground[] = {0.02,0.06,0.06,1};
-			colorFrame[] = {0,0,0,1};
-			idc = -1;
-			text = "textures\hud\water.paa";
-		    x = 0.86 * safezoneW + safezoneX;
-		    y = 0.835 * safezoneH + safezoneY;
-		    //y = 0.97 * safezoneH + safezoneY;
-			w = 0.1067 * safezoneW;
-			h = 0.060 * safezoneH;
-		};
-		class SurvivalBackground_food: Life_RscPicture {
-			colorBackground[] = {0.02,0.06,0.06,1};
-			colorFrame[] = {0,0,0,1};
-			idc = -1;
-			text = "textures\hud\food.paa";
-		    x = 0.86 * safezoneW + safezoneX;
-		    y = 0.997 * safezoneH + safezoneY;
-		    //y = 0.97 * safezoneH + safezoneY;
-			w = 0.1067 * safezoneW;
-			h = 0.060 * safezoneH;
-		};
+
 		class SurvivalBackground: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
-			colorFrame[] = {0,0,0,1};
+			colorFrame[] = {0,0,0,0};
 			idc = -1;
 			text = "textures\hud\hud.paa";
 		    x = 0.86 * safezoneW + safezoneX;
 		    y = 0.935 * safezoneH + safezoneY;
-		    //y = 0.97 * safezoneH + safezoneY;
 			w = 0.136 * safezoneW;
-			h = 0.060 * safezoneH;
+			h = 0.2742857 * safezoneH;
 		};
 		/*class SurvivalBackground: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,0.7};
@@ -126,42 +93,59 @@ class new_HUD {
 			idc = 1;
 			onLoad = "(_this select 0) progressSetPosition 1";
 			colorBar[] = {1,0,0,1};
-			colorFrame[] = {0,0,0,1};
+			colorFrame[] = {0,0,0,0};
+			// type = 1; // clignote
+			type = 9;
 			x = 0.912312 * safezoneW + safezoneX;
 			y = 0.749 * safezoneH + safezoneY;
 			w = 0.0864 * safezoneW;
 			h = 0.0275 * safezoneH;
-		};*/
-		//https://i.imgur.com/pYKUDmd.png
-		class Info_Progress_Sete: Life_RscProgress {
+		};
+		class Info_Progress_Sete2: Life_RscProgress {
 			idc = 3;
-			onLoad = "(_this select 0) progressSetPosition -1";
+			onLoad = "(_this select 0) progressSetPosition 1";
 			colorBar[] = {0.6,0.8,0.9,1};
-			colorFrame[] = {0,0,0,1};
+			colorFrame[] = {0,0,0,0};
+			type = 3;
 			x = 0.89 * safezoneW + safezoneX;
-		    y = 0.937 * safezoneH + safezoneY;
-			//x = 0.89 * safezoneW + safezoneX;
-		    //y = 0.9323 * safezoneH + safezoneY;
-			//y = 0.9345 * safezoneH + safezoneY;
+		    y = 0.837 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.025 * safezoneH;
-			//w = 0.07 * safezoneW;
-			//h = 0.025 * safezoneH;
+		};
+		class Info_Progress_Fame2: Life_RscProgress {
+			idc = 2;
+			onLoad = "(_this select 0) progressSetPosition 1";
+			colorBar[] = {1,0.4,0,1};
+			colorFrame[] = {0,0,0,0};
+			type = 4;
+			x = 0.8915 * safezoneW + safezoneX;
+		    y = 0.868 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.025 * safezoneH;
+		};*/
+
+
+		class Info_Progress_Sete: Life_RscProgress {
+			idc = 3;
+			onLoad = "(_this select 0) progressSetPosition 1";
+			colorBar[] = {0.6,0.8,0.9,1};
+			colorFrame[] = {0,0,0,0};
+			//type = 3;
+			x = 0.89 * safezoneW + safezoneX;
+		    y = 0.937 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.025 * safezoneH;
 		};
 		class Info_Progress_Fame: Life_RscProgress {
 			idc = 2;
 			onLoad = "(_this select 0) progressSetPosition 1";
 			colorBar[] = {1,0.4,0,1};
-			colorFrame[] = {0,0,0,1};
+			colorFrame[] = {0,0,0,0};
+			//type = 4;
 			x = 0.8915 * safezoneW + safezoneX;
 		    y = 0.968 * safezoneH + safezoneY;
-			//x = 0.8915 * safezoneW + safezoneX;
-		    //y = 0.97 * safezoneH + safezoneY;
-		    //y = 0.969 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.025 * safezoneH;
-			//w = 0.07 * safezoneW;
-			//h = 0.025 * safezoneH;
 		};
 	};
 	class controls {
@@ -209,7 +193,7 @@ class new_HUD {
 		};
 		class Banca_Hud: Life_RscText {
 			idc = 7;
-			text = ""; 
+			text = "";
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0.06,0.06,0.06,0.8};
 			x = 0.87607012 * safezoneW + safezoneX;
@@ -217,25 +201,23 @@ class new_HUD {
 			y = 0.973 * safezoneH + safezoneY;
 			w = 0.0515625 * safezoneW;
 			h = 0.022 * safezoneH;
-		};
+		};*/
 		class Cash_Icon: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
 			text = "icons\soldi2.paa";
-			x = 0.928813 * safezoneW + safezoneX;
-			//y = 0.932 * safezoneH + safezoneY;
-			y = 0.97 * safezoneH + safezoneY;
+			x = 0.93 * safezoneW + safezoneX;
+			y = 0.895 * safezoneH + safezoneY;
 			w = 0.01796 * safezoneW;
 			h = 0.032 * safezoneH;
 		};
 		class Cash_Hud: Life_RscText {
 			idc = 8;
-			text = ""; 
+			text = "";
 			colorText[] = {1,1,1,1};
 			colorBackground[] = {0.06,0.06,0.06,0.8};
 			x = 0.947281 * safezoneW + safezoneX;
-			//y = 0.938 * safezoneH + safezoneY;
-			y = 0.973 * safezoneH + safezoneY;
+			y = 0.9 * safezoneH + safezoneY;
 			w = 0.0515625 * safezoneW;
 			h = 0.022 * safezoneH;
 		};
