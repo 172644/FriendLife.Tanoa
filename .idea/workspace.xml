@@ -1,5 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="411e92c1-d811-44e8-ad12-f0a9b35c42cc" name="Default" comment="Initial commint">
+      <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_3.paa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_4.paa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_5.paa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/mission.sqm" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/mission.sqm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="new_HUD.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="193" column="23" lean-forward="true" selection-start-line="193" selection-start-column="23" selection-end-line="193" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_gather.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_gather.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config_Gather.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config_Vehicles.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_customAction.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_actionKeyHandler.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_markers.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_houseMenu.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_boltcutter.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_blastingCharge.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rebel</find>
+      <find>kur</find>
+      <find>chopShop_vehicles</find>
+      <find>STR_MAR_Garage</find>
+      <find>Aérien</find>
+      <find>STR_MAR_W_E_Vehicle</find>
+      <find>STR_Garage_Title</find>
+      <find>juke</find>
+      <find>svr</find>
+      <find>// TODO</find>
+      <find>Land_CommonwealthBank</find>
+      <find>_tanoaArray</find>
+      <find>illegalM</find>
+      <find>chop</find>
+      <find>DRO_</find>
+      <find>Burnes_MK10_1</find>
+      <find>you gat</find>
+      <find>STR_NOTF_Gather_Success</find>
+      <find>_diff</find>
+      <find>CfgGather</find>
+      <find>_requiredItem</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -9,10 +186,270 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="textures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="textures" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hud" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="chop&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf&#10;fede&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/federalReserve.hpp&#10;bank&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/bank.hpp&#10;hud&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Erwan\Desktop\FriendLife.Tanoa\Tanoa_Life.Tanoa\textures\hud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Erwan\Desktop\FriendLife.Tanoa\Tanoa_Life.Tanoa\textures\hud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="411e92c1-d811-44e8-ad12-f0a9b35c42cc" name="Default" comment="" />
+      <created>1598635745008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598635745008</updated>
+      <workItem from="1598635746175" duration="17571000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commint">
+      <created>1598635836220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598635836220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17571000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commint" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Altis_Life.Altis/dialog/hud_stats.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_files/d3s/d3s_kuruma_gtaV/config.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="1470" column="46" selection-start-line="1470" selection-start-column="46" selection-end-line="1472" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="2174" column="44" lean-forward="true" selection-start-line="2174" selection-start-column="44" selection-end-line="2174" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/bank.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/federalReserve.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="193" column="23" lean-forward="true" selection-start-line="193" selection-start-column="23" selection-end-line="193" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_gather.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

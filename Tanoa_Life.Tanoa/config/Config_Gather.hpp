@@ -2,35 +2,35 @@ class CfgGather {
     class Resources {
         class apple {
             amount = 5;
-            zones[] = { "apple_1", "apple_2", "apple_3", "apple_4" };
+            zones[] = { "RES_apple_1", "RES_apple_2", "RES_apple_3", "RES_apple_4" };
             item = "";
             zoneSize = 30;
         };
 
         class peach {
             amount = 5;
-            zones[] = { "peaches_1", "peaches_2", "peaches_3", "peaches_4" };
+            zones[] = { "RES_peaches_1", "RES_peaches_2", "RES_peaches_3", "RES_peaches_4" };
             item = "";
             zoneSize = 30;
         };
 
         class heroin_unprocessed {
             amount = 3;
-            zones[] = { "heroin_1" };
+            zones[] = { "DRO_heroin_1" };
             item = "";
             zoneSize = 30;
         };
 
         class cocaine_unprocessed {
             amount = 3;
-            zones[] = { "cocaine_1" };
+            zones[] = { "DRO_cocaine_1" };
             item = "";
             zoneSize = 30;
         };
 
         class cannabis {
             amount = 3;
-            zones[] = { "weed_1" };
+            zones[] = { "DRO_weed_1" };
             item = "";
             zoneSize = 30;
         };
@@ -72,7 +72,7 @@ Example 2:
     class Minerals {
         class copper_unrefined {
             amount = 2;
-            zones[] = { "copper_mine" };
+            zones[] = { "RES_marker_cuivre" };
             item = "pickaxe";
             mined[] = {"copper_unrefined"};
             zoneSize = 30;
@@ -80,7 +80,7 @@ Example 2:
 
         class iron_unrefined {
             amount = 2;
-            zones[] = { "iron_mine" };
+            zones[] = { "RES_marker_iron" };
             item = "pickaxe";
             mined[] = { "iron_unrefined" };
             zoneSize = 30;
@@ -88,7 +88,7 @@ Example 2:
 
         class salt_unrefined {
             amount = 2;
-            zones[] = { "salt_mine" };
+            zones[] = { "RES_salt_mine" };
             item = "pickaxe";
             mined[] = { "salt_unrefined" };
             zoneSize = 30;
@@ -96,7 +96,7 @@ Example 2:
 
         class sand {
             amount = 2;
-            zones[] = { "sand_mine" };
+            zones[] = { "RES_sand_mine" };
             item = "pickaxe";
             mined[] = { "sand" };
             zoneSize = 30;
@@ -104,7 +104,7 @@ Example 2:
 
         class diamond_uncut {
             amount = 2;
-            zones[] = { "diamond_mine" };
+            zones[] = { "RES_marker_diamant" };
             item = "pickaxe";
             mined[] = { "diamond_uncut" };
             zoneSize = 30;
@@ -112,7 +112,7 @@ Example 2:
 
         class rock {
             amount = 2;
-            zones[] = { "rock_quarry" };
+            zones[] = { "RES_marker_rock" };
             item = "pickaxe";
             mined[] = { "rock" };
             zoneSize = 30;
@@ -120,7 +120,7 @@ Example 2:
 
         class oil_unprocessed {
             amount = 2;
-            zones[] = { "oil_field_1", "oil_field_2" };
+            zones[] = { "RES_oil_field_1" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
             zoneSize = 30;

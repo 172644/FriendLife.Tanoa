@@ -2178,6 +2178,17 @@
             <Portuguese>Garagem de Veículos</Portuguese>
             <Polish>Garaż</Polish>
         </Key>
+        <Key ID="STR_AIR_Garage">
+            <Original>Air Garage</Original>
+            <Czech>Air Garáž</Czech>
+            <French>Garage Aérien</French>
+            <Spanish>Garaje Aérea</Spanish>
+            <Italian>Garage Aereo</Italian>
+            <Russian></Russian>
+            <German>Luftfahrzeug Garage</German>
+            <Portuguese>Garagem Aérea</Portuguese>
+            <Polish>Sklep lotniczy</Polish>
+        </Key>
         <Key ID="STR_Garage_GetVehicle">
             <Original>Get Vehicle</Original>
             <Czech>Získat vozidlo</Czech>

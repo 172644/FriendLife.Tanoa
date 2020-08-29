@@ -15,7 +15,7 @@
   sleep 0.01;
 } forEach _dataArray;*/
 
-while {true} do {
+while {false} do {
 	sleep 60;
     player globalChat "Message Test 60 sec";
 	

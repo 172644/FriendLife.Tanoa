@@ -252,7 +252,7 @@ class CarShops {
             { "I_C_Boat_Transport_02_F", "" },
             { "C_Boat_Civil_01_F", "" },
             { "C_Grady_White_01_F", "" },
-            { "C_Grady_White_01_F", "" },
+            { "Burnes_MK10_1", "" },
             { "B_SDV_01_F", "" } 
         };
     };
@@ -436,6 +436,13 @@ class LifeCfgVehicles {
         vItemSpace = -1;
         conditions = "";
         price = -1;
+        textures[] = {};
+    };
+
+    class d3s_hornet_53_carkill {
+        vItemSpace = 10;
+        conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
+        price = 1000000;
         textures[] = {};
     };
 
@@ -2293,8 +2300,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_driver";
         price = 266264;
         fuel = "fuel_2";
-        textures[] = { };
+        textures[] = {
+            { "Black", "civ", {
+                "#(argb,8,8,3)color(0,0,0.0,1)",
+                "d3s_kuruma_gtaV\data\vehicle_generic_tyrewallblack.paa",
+                "d3s_cars_core\data\glass.paa",
+                "#(argb,8,8,3)color(0,0,0.0,1)"
+            }, "" }};
     };
+
 
     class d3s_w212s_13_EX {
         vItemSpace = 50;
