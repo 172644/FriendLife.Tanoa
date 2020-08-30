@@ -11,7 +11,7 @@
 */
 private ["_healCost","_action"];
 if (life_action_inUse) exitWith {};
-if ((damage player) < 0.01) exitWith {hint localize "STR_NOTF_HS_FullHealth"};
+//if ((damage player) < 0.01) exitWith {hint localize "STR_NOTF_HS_FullHealth"};
 _healCost = LIFE_SETTINGS(getNumber,"hospital_heal_fee");
 if (CASH < _healCost) exitWith {hint format [localize "STR_NOTF_HS_NoCash",[_healCost] call life_fnc_numberText];};
 
@@ -30,6 +30,8 @@ if (_action) then {
     if (player distance (_this select 0) > 5) exitWith {life_action_inUse = false; titleText[localize "STR_NOTF_HS_ToFar","PLAIN"]};
     titleText[localize "STR_NOTF_HS_Healed","PLAIN"];
     player setDamage 0;
+	[objNull, player] call ace_medical_treatment_fnc_fullHeal;
+    [objNull, player] call ACE_medical_fnc_treatmentAdvanced_fullHealLocal;
     CASH = CASH - _healCost;
     life_action_inUse = false;
 } else {
