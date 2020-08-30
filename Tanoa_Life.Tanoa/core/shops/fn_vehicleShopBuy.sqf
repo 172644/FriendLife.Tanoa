@@ -86,7 +86,7 @@ hint format [localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" 
 
 private "_vehicle";
 
-if ((life_veh_shop select 0) == "med_air_hs") then {
+/*if ((life_veh_shop select 0) == "med_air_hs") then {
     _vehicle = createVehicle [_className,[0,0,999],[], 0, "NONE"];
     waitUntil {!isNil "_vehicle" && {!isNull _vehicle}}; //Wait?
     _vehicle allowDamage false;
@@ -100,7 +100,13 @@ if ((life_veh_shop select 0) == "med_air_hs") then {
     _vehicle setPos (getMarkerPos _spawnPoint);
     _vehicle setVectorUp (surfaceNormal (getMarkerPos _spawnPoint));
     _vehicle setDir (markerDir _spawnPoint);
-};
+};*/
+_vehicle = createVehicle [_className, (getMarkerPos _spawnPoint), [], 0, "NONE"];
+waitUntil {!isNil "_vehicle" && {!isNull _vehicle}}; //Wait?
+_vehicle allowDamage false; //Temp disable damage handling..
+_vehicle setPos (getMarkerPos _spawnPoint);
+_vehicle setVectorUp (surfaceNormal (getMarkerPos _spawnPoint));
+_vehicle setDir (markerDir _spawnPoint);
 
 _vehicle lock 2;
 
