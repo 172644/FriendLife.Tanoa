@@ -6,7 +6,8 @@
       <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_4.paa" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_5.paa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminGodMode.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminGodMode.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" afterDir="false" />
@@ -14,8 +15,7 @@
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +30,44 @@
       <file leaf-file-name="fn_customAction.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+            <state relative-caret-position="595">
+              <caret line="35" column="83" lean-forward="true" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_serviceChopper.sqf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config_SpawnPoints.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_respawned.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="47" column="21" selection-start-line="46" selection-start-column="19" selection-end-line="47" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fn_healHospital.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -39,17 +75,8 @@
       <file leaf-file-name="fn_unimpound.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fn_requestReceived.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_requestReceived.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="292">
+              <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="43" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -81,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_adminGodMode.sqf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fn_adminGodMode.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminGodMode.sqf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -97,15 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dialog</find>
-      <find>[Farming System] Error:</find>
-      <find>SUCCESSFULLY LOADED PRICES FROM DATABASE!</find>
-      <find>fnc_fullHeal</find>
-      <find>STR_Shop_Veh_UI_RetrievalP</find>
-      <find>_storageFee</find>
-      <find>= 500</find>
-      <find>tazer</find>
-      <find>repair</find>
       <find>&quot;sellers&quot;</find>
       <find>CASH</find>
       <find>Retrieval</find>
@@ -121,12 +139,21 @@
       <find>STR_pInAct_StoreVeh</find>
       <find>_retrievePrice</find>
       <find>HC_fnc_vehicleStore</find>
-      <find>_vehicle setVariable</find>
       <find>select</find>
       <find>SOCK_fnc_updateRequest</find>
       <find>dynmarke</find>
       <find>Compense</find>
       <find>life_fnc_adminGetID</find>
+      <find>&quot;extDB3&quot; callExtension &quot;0</find>
+      <find>STR_SP_Reb_NE</find>
+      <find>spawnVehicle</find>
+      <find>vehicleUpda</find>
+      <find>vehicleUpdate</find>
+      <find>envoyer</find>
+      <find>STR_pInAct_Arrest</find>
+      <find>jail</find>
+      <find>serviceChopper</find>
+      <find>_vehicle setVariable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,14 +171,17 @@
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
         <option value="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_healHospital.sqf" />
-        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" />
         <option value="$PROJECT_DIR$/Altis_Life.Altis/config/Config_Master.hpp" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Master.hpp" />
-        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminSelfHeal.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminGodMode.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" />
       </list>
     </option>
   </component>
@@ -209,6 +239,13 @@
               <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="actions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -216,7 +253,7 @@
               <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pmenu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="medical" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +284,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="unimpound&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf&#10;custo&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf&#10;heal&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Altis_Life.Altis/core/actions/fn_healHospital.sqf&#10;chop&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf&#10;fede&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/federalReserve.hpp&#10;bank&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/bank.hpp&#10;hud&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_files/life_server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -284,7 +321,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598635745008</updated>
       <workItem from="1598635746175" duration="20830000" />
-      <workItem from="1598719612064" duration="18156000" />
+      <workItem from="1598719612064" duration="24762000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commint">
       <created>1598635836220</created>
@@ -307,11 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1598713418968</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update hospital heal with ACE">
+      <created>1598787890770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598787890770</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Set retrieval price to 0">
+      <created>1598787976659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598787976659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38986000" />
+    <option name="totallyTimeSpent" value="45592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1736" height="1047" extended-state="0" />
@@ -320,11 +371,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.25962597" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24403341" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24403341" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
@@ -338,6 +389,28 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24403341" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -385,37 +458,11 @@
     <MESSAGE value="Initial commint" />
     <MESSAGE value="Fix Gather ressource &amp;&amp; Fix boat Shop &amp;&amp; remove 60 sec message log" />
     <MESSAGE value="Final customHUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final customHUD" />
+    <MESSAGE value="Update hospital heal with ACE" />
+    <MESSAGE value="Set retrieval price to 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set retrieval price to 0" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_gather.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Gather.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4386">
-          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -635,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -653,20 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="81" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="56" column="10" lean-forward="true" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -722,6 +748,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="47" column="21" selection-start-line="46" selection-start-column="19" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Altis_Life.Altis/stringtable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8227" column="34" selection-start-line="8227" selection-start-column="17" selection-end-line="8227" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="83" lean-forward="true" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

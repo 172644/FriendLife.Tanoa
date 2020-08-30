@@ -16,6 +16,7 @@ if (life_god) then {
     player allowDamage true;
 } else {
     life_god = true;
+    [objNull, player] call ace_medical_treatment_fnc_fullHeal;
     titleText [localize "STR_ANOTF_godModeOn","PLAIN"]; titleFadeOut 2;
     player allowDamage false;
 };

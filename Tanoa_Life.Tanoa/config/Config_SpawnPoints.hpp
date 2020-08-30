@@ -100,12 +100,12 @@ class CfgSpawnPoints {
         };
 
         class Medic {
-            class Kavala {
+            /*class Kavala {
                 displayName = $STR_SP_EMS_Kav;
                 spawnMarker = "medic_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
-            };
+            };*/
 
             class Athira {
                 displayName = $STR_SP_EMS_Ath;
@@ -114,12 +114,12 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class Pyrgos {
+            /*class Pyrgos {
                 displayName = $STR_SP_EMS_Pyr;
                 spawnMarker = "medic_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
-            };
+            };*/
         };
     };
 
@@ -133,7 +133,7 @@ class CfgSpawnPoints {
                 conditions = "!license_civ_rebel";
             };
 
-            class Balavu {
+            /*class Balavu {
                 displayName = "Balavu";
                 spawnMarker = "civ_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -152,32 +152,18 @@ class CfgSpawnPoints {
                 spawnMarker = "civ_spawn_4";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
-            };
+            };*/
 
             class RebelNW {
                 displayName = $STR_SP_Reb_NW;
-                spawnMarker = "Rebelop";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
-
-            class RebelS {
-                displayName = $STR_SP_Reb_S;
-                spawnMarker = "Rebelop_1";
-                icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
-                conditions = "license_civ_rebel";
-            };
-
-            class RebelNE {
-                displayName = $STR_SP_Reb_NE;
-                spawnMarker = "Rebelop_2";
+                spawnMarker = "DRO_Rebelop";
                 icon = "\a3\ui_f\data\map\MapControl\bunker_ca.paa";
                 conditions = "license_civ_rebel";
             };
         };
 
         class Cop {
-            class NAirport {
+            /*class NAirport {
                 displayName = $STR_SP_Cop_Air_N;
                 spawnMarker = "cop_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
@@ -189,7 +175,7 @@ class CfgSpawnPoints {
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
                 conditions = "";
-            };
+            };*/
 
             class GeorgetownHQ {
                 displayName = "Georgetown HQ";
@@ -198,7 +184,7 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class Air {
+            /*class Air {
                 displayName = $STR_MAR_Police_Air_HQ;
                 spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
@@ -210,17 +196,17 @@ class CfgSpawnPoints {
                 spawnMarker = "cop_spawn_5";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "call life_coplevel >= 3";
-            };
+            };*/
         };
 
         class Medic {
 
-            class SEHospital {
+            /*class SEHospital {
                 displayName = $STR_SP_EMS_SE;
                 spawnMarker = "medic_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
-            };
+            };*/
 
             class TanoukaHospital {
                 displayName = $STR_SP_EMS_Tan;
@@ -229,12 +215,12 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class NEAirportHospital {
+            /*class NEAirportHospital {
                 displayName = $STR_SP_EMS_NEair;
                 spawnMarker = "medic_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
-            };
+            };*/
 
         };
 
