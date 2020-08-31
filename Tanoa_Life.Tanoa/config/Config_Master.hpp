@@ -154,6 +154,12 @@ class Life_Settings {
     vehicle_sell_multiplier_MEDIC = .1; //Medic Vehicle Garage Sell Price = Vehicle Buy Price * multiplier
     vehicle_sell_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
+    /* Vehicle Insurance Prices */
+    vehicle_insurance_multiplier_CIVILIAN = .25; // Le prix de l'assurance est le prix d'achat * cette valeur pour les civils
+    vehicle_insurance_multiplier_COP = .1; // Le prix de l'assurance est le prix d'achat * cette valeur pour les policiers
+    vehicle_insurance_multiplier_MEDIC = .1; // Le prix de l'assurance est le prix d'achat * cette valeur pour les médecins
+    vehicle_insurance_multiplier_OPFOR = -1; // Le prix de l'assurance est le prix d'achat * cette valeur pour les adacs
+
     /* "Other" Vehicle Prices */
     vehicle_chopShop_multiplier = .2; //Chop Shop price for vehicles. TO AVOID EXPLOITS NEVER SET HIGHER THAN A PURCHASE/RENTAL multipler!   Payout = Config_vehicle Price * multiplier
     vehicle_storage_fee_multiplier = .0; //Pull from garage cost --> Cost takes the playersides Buy Price * multiplier
