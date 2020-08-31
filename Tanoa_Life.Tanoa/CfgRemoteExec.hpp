@@ -113,6 +113,7 @@ class CfgRemoteExec {
         F(TON_fnc_vehicleUpdate,SERVER)
         F(TON_fnc_handleBlastingCharge,SERVER)
         F(TON_fnc_houseGarage,SERVER)
+        F(TON_fnc_insureCar,SERVER)
         F(TON_fnc_playerLogged,SERVER)//Bourse
         F(TON_fnc_getUpdate,SERVER)//Bourse
         F(TON_fnc_changePrice,SERVER)//Bourse

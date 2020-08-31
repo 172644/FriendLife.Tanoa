@@ -31,34 +31,44 @@ _trunkSpace = [_className] call life_fnc_vehicleWeightCfg;
 _price = M_CONFIG(getNumber,"LifeCfgVehicles",_classNameLife,"price");
 _storageFee = LIFE_SETTINGS(getNumber,"vehicle_storage_fee_multiplier");
 
+_insuranceMultiplier = 0.2;
+_insurance = (_dataArr select 2);
 switch (playerSide) do {
     case civilian: {
         _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_CIVILIAN");
         _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_CIVILIAN");
+        _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_CIVILIAN");
     };
     case west: {
         _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_COP");
         _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_COP");
+        _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_COP");
     };
     case independent: {
         _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_MEDIC");
         _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_MEDIC");
+        _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_MEDIC");
     };
     case east: {
         _purchasePrice = _price * LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_OPFOR");
         _sellMultiplier = LIFE_SETTINGS(getNumber,"vehicle_sell_multiplier_OPFOR");
+        _insuranceMultiplier = LIFE_SETTINGS(getNumber,"vehicle_insurance_multiplier_OPFOR");
     };
 };
 _retrievePrice = _purchasePrice * _storageFee;
 _sellPrice = _purchasePrice * _sellMultiplier;
+_insurancePrice = _purchasePrice * _insuranceMultiplier;
 
 //if (!(_sellPrice isEqualType 0) || _sellPrice < 1) then {_sellPrice = 500;};
 //if (!(_retrievePrice isEqualType 0) || _retrievePrice < 1) then {_retrievePrice = 500;};
+//if (!(_insurancePrice isEqualType 0) || _insurancePrice < 1) then {_insurancePrice = 500;};
 
 (CONTROL(2800,2803)) ctrlSetStructuredText parseText format [
     //(localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>
     //" +
     (localize "STR_Shop_Veh_UI_SellP")+ " <t color='#8cff9b'>$%2</t><br/>
+    Prix de l'assurance: <t color='#8cff9b'>%9$</t><br/>
+    Etat de l'assurance: %10 <br/>
 	Type d’essence : %9<br/>
     " +(localize "STR_Shop_Veh_UI_Color")+ " %8<br/>
     " +(localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>
@@ -75,8 +85,16 @@ _sellPrice = _purchasePrice * _sellMultiplier;
 if (_trunkSpace isEqualTo -1) then {"None"} else {_trunkSpace},
 (_vehicleInfo select 12),
 _vehicleColor,
+[_insurancePrice] call life_fnc_numberText,
+if (_insurance isEqualTo 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
 [_classNameLife] call max_fuelstations_fnc_getFuelType
 ];
 
 ctrlShow [2803,true];
 ctrlShow [2830,true];
+
+if (_insurance isEqualTo 1) then {
+    ctrlShow [2804,false];
+} else {
+    ctrlShow [2804,true];
+};

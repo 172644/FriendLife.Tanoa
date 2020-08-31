@@ -335,6 +335,17 @@
             <Portuguese>Vender</Portuguese>
             <Polish>Sprzedaj</Polish>
         </Key>
+        <Key ID="$STR_Global_Insure">
+            <Original>Insure</Original>
+            <Czech>Insure</Czech>
+            <Spanish>Insure</Spanish>
+            <Russian></Russian>
+            <German>Insure</German>
+            <French>Assurer</French>
+            <Italian>Insure</Italian>
+            <Portuguese>Insure</Portuguese>
+            <Polish>Insure</Polish>
+        </Key>
         <Key ID="STR_Global_Buy">
             <Original>Buy</Original>
             <Czech>Koupit</Czech>
@@ -5744,6 +5755,17 @@
             <German>Deine Lautstärke wurde in den "Fade-Mode" geändert!</German>
             <Portuguese>Seu som está abafado.</Portuguese>
             <Polish>Dzwięk został ustawiony w tryb wyciszony!</Polish>
+        </Key>
+        <Key ID="STR_MISC_sound">
+            <Original>Your sound is at %1%</Original>
+            <Czech>Váš zvuk je na %1%</Czech>
+            <French>Votre son est à %1%</French>
+            <Spanish>Tu sonido está en %1%</Spanish>
+            <Italian>Il tuo suono è al %1%</Italian>
+            <Russian>Ваш звук на %1%</Russian>
+            <German>Dein Sound ist bei %1%</German>
+            <Portuguese>Seu som está em %1%</Portuguese>
+            <Polish>Twój dźwięk wynosi %1%</Polish>
         </Key>
         <Key ID="STR_MISC_overviewText">
             <Original>An RPG game mode developed by Tonic.</Original>
