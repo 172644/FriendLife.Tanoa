@@ -11,7 +11,7 @@ class Socket_Reciever {
     };
 };
 
-class SpyGlass {
+/*class SpyGlass {
     tag = "SPY";
     class Functions {
         file = "SpyGlass";
@@ -19,7 +19,7 @@ class SpyGlass {
         class notifyAdmins{};
         class observe{};
     };
-};
+};*/
 
 class Life_Client_Core {
     tag = "life";
@@ -148,6 +148,7 @@ class Life_Client_Core {
     class Dialog_Controls {
         file = "dialog\function";
         class bankDeposit {};
+		class bankDepositAll {};
         class bankTransfer {};
         class bankWithdraw {};
         class displayHandler {};
@@ -170,7 +171,7 @@ class Life_Client_Core {
         class vehicleGarage {};
         class wireTransfer {};
     };
-
+/*
     //kovix
     class DynMarket {  
     file = "core\DynMarket";  
@@ -180,7 +181,7 @@ class Life_Client_Core {
     class LoadIntoListbox {};  
     class ForcePrice {};  
     class DYNMARKET_getPrice {};  
-    }; 
+    }; */
 
     class Functions {
         file = "core\functions";
@@ -299,6 +300,7 @@ class Life_Client_Core {
         class respawned {};
         class revived {};
         class revivePlayer {};
+		class respawnHospital {};
     };
 
     class Network {

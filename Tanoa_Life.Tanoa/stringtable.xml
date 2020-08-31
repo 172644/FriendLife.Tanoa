@@ -9965,7 +9965,7 @@
         <Key ID="STR_MAR_Weed_Field">
             <Original>Marijuana Field</Original>
             <Czech>Marihuana Field</Czech>
-            <French>Champ de pavots</French>
+            <French>Champ de Marijuana</French>
             <Spanish>Campo de Marihuana</Spanish>
             <Russian></Russian>
             <German>Marihuana Plantage</German>
@@ -9976,7 +9976,7 @@
         <Key ID="STR_MAR_Weed_Processing">
             <Original>Marijuana Processing</Original>
             <Czech>Zpracování marihuana</Czech>
-            <French>Traitement du pavot</French>
+            <French>Traitement de la Marijuana</French>
             <Spanish>Procesador de Marihuana</Spanish>
             <Russian></Russian>
             <German>Marihuana Verarbeitung</German>
