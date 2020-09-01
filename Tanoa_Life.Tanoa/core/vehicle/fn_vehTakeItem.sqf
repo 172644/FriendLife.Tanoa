@@ -50,18 +50,18 @@ if (_ctrl == "money") then {
         } else {
             _data set[_index,[_ctrl,(_value - _num)]];
         };
-        life_trunk_vehicle setVariable ["Trunk",[_data,(_old select 1) - _weight],true];
-        [life_trunk_vehicle] call life_fnc_vehInventory;
-		
-		
+
 		if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 			if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_value,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_inv,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 			} else {
-				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_value,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_inv,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 			};
 			publicVariableServer "advanced_log";
 		};
+
+        life_trunk_vehicle setVariable ["Trunk",[_data,(_old select 1) - _weight],true];
+        [life_trunk_vehicle] call life_fnc_vehInventory;
     } else {
         hint localize "STR_NOTF_InvFull";
     };
