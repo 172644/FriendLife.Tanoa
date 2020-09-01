@@ -29,12 +29,3 @@ addMissionEventHandler["HandleDisconnect",{
 [] call compile preprocessFileLineNumbers "\life_server\init.sqf";
 
 
-	if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_customLog","Test 00 sec"];
-		publicVariableServer "advanced_log";
-	};
-sleep 60;
-	if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_customLog","Test 60 sec"];
-		publicVariableServer "advanced_log";
-	};

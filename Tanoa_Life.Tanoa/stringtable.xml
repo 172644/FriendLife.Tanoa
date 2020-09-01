@@ -335,7 +335,7 @@
             <Portuguese>Vender</Portuguese>
             <Polish>Sprzedaj</Polish>
         </Key>
-        <Key ID="$STR_Global_Insure">
+        <Key ID="STR_Global_Insure">
             <Original>Insure</Original>
             <Czech>Insure</Czech>
             <Spanish>Insure</Spanish>
@@ -12298,6 +12298,9 @@
         </Key>
         <Key ID="STR_DL_ML_Sync">
             <Original>{'player':'%1','uid':%2,'action':{'type':'sync'},'money':{'bank':'%3','cash':'%4'},'_player':0,'KEY':'JSON_LOG'}</Original>
+        </Key>
+        <Key ID="STR_DL_ML_Gather">
+            <Original>{'player':'%1','uid':%2,'action':{'type':'gather', 'item':'%3', 'nbr':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="STR_DL_ML_customLog">
             <Original>%1</Original>

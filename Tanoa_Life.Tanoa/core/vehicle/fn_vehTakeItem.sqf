@@ -53,9 +53,9 @@ if (_ctrl == "money") then {
 
 		if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 			if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_inv,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 			} else {
-				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_inv,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 			};
 			publicVariableServer "advanced_log";
 		};

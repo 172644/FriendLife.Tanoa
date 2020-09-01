@@ -19,6 +19,7 @@ if (_amount > (ITEM_VALUE(_type))) exitWith {hint localize "STR_Shop_Virt_NotEno
 if ((time - life_action_delay) < 0.2) exitWith {hint localize "STR_NOTF_ActionDelay";};
 life_action_delay = time;
 
+_unitPrice = _price;
 _price = (_price * _amount);
 _name = M_CONFIG(getText,"VirtualItems",_type,"displayName");
 if ([false,_type,_amount] call life_fnc_handleInv) then {
@@ -26,7 +27,7 @@ if ([false,_type,_amount] call life_fnc_handleInv) then {
     CASH = CASH + _price;
 	if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 		if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-			advanced_log = format [localize "STR_DL_ML_vitualItemSell",profileName,(getPlayerUID player),_amount,_name,_price,(_price * _amount),[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+			advanced_log = format [localize "STR_DL_ML_vitualItemSell",profileName,(getPlayerUID player),_amount,_name,_unitPrice,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 		} else {
 			advanced_log = format [localize "STR_DL_ML_vitualItemSell",profileName,(getPlayerUID player),_amount,_name,_unitPrice,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 		};
