@@ -3881,10 +3881,10 @@
             <Portuguese>Você não é um Policial.</Portuguese>
             <Polish>Nie jesteś policjantem</Polish>
         </Key>
-		<Key ID="STR_Item_Alcootest">
+        <Key ID="STR_Item_Alcootest">
             <French>Vous allez faire le test de l'Alcootest.</French>
         </Key>
-		<Key ID="STR_Item_Test_drugs">
+        <Key ID="STR_Item_Test_drugs">
             <French>Vous allez faire le test de l'Alcootest.</French>
         </Key>
         <Key ID="STR_NOTF_NoRoom">
@@ -7019,8 +7019,8 @@
             <Italian>Licenza di Guida</Italian>
             <Portuguese>Licença de Motorista</Portuguese>
             <Polish>Prawo jazdy</Polish>
-        </Key>        
-		<Key ID="STR_License_DIR">
+        </Key>
+        <Key ID="STR_License_DIR">
             <Original>License DIR</Original>
             <Czech>Řidičský průkaz</Czech>
             <Spanish>Licencia de Conducir</Spanish>
@@ -7031,7 +7031,7 @@
             <Portuguese>Licença de Motorista</Portuguese>
             <Polish>Prawo jazdy</Polish>
         </Key>
-		<Key ID="STR_License_Dépanneur">
+        <Key ID="STR_License_Dépanneur">
             <Original>License Dépanneur</Original>
             <Czech>Řidičský průkaz</Czech>
             <Spanish>Licencia de Conducir</Spanish>
@@ -7042,7 +7042,7 @@
             <Portuguese>Licença de Motorista</Portuguese>
             <Polish>Prawo jazdy</Polish>
         </Key>
-		<Key ID="STR_License_Vendeur_luxe">
+        <Key ID="STR_License_Vendeur_luxe">
             <Original>Vendeur Luxe</Original>
             <Czech>pilotní licence</Czech>
             <Spanish>Licencia de Piloto</Spanish>
@@ -7053,7 +7053,7 @@
             <Portuguese>Licença de Piloto</Portuguese>
             <Polish>Licencja Pilota</Polish>
         </Key>
-		<Key ID="STR_License_Vendeur_moto">
+        <Key ID="STR_License_Vendeur_moto">
             <Original>Vendeur Moto</Original>
             <Czech>pilotní licence</Czech>
             <Spanish>Licencia de Piloto</Spanish>
@@ -7064,7 +7064,7 @@
             <Portuguese>Licença de Piloto</Portuguese>
             <Polish>Licencja Pilota</Polish>
         </Key>
-		
+
         <Key ID="STR_License_Pilot">
             <Original>Pilot License</Original>
             <Czech>pilotní licence</Czech>
@@ -12046,7 +12046,7 @@
             <German>hat sein Haus für $%1 verkauft. Bankkonto: $%2</German>
         </Key>
         <Key ID="STR_DL_AL_soldHouse">
-            <Original>{'player':'%1','uid':%2,'action':{'type':'sold', 'item':'house', 'received':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
+            <Original>{'player':'%1','uid':%2,'action':{'type':'sold', 'item':'house', 'receive':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_soldHouse">
             <Original>%1 - %2 sold a house for $%3. Bank Balance: $%4</Original>
@@ -12071,7 +12071,7 @@
             <German>hat das Fahrzeug %1 für $%2 beim Schrotthändler verschrottet. Bargeld(vor Schrott): $%3</German>
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle">
-            <Original>{'player':'%1','uid':%2,'action':{'type':'chopped', 'item':'vehicle', 'vehicle':'%3', 'owner':'%4', 'received':'%5'},'money':{'cash':'%6'},'_player':'%4','KEY':'JSON_LOG'}</Original>
+            <Original>{'player':'%1','uid':%2,'action':{'type':'chopped', 'item':'vehicle', 'vehicle':'%3', 'owner':'%4', 'receive':'%5'},'money':{'cash':'%6'},'_player':'%4','KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_choppedVehicle">
             <Original>%1 - %2 chopped vehicle %3 of %4 for $%5  On Hand Cash(pre-chop): $%6</Original>
@@ -12313,7 +12313,7 @@
             <Russian>%1</Russian>
             <German>%1</German>
         </Key>
-		<Key ID="STR_Item_etabli">
+        <Key ID="STR_Item_etabli">
             <French>Craft en cours</French>
         </Key>
     </Package>
