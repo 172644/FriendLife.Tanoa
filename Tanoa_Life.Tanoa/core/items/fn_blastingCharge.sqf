@@ -18,11 +18,10 @@ if (west countSide playableUnits < (LIFE_SETTINGS(getNumber,"minimum_cops"))) ex
 };
 
 // TODO BANK :  
-//private _vaultHouse = [[["Altis", "Land_CommonwealthBank"], ["Tanoa", "Land_CommonwealthBank"]]] call TON_fnc_terrainSort;
+//private _vaultHouse = [[["Altis", "Land_Reserve_Federal_Smith"], ["Tanoa", "Land_Reserve_Federal_Smith"]]] call TON_fnc_terrainSort;
 private _vaultHouse = [[["Altis", "Land_Research_house_V1_F"], ["Tanoa", "Land_Medevac_house_V1_F"]]] call TON_fnc_terrainSort;
 private _altisArray = [16019.5,16952.9,0];
-//private _tanoaArray = [11074.2,11501.5,0.00137329];
-private _tanoaArray = [5257,9859.028,-0.86];
+private _tanoaArray = [12294.556,10363.935,0]; // BANK POS
 private _pos = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] call TON_fnc_terrainSort;
 
 if ((nearestObject [_pos,_vaultHouse]) getVariable ["locked",true]) exitWith {hint localize "STR_ISTR_Blast_Exploit"};
