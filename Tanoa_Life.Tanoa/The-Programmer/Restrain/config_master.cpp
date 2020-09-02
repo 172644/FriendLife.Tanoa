@@ -20,14 +20,14 @@
 class Max_Settings_Restrain {
     disable_sprint = true;
 
-    str_no_object_to_handcuff = "You don't have the required object to handcuff";
-    str_no_object_to_uncuff = "You don't have the required object to detach the handcuffs";
+    str_no_object_to_handcuff = "Vous n'avez pas l'objet requis pour menotter";
+    str_no_object_to_uncuff = "Vous n'avez pas l'objet requis pour détacher les menottes";
 
     automatic_unrestrain_time = -1; // in seconds | -1 = disable the automatic unrestrain 
 
     /* USE SHIFT + R TO HANDCUFF AND UNCUFF IN COP AND IN CIVIL */
 
-    civilian_object_to_handcuff = "handcuff"; //object required to handcuff as a civilian  | "" = nothing
+    civilian_object_to_handcuff = "Passer les menottes"; //object required to handcuff as a civilian  | "" = nothing
     cop_object_to_handcuff = ""; //object required to handcuff as a cop | "" = nothing
 
     civilian_object_to_uncuff = ""; //object required to uncuff as a civilian  | "" = nothing

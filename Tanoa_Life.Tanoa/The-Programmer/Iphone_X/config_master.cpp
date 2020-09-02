@@ -167,17 +167,23 @@ class The_Programmer_Settings_Iphone {
             condition = "((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""bill_system_script_enable"")) isEqualTo 1)";
             picture = "The-Programmer\Iphone_X\textures\icons\facture.paa";
         };
-        //class DynamicMarket {
-            //action = "[] spawn theprogrammer_fnc_bourseViewInit;";
-            //displayName = "Bourse";
-            //condition = "((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""dynamic_market_script_enable"")) isEqualTo 1)";
-            //picture = "The-Programmer\Iphone_X\textures\icons\bourse.paa";
-        //};
-		class DynamicMarket {  //Nom de la class (n'influe en rien sur le fonctionne du bouton il doit être juste unique) 
-            action = "createDialog ""life_dymarket_prices"";"; //L'action que le bouton va exécuter (correspond au onButtonClick dans le player_inv.hpp)
-            displayName = "Bourse"; // Le nom du bouton qui s'affiche quand on met le curseur dessus 
+        class DynamicMarket {
+            action = "[] spawn theprogrammer_fnc_bourseViewInit;";
+            displayName = "Bourse";
+            condition = "((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""dynamic_market_script_enable"")) isEqualTo 1)";
+            picture = "The-Programmer\Iphone_X\textures\icons\bourse.paa";
+        };
+		//class DynamicMarket {  //Nom de la class (n'influe en rien sur le fonctionne du bouton il doit être juste unique) 
+            //action = "createDialog ""life_dymarket_prices"";"; //L'action que le bouton va exécuter (correspond au onButtonClick dans le player_inv.hpp)
+            //displayName = "Bourse"; // Le nom du bouton qui s'affiche quand on met le curseur dessus 
+            //condition = ""; // Condition pour afficher uniquement le bouton à une certaine personne/groupe 
+            //picture = "The-Programmer\Iphone_X\textures\icons\bourse.paa"; // La destination de l'image pour l'icon 
+		//};
+		class objetsplacable {  //Nom de la class (n'influe en rien sur le fonctionne du bouton il doit être juste unique) 
+            action = "[] spawn life_fnc_placeablesMenu; closeDialog 0;"; //L'action que le bouton va exécuter (correspond au onButtonClick dans le player_inv.hpp)
+            displayName = "Objets placable"; // Le nom du bouton qui s'affiche quand on met le curseur dessus 
             condition = ""; // Condition pour afficher uniquement le bouton à une certaine personne/groupe 
-            picture = "The-Programmer\Iphone_X\textures\icons\bourse.paa"; // La destination de l'image pour l'icon 
+            picture = "The-Programmer\Iphone_X\textures\icons\cone.paa"; // La destination de l'image pour l'icon 
 		};
         class FarmingHelper {
             action = "createDialog ""The_Programmer_FarmingHelper_Menu"";";

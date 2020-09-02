@@ -26,10 +26,12 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
-_message = _message + "Useful links (click on the links to open your browser)<br /><br />";
-_message = _message + " <a href='https://github.com/AsYetUntitled/Framework' color='#56BDD6'>AsYetUntitled</a> -- The official repository for the project.<br /><br />";
-_message = _message + "TeamSpeak 3 address: ADDRESS HERE  <br /><br />";
-_message = _message + "Discord invite: <a href='https://discord.gg/sEcQdPn' color='#56BDD6'>ArmA RPG Life</a>  <br /><br />";
+_message = _message + "Bienvenue sur l'île de Friends LIFE. J'espère que vous avez fait bon voyage !br /><br />";
+_message = _message + "Liens utiles (cliquez sur les liens pour ouvrir votre navigateur)<br /><br />";
+_message = _message + "Notre TeamSpeak 3: ADDRESS HERE  <br /><br />";
+_message = _message + "Discord invitation: <a href='https://discord.gg/SaGBQsd' color='#56BDD6'>Friends LIFE</a>  <br /><br />";
+_message = _message + "Notre site internet: <a href='' color='#56BDD6'>Friends LIFE</a>  <br /><br />";
+_message = _message + "Notre page Facebook: <a href='' color='#56BDD6'>Friends LIFE</a>  <br /><br />";
 
 //Fill only the first text
 _text1 ctrlSetStructuredText (parseText _message);

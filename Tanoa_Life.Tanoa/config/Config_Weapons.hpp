@@ -106,17 +106,14 @@ class WeaponShops {
         side = "civ";
         conditions = "";
         items[] = {
-            { "Binocular", "", 150, 75, "" },
+            { "ACE_EarPlugs", "", 50, 25, "" },
+			{ "Binocular", "", 150, 75, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "ItemMap", "", 50, 25, "" },
             { "ItemCompass", "", 50, 25, "" },
             { "ItemWatch", "", 50, 25, "" },
-            { "FirstAidKit", "", 150, 75, "" },
+            { "ACE_fieldDressing", "", 25, 15, "" },
             { "NVGoggles", "", 2000, 1000, "" },
-            { "Chemlight_red", "", 300, 150, "" },
-            { "Chemlight_yellow", "", 300, 150, "" },
-            { "Chemlight_green", "", 300, 150, "" },
-            { "Chemlight_blue", "", 300, 150, "" },
             { "axe", "", 300, 150, "" },
             { "pickaxe", "", 300, 150, "" }
         };
@@ -129,17 +126,14 @@ class WeaponShops {
         side = "";
         conditions = "";
         items[] = {
-            { "Binocular", "", 750, 75, "" },
-            { "ItemGPS", "", 500, 50, "" },
-            { "ItemMap", "", 250, 25, "" },
-            { "ItemCompass", "", 250, 25, "" },
-            { "ItemWatch", "", 250, 25, "" },
-            { "FirstAidKit", "", 750, 75, "" },
-            { "NVGoggles", "", 10000, 1000, "" },
-            { "Chemlight_red", "", 1500, 150, "" },
-            { "Chemlight_yellow", "", 1500, 150, "" },
-            { "Chemlight_green", "", 1500, 150, "" },
-            { "Chemlight_blue", "", 1500, 150, "" }
+            { "ACE_EarPlugs", "", 50, 25, "" },
+			{ "Binocular", "", 150, 75, "" },
+            { "ItemGPS", "", 100, 50, "" },
+            { "ItemMap", "", 50, 25, "" },
+            { "ItemCompass", "", 50, 25, "" },
+            { "ItemWatch", "", 50, 25, "" },
+            { "ACE_fieldDressing", "", 25, 15, "" },
+            { "NVGoggles", "", 2000, 1000, "" }
         };
         mags[] = {};
         accs[] = {};
@@ -151,38 +145,39 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
-            { "Binocular", "", 150, 75, "" },
-            { "ItemGPS", "", 100, 50, "" },
-            { "FirstAidKit", "", 150, 75, "" },
-            { "NVGoggles", "", 2000, 1000, "" },
-            { "HandGrenade_Stone", $STR_W_items_Flashbang, 1700, 850, "" },
-            { "hgun_P07_snds_F", $STR_W_items_StunPistol, 2000, 1000, "" },
-            { "arifle_SDAR_F", $STR_W_items_TaserRifle, 20000, 10000, "" },
-            { "hgun_P07_F", "", 7500, 3750, "" },
-            { "hgun_P07_khk_F", "", 7500, 3750, "" }, //Apex DLC
-            { "hgun_Pistol_heavy_01_F", "", 9500, 4750, "call life_coplevel >= 1" },
-            { "SMG_02_ACO_F", "", 30000, 15000, "call life_coplevel >= 2" },
-            { "arifle_MX_F", "", 35000, 17500, "call life_coplevel >= 2" },
-            { "hgun_ACPC2_F", "", 17500, 8750, "call life_coplevel >= 3" },
-            { "arifle_MXC_F", "", 30000, 15000, "call life_coplevel >= 3" },
-            { "srifle_DMR_07_blk_F", "", 32000, 16000, "call life_coplevel >= 3" } //Apex DLC Sniper
+            { "ACE_EarPlugs", "", 0, 0, "" },
+			{ "Binocular", "", 0, 0, "" },
+            { "ItemGPS", "", 0, 0, "" },
+			{ "ItemCompass", "", 0, 0, "" },
+            { "FirstAidKit", "", 0, 0, "" },
+            { "NVGogglesB_blk_F", "", 0, 0, "" },
+			{ "ItemWatch", "", 0, 0, "" },
+			{ "ItemMap", "", 0, 0, "" },
+			{ "BT01_F", $STR_W_items_StunPistol, 0, 0, "" },
+            { "HandGrenade_Stone", $STR_W_items_Flashbang, 0, 0, "" },
+            { "arifle_SDAR_F", $STR_W_items_TaserRifle, 0, 0, "" },
+            { "hgun_Rook40_F", "", 0, 0, "call life_coplevel >= 1" },
+            { "SMG_05_F", "", 0, 0, "call life_coplevel >= 1" },
+            { "arifle_SPAR_01_blk_F", "", 0, 0, "call life_coplevel >= 2" },
+            { "SMG_02_F", "", 0, 0, "call life_coplevel >= 2" },
+            { "arifle_Katiba_F", "", 0, 0, "call life_coplevel >= 3" },
+            { "srifle_LRR_F", "", 0, 0, "call life_coplevel >= 3" }
         };
         mags[] = {
-            { "16Rnd_9x21_Mag", "", 125, 60, "" },
-            { "20Rnd_556x45_UW_mag", $STR_W_mags_TaserRifle, 125, 60, "" },
-            { "11Rnd_45ACP_Mag", "", 130, 65, "call life_coplevel >= 1" },
-            { "30Rnd_65x39_caseless_mag", "", 130, 65, "call life_coplevel >= 2" },
-            { "30Rnd_9x21_Mag", "", 250, 125, "call life_coplevel >= 2" },
-            { "9Rnd_45ACP_Mag", "", 200, 100, "call life_coplevel >= 3" },
-            { "20Rnd_650x39_Cased_Mag_F", "", 200, 100, "call life_coplevel >= 3" } //Apex DLC
+			{ "Taser_mag", "", 0, 0, "" },
+            { "20Rnd_556x45_UW_mag", $STR_W_mags_TaserRifle, 0, 0, "" },
+            { "30Rnd_9x21_Mag", "", 0, 0, "call life_coplevel >= 1" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 0, 0, "call life_coplevel >= 1" },
+            { "30Rnd_556x45_Stanag", "", 0, 0, "call life_coplevel >= 2" },
+            { "30Rnd_65x39_caseless_green", "", 0, 0, "call life_coplevel >= 3" },
+            { "7Rnd_408_Mag", "", 0, 0, "call life_coplevel >= 3" }
         };
         accs[] = {
-            { "muzzle_snds_L", "", 650, 325, "" },
-            { "optic_MRD", "", 2750, 1375, "call life_coplevel >= 1" },
-            { "acc_flashlight", "", 750, 375, "call life_coplevel >= 2" },
-            { "optic_Holosight", "", 1200, 600, "call life_coplevel >= 2" },
-            { "optic_Arco", "", 2500, 1250, "call life_coplevel >= 2" },
-            { "muzzle_snds_H", "", 2750, 1375, "call life_coplevel >= 2" }
+            { "optic_Arco_AK_blk_F", "", 0, 0, "" },
+            { "ACE_optic_LRPS_PIP", "", 0, 0, "" },
+            { "optic_Nightstalker", "", 0, 0, "" },
+            { "optic_Yorris", "", 0, 0, "" },
+            { "optic_aco", "", 0, 0, "" }
         };
     };
 
@@ -192,10 +187,32 @@ class WeaponShops {
         side = "med";
         conditions = "";
         items[] = {
-            { "ItemGPS", "", 100, 50, "" },
-            { "Binocular", "", 150, 75, "" },
-            { "FirstAidKit", "", 150, 75, "" },
-            { "NVGoggles", "", 1200, 600, "" }
+            { "ACE_EarPlugs", "", 0, 0, "" },
+			{ "ItemGPS", "", 0, 0, "" },
+			{ "ItemCompass", "", 0, 0, "" },
+			{ "ItemMap", "", 0, 0, "" },
+            { "Binocular", "", 0, 0, "" },
+            { "NVGoggles", "", 0, 0, "" },
+			{ "ItemWatch", "", 0, 0, "" },
+			{ "FirstAidKit", "", 0, 0, "" },
+			{ "defibinvch", "", 0, 0, "" },
+			{ "ACE_morphine", "", 0, 0, "" },
+			{ "ACE_adenosine", "", 0, 0, "" },
+			{ "ACE_epinephrine", "", 0, 0, "" },
+			{ "ACE_fieldDressing", "", 0, 0, "" },
+			{ "ACE_elasticBandage", "", 0, 0, "" },
+			{ "ACE_quikclot", "", 0, 0, "" },
+			{ "ACE_salineIV_250", "", 0, 0, "" },
+			{ "ACE_salineIV_500", "", 0, 0, "" },
+			{ "ACE_salineIV", "", 0, 0, "" },
+			{ "ACE_plasmaIV_250", "", 0, 0, "" },
+			{ "ACE_plasmaIV_500", "", 0, 0, "" },
+			{ "ACE_plasmaIV", "", 0, 0, "" },
+			{ "ACE_bloodIV_250", "", 0, 0, "" },
+			{ "ACE_bloodIV_500", "", 0, 0, "" },
+			{ "ACE_bloodIV", "", 0, 0, "" },
+			{ "ACE_splint", "", 0, 0, "" },
+			{ "ACE_bodyBag", "", 0, 0, "" }
         };
         mags[] = {};
         accs[] = {};

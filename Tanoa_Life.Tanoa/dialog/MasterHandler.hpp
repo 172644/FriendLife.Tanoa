@@ -30,5 +30,4 @@
 #include "newsStation.hpp"
 #include "new_HUD.hpp"
 // # inclure "hud_stats.hpp"
-#include "dynmarket_changeprice.hpp"  
-#include "dynmarket_prices.hpp"
+#include "placeables.hpp"

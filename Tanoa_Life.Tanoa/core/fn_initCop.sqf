@@ -23,3 +23,5 @@ if (!(str(player) in ["cop_1","cop_2","cop_3","cop_4"])) then {
 
 player setVariable ["copLevel",1];
 player setVariable ["rank",(FETCH_CONST(life_coplevel)),true];
+
+[] spawn life_fnc_placeablesInit;

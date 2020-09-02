@@ -14,3 +14,4 @@ if ((FETCH_CONST(life_medicLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualT
     sleep 35;
 };
 
+[] spawn life_fnc_placeablesInit;

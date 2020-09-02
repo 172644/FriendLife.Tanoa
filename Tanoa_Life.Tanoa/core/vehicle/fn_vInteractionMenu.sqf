@@ -38,6 +38,20 @@ _id = getObjectDLC _curTarget;
 _Btn1 ctrlSetText localize "STR_vInAct_Repair";
 _Btn1 buttonSetAction "[cursorObject] spawn TheProgrammer_fnc_RepairSwitch;";
 
+_fnCountDepanneurs = {
+    _count = 0;
+
+    {
+        if (_x getVariable ["player_is_depanneur",false]) then {
+            _count = _count + 1;
+        };
+    } forEach playableUnits;   
+
+    _count;
+};
+
+if ((([] call _fnCountDepanneurs) >= 1) && !license_civ_DP) then {_Btn1 ctrlEnable false;};
+
 if ((life_inv_toolkit >= 1) && {alive life_vInact_curTarget} && {([life_vInact_curTarget] call life_fnc_isDamaged)}) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
 if (playerSide isEqualTo west) then {

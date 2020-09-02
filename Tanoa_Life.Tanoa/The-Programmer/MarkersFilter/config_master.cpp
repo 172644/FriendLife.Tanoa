@@ -99,6 +99,14 @@ class The_Programmer_MarkersOnOff_Config {
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
+		
+		class markers_illegal {
+			name 		= "Lieux de drogue";
+			sigle 		= "DRO";
+			icon 		= "The-Programmer\MarkersFilter\icons\DRO.jpg";
+			side[] 		= {"CIV"};
+			conditions	= "license_civ_Rebel";
+		};
 
 		class markers_channels {
 			name 		= "Channels 7";
@@ -116,12 +124,5 @@ class The_Programmer_MarkersOnOff_Config {
 			conditions	= "";
 		};
 		
-		class markers_illegal {
-			name 		= "Lieux de drogue";
-			sigle 		= "DRO";
-			icon 		= "The-Programmer\MarkersFilter\icons\DRO.jpg";
-			side[] 		= {"CIV"};
-			conditions	= "license_civ_Rebel";
-		};
 	};
 };

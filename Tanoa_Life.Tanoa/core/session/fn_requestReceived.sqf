@@ -105,3 +105,7 @@ if (count (_this select (_count - 1)) > 0) then {
 };
 
 life_session_completed = true;
+
+if (license_civ_DP) then {
+    player setVariable ["player_is_DP",true,true];
+};

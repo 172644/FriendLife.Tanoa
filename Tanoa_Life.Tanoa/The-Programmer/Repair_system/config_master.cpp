@@ -18,7 +18,7 @@
 
 class The_Programmer_RepairSystem {
     /* General parameters */
-	default_lang = "en"; // fr / en / de / es
+	default_lang = "fr"; // fr / en / de / es
     textures_base_path = "The-Programmer\Repair_System\textures";
 
     roadServiceSystem_script_enable = false; //Allows to link the service plug to the "Road Service System". The repairman will be able to repair items on the map and vehicles

@@ -25,6 +25,14 @@ if (_bad != "") exitWith {hint _bad};
 
 if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
     CASH = CASH + _price;
+			
+	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+		advanced_log = format [localize "STR_DL_ML_WeaponSell",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	} else {
+		advanced_log = format [localize "STR_DL_ML_WeaponSell",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	};
+	publicVariableServer "advanced_log";
+			
     [_item,false] call life_fnc_handleItem;
     hint parseText format [localize "STR_Shop_Weapon_Sold",_itemInfo select 1,[_price] call life_fnc_numberText];
     [nil,(uiNamespace getVariable ["Weapon_Shop_Filter",0])] call life_fnc_weaponShopFilter; //Update the menu.
@@ -61,12 +69,28 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
             if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
             hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
             CASH = CASH - _price;
+			
+			if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+				advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+			} else {
+				advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+			};
+			publicVariableServer "advanced_log";
+			
             [_item,true] call life_fnc_handleItem;
         };
     } else {
         if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
         hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
         CASH = CASH - _price;
+			
+		if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+			advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+		} else {
+			advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+		};
+		publicVariableServer "advanced_log";
+		
         [_item,true] call life_fnc_handleItem;
     };
 };

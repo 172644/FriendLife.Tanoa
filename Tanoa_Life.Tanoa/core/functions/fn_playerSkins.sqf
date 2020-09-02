@@ -79,12 +79,9 @@ if ((backpack player) == "V_HarnessO_brn") then {
 };
 
 if (FETCH_CONST(life_adminlevel) >= 1 && uniform player isEqualTo "U_O_V_Soldier_Viper_hex_F") then {
-	player setObjectTextureGlobal [0, "textures\custom\staff.jpg"];
+	player setObjectTextureGlobal [0, "textures\vetement\admin\staff.jpg"];
 	
-	
-	/*if(getPlayerUID player isEqualTo "76561198030680441") then {
-		_skinName = "textures\custom\mapper.jpg";
-	};*/
+
 	if(getPlayerUID player isEqualTo "76561198869718443") then {
 		player setObjectTextureGlobal [0, "textures\vetement\admin\mook.jpg"];
 	};

@@ -19,7 +19,6 @@ diag_log "--------------------------------- Starting Altis Life Client Init ----
 diag_log "------------------------------------------ Version 5.0.0 -------------------------------------------";
 diag_log "----------------------------------------------------------------------------------------------------";
 waitUntil {!isNull player && player == player}; //Wait till the player is ready
-[] call compile preprocessFileLineNumbers "core\clientValidator.sqf";
 enableSentences false;
 
 //Setup initial client core functions
@@ -184,7 +183,3 @@ if !(profileNamespace getVariable ["license_civ_driver_removed",false]) then {
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "----------------------------------------------------------------------------------------------------";
-
-//bourse 5.0
-DYNAMICMARKET_boughtItems = [];
-[player] remoteExec ["TON_fnc_playerLogged",RSERV];

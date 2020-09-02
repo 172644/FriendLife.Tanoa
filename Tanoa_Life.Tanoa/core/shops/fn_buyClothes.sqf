@@ -18,6 +18,14 @@ _price = 0;
 
 if (_price > CASH) exitWith {titleText[localize "STR_Shop_NotEnoughClothes","PLAIN"];};
 CASH = CASH - _price;
+
+if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),life_clothing_purchase,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+} else {
+	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),life_clothing_purchase,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+};
+publicVariableServer "advanced_log";
+
 [0] call SOCK_fnc_updatePartial;
 
 life_clothesPurchased = true;
