@@ -225,13 +225,13 @@ switch (_code) do {
     //O Key
     case 24: {
         if (_shift) then {
-            if !(soundVolume isEqualTo 1) then {
+            if (soundVolume<0.1) then {
                 1 fadeSound 1;
-                systemChat localize "STR_MISC_soundnormal";
-            } else {
-                1 fadeSound 0.1;
-                systemChat localize "STR_MISC_soundfade";
+            }
+            else {
+                1 fadeSound (round((soundVolume - 0.1)*10)/10);
             };
+            hint format [localize "STR_MISC_sound", (soundVolume*100)];
         };
     };
 
