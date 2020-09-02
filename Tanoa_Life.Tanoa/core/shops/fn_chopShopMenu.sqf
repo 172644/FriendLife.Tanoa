@@ -11,7 +11,7 @@ if (life_action_inUse) exitWith {hint localize "STR_NOTF_ActionInProc"};
 if !(playerSide isEqualTo civilian) exitWith {hint localize "STR_NOTF_notAllowed"};
 disableSerialization;
 _chopable = LIFE_SETTINGS(getArray,"chopShop_vehicles");
-_nearVehicles = nearestObjects [getMarkerPos (_this select 3),_chopable,25];
+_nearVehicles = nearestObjects [getPos player,_chopable,25];
 _nearUnits = (nearestObjects[player,["Man"],5]) arrayIntersect playableUnits;
 if (count _nearUnits > 1) exitWith {hint localize "STR_NOTF_PlayerNear"};
 

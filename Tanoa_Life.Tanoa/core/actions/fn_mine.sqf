@@ -100,6 +100,15 @@ for "_i" from 0 to 4 do {
 if (([true, _mined, _diff] call life_fnc_handleInv)) then {
     _itemName = M_CONFIG(getText, "VirtualItems", _mined, "displayName");
     titleText[format [localize "STR_NOTF_Mine_Success", (localize _itemName), _diff], "PLAIN"];
+
+    if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
+        if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+            advanced_log = format [localize "STR_DL_ML_Gather",profileName,(getPlayerUID player),(localize _itemName),_diff,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+        } else {
+            advanced_log = format [localize "STR_DL_ML_Gather",profileName,(getPlayerUID player),(localize _itemName),_diff,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+        };
+        publicVariableServer "advanced_log";
+    };
 };
 
 sleep 2.5;

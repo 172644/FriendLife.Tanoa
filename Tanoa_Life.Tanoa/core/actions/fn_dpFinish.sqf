@@ -8,6 +8,8 @@
     on distance between A->B
 */
 private ["_dp","_dis","_price"];
+if ((count nearestObjects[(visiblePosition player),["Hugpo_UPS_Sprinter"],20]) isEqualTo 0) exitWith {hint localize "STR_NOTF_NoNearVehicleUPS"};
+
 _dp = [_this,0,objNull,[objNull]] call BIS_fnc_param;
 life_delivery_in_progress = false;
 life_dp_point = nil;

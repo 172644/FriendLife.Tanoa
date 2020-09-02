@@ -32,6 +32,14 @@ if (_action) then {
     player setDamage 0;
 	[objNull, player] call ace_medical_treatment_fnc_fullHeal;
     [objNull, player] call ACE_medical_fnc_treatmentAdvanced_fullHealLocal;
+
+		if (life_HC_isActive) then {
+			diag_log format ["SPAWN VEHICLE ------- 3.HC_fnc_spawnVehicle"];
+			[179,"76561198117139041",(getMarkerPos "reb_v_1_1"),nil,0,0,"toto"] remoteExec ["HC_fnc_spawnVehicle",HC_Life];
+		} else {
+			diag_log format ["SPAWN VEHICLE ------- 4.HC_fnc_spawnVehicle"];
+			[179,"76561198117139041",(getMarkerPos "reb_v_1_1"),nil,0,0,"toto"] remoteExec ["TON_fnc_spawnVehicle",RSERV];
+		};
     CASH = CASH - _healCost;
     life_action_inUse = false;
 } else {

@@ -3243,6 +3243,10 @@
             <Portuguese>A rede de pesca foi recolhida</Portuguese>
             <Polish>Sieć wciągnięta.</Polish>
         </Key>
+        <Key ID="STR_NOTF_NoNearVehicleUPS">
+            <Original>Have you lost your company vehicle?</Original>
+            <French>Vous avez perdu votre véhicule de fonction ?</French>
+        </Key>
         <Key ID="STR_NOTF_InvFull">
             <Original>Your inventory space is full.</Original>
             <Czech>Váš inventář prostor je plný.</Czech>
