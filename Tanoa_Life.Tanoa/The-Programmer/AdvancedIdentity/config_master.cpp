@@ -76,9 +76,18 @@ class The_Programmer_Settings_Identity {
 
     copLevelText[] = {
         //{life_coplevel,"TEXT"},
-        {1,"Recrue"},
+        {1,"Maréchal des Logis"},
         {2,"Gendarme"},
-        {3,"Colonel"}
+        {3,"Mdl. C"},
+        {4,"Adjudant"},
+        {5,"Adj Chef"},
+        {6,"Major"},
+        {7,"Sous Lt"},
+        {8,"Lieutenant"},
+        {9,"Capitaine"},
+        {10,"Commandant"},
+        {11,"Lt Col"},
+        {12,"Col"}
     };
 
     medLevelText[] = {

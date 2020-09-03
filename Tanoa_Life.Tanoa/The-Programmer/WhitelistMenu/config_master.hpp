@@ -22,7 +22,7 @@ class Max_Settings_WhitelistMenu {
 
     tonic_version = 5; //5 if you are on version 5.0 or 4 if you are on version 4.X 
 
-    cop_level_data[] = {"cops",7,"coplevel"}; // Format is : {"Category class name (below)",Maximum Level,"Column name in database"}
+    cop_level_data[] = {"cops",12,"coplevel"}; // Format is : {"Category class name (below)",Maximum Level,"Column name in database"}
     medic_level_data[] = {"medics",5,"mediclevel"};
     adac_level_data[] = {"",5,"adaclevel"}; // You can put "" for the category class name to hide it
 

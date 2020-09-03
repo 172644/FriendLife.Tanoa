@@ -58,6 +58,15 @@ if (life_garage_sp isEqualType []) then {
     };
 };
 
+
+if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+	advanced_log = format [localize "STR_DL_ML_GetVehicle",profileName,(getPlayerUID player),_vehicle,_vid,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+} else {
+	advanced_log = format [localize "STR_DL_ML_GetVehicle",profileName,(getPlayerUID player),_vehicle,_vid,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+};
+publicVariableServer "advanced_log";
+
+
 hint localize "STR_Garage_SpawningVeh";
 BANK = BANK - _price;
 [1] call SOCK_fnc_updatePartial;

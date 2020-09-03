@@ -93,7 +93,11 @@
         </Key>
         <Key ID="STR_Shops_Cop">
             <Original>APD Item Shop</Original>
-            <French>Equipement policier</French>
+            <French>Cafét' Gendarmerie</French>
+        </Key>
+        <Key ID="STR_MAR_Cop_Equipement">
+            <Original>Equipement Shop</Original>
+            <French>Equipement Gendarmerie</French>
         </Key>
         <Key ID="STR_Shops_Cement">
             <Original>Juan's Cement Laying</Original>
@@ -3644,6 +3648,10 @@
             <Original>Bruce's Outback Outfits</Original>
             <French>Vêtements de Bruce</French>
         </Key>
+        <Key ID="STR_MAR_Zara">
+            <Original>Zara Clothes</Original>
+            <French>Magasin Zara</French>
+        </Key>
         <Key ID="STR_MAR_Apple_Field">
             <Original>Apple Field</Original>
             <French>Champs de Pommes</French>
@@ -3854,7 +3862,11 @@
         </Key>
         <Key ID="STR_MAR_Cop_Clothing_Shop">
             <Original>Cop Clothing Shop</Original>
-            <French>Vêtements de policier</French>
+            <French>Vêtements Gendarmerie</French>
+        </Key>
+        <Key ID="STR_MAR_Cop_Clothing_Other">
+            <Original>Other Clothing Shop</Original>
+            <French>Vêtements Divers</French>
         </Key>
         <Key ID="STR_MAR_Cop_Weapon_Shop">
             <Original>Cop Weapon Shop</Original>
@@ -4602,15 +4614,19 @@
         <Key ID="STR_DL_ML_Gather">
             <Original>{'player':'%1','uid':%2,'action':{'type':'gather', 'item':'%3', 'nbr':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
+        <Key ID="STR_DL_ML_GetVehicle">
+            <Original>{'player':'%1','uid':%2,'action':{'type':'getVehicle', 'item':'%3', 'id':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
+        </Key>
         <Key ID="STR_DL_ML_StoreVehicle">
-            <Original>{'player':'%1','uid':%2,'action':{'type':'storeVehicle', 'item':'%4', 'id':'%5'},'money':{'bank':'%6','cash':'%7'},'_player':0,'KEY':'JSON_LOG'}</Original>
+            <Original>{'player':'%1','uid':%2,'action':{'type':'storeVehicle', 'item':'%3', 'plate':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="STR_DL_ML_customLog">
             <Original>%1</Original>
             <French>%1</French>
         </Key>
         <Key ID="STR_Item_etabli">
-            <French>Craft en cours</French>
+            <Original>Processing ...</Original>
+            <French>Craft en cours ...</French>
         </Key>
     </Package>
 </Project>

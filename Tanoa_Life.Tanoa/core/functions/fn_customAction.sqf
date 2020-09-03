@@ -14,7 +14,7 @@
 
   sleep 0.01;
 } forEach _dataArray;*/
-while {!life_HC_isActive} do {
+/*while {!life_HC_isActive} do {
 	sleep 120;
 }
 if (life_HC_isActive) then {
@@ -24,13 +24,13 @@ if (life_HC_isActive) then {
 	diag_log format ["SPAWN VEHICLE ------- 2.HC_fnc_spawnVehicle"];
 	[150,"76561198117139041",[10928.514,7857.281,0],nil,0,0,"toto"] remoteExec ["TON_fnc_spawnVehicle",RSERV];
 };//*/
-if (life_HC_isActive && !RSERV) then {
+/*if (life_HC_isActive && !RSERV) then {
 	diag_log format ["SPAWN VEHICLE ------- 1.TON_fnc_spawnVehicleAfterReboot"];
 	remoteExec ["HC_fnc_spawnVehicleAfterReboot",HC_Life];
 } else {
 	diag_log format ["SPAWN VEHICLE ------- 2.TON_fnc_spawnVehicleAfterReboot"];
 	remoteExec ["TON_fnc_spawnVehicleAfterReboot",RSERV];
-};
+};*/
 	
 while {true} do {
 	sleep 120;
@@ -51,7 +51,7 @@ while {true} do {
 } else {
 	remoteExec ["TON_fnc_spawnVehicleAfterReboot",RSERV];
 };*/
-    //*
+    /*
 	if (life_HC_isActive) then {
 		diag_log format ["SPAWN VEHICLE ------- 1.HC_fnc_spawnVehicle"];
         [150,"76561198117139041",[10928.514,7857.281,0],nil,0,0,"toto"] remoteExec ["HC_fnc_spawnVehicle",HC_Life];

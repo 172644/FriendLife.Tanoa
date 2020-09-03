@@ -95,6 +95,7 @@ if (FETCH_CONST(life_adminlevel) >= 1 && uniform player isEqualTo "U_O_V_Soldier
 		player setObjectTextureGlobal [0, "textures\vetement\admin\babass.jpg"];
 	};
 };
-/*if (FETCH_CONST(life_adminlevel) >= 1 && headgear player isEqualTo "H_HelmetO_ViperSP_hex_F") then {
-	(headgear player) setObjectTextureGlobal [0, "textures\vetement\admin\casque.jpg"];
-};*/
+//*
+if (FETCH_CONST(life_adminlevel) >= 1 && headGear player isEqualTo "H_HelmetO_ViperSP_hex_F") then {
+	//headGear setObjectTexture [0, "#(rgb,8,8,3)color(0,0,0,1)"];
+};//*/

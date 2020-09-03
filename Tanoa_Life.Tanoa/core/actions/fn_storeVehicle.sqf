@@ -28,8 +28,16 @@ if !(isNull objectParent player) then {
 if (isNil "_vehicle") exitWith {hint localize "STR_Garage_NoNPC"};
 if (isNull _vehicle) exitWith {};
 if (!alive _vehicle) exitWith {hint localize "STR_Garage_SQLError_Destroyed"};
+if (typeOf _vehicle == "Burnes_MK10_1") exitWith { hint "No MK10 !"; };
 
 _storetext = localize "STR_Garage_Store_Success";
+
+if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+	advanced_log = format [localize "STR_DL_ML_StoreVehicle",profileName,(getPlayerUID player),typeOf _vehicle,(_vehicle getVariable ["dbInfo",[]]) select 1,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+} else {
+	advanced_log = format [localize "STR_DL_ML_StoreVehicle",profileName,(getPlayerUID player),typeOf _vehicle,(_vehicle getVariable ["dbInfo",[]]) select 1,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+};
+publicVariableServer "advanced_log";
 
 if (life_HC_isActive) then {
     [_vehicle,false,(_this select 1),_storetext] remoteExec ["HC_fnc_vehicleStore",HC_Life];
