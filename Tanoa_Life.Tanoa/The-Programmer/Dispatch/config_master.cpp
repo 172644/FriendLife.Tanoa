@@ -20,7 +20,7 @@
 class Max_Settings_Dispatch {
     default_lang = "fr"; // fr / en / de / es
 
-    textures_base_path = "The-Programmer\Dispatch\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\Dispatch\textures";
 
     phone_numbers_script_enable = true;
     gps_script_enable = true;

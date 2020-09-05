@@ -24,7 +24,7 @@ class The_Programmer_Iphone_Settings_Menu_3 {
    {
        class Life_RscTitleBackground : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\settings\parametre_complet.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\settings\parametre_complet.paa";
            idc = 2000;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.289727765978368 * safezoneH + safezoneY;

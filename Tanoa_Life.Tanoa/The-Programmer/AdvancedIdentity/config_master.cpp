@@ -19,7 +19,7 @@
 class The_Programmer_Settings_Identity {
 	default_lang = "fr"; // fr / en / de / es
 
-    textures_base_path = "The-Programmer\AdvancedIdentity\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\AdvancedIdentity\textures";
 
     server_name = "The-Programmer";
 

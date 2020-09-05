@@ -14,7 +14,7 @@
 class FC_Settings_SpeedCam {
     default_lang = "fr"; // fr / en / de / es
 
-    textures_base_path = "The-Programmer\SpeedCam\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\SpeedCam\textures";
 
 	license_plate_script_enable = false;
 	governement_system_script_enable = false;

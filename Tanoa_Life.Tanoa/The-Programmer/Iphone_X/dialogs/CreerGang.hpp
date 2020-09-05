@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Create_Gang_Menu {
    {
        class Life_RscTitleBackground : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\creer.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\creer.paa";
            idc = -1;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;

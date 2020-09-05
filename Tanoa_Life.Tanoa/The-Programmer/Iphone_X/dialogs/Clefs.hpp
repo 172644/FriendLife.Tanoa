@@ -24,7 +24,7 @@ class The_Programmer_Iphone_Key_Menu {
        class Menu_Key : Life_RscPicture
        {
            idc = -1;
-           text = "The-Programmer\Iphone_X\textures\clefmenu.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\clefmenu.paa";
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;
            w = 0.21 * safezoneW;

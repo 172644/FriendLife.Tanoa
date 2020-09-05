@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Old_MSG_Menu {
    {
        class Message : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\historique.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\historique.paa";
            idc = 1200;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;

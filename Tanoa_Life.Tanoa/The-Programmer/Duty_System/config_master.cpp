@@ -21,7 +21,7 @@ class The_programmer_Duty_Config {
     path_fsm = "core\fsm\client.fsm"; //File destination to be executed : [] execFSM "path_fsm";
     briefing = true;
 
-    open_beeper_key = 48; //https://community.bistudio.com/wiki/DIK_KeyCodes for the keys number (48 = B)
+    //open_beeper_key = 48; //https://community.bistudio.com/wiki/DIK_KeyCodes for the keys number (48 = B)
 
     save_between_disconnection = true; //Save the status of the player between the disconnection
     save_between_reboot = true; //Save the status of the player between reboot
@@ -34,10 +34,10 @@ class The_programmer_Duty_Config {
         east_side = false; //If you have the east side on your server = true 
         name_of_column_for_adac_level = "adaclevel"; //The name of the column in your database for the adac level
 
-        adaclevel_required = 1; //Minimum Adaclevel level to take up duty
+        adaclevel_required = 20; //Minimum Adaclevel level to take up duty
         licence_required_adac[] = {""}; //All licenses that allows you to take up duty
 
-        Adaclevel_required_to_acces_beeper = 2;//Minimum AdacLevel level to open the beeper 
+        Adaclevel_required_to_acces_beeper = 20;//Minimum AdacLevel level to open the beeper
         licence_required_to_acces_beeper = ""; //All licenses that allows you to open the beeper 
 
         class adac_cloting {
@@ -54,10 +54,10 @@ class The_programmer_Duty_Config {
     };
 
     class Cop_configuration {
-        coplevel_required = 1; //Minimum CopLevel level to take up duty
+        coplevel_required = 20; //Minimum CopLevel level to take up duty
         licence_required_cop[] = {"license_civ_driver"}; //All licenses that allows you to take up duty
 
-        coplevel_required_to_acces_beeper = 2; //Minimum CopLevel level to open the beeper
+        coplevel_required_to_acces_beeper = 20; //Minimum CopLevel level to open the beeper
         licence_required_to_acces_beeper = ""; //All licenses that allows you to open the beeper    
 
         class Cop_cloting {
@@ -74,10 +74,10 @@ class The_programmer_Duty_Config {
     };
 
     class Medic_configuration {
-        mediclevel_required = 1; //Minimum mediclevel level to take up duty 
+        mediclevel_required = 20; //Minimum mediclevel level to take up duty
         licence_required_med[] = {"license_civ_boat"};
 
-        medlevel_required_to_acces_beeper = 2; //Minimum Medleve level to open the beeper
+        medlevel_required_to_acces_beeper = 20; //Minimum Medleve level to open the beeper
         licence_required_to_acces_beeper = ""; //All licenses that allows you to open the beeper  
     
         class med_cloting {

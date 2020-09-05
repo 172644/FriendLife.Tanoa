@@ -16,18 +16,18 @@
 */
 class cannabis {
     name = "cannabis";
-    sound[] = {"The-Programmer\EffetsEcran\sounds\cannabis.ogg", 1, 1, 50};
+    sound[] = {"\Assets\Data\The-Programmer\EffetsEcran\sounds\cannabis.ogg", 1, 1, 50};
     titles[] = {};
 };
 
 class cocaine {
     name = "cocaine";
-    sound[] = {"The-Programmer\EffetsEcran\sounds\cocaine.ogg", 1, 1, 50};
+    sound[] = {"\Assets\Data\The-Programmer\EffetsEcran\sounds\cocaine.ogg", 1, 1, 50};
     titles[] = {};
 };
 
 class heroine {
     name = "heroine";
-    sound[] = {"The-Programmer\EffetsEcran\sounds\heroine.ogg", 1, 1, 50};
+    sound[] = {"\Assets\Data\The-Programmer\EffetsEcran\sounds\heroine.ogg", 1, 1, 50};
     titles[] = {};
 };

@@ -20,7 +20,7 @@
 class Max_Settings_Craft {
     default_lang = "fr"; // fr / en / de / es
 
-    textures_base_path = "The-Programmer\Craft\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\Craft\textures";
 
     license_plate_script_enable = false;
 

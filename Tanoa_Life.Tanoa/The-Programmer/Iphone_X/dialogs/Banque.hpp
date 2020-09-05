@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Bank_Menu {
        class Banque_menu : Life_RscPicture
        {
            idc = 1200;
-           text = "The-Programmer\Iphone_X\textures\payeasy.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\payeasy.paa";
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;
            w = 0.21 * safezoneW;

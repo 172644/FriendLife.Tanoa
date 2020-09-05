@@ -21,7 +21,7 @@ class gps_menu_controls {
    {
        class Fond : A3GPS_RscPicture
        {
-           text = "The-Programmer\GPS\menu\textures\gps_others.paa";
+           text = "\Assets\Data\The-Programmer\GPS\menu\textures\gps_others.paa";
            x = 0.2975 * safezoneW + safezoneX;
            y = 0.155 * safezoneH + safezoneY;
            w = 0.4 * safezoneW;

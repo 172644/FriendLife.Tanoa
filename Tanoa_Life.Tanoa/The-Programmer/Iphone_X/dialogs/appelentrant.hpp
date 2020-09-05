@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Appel_Entrant_Menu {
    {
        class Fond : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\Appel_Entrant.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\Appel_Entrant.paa";
            idc = -1;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;

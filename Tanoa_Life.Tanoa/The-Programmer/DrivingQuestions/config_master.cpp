@@ -20,7 +20,7 @@
 class Max_Settings_Driving_Questions {
     default_lang = "fr"; // fr / en / de / es
 
-    textures_base_path = "The-Programmer\DrivingQuestions\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\DrivingQuestions\textures";
     tonic_version = 5; //5 if you are on version 5.0 or 4 if you are on version 4.X
 
     points_driving_license_script_enable = true;

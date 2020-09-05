@@ -20,7 +20,7 @@
 class Max_Settings_Entreprise {
     default_lang = "fr"; // fr / en / de / es
 
-    textures_base_path = "The-Programmer\Entreprise\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\Entreprise\textures";
 
     allow_acces_to_create_company_forearch_player = true;
     allowed_licenses[] = { "license_civ_entrepreneur" }; //Only if allow_acces_to_create_company_forearch_player = false // OPTIONAL OPTION

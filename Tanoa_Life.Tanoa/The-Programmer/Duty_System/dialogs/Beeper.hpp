@@ -17,7 +17,7 @@ class The_Programmer_Beeper_Menu {
    class controlsBackground {
           class Fond : Life_RscPicture {
            idc = 1000;
-           text = "The-Programmer\Duty_System\textures\beeper.paa";
+           text = "\Assets\Data\The-Programmer\Duty_System\textures\beeper.paa";
            x = 0.5515625 * safezoneW + safezoneX;
            y = 0.492354965585054 * safezoneH + safezoneY;
            w = 0.4 * safezoneW;

@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Appel_En_Cours_Menu {
    {
        class Fond : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\Appel_en_cours.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\Appel_en_cours.paa";
            idc = -1;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;
@@ -32,7 +32,7 @@ class The_Programmer_Iphone_Appel_En_Cours_Menu {
        };
        class add_to_call_pic : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\icons\add_call.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\add_call.paa";
            idc = 25004;
            x = 0.732093666666666 * safezoneW + safezoneX;
            y = 0.708606822025565 * safezoneH + safezoneY;

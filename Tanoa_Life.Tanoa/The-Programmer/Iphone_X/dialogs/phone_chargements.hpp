@@ -62,7 +62,7 @@ class The_Programmer_Iphone_Loading_Menu {
        };
        class Image : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\lock.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\lock.paa";
            x = 0.719072833333332 * safezoneW + safezoneX;
            y = 0.73398505408063 * safezoneH + safezoneY;
            w = 0.0420000000000001 * safezoneW;

@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Clavier_Menu {
    {
        class Fond : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\Textures\Clavier.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\Textures\Clavier.paa";
            idc = -1;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;

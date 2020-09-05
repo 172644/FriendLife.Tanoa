@@ -24,7 +24,7 @@ class the_programmer_admin_menu {
        class Fond : Life_RscPicture
        {
            idc = 1000;
-           text = "The-Programmer\Iphone_X\textures\menu_admin.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\menu_admin.paa";
            x = 0.24375 * safezoneW + safezoneX;
            y = 0.0272615535889872 * safezoneH + safezoneY;
            w = 0.55 * safezoneW;

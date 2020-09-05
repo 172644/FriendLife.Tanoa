@@ -21,7 +21,7 @@ class Max_Settings_Facture {
     default_lang = "fr"; // fr / en / de / es
 
     tonic_version = 5; //5 if you are on version 5.0 or 4 if you are on version 4.X
-    textures_base_path = "The-Programmer\Factures\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\Factures\textures";
 
     send_for_cops = true;
     send_for_meds = true;

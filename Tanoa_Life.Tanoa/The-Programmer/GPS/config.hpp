@@ -32,7 +32,7 @@ class CfgGPS {
 	default_marker_color[] = {0,1,1,1};
 	default_lang = "fr"; // fr / en / de / pl / es
 
-	disable_quicknav = false; // Disable the key to open the QuickNav 
+	disable_quicknav = true; // Disable the key to open the QuickNav
 	disable_key_gps = false; // Disable the key to open the gps 
 
 	class Keys {

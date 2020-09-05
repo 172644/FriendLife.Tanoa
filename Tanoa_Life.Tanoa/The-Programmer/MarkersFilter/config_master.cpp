@@ -14,11 +14,11 @@ class The_Programmer_MarkersOnOff_Config {
 	/* ==== DEBUG MODE ==== */
 	debug_mode				= false;
 	/* ==== MARKERS ALL BUTTON ==== */
-	icon_button_activeall 	= "The-Programmer\MarkersFilter\icons\bulb.paa";
+	icon_button_activeall 	= "\Assets\Data\The-Programmer\MarkersFilter\icons\bulb.paa";
 	text_button_activeall 	= "Tout activer/désactiver";
 
 	/* ====RESET BUTTON ==== */
-	icon_button_reset 		= "The-Programmer\MarkersFilter\icons\reset.paa";
+	icon_button_reset 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\reset.paa";
 	text_button_reset 		= "Reset";
 
 	class markers_category {
@@ -39,7 +39,7 @@ class The_Programmer_MarkersOnOff_Config {
 	    class markers_ressources {
 			name 		= "Ressources";
 			sigle 		= "RES";
-			icon 		= "The-Programmer\MarkersFilter\icons\res.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\res.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 	    };
@@ -47,7 +47,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_traitements {
 			name 		= "Traitements";
 			sigle 		= "TRT";
-			icon 		= "The-Programmer\MarkersFilter\icons\trt.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\trt.paa";
 			side[] 		= {"CIV","WEST","EAST"};
 			conditions	= "";
 		};
@@ -55,7 +55,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_vendeurs {
 			name 		= "Vendeurs";
 			sigle 		= "SLR";
-			icon 		= "The-Programmer\MarkersFilter\icons\slr.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\slr.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -63,7 +63,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_dps {
 			name 		= "DPS";
 			sigle 		= "DPS";
-			icon 		= "The-Programmer\MarkersFilter\icons\dps.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\dps.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -71,7 +71,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_shops {
 			name 		= "Magasins";
 			sigle 		= "SHO";
-			icon 		= "The-Programmer\MarkersFilter\icons\sho.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\sho.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -79,7 +79,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_entreprises {
 			name 		= "Entreprises";
 			sigle 		= "ENT";
-			icon 		= "The-Programmer\MarkersFilter\icons\ent.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\ent.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -87,7 +87,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_administrations {
 			name 		= "Administrations";
 			sigle 		= "ADM";
-			icon 		= "The-Programmer\MarkersFilter\icons\adm.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\adm.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -95,7 +95,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_atms {
 			name 		= "Distributeurs";
 			sigle 		= "ATM";
-			icon 		= "The-Programmer\MarkersFilter\icons\atm.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\atm.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -103,7 +103,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_illegal {
 			name 		= "Lieux de drogue";
 			sigle 		= "DRO";
-			icon 		= "The-Programmer\MarkersFilter\icons\DRO.jpg";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\DRO.jpg";
 			side[] 		= {"CIV"};
 			conditions	= "license_civ_Rebel";
 		};
@@ -111,7 +111,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_channels {
 			name 		= "Channels 7";
 			sigle 		= "CHA";
-			icon 		= "The-Programmer\MarkersFilter\icons\cha.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\cha.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};
@@ -119,7 +119,7 @@ class The_Programmer_MarkersOnOff_Config {
 		class markers_lieuxTouristiques {
 			name 		= "Lieux touristiques";
 			sigle 		= "TOU";
-			icon 		= "The-Programmer\MarkersFilter\icons\tou.paa";
+			icon 		= "\Assets\Data\The-Programmer\MarkersFilter\icons\tou.paa";
 			side[] 		= {"CIV","WEST","GUER","EAST"};
 			conditions	= "";
 		};

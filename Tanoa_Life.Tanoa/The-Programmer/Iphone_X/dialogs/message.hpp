@@ -23,7 +23,7 @@ class The_Programmer_Iphone_Cell_Menu {
    {
        class Message : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\message.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\message.paa";
            idc = 1200;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;
@@ -77,7 +77,7 @@ class The_Programmer_Iphone_Cell_Menu {
        class AdminMsgAllBouton : Life_RscPicture
        {
            idc = 3021;
-           text = "The-Programmer\Iphone_X\textures\icons\admin_message.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\admin_message.paa";
            x = 0.711458333333333 * safezoneW + safezoneX;
            y = 0.797804578550637 * safezoneH + safezoneY;
            w = 0.043125 * safezoneW;

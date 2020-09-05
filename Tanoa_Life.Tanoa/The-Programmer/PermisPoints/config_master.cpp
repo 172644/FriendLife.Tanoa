@@ -16,7 +16,7 @@
 */
 class Max_Settings_PermisPoints {
     default_lang = "fr"; // fr / en / de / es
-    textures_base_path = "The-Programmer\PermisPoints\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\PermisPoints\textures";
 
     tonic_version = 5; //5 if you are on version 5.0 or 4 if you are on version 4.X
 

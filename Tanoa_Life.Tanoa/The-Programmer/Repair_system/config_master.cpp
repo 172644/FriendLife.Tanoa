@@ -19,11 +19,11 @@
 class The_Programmer_RepairSystem {
     /* General parameters */
 	default_lang = "fr"; // fr / en / de / es
-    textures_base_path = "The-Programmer\Repair_System\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\Repair_System\textures";
 
     roadServiceSystem_script_enable = false; //Allows to link the service plug to the "Road Service System". The repairman will be able to repair items on the map and vehicles
     
-    minimum_number_repairman = 2; //Minimum number of technicians to limit civilian vehicle repair 
+    minimum_number_repairman = 1; //Minimum number of technicians to limit civilian vehicle repair
     condition_tobeRepairman = "license_civ_DP"; //This is the condition to take up your service as a repairman, it can be a license (license_civ_XXX) or a side restriction (playerSide isEqualTo independent) 
     can_repair_manyTimes = false; //Allows repair several times for civilians
 
@@ -34,8 +34,8 @@ class The_Programmer_RepairSystem {
 
     /* Parameter for civilians */
     item_to_repair = "toolkit";
-    remove_repair_item = false;
-    allow_full_repair = true; //Allows full repair of the vehicle if there is no repairman available 
+    remove_repair_item = true;
+    allow_full_repair = false; //Allows full repair of the vehicle if there is no repairman available
     chance_of_success = 1; //Chance of being able to repair a part of a vehicle for a civilian (0.7 : 70% of success)
 
     class vehicle_part { //List of vehicle parts with their parameters

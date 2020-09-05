@@ -22,7 +22,7 @@ class The_Programmer_Iphone_Contact_Menu {
    {
        class Message : Life_RscPicture
        {
-           text = "The-Programmer\Iphone_X\textures\contact.paa";
+           text = "\Assets\Data\The-Programmer\Iphone_X\textures\contact.paa";
            idc = 1200;
            x = 0.6379405 * safezoneW + safezoneX;
            y = 0.288744481809243 * safezoneH + safezoneY;
