@@ -183,3 +183,65 @@ if !(profileNamespace getVariable ["license_civ_driver_removed",false]) then {
 diag_log "----------------------------------------------------------------------------------------------------";
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "----------------------------------------------------------------------------------------------------";
+
+
+/*
+    Author: Maxence for The Programmer Forum
+
+    Description: Task Force Radio Check
+*/
+[] spawn {
+    _teamspeakName = "FRIENDS Life";
+    _temspeakAdress = "85.190.161.53";
+    _channelName = "TaskForceRadio";
+
+    // Editing code below is not recommended
+   _isAdmin = false;
+    if !(isNil "life_adminlevel") then {
+        if ((call life_adminlevel) > 0) then {
+            _isAdmin = true;
+            titleText ["La vérification de présence dans le canal Task Force Radio est désactivé comme vous êtes admin !","BLACK IN"];
+        };
+    };
+    if (_isAdmin) exitWith {};
+
+    if (isNil "TFAR_fnc_isTeamSpeakPluginEnabled") exitwith {
+        999999 cutText ["Task Force Radio n'est pas activé pas sur votre ordinateur. Veuillez re-synchroniser et réessayer","BLACK FADED"];
+        999999 cutFadeOut 99999999;
+    };
+
+    _tfarEnabled = true;
+    _playerOnTeamspeak = true;
+    _playerInChannel = false;
+    _sleep = 2;
+    _alreadyKnow = false;
+
+    while {true} do {
+        if !([] call TFAR_fnc_isTeamSpeakPluginEnabled) then {
+            titleText ["Veuillez activer Task Force Radio dans vos plugins teamspeak ! Pour ce faire, rendez-vous dans l'onglet réglages de teamspeak puis plugins et activez-le.", "BLACK"];
+            _tfarEnabled = false;
+        } else {
+            _tfarEnabled = true;
+        };
+
+        if !(_channelName == (call TFAR_fnc_getTeamSpeakChannelName)) then {
+            titleText ["Veuillez 'reload' votre plugin Task Force Radio pour être déplacer dans le canal vocal ! Pour ce faire rendez-vous dans les réglages de teamspeak puis plugins puis appuyez sur le bouton 'relaod'.", "BLACK"];
+            _playerInChannel = false;
+        } else {
+            _playerInChannel = true;
+        };
+
+        if (_tfarEnabled && _playerOnTeamspeak && _playerInChannel) then {
+            if !(_alreadyKnow) then {
+                titleText ["Task Force Radio est bien initialisé, bienvenue !","BLACK IN"];
+                _alreadyKnow = true;
+            };
+            _sleep = 5;
+        } else {
+            _alreadyKnow = false;
+            _sleep = 2;
+        };
+       
+        sleep _sleep;
+    };  
+};

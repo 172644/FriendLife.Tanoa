@@ -101,6 +101,12 @@ class The_Programmer_Settings_Iphone {
             condition = "";
             picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\syncro.paa";
         };
+        class UpdateClothes {
+            action = "[] call life_fnc_playerSkins;";
+            displayName = "Rafraichir tenue";
+            condition = "";
+            picture = "\MapMarkers\Data\marchev_icon.paa";
+        };
         class Banking {
             action = "[1] call the_programmer_iphone_fnc_apps_payEasy;";
             displayName = "PayEasy";
@@ -214,6 +220,12 @@ class The_Programmer_Settings_Iphone {
             displayName = "Whitelist Menu";
             condition = "((call life_adminlevel) >= 1) && ((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""whitelist_menu_script_enable"")) isEqualTo 1)";
             picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\whitelist.paa";
+        };
+        class Heal {
+            action = "[objNull, player] call ace_medical_treatment_fnc_fullHeal;";
+            displayName = "Heal";
+            condition = "((call life_adminlevel) >= 1)";
+            picture = "\Assets\Data\icons\vita.paa";
         };
     };
 };

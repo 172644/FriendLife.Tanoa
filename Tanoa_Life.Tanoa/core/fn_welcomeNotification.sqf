@@ -25,7 +25,7 @@ _textSpoiler = _display displayCtrl 1101;
 _text2 = _display displayCtrl 1102;
 
 _message = "";
-_message = _message + "<t align='center' size='8' shadow='0'><img image='textures\armalife.jpg' /></t><br /><br />";
+_message = _message + "<t align='center' size='8' shadow='0'><img image='\Assets\Data\textures\armalife.jpg' /></t><br /><br />";
 _message = _message + "Bienvenue sur l'île de Friends LIFE. J'espère que vous avez fait bon voyage !br /><br />";
 _message = _message + "Liens utiles (cliquez sur les liens pour ouvrir votre navigateur)<br /><br />";
 _message = _message + "Notre TeamSpeak 3: ADDRESS HERE  <br /><br />";

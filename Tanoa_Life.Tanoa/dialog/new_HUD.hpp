@@ -66,7 +66,7 @@ class new_HUD {
 		/*class Vita_HUD: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\vita.paa";
+			text = "\Assets\Data\icons\vita.paa";
 			x = 0.883312 * safezoneW + safezoneX;
 			y = 0.737 * safezoneH + safezoneY;
 			w = 0.02751 * safezoneW;
@@ -74,7 +74,7 @@ class new_HUD {
 		};*/
 		/*class Fame_HUD: Life_RscPicture {
 			idc = -1;
-			text = "icons\fame2.paa";
+			text = "\Assets\Data\icons\fame2.paa";
 			x = 0.883312 * safezoneW + safezoneX;
 			y = 0.803 * safezoneH + safezoneY;
 			w = 0.02751 * safezoneW;
@@ -83,7 +83,7 @@ class new_HUD {
 		class Sete_HUD: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\sete.paa";
+			text = "\Assets\Data\icons\sete.paa";
 			x = 0.883312 * safezoneW + safezoneX;
 			y = 0.869 * safezoneH + safezoneY;
 			w = 0.02751 * safezoneW;
@@ -184,7 +184,7 @@ class new_HUD {
 		/*class Banca_Icon: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\banca3.paa";
+			text = "\Assets\Data\icons\banca3.paa";
 		    x = 0.85699097 * safezoneW + safezoneX;
 		    //y = 0.932 * safezoneH + safezoneY;
 		    y = 0.97 * safezoneH + safezoneY;
@@ -205,7 +205,7 @@ class new_HUD {
 		class Cash_Icon: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\soldi2.paa";
+			text = "\Assets\Data\icons\soldi2.paa";
 			x = 0.93 * safezoneW + safezoneX;
 			y = 0.895 * safezoneH + safezoneY;
 			w = 0.01796 * safezoneW;
@@ -224,7 +224,7 @@ class new_HUD {
 		/*class Polizia_Icon: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\polis.paa";
+			text = "\Assets\Data\icons\polis.paa";
 			x = 0.84499997 * safezoneW + safezoneX;
 			y = 0.97 * safezoneH + safezoneY;
 			w = 0.01459 * safezoneW;
@@ -243,7 +243,7 @@ class new_HUD {
 		class Medici_Icon: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\medici.paa";
+			text = "\Assets\Data\icons\medici.paa";
 			x = 0.8965625 * safezoneW + safezoneX;
 			y = 0.97 * safezoneH + safezoneY;
 			w = 0.01459 * safezoneW;
@@ -262,7 +262,7 @@ class new_HUD {
 		class Civili_Icon: Life_RscPicture {
 			colorBackground[] = {0.02,0.06,0.06,1};
 			idc = -1;
-			text = "icons\civili.paa";
+			text = "\Assets\Data\icons\civili.paa";
 			x = 0.948125 * safezoneW + safezoneX;
 			y = 0.97 * safezoneH + safezoneY;
 			w = 0.01459 * safezoneW;
@@ -285,7 +285,7 @@ class new_HUD {
 //class civili_icon: Life_RscPicture {
 //			colorBackground[] = {0.02,0.06,0.06,1};
 //			idc = -1;
-//			text = "icons\civili.paa";
+//			text = "\Assets\Data\icons\civili.paa";
 //			x = 0.159687 * safezoneW + safezoneX;
 //			y = 0.973 * safezoneH + safezoneY;
 //			w = 0.01235 * safezoneW;

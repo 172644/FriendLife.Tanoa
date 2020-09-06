@@ -1951,7 +1951,7 @@
         </Key>
         <Key ID="STR_Cop_RobberDead">
             <Original>$%1 from the Federal Reserve robbery was returned from the robber being killed.</Original>
-            <French>$%1 du vol de la Banque Fédérale ont été récupérés sur le braqueur, qui vient d'être tué.</French>
+            <French>$%1 du vol de la Banque Centrale ont été récupérés sur le braqueur, qui vient d'être tué.</French>
         </Key>
         <Key ID="STR_Cop_RepairVault">
             <Original>Repairing vault...</Original>
@@ -2714,7 +2714,7 @@
         </Key>
         <Key ID="STR_ISTR_Blast_Placed">
             <Original>A blasting charge has been placed on the federal reserves vault, You have till the clock runs out to disarm the charge!</Original>
-            <French>Une charge de dynamite a été placée sur le coffre de la réserve fédérale. Vous avez jusqu'au temps imparti pour désarmorcer la charge !</French>
+            <French>Une charge de dynamite a été placée sur le coffre de la banque Centrale. Vous avez jusqu'au temps imparti pour désarmorcer la charge !</French>
         </Key>
         <Key ID="STR_ISTR_Blast_KeepOff">
             <Original>The timer is ticking! Keep the cops away from the vault!</Original>
@@ -2738,7 +2738,7 @@
         </Key>
         <Key ID="STR_ISTR_Bolt_AlertFed">
             <Original>!!!!! SOMEONE IS BREAKING INTO THE FEDERAL RESERVE !!!!!!</Original>
-            <French>!!!!! QUELQU'UN TENTE DE S'INTRODUIRE DANS LA RÉSERVE FÉDÉRALE !!!!!!</French>
+            <French>!!!!! QUELQU'UN TENTE DE S'INTRODUIRE DANS LA BANQUE CENTRALE !!!!!!</French>
         </Key>
         <Key ID="STR_ISTR_Bolt_AlertHouse">
             <Original>%1 was seen breaking into a house.</Original>
@@ -2996,11 +2996,11 @@
     <Package name="Federal_Reserve">
         <Key ID="STR_NOTF_FRRobbery_fail">
             <Original>The robbery has failed due to unknown reasons</Original>
-            <French>Le vol de la réserve fédérale a échoué pour des raisons inconnues</French>
+            <French>Le vol de la Banque Centrale a échoué pour des raisons inconnues</French>
         </Key>
         <Key ID="STR_NOTF_FRRobbery_Success">
             <Original>$%1 was stolen from the robbery on the federal reserve</Original>
-            <French>$%1 a été volé à la réserve fédérale.</French>
+            <French>$%1 a été volé à la Banque Centrale.</French>
         </Key>
         <Key ID="STR_FEDR_VInUse">
             <Original>This vault is already being robbed by someone else</Original>
@@ -3766,7 +3766,7 @@
         </Key>
         <Key ID="STR_MAR_Federal_Reserve">
             <Original>Federal Reserve</Original>
-            <French>Banque fédérale</French>
+            <French>Banque Centrale</French>
         </Key>
         <Key ID="STR_MAR_Highway_Patrol">
             <Original>Highway Patrol Outpost</Original>
@@ -3906,19 +3906,19 @@
         </Key>
         <Key ID="STR_MAR_FED_Front">
             <Original>Federal Reserve - Front Entrance</Original>
-            <French>Banque fédérale - Entrée avant</French>
+            <French>Banque Centrale - Entrée avant</French>
         </Key>
         <Key ID="STR_MAR_FED_Side">
             <Original>Federal Reserve - Side Entrance</Original>
-            <French>Banque fédérale - Entrée latérale</French>
+            <French>Banque Centrale - Entrée latérale</French>
         </Key>
         <Key ID="STR_MAR_FED_Back">
             <Original>Federal Reserve - Back Entrance</Original>
-            <French>Banque fédérale - Entrée Arrière</French>
+            <French>Banque Centrale - Entrée Arrière</French>
         </Key>
         <Key ID="STR_MAR_FED_Vault">
             <Original>Federal Reserve - Vault View</Original>
-            <French>Banque fédérale - Voir Coffre</French>
+            <French>Banque Centrale - Voir Coffre</French>
         </Key>
         <Key ID="STR_MAR_FED_Off_display">
             <Original>Turn Off Display</Original>
@@ -4235,7 +4235,7 @@
         </Key>
         <Key ID="STR_Crime_23">
             <Original>Federal Reserve breaking</Original>
-            <French>Intrusion dans la réserve fédérale</French>
+            <French>Intrusion dans la Banque Centrale</French>
         </Key>
         <Key ID="STR_Crime_24">
             <Original>Killing of a civilian</Original>
