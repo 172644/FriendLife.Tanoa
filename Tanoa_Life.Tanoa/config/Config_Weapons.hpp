@@ -51,6 +51,15 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
+			
+			////////////////////////////////////////////////////////
+			// A SUPPRIMER :
+            { "srifle_DMR_01_ACO_F", "", 0, 0, "" },
+            { "srifle_EBR_ARCO_pointer_snds_F", "", 0, 0, "" },
+			////////////////////////////////////////////////////////
+			
+			
+			
             { "arifle_TRG20_F", "", 25000, 12500, "" },
             { "arifle_Katiba_F", "", 30000, 15000, "" },
             { "srifle_DMR_01_F", "", 50000, 25000, "" },
@@ -63,6 +72,15 @@ class WeaponShops {
             { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
         };
         mags[] = {
+			
+			////////////////////////////////////////////////////////
+			// A SUPPRIMER :
+            { "10Rnd_762x54_Mag", "", 300, 150, "" },
+            { "20Rnd_762x51_Mag", "", 300, 150, "" },
+			////////////////////////////////////////////////////////
+			
+			
+			
             { "30Rnd_556x45_Stanag", "", 300, 150, "" },
             { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
@@ -72,6 +90,18 @@ class WeaponShops {
             { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
         };
         accs[] = {
+			
+			////////////////////////////////////////////////////////
+			// A SUPPRIMER :
+            { "optic_ACO_grn", "", 0, 0, "" },
+            { "optic_Arco", "", 0, 0, "" },
+            { "acc_pointer_IR", "", 0, 0, "" },
+            { "muzzle_snds_B", "", 0, 0, "" },
+			////////////////////////////////////////////////////////
+			
+			
+			
+			
             { "optic_ACO_grn", "", 3500, 1750, "" },
             { "optic_Holosight", "", 3600, 1800, "" },
             { "optic_Hamr", "", 7500, 3750, "" },
@@ -114,6 +144,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, 25, "" },
             { "ACE_fieldDressing", "", 25, 15, "" },
             { "NVGoggles", "", 2000, 1000, "" },
+			{ "Itemradio", "", 500, 250, "" },
             { "axe", "", 300, 150, "" },
             { "pickaxe", "", 300, 150, "" }
         };
@@ -132,6 +163,7 @@ class WeaponShops {
             { "ItemMap", "", 50, 25, "" },
             { "ItemCompass", "", 50, 25, "" },
             { "ItemWatch", "", 50, 25, "" },
+			{ "Itemradio", "", 500, 250, "" },
             { "ACE_fieldDressing", "", 25, 15, "" },
             { "NVGoggles", "", 2000, 1000, "" }
         };
@@ -145,40 +177,61 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
-            { "ACE_EarPlugs", "", 0, 0, "" },
-			{ "Binocular", "", 0, 0, "" },
-            { "ItemGPS", "", 0, 0, "" },
-			{ "ItemCompass", "", 0, 0, "" },
-            { "FirstAidKit", "", 0, 0, "" },
-            { "NVGogglesB_blk_F", "", 0, 0, "" },
-			{ "ItemWatch", "", 0, 0, "" },
-			{ "ItemMap", "", 0, 0, "" },
-			{ "BT01_F", $STR_W_items_StunPistol, 0, 0, "" },
-            { "HandGrenade_Stone", $STR_W_items_Flashbang, 0, 0, "" },
-            { "arifle_SDAR_F", $STR_W_items_TaserRifle, 0, 0, "" },
-            { "hgun_Rook40_F", "", 0, 0, "call life_coplevel >= 1" },
-            { "SMG_05_F", "", 0, 0, "call life_coplevel >= 1" },
-            { "arifle_SPAR_01_blk_F", "", 0, 0, "call life_coplevel >= 2" },
-            { "SMG_02_F", "", 0, 0, "call life_coplevel >= 2" },
-            { "arifle_Katiba_F", "", 0, 0, "call life_coplevel >= 3" },
-            { "srifle_LRR_F", "", 0, 0, "call life_coplevel >= 3" }
-        };
-        mags[] = {
-			{ "Taser_mag", "", 0, 0, "" },
-            { "20Rnd_556x45_UW_mag", $STR_W_mags_TaserRifle, 0, 0, "" },
-            { "30Rnd_9x21_Mag", "", 0, 0, "call life_coplevel >= 1" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 0, 0, "call life_coplevel >= 1" },
-            { "30Rnd_556x45_Stanag", "", 0, 0, "call life_coplevel >= 2" },
-            { "30Rnd_65x39_caseless_green", "", 0, 0, "call life_coplevel >= 3" },
-            { "7Rnd_408_Mag", "", 0, 0, "call life_coplevel >= 3" }
-        };
-        accs[] = {
-            { "optic_Arco_AK_blk_F", "", 0, 0, "" },
+            { "srifle_LRR_LRPS_F", "", 0, 0, "call life_coplevel >= 10" },
+			{ "arifle_Katiba_ACO_pointer_F", "", 0, 0, "call life_coplevel >= 5" },
+			{ "SMG_02_ARCO_pointg_F", "", 0, 0, "call life_coplevel >= 4" },
+			{ "arifle_SPAR_01_blk_ERCO_Pointer_F", "", 0, 0, "call life_coplevel >= 6" },
+			{ "SMG_05_F", "", 0, 0, "call life_coplevel >= 2" },
+			{ "hgun_Rook40_snds_F", "", 0, 0, "call life_coplevel >= 1" },
+			{ "BT01_F", $STR_W_items_StunPistol, 0, 0, "call life_coplevel >= 1" },
+			{ "optic_Arco_AK_blk_F", "", 0, 0, "" },
             { "ACE_optic_LRPS_PIP", "", 0, 0, "" },
             { "optic_Nightstalker", "", 0, 0, "" },
             { "optic_Yorris", "", 0, 0, "" },
+			{ "acc_flashlight", "", 0, 0, "" },
             { "optic_aco", "", 0, 0, "" }
         };
+        mags[] = {
+			{ "Taser_mag", "", 0, 0, "call life_coplevel >= 1" },
+            { "30Rnd_9x21_Mag", "", 0, 0, "call life_coplevel >= 1" },
+            { "30Rnd_9x21_Mag_SMG_02", "", 0, 0, "call life_coplevel >= 2" },
+            { "30Rnd_556x45_Stanag", "", 0, 0, "call life_coplevel >= 6" },
+            { "30Rnd_65x39_caseless_green", "", 0, 0, "call life_coplevel >= 5" },
+            { "7Rnd_408_Mag", "", 0, 0, "call life_coplevel >= 10" }
+        };
+        accs[] = {
+            /*{ "muzzle_snds_L", "", 0, 0, "" },
+            { "optic_arco_ak_blk_f", "", 0, 0, "" }, // PAS UTILISÉ
+            { "ace_optic_lrps_pip", "", 0, 0, "" }, // PAS UTILISÉ
+            { "optic_nightstalker", "", 0, 0, "" },
+            { "optic_yorris", "", 0, 0, "" },
+			{ "acc_flashlight", "", 0, 0, "" },
+            { "optic_aco", "", 0, 0, "" }*/
+			
+            { "optic_ERCO_blk_F", "", 0, 0, "" },
+            { "optic_Arco", "", 0, 0, "" },
+            { "acc_pointer_IR", "", 0, 0, "" },
+            { "optic_ACO_grn", "", 0, 0, "" }
+        };
+    };
+	
+	class Cop_store {
+        name = "Altis Cop Store";
+        side = "cop";
+        conditions = "";
+        items[] = {
+            { "ACE_EarPlugs", "", 0, 0, "" },
+			{ "Binocular", "", 0, 0, "" },
+            { "ItemGPS", "", 0, 0, "" },
+            { "ItemMap", "", 0, 0, "" },
+            { "ItemCompass", "", 0, 0, "" },
+			{ "tf_anprc152", "", 500, 250, "" },
+			{ "NVGogglesB_blk_F", "", 0, 0, "" },
+            { "ItemWatch", "", 0, 0, "" },
+			{ "HandGrenade_Stone", $STR_W_items_Flashbang, 0, 0, "call life_coplevel >= 3" }
+        };
+        mags[] = {};
+        accs[] = {};
     };
 
     //Medic Shops
@@ -193,6 +246,7 @@ class WeaponShops {
 			{ "ItemMap", "", 0, 0, "" },
             { "Binocular", "", 0, 0, "" },
             { "NVGoggles", "", 0, 0, "" },
+			{ "tf_anprc152", "", 500, 250, "" },
 			{ "ItemWatch", "", 0, 0, "" },
 			{ "FirstAidKit", "", 0, 0, "" },
 			{ "defibinvch", "", 0, 0, "" },

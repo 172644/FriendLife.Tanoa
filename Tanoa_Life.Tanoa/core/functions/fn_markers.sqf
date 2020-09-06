@@ -43,7 +43,7 @@ _illegal = ["DRO_cocaine_1",
 
 
 
-if (STR_License_Rebel) then {
+/*if (license_civ_rebel) then {
     {_x setMarkerAlphaLocal 1}foreach ["DRO_cocaine_1",
              "DRO_cocaine_processing",
              "DRO_chop_shop_1",
@@ -67,7 +67,7 @@ if (STR_License_Rebel) then {
              "DRO_rebelop_1",
              "DRO_rebelop_2",
              "DRO_rebel_car_2"];
-};
+};*/
 
 
 //police

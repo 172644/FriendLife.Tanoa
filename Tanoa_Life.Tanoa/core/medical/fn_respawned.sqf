@@ -61,6 +61,7 @@ if (life_is_arrested) exitWith {
     [] call SOCK_fnc_updateRequest;
 };
 
+/*
 //Johnny law got me but didn't let the EMS revive me, reward them half the bounty.
 if (!isNil "life_copRecieve") then {
 
@@ -71,7 +72,7 @@ if (!isNil "life_copRecieve") then {
     };
 
     life_copRecieve = nil;
-};
+};*/
 
 //So I guess a fellow gang member, cop or myself killed myself so get me off that Altis Most Wanted
 if (life_removeWanted) then {

@@ -50,7 +50,7 @@ if (_ctrl == "money") then {
         } else {
             _data set[_index,[_ctrl,(_value - _num)]];
         };
-
+		
 		if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 			if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
 				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
@@ -59,7 +59,7 @@ if (_ctrl == "money") then {
 			};
 			publicVariableServer "advanced_log";
 		};
-
+		
         life_trunk_vehicle setVariable ["Trunk",[_data,(_old select 1) - _weight],true];
         [life_trunk_vehicle] call life_fnc_vehInventory;
     } else {

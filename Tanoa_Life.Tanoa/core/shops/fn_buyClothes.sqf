@@ -20,9 +20,9 @@ if (_price > CASH) exitWith {titleText[localize "STR_Shop_NotEnoughClothes","PLA
 CASH = CASH - _price;
 
 if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),lbCurSel 3103,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),lbCurSel 3105,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 } else {
-	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),lbCurSel 3103,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),lbCurSel 3105,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
 };
 publicVariableServer "advanced_log";
 

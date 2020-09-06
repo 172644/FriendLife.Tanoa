@@ -116,7 +116,9 @@ class WeaponShops {
             { "Chemlight_red", "", 300, 150, "" },
             { "Chemlight_yellow", "", 300, 150, "" },
             { "Chemlight_green", "", 300, 150, "" },
-            { "Chemlight_blue", "", 300, 150, "" }
+            { "Chemlight_blue", "", 300, 150, "" },
+            { "axe", "", 300, 150, "" },
+            { "pickaxe", "", 300, 150, "" }
         };
         mags[] = {};
         accs[] = {};

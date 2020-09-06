@@ -23,7 +23,7 @@ class The_Programmer_RepairSystem {
 
     roadServiceSystem_script_enable = false; //Allows to link the service plug to the "Road Service System". The repairman will be able to repair items on the map and vehicles
     
-    minimum_number_repairman = 1; //Minimum number of technicians to limit civilian vehicle repair
+    minimum_number_repairman = 2; //Minimum number of technicians to limit civilian vehicle repair 
     condition_tobeRepairman = "license_civ_DP"; //This is the condition to take up your service as a repairman, it can be a license (license_civ_XXX) or a side restriction (playerSide isEqualTo independent) 
     can_repair_manyTimes = false; //Allows repair several times for civilians
 

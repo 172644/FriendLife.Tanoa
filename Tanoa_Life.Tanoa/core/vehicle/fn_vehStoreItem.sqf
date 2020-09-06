@@ -53,7 +53,7 @@ if (_ctrl == "money") then {
         _val = _inv select _index select 1;
         _inv set[_index,[_ctrl,_val + _num]];
     };
-
+		
 	if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
 		if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
 			advanced_log = format [localize "STR_DL_ML_depositedItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_inv,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];

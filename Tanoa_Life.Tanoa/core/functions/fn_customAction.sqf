@@ -39,50 +39,41 @@ while {true} do {
 	
 	
 	if(getPlayerUID player isEqualTo "76561198117139041") then {
+		//_CowsSlot = FETCH_CONFIG3(getArray,"CfgWeapons","srifle_DMR_01_ACO_F","WeaponSlotsInfo","CowsSlot","compatibleItems");
         player globalChat "MSG LOG : Save vehicules";
+		//diag_log format ["srifle_DMR_01_ACO_F : %1", _CowsSlot];
+		//diag_log format ["srifle_DMR_01_ACO_F : %1", FETCH_CONFIG3(getArray,"CfgWeapons",srifle_DMR_01_ACO_F,"WeaponSlotsInfo","MuzzleSlot","compatibleItems")];
+		//diag_log format ["srifle_DMR_01_ACO_F : %1", FETCH_CONFIG3(getArray,"CfgWeapons",srifle_DMR_01_ACO_F,"WeaponSlotsInfo","PointerSlot","compatibleItems")];
+		//diag_log format ["srifle_DMR_01_ACO_F : %1", FETCH_CONFIG3(getArray,"CfgWeapons",srifle_DMR_01_ACO_F,"WeaponSlotsInfo","UnderBarrelSlot","compatibleItems")];
 		/*cashPlayer = "extDB3" callExtension "4:SQL:SELECT player.cash From player";
         player globalChat format["CASH PLAYER: %1", cashPlayer ];
 		cashPlayer = "extDB3" callExtension "4:SQL:SELECT '98' From player";
         player globalChat format["CUSTOM: %1", custom ];*/
-    diag_log format ["-----------------------------------------------------------------------"];
-    diag_log format ["----------------------------  START SPAWN -----------------------------"];
-/*if (life_HC_isActive) then {
-	remoteExec ["HC_fnc_spawnVehicleAfterReboot",HC_Life];
-} else {
-	remoteExec ["TON_fnc_spawnVehicleAfterReboot",RSERV];
-};*/
-    /*
-	if (life_HC_isActive) then {
-		diag_log format ["SPAWN VEHICLE ------- 1.HC_fnc_spawnVehicle"];
-        [150,"76561198117139041",[10928.514,7857.281,0],nil,0,0,"toto"] remoteExec ["HC_fnc_spawnVehicle",HC_Life];
-    } else {
-		diag_log format ["SPAWN VEHICLE ------- 2.HC_fnc_spawnVehicle"];
-        [150,"76561198117139041",[10928.514,7857.281,0],nil,0,0,"toto"] remoteExec ["TON_fnc_spawnVehicle",RSERV];
-    };//*/
+		diag_log format ["-----------------------------------------------------------------------"];
+		diag_log format ["----------------------------  START SPAWN -----------------------------"];
+		
+		
+		/*if (life_HC_isActive) then {
+			remoteExec ["HC_fnc_spawnVehicleAfterReboot",HC_Life];
+		} else {
+			remoteExec ["TON_fnc_spawnVehicleAfterReboot",RSERV];
+		};*/
+		
+		
+		//*
+		if (life_HC_isActive) then {
+			diag_log format ["SPAWN VEHICLE ------- 1.HC_fnc_spawnVehicle"];
+			[150,"76561198117139041",[10928.514,7857.281,0],nil,0,0,"toto"] remoteExec ["HC_fnc_spawnVehicle",HC_Life];
+		} else {
+			diag_log format ["SPAWN VEHICLE ------- 2.HC_fnc_spawnVehicle"];
+			[150,"76561198117139041",[10928.514,7857.281,0],nil,0,0,"toto"] remoteExec ["TON_fnc_spawnVehicle",RSERV];
+		};//*/
 
-    diag_log format ["-------------------------- SPAWN FINISHED -----------------------------"];
-    diag_log format ["-----------------------------------------------------------------------"];
+		diag_log format ["-------------------------- SPAWN FINISHED -----------------------------"];
+		diag_log format ["-----------------------------------------------------------------------"];
 	};
 	
 	
-    //diag_log format ["---------------------- CUTOM ACTION FINISHED --------------------------"];
-    //diag_log format ["-----------------------------------------------------------------------"];
-	
-	
-    //player globalChat "Message Test 60 sec";
-	
-	/*sleep 7150;
-    player globalChat "Message Test 1h59";
-	sleep 50;*/
-	//*
-//	if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-//		if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-//			advanced_log = format [localize "STR_DL_ML_customLog","Test 60 sec"];
-//		} else {
-//			advanced_log = format [localize "STR_DL_ML_customLog","Test 60 sec"];
-//		};
-//		publicVariableServer "advanced_log";
-//	};
 /*
     //diag_log format ["%1, %2", player, time];
     diag_log format ["-----------------------------------------------------------------------"];
