@@ -8,7 +8,8 @@
       - If you have permission to use this file, you can use it on your server however it is strictly forbidden to share it.
       - Out of respect for the author please do not delete this information.
 */
-_illegal = ["DRO_cocaine_1",
+
+/*_illegal = ["DRO_cocaine_1",
              "DRO_cocaine_processing",
              "DRO_chop_shop_1",
              "DRO_chop_shop_2",
@@ -30,9 +31,10 @@ _illegal = ["DRO_cocaine_1",
              "DRO_rebelop",
              "DRO_rebelop_1",
              "DRO_rebelop_2",
-             "DRO_rebel_car_2"];
+             "DRO_rebel_car_2"];*/
+//_illegal = ["DRO_chop_shop_2"];
           
-{_x setMarkerAlphaLocal 0}foreach _illegal;
+//{_x setMarkerAlphaLocal 0}foreach _illegal;
 
 //if (license_civ_bandit) then {
     //{_x setMarkerAlphaLocal 1}foreach ["cocaine_1",
