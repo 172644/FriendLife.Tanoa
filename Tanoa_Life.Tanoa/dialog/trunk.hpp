@@ -109,9 +109,21 @@ class TrunkMenu {
             text = "$STR_Trunk_Take";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] call life_fnc_vehTakeItem;";
-            x = 0.19;
+//            x = 0.19;
+            x = 0.11 + ((0.3 - ((5 / 40) * 2)) / 4);
             y = 0.78;
-            w = (6.25 / 40);
+            w = (5 / 40);
+            h = (1 / 25);
+        };
+
+        class TakeAllItem: Life_RscButtonMenu {
+            idc = -1;
+            text = "Take All";
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+            onButtonClick = "[] call life_fnc_vehTakeAllItem;";
+            x = 0.11 + (((0.3 - ((5 / 40) * 2)) / 4) * 3) + (5 / 40);
+            y = 0.78;
+            w = (5 / 40);
             h = (1 / 25);
         };
 
@@ -120,9 +132,21 @@ class TrunkMenu {
             text = "$STR_Trunk_Store";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
             onButtonClick = "[] call life_fnc_vehStoreItem;";
-            x = 0.57;
+//            x = 0.57;
+            x = 0.49 + ((0.3 - ((5 / 40) * 2)) / 4);
             y = 0.78;
-            w = (6.25 / 40);
+            w = (5 / 40);
+            h = (1 / 25);
+        };
+
+        class StoreAllItem: Life_RscButtonMenu {
+            idc = -1;
+            text = "Store All";
+            colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+            onButtonClick = "[] call life_fnc_vehStoreAllItem;";
+            x = 0.49 + (((0.3 - ((5 / 40) * 2)) / 4) * 3) + (5 / 40);
+            y = 0.78;
+            w = (5 / 40);
             h = (1 / 25);
         };
 

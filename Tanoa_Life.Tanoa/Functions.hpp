@@ -11,16 +11,6 @@ class Socket_Reciever {
     };
 };
 
-/*class SpyGlass {
-    tag = "SPY";
-    class Functions {
-        file = "SpyGlass";
-        class cookieJar{};
-        class notifyAdmins{};
-        class observe{};
-    };
-};*/
-
 class Life_Client_Core {
     tag = "life";
 
@@ -33,7 +23,6 @@ class Life_Client_Core {
         class setupEVH {};
         class survival {};
         class welcomeNotification {};
-        class initZeus {};
     };
 
     class Actions {
@@ -105,6 +94,8 @@ class Life_Client_Core {
         class robPerson {};
         class robReceive {};
         class tazed {};
+		//class passeportCiv {};
+        //class civPasseport {};
     };
 
     class Config {
@@ -143,7 +134,24 @@ class Life_Client_Core {
         class ticketPrompt {};
         class vehInvSearch {};
         class wantedGrab {};
+		//class copOpener {};
     };
+
+//	class holy_help {
+//        file = "core\help_menu";
+//        class help_menu;
+//    };
+
+	   //Placables
+//    class CopPlaceables {
+//        file = "core\cop\placeables";
+//        class placeablesInit {};
+//        class placeablesMenu {};
+//        class placeablesRemoveAll {};
+//        class placeablePlace {};
+//        class placeableCancel {};
+//        class placeablesPlaceComplete {};
+//    };
 
     class Dialog_Controls {
         file = "dialog\function";
@@ -170,18 +178,18 @@ class Life_Client_Core {
         class unimpound {};
         class vehicleGarage {};
         class wireTransfer {};
-        class insureCar {};
+		class insureCar {}; /// nouveau
     };
 /*
     //kovix
-    class DynMarket {  
-    file = "core\DynMarket";  
-    class bought {};  
-    class update {};  
-    class DisplayPrices {};  
-    class LoadIntoListbox {};  
-    class ForcePrice {};  
-    class DYNMARKET_getPrice {};  
+    class DynMarket {
+    file = "core\DynMarket";
+    class bought {};
+    class update {};
+    class DisplayPrices {};
+    class LoadIntoListbox {};
+    class ForcePrice {};
+    class DYNMARKET_getPrice {};
     }; */
 
     class Functions {
@@ -284,6 +292,7 @@ class Life_Client_Core {
         class placestorage {};
         class spikeStrip {};
         class storageBox {};
+		//class weed {};
     };
 
     class Medical_System {
@@ -336,6 +345,8 @@ class Life_Client_Core {
         class wantedInfo {};
         class wantedList {};
         class wantedMenu {};
+//		class revokeLicense {};
+//		class movesMenu {};
     };
 
     class Shops {
@@ -360,6 +371,7 @@ class Life_Client_Core {
         class virt_buy {};
         class virt_menu {};
         class virt_sell {};
+        class virt_sellAll {};
         class virt_update {};
         class weaponShopAccs {};
         class weaponShopBuySell {};
@@ -386,5 +398,7 @@ class Life_Client_Core {
         class vehStoreItem {};
         class vehTakeItem {};
         class vInteractionMenu {};
+		class vehTakeAllItem {};
+        class vehStoreAllItem {};
     };
 };
