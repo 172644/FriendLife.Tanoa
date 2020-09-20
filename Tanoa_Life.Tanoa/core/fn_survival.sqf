@@ -1,6 +1,4 @@
 #include "..\script_macros.hpp"
-if !(isNil "The_programmer_initialised") exitWith {};
-
 /*
     File: fn_survival.sqf
     Author: Bryan "Tonic" Boardwine
@@ -8,6 +6,7 @@ if !(isNil "The_programmer_initialised") exitWith {};
     Description:
     All survival? things merged into one thread.
 */
+if !(isNil "The_programmer_initialised") exitWith {}; 
 private ["_fnc_food","_fnc_water","_foodTime","_waterTime","_bp","_walkDis","_lastPos","_curPos"];
 _fnc_food =  {
     if (life_hunger < 2) then {player setDamage 1; hint localize "STR_NOTF_EatMSG_Death";}
@@ -47,16 +46,6 @@ _fnc_water = {
         };
     };
 };
-
-//_illegalmarkers = ["cocaine_1","cocaine_processing","chop_shop_1","chop_shop_2","chop_shop_3","chop_shop_4,"tortule_dealer","tortule_dealer_1","tortule_dealer_2","gang_area_1","gang_area_2","gang_area_3","heroin_1","heroin_p","weed_1","weed_p_1","dealer_1_4","dealer_1","rebelop","rebelop_1","rebelop_2","rebel_car_2","rebel_heli_1"]; 
-//_illegalmarkers = ["DRO_chop_shop_1","DRO_chop_shop_2","DRO_chop_shop_3","cocaine_1","cocaine_processing","chop_shop_1","chop_shop_2","chop_shop_3","chop_shop_4,"tortule_dealer","tortule_dealer_1","tortule_dealer_2","gang_area_1","gang_area_2","gang_area_3","heroin_1","heroin_p","weed_1","weed_p_1","dealer_1_4","dealer_1","rebelop","rebelop_1","rebelop_2","rebel_car_2","rebel_heli_1"]; 
-
-//if (!license_civ_rebel) then {
-
-//{ deleteMarkerLocal _x; } forEach _illegalmarkers;
-
-//};
-
 
 //Setup the time-based variables.
 _foodTime = time;

@@ -12,10 +12,10 @@ _medicsOnline = {!(_x isEqualTo player) && {side _x isEqualTo independent} && {a
 life_corpse setVariable ["Revive",false,true]; //Set the corpse to a revivable state.
 if (_medicsOnline) then {
     //There is medics let's send them the request.
-    [2] spawn max_callsmanage_fnc_deathMessage;
+    [life_corpse,profileName] remoteExecCall ["life_fnc_medicRequest",independent];
 } else {
     //No medics were online, send it to the police.
-    [1] spawn max_callsmanage_fnc_deathMessage;
+    [life_corpse,profileName] remoteExecCall ["life_fnc_medicRequest",west];
 };
 
 //Create a thread to monitor duration since last request (prevent spammage).

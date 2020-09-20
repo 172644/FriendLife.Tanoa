@@ -36,7 +36,7 @@ class The_Programmer_Settings_Iphone {
     reboot_3 = "12H00";
     reboot_4 = "18H00";
 
-    default_wallpaper = "\Assets\Data\The-Programmer\Iphone_X\textures\fonds\fond_3.paa";
+    default_wallpaper = "\Assets\Data\The-Programmer\Iphone_X\textures\fonds\fond_1.paa";
 
     Fond[] = {
         {"Forest","\Assets\Data\The-Programmer\Iphone_X\textures\fonds\fond_1.paa"},
@@ -69,7 +69,8 @@ class The_Programmer_Settings_Iphone {
             action = "createDialog ""The_Programmer_Iphone_Key_Menu"";";
             displayName = "Clés";
             condition = "";
-            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\clef.paa";
+            //picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\clef.paa";
+            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\keys.paa";
         };
         class Setting {
             action = "if ((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""advanced_phone_script_enable"")) isEqualTo 1) then {createDialog ""The_Programmer_Iphone_Settings_Menu_3""} else {if ((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""phone_numbers_script_enable"")) isEqualTo 1) then {createDialog ""The_Programmer_Iphone_Settings_Menu_2""} else {createDialog ""The_Programmer_Iphone_Settings_Menu""};};";
@@ -105,19 +106,22 @@ class The_Programmer_Settings_Iphone {
             action = "[] call life_fnc_playerSkins;";
             displayName = "Rafraichir tenue";
             condition = "";
-            picture = "\MapMarkers\Data\marchev_icon.paa";
+            //picture = "\MapMarkers\Data\marchev_icon.paa";
+            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\clothes.paa";
         };
         class Banking {
             action = "[1] call the_programmer_iphone_fnc_apps_payEasy;";
             displayName = "PayEasy";
             condition = "";
-            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\banque.paa";
+            //picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\banque.paa";
+            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\money.paa";
         };
         class Inventaire {
             action = "createDialog ""The_Programmer_Iphone_Stuff_Menu"";";
             displayName = "Inventaire";
             condition = "";
-            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\sac.paa";
+            //picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\sac.paa";
+            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\bag.paa";
         };
         class Message {
             action = "if (((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""phone_numbers_script_enable"")) isEqualTo 1) || ((getNumber (missionConfigFile >> ""The_Programmer_Settings_Iphone"" >> ""advanced_phone_script_enable"")) isEqualTo 1)) then {createDialog ""The_Programmer_Iphone_Cell_Menu""} else {createDialog ""The_Programmer_Iphone_Cell_TONIC_Menu""};";
@@ -125,7 +129,7 @@ class The_Programmer_Settings_Iphone {
             condition = "";
             picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\chat.paa";
         };
-        class Weather {
+        /*class Weather {
             action = "[] spawn the_programmer_iphone_fnc_apps_weather;";
             displayName = "Météo";
             condition = "";
@@ -142,7 +146,7 @@ class The_Programmer_Settings_Iphone {
             displayName = "Paste Me";
             condition = "";
             picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\pasteme.paa";
-        };
+        };*/
         class Entreprise {
             action = "[] spawn max_entreprise_fnc_openMenu;";
             displayName = "Entreprise";
@@ -225,7 +229,8 @@ class The_Programmer_Settings_Iphone {
             action = "[objNull, player] call ace_medical_treatment_fnc_fullHeal;";
             displayName = "Heal";
             condition = "((call life_adminlevel) >= 1)";
-            picture = "\Assets\Data\icons\vita.paa";
+            //picture = "\Assets\Data\icons\vita.paa";
+            picture = "\Assets\Data\The-Programmer\Iphone_X\textures\icons\heal.paa";
         };
     };
 };

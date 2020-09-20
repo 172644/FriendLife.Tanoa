@@ -8,9 +8,10 @@
     Description:
     Saves the players gear for syncing to the database for persistence..
 */
-private ["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled","_savedVirtualItems"];
+//private ["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled","_savedVirtualItems"];
+private ["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled"];
 _return = [];
-_savedVirtualItems = LIFE_SETTINGS(getArray,"saved_virtualItems");
+//_savedVirtualItems = LIFE_SETTINGS(getArray,"saved_virtualItems");
 
 _return pushBack uniform player;
 _return pushBack vest player;
@@ -18,6 +19,8 @@ _return pushBack backpack player;
 _return pushBack goggles player;
 _return pushBack headgear player;
 _return pushBack assignedITems player;
+
+
 if (playerSide isEqualTo west || playerSide isEqualTo civilian && {LIFE_SETTINGS(getNumber,"save_civilian_weapons") isEqualTo 1}) then {
     _return pushBack primaryWeapon player;
     _return pushBack handgunWeapon player;
@@ -35,6 +38,7 @@ _vMags  = [];
 _pItems = [];
 _hItems = [];
 _yItems = [];
+_sItems = [];
 _uni = [];
 _ves = [];
 _bag = [];
@@ -133,12 +137,19 @@ if (count (handgunItems player) > 0) then {
     } forEach (handGunItems player);
 };
 
+//{
+//    _val = ITEM_VALUE(_x);
+//    if (_val > 0) then {
+//        _yItems pushBack [_x,_val];
+//    };
+//} forEach _savedVirtualItems;
 {
-    _val = ITEM_VALUE(_x);
+    _val = ITEM_VALUE(configName _x);
     if (_val > 0) then {
-        _yItems pushBack [_x,_val];
+		_var = getText (_x >> 'variable');
+        _yItems pushBack [_var,_val];
     };
-} forEach _savedVirtualItems;
+} forEach ("true" configClasses (missionConfigFile >> "VirtualItems"));
 
 _return pushBack _uItems;
 _return pushBack _uMags;
@@ -153,5 +164,45 @@ if (LIFE_SETTINGS(getNumber,"save_virtualItems") isEqualTo 1) then {
 } else {
     _return pushBack [];
 };
+
+if (playerSide isEqualTo west || playerSide isEqualTo civilian && {LIFE_SETTINGS(getNumber,"save_civilian_weapons") isEqualTo 1}) then {
+    _return pushBack secondaryWeapon player;
+} else {
+    _return pushBack [];
+};
+
+if (count (secondaryWeaponMagazine player) > 0 && alive player) then {
+    _sMag = ((secondaryWeaponMagazine player) select 0);
+
+    if (!(_sMag isEqualTo "")) then {
+        _uni = player canAddItemToUniform _sMag;
+        _ves = player canAddItemToVest _sMag;
+        _bag = player canAddItemToBackpack _sMag;
+        _handled = false;
+
+        if (_ves) then {
+            _vMags pushBack _sMag;
+            _handled = true;
+        };
+
+        if (_uni && !_handled) then {
+            _uMags pushBack _sMag;
+            _handled = true;
+        };
+
+        if (_bag && !_handled) then {
+            _bMags pushBack _sMag;
+            _handled = true;
+        };
+    };
+};
+
+if (count (secondaryWeaponItems player) > 0) then {
+    {
+        _sItems pushBack _x;
+    } forEach (primaryWeaponItems player);
+};
+
+_return pushBack _sItems;
 
 life_gear = _return;

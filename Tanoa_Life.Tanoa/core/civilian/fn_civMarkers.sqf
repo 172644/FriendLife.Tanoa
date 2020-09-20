@@ -16,6 +16,20 @@ for "_i" from 0 to 1 step 0 do {
     if (visibleMap) then
     {
         _members = units (group player);
+		
+		if ("Mattaust_Phone" in (assignedItems player) || "ItemGPS" in (assignedItems player)) then {
+			_marker = createMarkerLocal ["moi_marker",(visiblePosition player)];
+			if("ItemGPS" in (assignedItems player)) then {
+				_marker setMarkerTypeLocal "PositionDirection";
+				_marker setMarkerDirLocal getDir player;
+			} else {
+				_marker setMarkerTypeLocal "Position";
+			};
+			//_marker setMarkerTextLocal "Moi"; // modifier ici le texte
+			_marker setMarkerColorLocal "ColorCivilian"; // modifier ici la couleur
+			_markers pushBack [_marker,player];
+		};
+		
         {
             if !(_x isEqualTo player) then {
                 _marker = createMarkerLocal [format ["%1_marker",_x],visiblePosition _x];

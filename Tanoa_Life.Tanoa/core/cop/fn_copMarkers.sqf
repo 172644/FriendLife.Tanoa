@@ -8,7 +8,7 @@
 private ["_markers","_cops"];
 _markers = [];
 _cops = [];
-
+/*
 sleep 0.5;
 if (visibleMap) then {
     {if (side _x isEqualTo west) then {_cops pushBack _x;}} forEach playableUnits; //Fetch list of cops / blufor
@@ -41,3 +41,4 @@ if (visibleMap) then {
     _markers = [];
     _cops = [];
 };
+*/

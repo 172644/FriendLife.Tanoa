@@ -14,6 +14,8 @@
 #define Btn6 37455
 #define Btn7 37456
 #define Btn8 37457
+#define Btn9 37458
+#define Btn10 37459
 #define Title 37401
 
 private ["_display","_curTarget","_seizeRank","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_Btn8"];
@@ -41,10 +43,12 @@ _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
 _Btn8 = _display displayCtrl Btn8;
+_Btn9 = _display displayCtrl Btn9;
+_Btn10 = _display displayCtrl Btn10;
 life_pInact_curTarget = _curTarget;
 
 if (player getVariable ["isEscorting",false]) then {
-    { _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8];
+    { _x ctrlShow false; } forEach [_Btn1,_Btn2,_Btn3,_Btn5,_Btn6,_Btn7,_Btn8,_Btn9,_Btn10];
 };
 
 //Set Unrestrain Button
@@ -89,5 +93,15 @@ if (FETCH_CONST(life_coplevel) < _seizeRank) then {_Btn8 ctrlEnable false;};
     if ((player distance (getMarkerPos _x) <30)) exitWith { _Btn6 ctrlEnable true;};
 } forEach LIFE_SETTINGS(getArray,"sendtoJail_locations");
 
+
 _Btn2 ctrlSetText "Informations Permis";
 _Btn2 buttonSetAction "[] remoteExec ['max_permisPoints_fnc_getPermisInfo',life_pInact_curTarget];";
+
+_Btn9 ctrlShow false;
+_Btn10 ctrlShow false;
+
+// Revoke Licenses
+_Btn9 ctrlSetText localize "Enlever le permis";
+_Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
+
+_Btn2 ctrlSetText "Informations Permis"; _Btn2 buttonSetAction "[] remoteExec ['max_permisPoints_fnc_getPermisInfo', life_pInact_curTarget];"; 

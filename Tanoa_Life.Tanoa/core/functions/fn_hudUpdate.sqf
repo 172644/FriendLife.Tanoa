@@ -12,6 +12,7 @@
 #define IDC_LIFE_BAR_WATER 2201
 #define IDC_LIFE_BAR_WATER_RING 3201
 #define IDC_LIFE_BAR_HEALTH 2202
+#define IDC_LIFE_BAR_InfoID 2203
 #define IDC_LIFE_BAR_HEALTH_RING 3202
 #define IDC_LIFE_BAR_Speaker 3007
 #define IDC_LIFE_BAR_SeatBelt 4203
@@ -21,6 +22,8 @@ if(isNull LIFEdisplay) then {[] call life_fnc_hudSetup;};
 
 //[LIFE_ID_PlayerTags,"onEachFrame"] call BIS_fnc_removeStackedEventHandler;
 LIFE_ID_PlayerTags = ["LIFE_PlayerTags","onEachFrame","life_fnc_playerTags"] call BIS_fnc_addStackedEventHandler;
+
+LIFEctrl(IDC_LIFE_BAR_InfoID) ctrlSetText format["#%1", player getVariable ["RP_ID",""]];
 
 if(!isNil "life_seatbelt") then {
     if ( vehicle player != player ) then {

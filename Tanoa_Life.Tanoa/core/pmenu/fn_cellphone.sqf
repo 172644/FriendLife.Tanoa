@@ -27,7 +27,7 @@ if (FETCH_CONST(life_adminlevel) < 1) then {
             case civilian: {"Civ"};
             case independent: {"Med"};
         };
-        _units lbAdd format ["%1 (%2)",_x getVariable ["realname",name _x],_type];
+        _units lbAdd format ["%1",_x getVariable ["realname",name _x]];
         _units lbSetData [(lbSize _units)-1,str(_x)];
     };
 } forEach playableUnits;

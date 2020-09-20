@@ -8,14 +8,14 @@
 */
 private "_item";
 #include "..\..\The-Programmer\Craft\scripts\useItemSelect.sqf"
-#include "..\..\The-Programmer\SpeedCam\scripts\useItemSelect.sqf"
 #include "..\..\The-Programmer\EffetsEcran\scripts\useItemSelect.sqf"
 disableSerialization;
 if ((lbCurSel 2005) isEqualTo -1) exitWith {hint localize "STR_ISTR_SelectItemFirst";};
 _item = CONTROL_DATA(2005);
+#include "..\..\The-Programmer\SpeedCam\scripts\useItemSelect.sqf"
 
 switch (true) do {
-    case (_item in ["waterBottle","coffee","redgull"]): {
+    case (_item in ["waterBottle","coffee","redgull", "coca", "fanta", "coffee", "cappuccino", "glace", "pepsi", "orangina"]): {
         if ([false,_item,1] call life_fnc_handleInv) then {
             life_thirst = 100;
             if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1) then {player setFatigue 0;};
@@ -80,7 +80,7 @@ switch (true) do {
         closeDialog 0;
     };
 
-    case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
+    case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach", "donuts", "salade", "hamburger", "frites", "tacos", "bucket", "bucket2"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
             if ([false,_item,1] call life_fnc_handleInv) then {
                 _val = M_CONFIG(getNumber,"VirtualItems",_item,"edible");

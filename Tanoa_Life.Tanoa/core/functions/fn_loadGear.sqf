@@ -46,7 +46,9 @@ _itemArray params [
     ["_vMags",[]],
     ["_pItems",[]],
     ["_hItems",[]],
-    ["_yItems",[]]
+    ["_yItems",[]],
+    ["_launcher",""],
+    ["_sItems",[]]
 ];
 
 if (!(_goggles isEqualTo "")) then {_handle = [_goggles,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
@@ -89,5 +91,11 @@ if (!(_seco isEqualTo "")) then {_handle = [_seco,true,false,false,false] spawn 
         player addHandgunItem _x;
     };
 } forEach (_hItems);
+
+{
+    if (!(_x isEqualTo "")) then {
+        player addSecondaryWeaponItem _x;
+    };
+} forEach (_sItems);
 
 [] call life_fnc_playerSkins;

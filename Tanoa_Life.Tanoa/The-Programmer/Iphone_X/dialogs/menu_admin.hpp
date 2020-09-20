@@ -133,6 +133,16 @@ class the_programmer_admin_menu {
            w = 0.061875 * safezoneW;
            h = 0.022 * safezoneH;
        };
+       class RscButtonMenu_LoadGear : Life_RscButtonInvisibleIphone
+       {
+           idc = -1;
+           text = "LoadGear";
+           onbuttonclick = "[] call life_fnc_adminLoadGear;";
+           x = 0.643645333333333 * safezoneW + safezoneX;
+           y = 0.671515240904621 * safezoneH + safezoneY;
+           w = 0.061875 * safezoneW;
+           h = 0.022 * safezoneH;
+       };
        class PlayerList_Admin : Life_RscListBox
        {
            idc = 2902;

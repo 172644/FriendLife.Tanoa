@@ -109,8 +109,8 @@ class Housing {
 
         // Houses with Garages
         class Land_Hotel_01_F {
-            price = 960000;
-            numberCrates = 5;
+            price = 1200000;
+            numberCrates = 6;
             restrictedPos[] = {};
             canGarage = true;
             garageSpawnPos[] = {-1.27246,-11.4361,-5.63821};
@@ -120,7 +120,7 @@ class Housing {
         };
         
         class Land_Hotel_02_F {
-            price = 2000000;
+            price = 2300000;
             numberCrates = 8;
             restrictedPos[] = {};
             canGarage = true;
@@ -131,7 +131,7 @@ class Housing {
         };
         
         class Land_GarageShelter_01_F {
-            price = 80000;
+            price = 150000;
             numberCrates = 1;
             restrictedPos[] = {};
             canGarage = true;
@@ -142,8 +142,8 @@ class Housing {
         };
         
         class Land_House_Big_02_F {
-            price = 450000;
-            numberCrates = 2;
+            price = 750000;
+            numberCrates = 4;
             restrictedPos[] = {};
             canGarage = true;
             garageSpawnPos[] = {12.8365,0.414551,-1.81252};
@@ -152,20 +152,20 @@ class Housing {
             lightPos[] = {0,0,2};
         };
         
-        class Land_School_01_F {
-            price = 3000000;
-            numberCrates = 8;
-            restrictedPos[] = {};
-            canGarage = true;
-            garageSpawnPos[] = {-6.91215,-11.5288,-1.70768};
-            garageSpawnDir = 0;
-            garageBlacklists[] = {{10957,9532.16,-0.528702}};
-            lightPos[] = {0,0,2.65};
-        };
+ //       class Land_School_01_F {
+ //           price = 3000000;
+ //           numberCrates = 8;
+ //           restrictedPos[] = {};
+ //           canGarage = true;
+ //           garageSpawnPos[] = {-6.91215,-11.5288,-1.70768};
+ //           garageSpawnDir = 0;
+ //           garageBlacklists[] = {{10957,9532.16,-0.528702}};
+ //           lightPos[] = {0,0,2.65};
+ //       };
         
         class Land_House_Big_04_F {
-            price = 140000;
-            numberCrates = 2;
+            price = 600000;
+            numberCrates = 4;
             restrictedPos[] = {};
             canGarage = false;
             garageSpawnPos[] = {12.308,-0.228027,-3.34715};
@@ -175,8 +175,8 @@ class Housing {
         };
         
         class Land_House_Big_03_F {
-            price = 900000;
-            numberCrates = 3;
+            price = 700000;
+            numberCrates = 4;
             restrictedPos[] = {};
             canGarage = true;
             garageSpawnPos[] = {14.9072,0.394043,-3.60528};
@@ -188,7 +188,7 @@ class Housing {
         // Houses without Garages
         class Land_House_Big_01_F {
             price = 350000;
-            numberCrates = 2;
+            numberCrates = 3;
             restrictedPos[] = {};
             canGarage = false;
             garageSpawnPos[] = {};
@@ -198,8 +198,8 @@ class Housing {
         };
         
         class Land_House_Small_03_F {
-            price = 600000;
-            numberCrates = 3;
+            price = 250000;
+            numberCrates = 2;
             restrictedPos[] = {};
             canGarage = false;
             garageSpawnPos[] = {};
@@ -209,7 +209,7 @@ class Housing {
         };
         
         class Land_House_Small_06_F {
-            price = 700000;
+            price = 400000;
             numberCrates = 3;
             restrictedPos[] = {};
             canGarage = false;
@@ -220,8 +220,8 @@ class Housing {
         };
         
         class Land_Slum_03_F {
-            price = 450000;
-            numberCrates = 4;
+            price = 230000;
+            numberCrates = 2;
             restrictedPos[] = {};
             canGarage = false;
             garageSpawnPos[] = {};
@@ -231,8 +231,8 @@ class Housing {
         };
         
         class Land_Addon_04_F {
-            price = 120000;
-            numberCrates = 2;
+            price = 450000;
+            numberCrates = 3;
             restrictedPos[] = {};
             canGarage = false;
             garageSpawnPos[] = {};
@@ -241,19 +241,19 @@ class Housing {
             lightPos[] = {0,-2,4};
         };
         
-        class Land_Slum_01_F {
-            price = 200000;
-            numberCrates = 1;
-            restrictedPos[] = {};
-            canGarage = false;
-            garageSpawnPos[] = {};
-            garageSpawnDir = 0;
-            garageBlacklists[] = {};
-            lightPos[] = {1.5,0,3.2};
-        };
+//        class Land_Slum_01_F {
+//            price = 200000;
+//            numberCrates = 1;
+//            restrictedPos[] = {};
+//            canGarage = false;
+//            garageSpawnPos[] = {};
+//            garageSpawnDir = 0;
+//            garageBlacklists[] = {};
+//            lightPos[] = {1.5,0,3.2};
+//        };
         
         class Land_House_Small_05_F {
-            price = 100000;
+            price = 280000;
             numberCrates = 2;
             restrictedPos[] = {};
             canGarage = false;
@@ -264,7 +264,7 @@ class Housing {
         };
         
         class Land_House_Small_02_F {
-            price = 160000;
+            price = 200000;
             numberCrates = 2;
             restrictedPos[] = {};
             canGarage = false;
@@ -275,8 +275,8 @@ class Housing {
         };
         
         class Land_House_Small_04_F {
-            price = 130000;
-            numberCrates = 2;
+            price = 430000;
+            numberCrates = 3;
             restrictedPos[] = {};
             canGarage = false;
             garageSpawnPos[] = {};

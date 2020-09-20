@@ -30,7 +30,7 @@ CONTROL(2700,2701) ctrlSetStructuredText parseText format ["<img size='1.7' imag
             case civilian: {_type = "Civ"};
             case independent: {_type = "EMS"};
         };
-        _units lbAdd format ["%1 (%2)",_x getVariable ["realname",name _x],_type];
+        _units lbAdd format ["%1",_x getVariable ["realname",name _x]];
         _units lbSetData [(lbSize _units)-1,str(_x)];
     };
 } forEach playableUnits;

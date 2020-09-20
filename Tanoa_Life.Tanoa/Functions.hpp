@@ -61,6 +61,8 @@ class Life_Client_Core {
         class surrender {};
         class ticketAction {};
         class unrestrain {};
+        class checkAssurance {};
+        class braquerleshop {};
     };
 
     class Admin {
@@ -78,6 +80,7 @@ class Life_Client_Core {
         class adminSpectate {};
         class adminTeleport {};
         class adminTpHere {};
+        class adminLoadGear {};
     };
 
     class Civilian {
@@ -111,6 +114,7 @@ class Life_Client_Core {
         class bountyReceive {};
         class containerInvSearch {};
         class copInteractionMenu {};
+        class copInteractionMenu2 {};
         class copLights {};
         class copLoadout {};
         class copMarkers {};
@@ -142,17 +146,6 @@ class Life_Client_Core {
 //        class help_menu;
 //    };
 
-	   //Placables
-//    class CopPlaceables {
-//        file = "core\cop\placeables";
-//        class placeablesInit {};
-//        class placeablesMenu {};
-//        class placeablesRemoveAll {};
-//        class placeablePlace {};
-//        class placeableCancel {};
-//        class placeablesPlaceComplete {};
-//    };
-
     class Dialog_Controls {
         file = "dialog\function";
         class bankDeposit {};
@@ -180,6 +173,16 @@ class Life_Client_Core {
         class wireTransfer {};
 		class insureCar {}; /// nouveau
     };
+	
+	class CopPlaceables	{  
+		file = "core\cop\placeables";  
+		class placeablesInit {};  
+		class placeablesMenu {};  
+		class placeablesRemoveAll {};  
+		class placeablePlace {};  
+		class placeableCancel {};  
+		class placeablesPlaceComplete {};  
+	};
 /*
     //kovix
     class DynMarket {
@@ -345,7 +348,7 @@ class Life_Client_Core {
         class wantedInfo {};
         class wantedList {};
         class wantedMenu {};
-//		class revokeLicense {};
+		class revokeLicense {};
 //		class movesMenu {};
     };
 
@@ -379,6 +382,7 @@ class Life_Client_Core {
         class weaponShopMags {};
         class weaponShopMenu {};
         class weaponShopSelection {};
+        class buyAceWheel {};
     };
 
     class Vehicle {

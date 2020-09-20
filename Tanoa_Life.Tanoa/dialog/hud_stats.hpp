@@ -9,6 +9,7 @@
 #define IDC_LIFE_BAR_WATER 2201
 #define IDC_LIFE_BAR_WATER_RING 3201
 #define IDC_LIFE_BAR_HEALTH 2202
+#define IDC_LIFE_BAR_InfoID 2203
 #define IDC_LIFE_BAR_HEALTH_RING 3202
 //#define IDC_LIFE_BAR_POOP 4202
 #define IDC_LIFE_BAR_Speaker 3007
@@ -24,14 +25,25 @@ class playerHUD {
 	name = "playerHUD";
 	onLoad = "uiNamespace setVariable ['playerHUD',_this select 0]";
 	objects[] = {};
-		controls[] = {
+	controls[] = {
 		LIFE_BAR_FOOD_RING,
 		LIFE_BAR_WATER_RING,
 		LIFE_BAR_HEALTH_RING,
 		LIFE_BAR_Speaker,
-		LIFE_BAR_SeatBelt
+		LIFE_BAR_SeatBelt,
+		LIFE_BAR_InfoID
 	};
 
+		class LIFE_BAR_InfoID: Life_RscText
+		{
+			idc = IDC_LIFE_BAR_InfoID;
+			text = "";
+			//style = ST_CENTER;
+			x = 0.005 * safezoneW + safezoneX;
+			y = 0.97 * safezoneH + safezoneY;
+			w = 0.1 * safezoneW;
+			h = 0.025 * safezoneH;
+		};
 		class LIFE_BAR_SeatBelt: Life_RscPicture
 		{
 			idc = IDC_LIFE_BAR_SeatBelt;

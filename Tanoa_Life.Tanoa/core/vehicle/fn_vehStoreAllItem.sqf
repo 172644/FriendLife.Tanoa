@@ -21,6 +21,16 @@ if(DarfEinzahlen) then {
 disableSerialization;
 
 _ctrl = ctrlSelData(3503);
+
+_oilTransportVeh = ["chciternvol_total", "C_Van_01_fuel_F"];
+_oilRessources = ["oil_processed", "oil_unprocessed"];
+_vehBlacklistForIllegal = ["midlum_p2", "V12_STRALIS21", "Renault_Range_T", "d3s_actros_14_giga", "master3p2_civ_car", "ch_sprinter_civ"];
+_illegaleRessource = ["cocaine_processed", "cocaine_unprocessed", "heroin_processed", "heroin_unprocessed", "marijuana", "cannabis"];
+
+if ((_ctrl in _oilRessources) && (!((typeOf life_trunk_vehicle ) in _oilTransportVeh))) exitWith {hint "Vous ne pouvez pas stocker cet objet dans ce véhicule !";};
+if ((!(_ctrl in _oilRessources)) && ((typeOf life_trunk_vehicle ) in _oilTransportVeh)) exitWith {hint "Vous ne pouvez pas stocker autre chose que du pétrole dans ce véhicule !";};
+if ((_ctrl in _illegaleRessource) && ((typeOf life_trunk_vehicle) in _vehBlacklistForIllegal)) exitWith {hint "Vous ne pouvez pas stocker cet objet dans ce véhicule !";};
+
 if ((lbCurSel ((findDisplay 3500) displayCtrl 3503)) isEqualTo -1)exitWith {["Du musst zuerst etwas auswählen.",true,"fast","orange","Error"]spawn Life_fnc_msg;};
 if(Life_trunk_vehicle isKindOf "House_F") then {
 	_mWeight = 0;

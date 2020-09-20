@@ -21,7 +21,8 @@ if (isNull _ui) then {
     _ui = uiNamespace getVariable ["Life_HUD_nameTags",displayNull];
 };
 
-_units = nearestObjects[(visiblePosition player),["Man","Land_Pallet_MilBoxes_F","Land_Sink_F"],50];
+_nameObj = ["Land_Pallet_MilBoxes_F","Land_Sink_F","V12_BORNE","Land_Key_01_F", "jack_sac_invi", "Land_Decal_roads_oil_stan_03_F", "tas_table_dir_1"];
+_units = nearestObjects[(visiblePosition player),["Man","Land_Pallet_MilBoxes_F","Land_Sink_F","V12_BORNE","Land_Key_01_F", "jack_sac_invi", "Land_Decal_roads_oil_stan_03_F", "tas_table_dir_1"],50];
 _units = _units - [player];
 
 _masks = LIFE_SETTINGS(getArray,"clothing_masks");
@@ -34,6 +35,8 @@ private _index = -1;
         _pos = switch (typeOf _x) do {
             case "Land_Pallet_MilBoxes_F": {[visiblePosition _x select 0, visiblePosition _x select 1, (getPosATL _x select 2) + 1.5]};
             case "Land_Sink_F": {[visiblePosition _x select 0, visiblePosition _x select 1, (getPosATL _x select 2) + 2]};
+            case "V12_BORNE": {[(visiblePosition _x select 0) + 0.2, (visiblePosition _x select 1) + 0.7, (getPosATL _x select 2) + 1.5]};
+            case "tas_table_dir_1": {[(visiblePosition _x select 0), (visiblePosition _x select 1), (getPosATL _x select 2) + 1]};
             default {[visiblePosition _x select 0, visiblePosition _x select 1, ((_x modelToWorld (_x selectionPosition "head")) select 2)+.5]};
         };
         _sPos = worldToScreen _pos;
@@ -42,8 +45,8 @@ private _index = -1;
         if (!((headgear _x) in _masks || (goggles _x) in _masks || (uniform _x) in _masks)) then {
             if (count _sPos > 1 && {_distance < 15}) then {
                 _text = switch (true) do {
-                    case (_x in (units group player) && playerSide isEqualTo civilian): {format ["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
-                    case (side _x isEqualTo west && {!isNil {_x getVariable "rank"}}): {format ["<img image='%1' size='1'></img> %2",switch ((_x getVariable "rank")) do {
+                    case (_x in (units group player) && playerSide isEqualTo civilian): {format ["<t color='#00FF00'>%1</t>",(_x getVariable ["RP_ID",name _x])];};
+                    /*case (side _x isEqualTo west && {!isNil {_x getVariable "rank"}}): {format ["<img image='%1' size='1'></img> %2",switch ((_x getVariable "rank")) do {
                         case 2: {"\a3\ui_f\data\gui\cfg\Ranks\corporal_gs.paa"};
                         case 3: {"\a3\ui_f\data\gui\cfg\Ranks\sergeant_gs.paa"};
                         case 4: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
@@ -52,25 +55,26 @@ private _index = -1;
                         case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
                         case 8: {"\a3\ui_f\data\gui\cfg\Ranks\general_gs.paa"};
                         default {"\a3\ui_f\data\gui\cfg\Ranks\private_gs.paa"};
-                        },_x getVariable ["realname",name _x]]};
-                    case (side _x isEqualTo independent): {format ["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x getVariable ["realname",name _x]]};
+                        },_x getVariable ["RP_ID",name _x]]};
+                    case (side _x isEqualTo independent): {format ["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x getVariable ["RP_ID",name _x]]};*/
+					case (typeOf _x in _nameObj): {format ["<t color='#4D90A8'>%1</t>",(_x getVariable ["realname",name _x])];}; 
                     default {
-                        if (!isNil {(group _x) getVariable "gang_name"}) then {
-                            format ["%1<br/><t size='0.8' color='#B6B6B6'>%2</t>",_x getVariable ["realname",name _x],(group _x) getVariable ["gang_name",""]];
-                        } else {
-                            if (alive _x) then {
-                                _x getVariable ["realname",name _x];
-                            } else {
-                                if (!isPlayer _x) then {
-                                    _x getVariable ["realname","ERROR"];
-                                };
-                            };
-                        };
+						if (alive _x) then {
+                            format ["<t size='0.8' color='#B6B6B6'>%1</t>",_x getVariable ["RP_ID",name _x]];
+						} else {
+							if (!isPlayer _x) then {
+								format ["<t size='0.8' color='#B6B6B6'>%1</t>",_x getVariable ["RP_ID",name _x]];
+							};
+						};
                     };
                 };
 
                 _idc ctrlSetStructuredText parseText _text;
-                _idc ctrlSetPosition [_sPos select 0, _sPos select 1, 0.4, 0.65];
+				if(typeOf _x in _nameObj) then {
+					_idc ctrlSetPosition [(_sPos select 0) - 0.08, _sPos select 1, 0.4, 0.65];
+				} else {
+					_idc ctrlSetPosition [_sPos select 0, _sPos select 1, 0.4, 0.65];
+				};
                 _idc ctrlSetScale scale;
                 _idc ctrlSetFade 0;
                 _idc ctrlCommit 0;

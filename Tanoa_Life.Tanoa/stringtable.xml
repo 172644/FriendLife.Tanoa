@@ -19,9 +19,25 @@
         </Key>
     </Package>
     <Package name="Shop_Names">
+        <Key ID="STR_BuyAceWheel">
+            <Original>Order a wheel</Original>
+            <French>Commander une roue</French>
+        </Key>
         <Key ID="STR_Shops_C_Bruce">
             <Original>Bruce's Outback Outfits</Original>
             <French>Vêtements de Bruce</French>
+        </Key>
+        <Key ID="STR_Shops_C_Copcivil">
+            <Original>Civilian Clothes</Original>
+            <French>Vêtements Civils</French>
+        </Key>
+        <Key ID="STR_MAR_EMS_Clothing_Shop ">
+            <Original>Fireman Clothes</Original>
+            <French>Vêtements Pompiers</French>
+        </Key>
+        <Key ID="STR_MAR_SAMU_Clothing_Shop">
+            <Original>SAMU Clothes</Original>
+            <French>Vêtements SAMU</French>
         </Key>
         <Key ID="STR_Shops_C_Police">
             <Original>Altis Police Department Shop</Original>
@@ -44,8 +60,24 @@
             <French>Armurerie de Billy Joe</French>
         </Key>
         <Key ID="STR_Shops_C_Kart">
-            <Original>Bobby's Kart-Racing Outfits</Original>
-            <French>Vêtements de kart</French>
+            <Original>Bobby's Pilot Outfits</Original>
+            <French>Vêtements de Pilote</French>
+        </Key>
+        <Key ID="STR_Holdup">
+            <Original>Rob the seller</Original>
+            <French>Braquer le vendeur</French>
+        </Key>
+        <Key ID="STR_Shops_Memphis">
+            <Original>Make my order</Original>
+            <French>Faire ma commande</French>
+        </Key>
+        <Key ID="STR_Shops_Kfc">
+            <Original>Make my order</Original>
+            <French>Faire ma commande</French>
+        </Key>
+        <Key ID="STR_Shops_KFC">
+            <Original>Make my order</Original>
+            <French>Faire ma commande</French>
         </Key>
         <Key ID="STR_Shops_Market">
             <Original>Altis Market</Original>
@@ -2323,6 +2355,54 @@
         </Key>
     </Package>
     <Package name="Life_Items">
+        <Key ID="STR_Item_Hamburger">
+            <Original>Hamburger</Original>
+            <French>Hamburger</French>
+        </Key>
+        <Key ID="STR_Item_Frites">
+            <Original>French Fries</Original>
+            <French>Frites</French>
+        </Key>
+        <Key ID="STR_Item_Coca">
+            <Original>CocaCola</Original>
+            <French>CocaCola</French>
+        </Key>
+        <Key ID="STR_Item_Pepsi">
+            <Original>Pepsi</Original>
+            <French>Pepsi</French>
+        </Key>
+        <Key ID="STR_Item_Orangina">
+            <Original>Orangina</Original>
+            <French>Orangina</French>
+        </Key>
+        <Key ID="STR_Item_Glace">
+            <Original>Ice cream</Original>
+            <French>Glace</French>
+        </Key>
+        <Key ID="STR_Item_Fanta">
+            <Original>Fanta</Original>
+            <French>Fanta</French>
+        </Key>
+        <Key ID="STR_Item_Menu_Tacos">
+            <Original>Tacos</Original>
+            <French>Tacos</French>
+        </Key>
+        <Key ID="STR_Item_Bucket">
+            <Original>Bucket</Original>
+            <French>Bucket</French>
+        </Key>
+        <Key ID="STR_Item_Bucket2">
+            <Original>Bucket2</Original>
+            <French>Bucket2</French>
+        </Key>
+        <Key ID="STR_Item_Salade">
+            <Original>Vegetarian salad</Original>
+            <French>Salade Végétarienne</French>
+        </Key>
+        <Key ID="STR_Item_Cappuccino">
+            <Original>Cappuccino</Original>
+            <French>Cappuccino</French>
+        </Key>
         <Key ID="STR_Item_Cannabis">
             <Original>Marijuana leaf</Original>
             <French>Cannabis</French>
@@ -4591,7 +4671,7 @@
             <French>%1 - %2 a déposé $%3 dans son compte. Argent en banque : $%4 Cash : $%5</French>
         </Key>
         <Key ID="STR_DL_ML_ClotheBuy">
-            <Original>{'player':'%1','uid':%2,'action':{'type':'bought', 'item':'Cloth', 'clothes':'%3', 'price':'%4', 'cost':'%5'},'money':{'bank':'%6','cash':'%7'},'_player':0,'KEY':'JSON_LOG'}</Original>
+            <Original>{'player':'%1','uid':%2,'action':{'type':'bought', 'item':'Cloth', 'shop':'%3', 'clothes':'%4', 'price':'%5', 'cost':'%6'},'money':{'bank':'%7','cash':'%8'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="STR_DL_ML_WeaponBuy">
             <Original>{'player':'%1','uid':%2,'action':{'type':'bought', 'item':'Weapon', 'weapon':'%3', 'price':'%4', 'cost':'%5'},'money':{'bank':'%6','cash':'%7'},'_player':0,'KEY':'JSON_LOG'}</Original>

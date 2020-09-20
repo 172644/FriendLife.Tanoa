@@ -34,7 +34,7 @@ class The_programmer_Duty_Config {
         east_side = false; //If you have the east side on your server = true 
         name_of_column_for_adac_level = "adaclevel"; //The name of the column in your database for the adac level
 
-        adaclevel_required = 20; //Minimum Adaclevel level to take up duty
+        adaclevel_required = 1; //Minimum Adaclevel level to take up duty
         licence_required_adac[] = {""}; //All licenses that allows you to take up duty
 
         Adaclevel_required_to_acces_beeper = 20;//Minimum AdacLevel level to open the beeper

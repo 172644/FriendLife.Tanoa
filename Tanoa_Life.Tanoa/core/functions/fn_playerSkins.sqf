@@ -60,9 +60,9 @@ switch (playerSide) do {
 			
             player setObjectTextureGlobal [0, _skinName];
         };
-		if ((backpack player) == "B_Carryall_cbr") then {
-			   (unitbackpack player) setObjectTextureGlobal [0,""];
-		};
+		//if ((backpack player) == "B_Carryall_cbr") then {
+		//	   (unitbackpack player) setObjectTextureGlobal [0,""];
+		//};
     };
 
     case independent: {
@@ -71,10 +71,7 @@ switch (playerSide) do {
         };
     };
 };
-(unitbackpack player) setObjectTextureGlobal [0,""];
-
-
-if ((backpack player) == "V_HarnessO_brn") then {
+if ((backpack player) == "B_Bergen_tna_f" || (backpack player) == "B_Bergen_dgtl_f") then {
 	(unitbackpack player) setObjectTextureGlobal [0,""];
 };
 
@@ -99,3 +96,4 @@ if (FETCH_CONST(life_adminlevel) >= 1 && uniform player isEqualTo "U_O_V_Soldier
 if (FETCH_CONST(life_adminlevel) >= 1 && headGear player isEqualTo "H_HelmetO_ViperSP_hex_F") then {
 	//headGear setObjectTexture [0, "#(rgb,8,8,3)color(0,0,0,1)"];
 };//*/
+[] call life_fnc_hudUpdate;

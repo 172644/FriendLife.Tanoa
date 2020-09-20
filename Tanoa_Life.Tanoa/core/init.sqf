@@ -118,6 +118,8 @@ LIFE_ID_RevealObjects = ["LIFE_RevealObjects","onEachFrame","life_fnc_revealObje
 
 player setVariable ["steam64ID",getPlayerUID player];
 player setVariable ["realname",profileName,true];
+player setVariable ["RP_ID",random 99999,true]; 
+//player setVariable ["realname",format ["%1", random 99999],true]; 
 
 life_fnc_moveIn = compileFinal
 "
@@ -157,11 +159,13 @@ if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 0) then {player enableFa
 
 } forEach getArray (missionConfigFile >> "disableChannels");
 
+[] call life_fnc_playerSkins;
+/*
 if (life_HC_isActive) then {
     [getPlayerUID player,player getVariable ["realname",name player]] remoteExec ["HC_fnc_wantedProfUpdate",HC_Life];
 } else {
     [getPlayerUID player,player getVariable ["realname",name player]] remoteExec ["life_fnc_wantedProfUpdate",RSERV];
-};
+};//*/
 
 life_hideoutBuildings = [];
 {
@@ -245,3 +249,23 @@ diag_log "----------------------------------------------------------------------
         sleep _sleep;
     };  
 };
+
+
+// down weapon when exit veh
+player addEventHandler ["GetOutMan", {
+    if (!(currentWeapon player isEqualTo "")) then {
+        player action ["SwitchWeapon", player, player, 100];
+    }
+}];
+
+
+
+
+// switch anim sit
+MAC_fnc_switchMove = {
+    private["_object","_anim"];
+    _object = _this select 0;
+    _anim = _this select 1;
+    _object switchMove _anim;
+};
+

@@ -308,5 +308,12 @@ if ((life_clothing_purchase select 4) isEqualTo -1) then {
     };
 };
 
+if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),_shop,life_clothing_purchase,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+} else {
+	advanced_log = format [localize "STR_DL_ML_ClotheBuy",profileName,(getPlayerUID player),_shop,life_clothing_purchase,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+};
+publicVariableServer "advanced_log";
+
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 [] call life_fnc_saveGear;

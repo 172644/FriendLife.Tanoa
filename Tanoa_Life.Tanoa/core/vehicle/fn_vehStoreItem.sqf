@@ -14,7 +14,18 @@ private ["_ctrl","_num","_totalWeight","_itemWeight","_veh_data","_inv","_index"
 disableSerialization;
 if ((life_trunk_vehicle getVariable ["trunk_in_use_by",player]) != player) exitWith { closeDialog 0; hint localize "STR_MISC_VehInvUse"; };
 
+
 _ctrl = ctrlSelData(3503);
+
+_oilTransportVeh = ["chciternvol_total", "C_Van_01_fuel_F"];
+_oilRessources = ["oil_processed", "oil_unprocessed"];
+_vehBlacklistForIllegal = ["midlum_p2", "V12_STRALIS21", "Renault_Range_T", "d3s_actros_14_giga", "master3p2_civ_car", "ch_sprinter_civ"];
+_illegaleRessource = ["cocaine_processed", "cocaine_unprocessed", "heroin_processed", "heroin_unprocessed", "marijuana", "cannabis"];
+
+if ((_ctrl in _oilRessources) && (!((typeOf life_trunk_vehicle ) in _oilTransportVeh))) exitWith {hint "Vous ne pouvez pas stocker cet objet dans ce véhicule !";};
+if ((!(_ctrl in _oilRessources)) && ((typeOf life_trunk_vehicle ) in _oilTransportVeh)) exitWith {hint "Vous ne pouvez pas stocker autre chose que du pétrole dans ce véhicule !";};
+if ((_ctrl in _illegaleRessource) && ((typeOf life_trunk_vehicle) in _vehBlacklistForIllegal)) exitWith {hint "Vous ne pouvez pas stocker cet objet dans ce véhicule !";};
+
 _num = ctrlText 3506;
 if (!([_num] call TON_fnc_isnumber)) exitWith {hint localize "STR_MISC_WrongNumFormat";};
 _num = parseNumber(_num);

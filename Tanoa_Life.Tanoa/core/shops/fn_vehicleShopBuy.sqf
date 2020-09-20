@@ -56,7 +56,9 @@ if !([_conditions] call life_fnc_levelCheck) exitWith {hint localize "STR_Shop_V
 private _colorIndex = lbValue[2304,(lbCurSel 2304)];
 
 if (_purchasePrice < 0) exitWith {closeDialog 0;}; //Bad price entry
-if (CASH < _purchasePrice) exitWith {hint format [localize "STR_Shop_Veh_NotEnough",[_purchasePrice - CASH] call life_fnc_numberText];closeDialog 0;};
+systemchat str(CASH);
+systemchat str(BANK);
+if ((CASH < _purchasePrice) && (BANK < _purchasePrice)) exitWith {hint format [localize "STR_Shop_Veh_NotEnough",[_purchasePrice - CASH] call life_fnc_numberText];closeDialog 0;};
 
 private _spawnPoints = life_veh_shop select 1;
 private _spawnPoint = "";
@@ -78,7 +80,11 @@ if ((life_veh_shop select 0) == "med_air_hs") then {
 
 
 if (_spawnPoint isEqualTo "") exitWith {hint localize "STR_Shop_Veh_Block"; closeDialog 0;};
-CASH = CASH - _purchasePrice;
+if (CASH < _purchasePrice) then {
+    BANK = BANK - _purchasePrice;
+} else {
+    CASH = CASH - _purchasePrice;
+};
 [0] call SOCK_fnc_updatePartial;
 hint format [localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_purchasePrice] call life_fnc_numberText];
 

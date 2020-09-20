@@ -91,7 +91,19 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
 		};
 		publicVariableServer "advanced_log";
 		
-        [_item,true] call life_fnc_handleItem;
+		
+		if (_itemInfo select 0 == "ACE_Wheel") then {
+			_spawnedWheel = false;
+			_posSpawn = nearestObjects[position player,["VR_Area_01_square_1x1_grey_F"],15];
+			{
+				if(!_spawnedWheel) then {
+					createVehicle ["ACE_Wheel", [(visiblePosition _x select 0), (visiblePosition _x select 1), (getPosATL _x select 2) + 0.15], [], 0, "CAN_COLLIDE"];
+					_spawnedWheel = true;
+				};
+			} forEach _posSpawn;
+		} else {
+            [_item,true] call life_fnc_handleItem;
+        };
     };
 };
 [0] call SOCK_fnc_updatePartial;

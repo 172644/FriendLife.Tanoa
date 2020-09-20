@@ -18,6 +18,7 @@ _unit setVariable ["transporting",false,true];
 _unit setVariable ["playerSurrender",false,true];
 _unit setVariable ["steam64id",getPlayerUID player,true]; //Reset the UID.
 _unit setVariable ["realname",profileName,true]; //Reset the players name.
+_unit setVariable ["RP_ID", random 99999,true]; //Reset the players name.
 
 _unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.
 player playMoveNow "AmovPpneMstpSrasWrflDnon";

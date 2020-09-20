@@ -12,8 +12,9 @@
 #define Btn4 37453
 #define Btn5 37454
 #define Btn6 37455
+#define Btn7 37456
 #define Title 37401
-private ["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_id"];
+private ["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7","_id"];
 if (!dialog) then {
     createDialog "vInteraction_Menu";
 };
@@ -31,12 +32,15 @@ _Btn3 = _display displayCtrl Btn3;
 _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
+_Btn7 = _display displayCtrl Btn7;
 life_vInact_curTarget = _curTarget;
 _id = getObjectDLC _curTarget;
 
 //Set Repair Action
 _Btn1 ctrlSetText localize "STR_vInAct_Repair";
 _Btn1 buttonSetAction "[cursorObject] spawn TheProgrammer_fnc_RepairSwitch;";
+
+
 
 _fnCountDepanneurs = {
     _count = 0;
@@ -68,6 +72,10 @@ if (playerSide isEqualTo west) then {
     _Btn5 ctrlSetText localize "STR_vInAct_Impound";
     _Btn5 buttonSetAction "[life_vInact_curTarget] spawn max_fourriere_fnc_impoundAction; closeDialog 0;";
 
+     // Revoke Licenses
+    _Btn9 ctrlSetText localize "STR_pInAct_RevokeLicense";
+    _Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
+
     if (_curTarget isKindOf "Ship") then {
         _Btn6 ctrlSetText localize "STR_vInAct_PushBoat";
         _Btn6 buttonSetAction "[] spawn life_fnc_pushObject; closeDialog 0;";
@@ -85,6 +93,9 @@ if (playerSide isEqualTo west) then {
             if (alive _curTarget && {crew _curTarget isEqualTo []} && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
         };
     };
+	
+    _Btn7 ctrlSetText "Vérifier Assurance";
+    _Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_checkAssurance; closeDialog 0;";
 
 } else {
 
@@ -141,4 +152,5 @@ if (playerSide isEqualTo west) then {
     _Btn4 ctrlShow false;
     _Btn5 ctrlShow false;
     _Btn6 ctrlShow false;
+    _Btn7 ctrlShow false;
 };

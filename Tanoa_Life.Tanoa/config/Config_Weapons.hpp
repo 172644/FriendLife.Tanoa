@@ -51,20 +51,11 @@ class WeaponShops {
         side = "civ";
         conditions = "license_civ_rebel";
         items[] = {
-			
-			////////////////////////////////////////////////////////
-			// A SUPPRIMER :
-            { "srifle_DMR_01_ACO_F", "", 0, 0, "" },
-            { "srifle_EBR_ARCO_pointer_snds_F", "", 0, 0, "" },
-			////////////////////////////////////////////////////////
-			
-			
-			
-            { "arifle_TRG20_F", "", 25000, 12500, "" },
-            { "arifle_Katiba_F", "", 30000, 15000, "" },
-            { "srifle_DMR_01_F", "", 50000, 25000, "" },
-            { "arifle_SDAR_F", "", 20000, 10000, "" },
-            { "arifle_AK12_F", "", 22000, 11000, "" }, //Apex DLC
+			{ "ACE_CableTie", "", 0, 0, "" },			
+            { "arifle_TRG20_F", "", 25000, 12500, "" }, //CTAR 21
+            { "arifle_Katiba_F", "", 30000, 15000, "" }, //KH2002 SAMA
+            { "srifle_DMR_01_F", "", 50000, 25000, "" }, // VS 121
+            { "arifle_SDAR_F", "", 20000, 10000, "" }, // RFB SDAR
             { "arifle_AKS_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
@@ -72,16 +63,7 @@ class WeaponShops {
             { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
         };
         mags[] = {
-			
-			////////////////////////////////////////////////////////
-			// A SUPPRIMER :
-            { "10Rnd_762x54_Mag", "", 300, 150, "" },
-            { "20Rnd_762x51_Mag", "", 300, 150, "" },
-			////////////////////////////////////////////////////////
-			
-			
-			
-            { "30Rnd_556x45_Stanag", "", 300, 150, "" },
+			{ "30Rnd_556x45_Stanag", "", 300, 150, "" },
             { "30Rnd_762x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_545x39_Mag_F", "", 300, 150, "" }, //Apex DLC
             { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
@@ -90,19 +72,7 @@ class WeaponShops {
             { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
         };
         accs[] = {
-			
-			////////////////////////////////////////////////////////
-			// A SUPPRIMER :
-            { "optic_ACO_grn", "", 0, 0, "" },
-            { "optic_Arco", "", 0, 0, "" },
-            { "acc_pointer_IR", "", 0, 0, "" },
-            { "muzzle_snds_B", "", 0, 0, "" },
-			////////////////////////////////////////////////////////
-			
-			
-			
-			
-            { "optic_ACO_grn", "", 3500, 1750, "" },
+			{ "optic_ACO_grn", "", 3500, 1750, "" },
             { "optic_Holosight", "", 3600, 1800, "" },
             { "optic_Hamr", "", 7500, 3750, "" },
             { "acc_flashlight", "", 1000, 500, "" }
@@ -136,17 +106,18 @@ class WeaponShops {
         side = "civ";
         conditions = "";
         items[] = {
-            { "ACE_EarPlugs", "", 50, 25, "" },
-			{ "Binocular", "", 150, 75, "" },
-            { "ItemGPS", "", 100, 50, "" },
-            { "ItemMap", "", 50, 25, "" },
-            { "ItemCompass", "", 50, 25, "" },
-            { "ItemWatch", "", 50, 25, "" },
-            { "ACE_fieldDressing", "", 25, 15, "" },
-            { "NVGoggles", "", 2000, 1000, "" },
-			{ "Itemradio", "", 500, 250, "" },
-            { "axe", "", 300, 150, "" },
-            { "pickaxe", "", 300, 150, "" }
+            { "ACE_EarPlugs", "", 50, -1, "" },
+			{ "Binocular", "", 100, -1, "" },
+            { "ItemGPS", "", 100, -1, "" },
+            { "ItemMap", "", 50, -1, "" },
+            { "ItemCompass", "", 50, -1 "" },
+            { "ItemWatch", "", 50, -1, "" },
+            { "ACE_fieldDressing", "", 25, -1, "" },
+			{ "ToolKit", "", 350, -1, "" },
+			{ "Itemradio", "", 500, -1, "" },
+            { "NVGoggles", "", 2000, -1, "" },
+            { "axe", "", 300, -1, "" },
+            { "pickaxe", "", 300, -1, "" }
         };
         mags[] = {};
         accs[] = {};
@@ -157,15 +128,17 @@ class WeaponShops {
         side = "";
         conditions = "";
         items[] = {
-            { "ACE_EarPlugs", "", 50, 25, "" },
-			{ "Binocular", "", 150, 75, "" },
-            { "ItemGPS", "", 100, 50, "" },
-            { "ItemMap", "", 50, 25, "" },
-            { "ItemCompass", "", 50, 25, "" },
-            { "ItemWatch", "", 50, 25, "" },
-			{ "Itemradio", "", 500, 250, "" },
-            { "ACE_fieldDressing", "", 25, 15, "" },
-            { "NVGoggles", "", 2000, 1000, "" }
+            { "ACE_EarPlugs", "", 50, -1, "" },
+			{ "Binocular", "", 150, -1, "" },
+            { "ItemGPS", "", 100, -1, "" },
+            { "ItemMap", "", 50, -1, "" },
+            { "ItemCompass", "", 50, -1, "" },
+            { "ItemWatch", "", 50, -1, "" },
+			{ "Itemradio", "", 500, -1, "" },
+            { "ACE_fieldDressing", "", 25, -1, "" },
+            { "NVGoggles", "", 2000, -1, "" },
+			{ "ToolKit", "", 350, -1, "" },
+			{ "ACE_Wheel", "", 200, -1, "" }
         };
         mags[] = {};
         accs[] = {};
@@ -183,7 +156,11 @@ class WeaponShops {
 			{ "arifle_SPAR_01_blk_ERCO_Pointer_F", "", 0, 0, "call life_coplevel >= 6" },
 			{ "SMG_05_F", "", 0, 0, "call life_coplevel >= 2" },
 			{ "hgun_Rook40_snds_F", "", 0, 0, "call life_coplevel >= 1" },
-			{ "BT01_F", $STR_W_items_StunPistol, 0, 0, "call life_coplevel >= 1" },
+			{ "CSW_M26C", $STR_W_items_StunPistol, 0, 0, "call life_coplevel >= 1" },
+			{ "CSW_FN57_Ballistic_Shield", "", 0, 0, "call life_coplevel >= 5" },
+			{ "CSW_FN57_Barska", "", 0, 0, "call life_coplevel >= 5" },
+			{ "CSW_20Rnd_57x28_SS190", "", 0, 0, "call life_coplevel >= 5" },
+			{ "CSW_FN57_Shield", "", 0, 0, "call life_coplevel >= 5" },
 			{ "optic_Arco_AK_blk_F", "", 0, 0, "" },
             { "ACE_optic_LRPS_PIP", "", 0, 0, "" },
             { "optic_Nightstalker", "", 0, 0, "" },
@@ -192,7 +169,7 @@ class WeaponShops {
             { "optic_aco", "", 0, 0, "" }
         };
         mags[] = {
-			{ "Taser_mag", "", 0, 0, "call life_coplevel >= 1" },
+			{ "CSW_Taser_Probe_Mag", "", 0, 0, "call life_coplevel >= 1" },
             { "30Rnd_9x21_Mag", "", 0, 0, "call life_coplevel >= 1" },
             { "30Rnd_9x21_Mag_SMG_02", "", 0, 0, "call life_coplevel >= 2" },
             { "30Rnd_556x45_Stanag", "", 0, 0, "call life_coplevel >= 6" },
@@ -208,6 +185,9 @@ class WeaponShops {
 			{ "acc_flashlight", "", 0, 0, "" },
             { "optic_aco", "", 0, 0, "" }*/
 			
+			{ "CSW_FN57_Barska", "", 0, 0, "call life_coplevel >= 5" },
+			{ "CSW_20Rnd_57x28_SS190", "", 0, 0, "call life_coplevel >= 5" },
+			{ "CSW_FN57_Shield", "", 0, 0, "call life_coplevel >= 5" },
             { "optic_ERCO_blk_F", "", 0, 0, "" },
             { "optic_Arco", "", 0, 0, "" },
             { "acc_pointer_IR", "", 0, 0, "" },
@@ -220,6 +200,7 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
+			{ "ACE_key_west", "", 0, 0, "" },
             { "ACE_EarPlugs", "", 0, 0, "" },
 			{ "Binocular", "", 0, 0, "" },
             { "ItemGPS", "", 0, 0, "" },
@@ -228,6 +209,10 @@ class WeaponShops {
 			{ "tf_anprc152", "", 500, 250, "" },
 			{ "NVGogglesB_blk_F", "", 0, 0, "" },
             { "ItemWatch", "", 0, 0, "" },
+			{ "ToolKit", "", 0, -1, "" },
+			{ "ACE_CableTie", "", 0, 0, "" },
+			{ "ACE_SpottingScopeObject", "", 0, 0, "call life_coplevel >= 4" },
+			{ "ACE_TripodObject", "", 0, 0, "call life_coplevel >= 4" },
 			{ "HandGrenade_Stone", $STR_W_items_Flashbang, 0, 0, "call life_coplevel >= 3" }
         };
         mags[] = {};
@@ -240,6 +225,7 @@ class WeaponShops {
         side = "med";
         conditions = "";
         items[] = {
+			{ "ACE_key_inp", "", 0, 0, "" },
             { "ACE_EarPlugs", "", 0, 0, "" },
 			{ "ItemGPS", "", 0, 0, "" },
 			{ "ItemCompass", "", 0, 0, "" },
@@ -248,6 +234,7 @@ class WeaponShops {
             { "NVGoggles", "", 0, 0, "" },
 			{ "tf_anprc152", "", 500, 250, "" },
 			{ "ItemWatch", "", 0, 0, "" },
+			{ "ToolKit", "", 0, -1, "" },
 			{ "FirstAidKit", "", 0, 0, "" },
 			{ "defibinvch", "", 0, 0, "" },
 			{ "ACE_morphine", "", 0, 0, "" },
@@ -265,6 +252,7 @@ class WeaponShops {
 			{ "ACE_bloodIV_250", "", 0, 0, "" },
 			{ "ACE_bloodIV_500", "", 0, 0, "" },
 			{ "ACE_bloodIV", "", 0, 0, "" },
+			{ "collier_cv", "", 0, 0, "" },
 			{ "ACE_splint", "", 0, 0, "" },
 			{ "ACE_bodyBag", "", 0, 0, "" }
         };
