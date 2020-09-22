@@ -103,6 +103,13 @@ playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", _robber];
 //    [getPlayerUID _robber, _robber getVariable ["realname",name _robber], "211"] remoteExecCall ["life_fnc_wantedAdd", RSERV];
 //};
 
+if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+	advanced_log = format [localize "STR_DL_ML_RobShop",profileName,(getPlayerUID player),_shop,_money,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+} else {
+	advanced_log = format [localize "STR_DL_ML_RobShop",profileName,(getPlayerUID player),_shop,_money,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+};
+publicVariableServer "advanced_log";
+
 life_cash = life_cash + _money;
 call SOCK_fnc_updatePartial;
 deleteMarker format ["marker_var_%1",_action];

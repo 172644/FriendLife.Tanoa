@@ -145,6 +145,13 @@ class VirtualShops {
         conditions = "";
         items[] = { "goldbar" };
     };
+	
+	class uranium {
+		name = "STR_Shops_Uranium";
+        side = "civ";
+        conditions = "";
+        items[] = { "uranium_refined" };
+    };
 
     class cop {
         name = "STR_Shops_Cop";
@@ -543,6 +550,28 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "\Assets\Data\icons\ico_cement.paa";
+    };
+	
+	class uranium_unrefined {
+        variable = "uraniumUnrefined";
+        displayName = "STR_Item_UraniumOre";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "\Assets\Data\icons\ico_uraniumUnprocessed.paa";
+    };
+
+    class uranium_refined {
+        variable = "uraniumRefined";
+        displayName = "STR_Item_Uranium";
+        weight = 1;
+        buyPrice = -1;
+        sellPrice = 1750; //Optional Price
+        illegal = true;
+        edible = -1;
+        icon = "\Assets\Data\icons\ico_uraniumProcessed.paa";
     };
 
     //Drugs

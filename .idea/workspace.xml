@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="411e92c1-d811-44e8-ad12-f0a9b35c42cc" name="Default" comment="Initial commint">
-      <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_3.paa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_4.paa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/textures/hud/hud_5.paa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_actionKeyHandler.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_markers.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/housing/fn_houseMenu.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_DYNMARKET_getPrice.sqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_DisplayPrices.sqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_ForcePrice.sqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_LoadIntoListbox.sqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_bought.sqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_update.sqf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/macro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_changeprice.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_prices.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +26,7 @@
       <file leaf-file-name="fn_customAction.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="442">
               <caret line="26" column="25" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="25" />
             </state>
           </provider>
@@ -40,8 +35,17 @@
       <file leaf-file-name="fn_serviceChopper.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="390">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuration.sqf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/configuration.sqf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -50,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="469">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
@@ -58,17 +62,8 @@
       <file leaf-file-name="fn_respawned.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="799">
               <caret line="47" column="21" selection-start-line="46" selection-start-column="19" selection-end-line="47" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fn_healHospital.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -76,8 +71,8 @@
       <file leaf-file-name="fn_vehicleShopMenu.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopMenu.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+            <state relative-caret-position="935">
+              <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -85,17 +80,17 @@
       <file leaf-file-name="fn_vehicleShopBuy.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+            <state relative-caret-position="1734">
+              <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_unimpound.sqf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fn_unimpound.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="744">
+              <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -103,8 +98,8 @@
       <file leaf-file-name="fn_sellGarage.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="544">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -112,7 +107,7 @@
       <file leaf-file-name="fn_garageLBChange.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="918">
               <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
             </state>
           </provider>
@@ -125,10 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>civ_plane_</find>
-      <find>storag</find>
-      <find>med_air_hs</find>
-      <find>medic_spawn_</find>
       <find>vehicle setVariable</find>
       <find>STR_pInAct_StoreVeh</find>
       <find>_retrievePrice</find>
@@ -155,7 +146,14 @@
       <find>air_sp</find>
       <find>_spawnPoint</find>
       <find>_vehicle setVariable</find>
+      <find>life_civ_position</find>
+      <find>life_firstSpawn</find>
+      <find>\n</find>
+      <find>civLoadout</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Erwan\Desktop\FriendLifeGit\FriendLife.Tanoa\Tanoa_Life.Tanoa\The-Programmer\AdvancedIdentity\dialogs</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,6 +182,7 @@
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/configuration.sqf" />
       </list>
     </option>
   </component>
@@ -202,8 +201,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1736" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1746" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -211,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,46 +253,456 @@
               <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="medical" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="session" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="shops" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dialog" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
               <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="script" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="script" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sitting" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sounds" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="textures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdvancedIdentity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdvancedIdentity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CarPainter" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CarPainter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CarPainter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rvmats" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="CarPainter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="rvmats" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="perl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Craft" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Craft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Craft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dispatch" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dispatch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DrivingQuestions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DrivingQuestions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Duty_System" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Duty_System" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EffetsEcran" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EffetsEcran" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entreprise" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entreprise" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EntreprisesMarkers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Factures" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Factures" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Fourriere" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Fourriere" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FuelStations" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FuelStations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="menu" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="misc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="misc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ColorPicker" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="misc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EditDialog" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GPS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="misc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeyChoice" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iphone_X" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iphone_X" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeyTransfer" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="KeyTransfer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MarkersFilter" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MarkersFilter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mining" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PermisPoints" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PermisPoints" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repair_system" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repair_system" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dialog" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="function" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RepairJob" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="RepairJob" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Restrain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SpeedCam" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SpeedCam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SpeedCam" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WhitelistMenu" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="The-Programmer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="WhitelistMenu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dialogs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="unimpound&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf&#10;custo&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf&#10;heal&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Altis_Life.Altis/core/actions/fn_healHospital.sqf&#10;chop&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf&#10;fede&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/federalReserve.hpp&#10;bank&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/bank.hpp&#10;hud&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test_files/life_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -331,6 +740,7 @@
       <updated>1598635745008</updated>
       <workItem from="1598635746175" duration="20830000" />
       <workItem from="1598719612064" duration="29698000" />
+      <workItem from="1600609978313" duration="4298000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commint">
       <created>1598635836220</created>
@@ -374,24 +784,31 @@
       <option name="project" value="LOCAL" />
       <updated>1598795864486</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge from FTP server">
+      <created>1600611480890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600611480891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50528000" />
+    <option name="totallyTimeSpent" value="54826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1736" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.44117647" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24403341" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
@@ -409,23 +826,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24403341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,9 +894,38 @@
     <MESSAGE value="Update hospital heal with ACE" />
     <MESSAGE value="Set retrieval price to 0" />
     <MESSAGE value="Update Spawn Point &amp;&amp; Update distance for service Chopper &amp;&amp; Add Admin heal menu &amp;&amp; Keep weapon on floor when respawn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Spawn Point &amp;&amp; Update distance for service Chopper &amp;&amp; Add Admin heal menu &amp;&amp; Keep weapon on floor when respawn" />
+    <MESSAGE value="Merge from FTP server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge from FTP server" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -494,13 +940,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test_files/d3s/d3s_kuruma_gtaV/config.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="1470" column="46" selection-start-line="1470" selection-start-column="46" selection-end-line="1472" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../test_files/d3s/d3s_kuruma_gtaV/config.cpp" />
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -592,12 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/init.sqf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/init.sqf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Repair_system/localization.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -646,9 +1080,6 @@
           <caret line="92" column="6" lean-forward="true" selection-start-line="92" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_unimpound.sqf">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_impoundMenu.sqf">
       <provider selected="true" editor-type-id="text-editor">
@@ -720,19 +1151,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminTpHere.sqf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminMarkers.sqf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminSelfHeal.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminSelfHeal.sqf" />
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminGodMode.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -742,14 +1161,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="697">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="799">
           <caret line="47" column="21" selection-start-line="46" selection-start-column="19" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
@@ -761,59 +1180,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopMenu.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        <state relative-caret-position="935">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="918">
           <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="50" />
+        <state relative-caret-position="544">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        <state relative-caret-position="1734">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="442">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="744">
+          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/configuration.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
         </state>
       </provider>
     </entry>

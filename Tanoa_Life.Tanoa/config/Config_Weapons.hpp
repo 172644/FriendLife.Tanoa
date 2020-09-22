@@ -211,6 +211,7 @@ class WeaponShops {
             { "ItemWatch", "", 0, 0, "" },
 			{ "ToolKit", "", 0, -1, "" },
 			{ "ACE_CableTie", "", 0, 0, "" },
+			{ "ACE_rope36", "", 0, 0, "" },
 			{ "ACE_SpottingScopeObject", "", 0, 0, "call life_coplevel >= 4" },
 			{ "ACE_TripodObject", "", 0, 0, "call life_coplevel >= 4" },
 			{ "HandGrenade_Stone", $STR_W_items_Flashbang, 0, 0, "call life_coplevel >= 3" }

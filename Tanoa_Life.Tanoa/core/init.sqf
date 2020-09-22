@@ -116,10 +116,20 @@ player addRating 99999999;
 LIFE_ID_PlayerTags = ["LIFE_PlayerTags","onEachFrame","life_fnc_playerTags"] call BIS_fnc_addStackedEventHandler;
 LIFE_ID_RevealObjects = ["LIFE_RevealObjects","onEachFrame","life_fnc_revealObjects"] call BIS_fnc_addStackedEventHandler;
 
+_rp_id = random 99999;
 player setVariable ["steam64ID",getPlayerUID player];
 player setVariable ["realname",profileName,true];
-player setVariable ["RP_ID",random 99999,true]; 
+player setVariable ["RP_ID",_rp_id,true]; 
 //player setVariable ["realname",format ["%1", random 99999],true]; 
+
+
+if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+	advanced_log = format [localize "STR_DL_ML_GetRPID",profileName,(getPlayerUID player),_rp_id,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+} else {
+	advanced_log = format [localize "STR_DL_ML_GetRPID",profileName,(getPlayerUID player),_rp_id,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+};
+publicVariableServer "advanced_log";
+
 
 life_fnc_moveIn = compileFinal
 "
@@ -253,9 +263,30 @@ diag_log "----------------------------------------------------------------------
 
 // down weapon when exit veh
 player addEventHandler ["GetOutMan", {
+	params ["_unit", "_role", "_vehicle", "_turret"];
+	
     if (!(currentWeapon player isEqualTo "")) then {
         player action ["SwitchWeapon", player, player, 100];
     }
+	
+	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+		advanced_log = format [localize "STR_DL_ML_GetOutVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	} else {
+		advanced_log = format [localize "STR_DL_ML_GetOutVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	};
+	publicVariableServer "advanced_log";
+}];
+
+
+player addEventHandler ["GetOutMan", {
+	params ["_unit", "_role", "_vehicle", "_turret"];
+	
+	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
+		advanced_log = format [localize "STR_DL_ML_GetInVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	} else {
+		advanced_log = format [localize "STR_DL_ML_GetInVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
+	};
+	publicVariableServer "advanced_log";
 }];
 
 

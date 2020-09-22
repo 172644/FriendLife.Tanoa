@@ -11,6 +11,8 @@
 ****** Backend Variables *****
 *****************************
 */
+life_combatTime = 0;
+life_firstCombatActive = false;
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = objNull;

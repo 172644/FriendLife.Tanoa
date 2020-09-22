@@ -31,7 +31,7 @@
             <Original>Civilian Clothes</Original>
             <French>Vêtements Civils</French>
         </Key>
-        <Key ID="STR_MAR_EMS_Clothing_Shop ">
+        <Key ID="STR_MAR_EMS_Clothing_Shop">
             <Original>Fireman Clothes</Original>
             <French>Vêtements Pompiers</French>
         </Key>
@@ -3722,7 +3722,11 @@
         </Key>
         <Key ID="STR_MAR_Boat_Shop">
             <Original>Boat Shop</Original>
-            <French>Concessionnaire de bateaux</French>
+            <French>Concessionnaire de Bateaux</French>
+        </Key>
+        <Key ID="STR_MAR_Boat_Med_Shop">
+            <Original>Boat Shop</Original>
+            <French>Concessionnaire Bateaux Secours</French>
         </Key>
         <Key ID="STR_MAR_Bruce_Outfits">
             <Original>Bruce's Outback Outfits</Original>
@@ -4011,10 +4015,6 @@
         <Key ID="STR_MAR_EMS_Item_Shop">
             <Original>EMS Item Shop</Original>
             <French>Magasin de médecin</French>
-        </Key>
-        <Key ID="STR_MAR_EMS_Clothing_Shop">
-            <Original>EMS Clothing Shop</Original>
-            <French>Uniformes du SAMU</French>
         </Key>
         <Key ID="STR_MAR_Helicopter_Garage">
             <Original>Helicopter Garage</Original>
@@ -4529,7 +4529,7 @@
             <French>a volé $%1 de %2. Argent en banque : $%4 Cash : $%4</French>
         </Key>
         <Key ID="STR_DL_ML_Robbed">
-            <Original>{'player':'%1','uid':%2,'action':{'type':'robbed', 'target':'%4', 'receive':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':'%4','KEY':'JSON_LOG'}</Original>
+            <Original>{'player':'%1','uid':%2,'action':{'type':'robbed', 'target':'%4', 'receive':'%3'},'money':{'bank':'%5','cash':'%6'},'_player':'%4','KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_Robbed">
             <Original>%1 - %2 robbed $%3 from %4. Bank Balance: $%5  On Hand Balance: $%6</Original>
@@ -4700,6 +4700,18 @@
         <Key ID="STR_DL_ML_StoreVehicle">
             <Original>{'player':'%1','uid':%2,'action':{'type':'storeVehicle', 'item':'%3', 'plate':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
+        <Key ID="STR_DL_ML_RobShop">
+            <Original>{'player':'%1','uid':%2,'action':{'type':'robbed', 'target':'%3', 'receive':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
+        </Key>
+        <Key ID="STR_DL_ML_GetRPID">
+            <Original>{'player':'%1','uid':%2,'action':{'type':'setRP_ID', 'code':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
+        </Key>
+        <Key ID="STR_DL_ML_GetInVeh">
+            <Original>{'player':'%1','uid':%2,'action':{'type':'enterVehicle', 'role':'%3', 'vehicle':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
+        </Key>
+        <Key ID="STR_DL_ML_GetOutVeh">
+            <Original>{'player':'%1','uid':%2,'action':{'type':'exitVehicle', 'role':'%3', 'vehicle':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
+        </Key>
         <Key ID="STR_DL_ML_customLog">
             <Original>%1</Original>
             <French>%1</French>
@@ -4707,6 +4719,25 @@
         <Key ID="STR_Item_etabli">
             <Original>Processing ...</Original>
             <French>Craft en cours ...</French>
+        </Key>
+		<Key ID="STR_Item_Uranium">
+            <Original>Uranium Traité</Original>
+        </Key>
+        <Key ID="STR_Item_UraniumOre">
+            <Original>Uranium Ore</Original>
+			<French>Déchet d'Uranium</French>
+        </Key>		
+        <Key ID="STR_MAR_Uranium_Trader">
+            <Original>Uranium Trader</Original>
+			<French>Acheteur d'Uranium</French>
+        </Key>	
+        <Key ID="STR_Process_Uranium">
+            <Original>Traitement d'Uranium</Original>
+			
+        </Key>	
+        <Key ID="STR_License_Uranium">
+            <Original>Uranium Processing</Original>
+			<French>Licence d'Uranium</French>
         </Key>
     </Package>
 </Project>

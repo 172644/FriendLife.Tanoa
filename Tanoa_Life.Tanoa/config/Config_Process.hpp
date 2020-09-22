@@ -96,4 +96,12 @@ class ProcessAction {
         //ScrollText = "Mix Cement";
         NoLicenseCost = 350;
     };
+	
+	class uranium {
+        MaterialsReq[] = {{"uranium_unrefined",1}};
+        MaterialsGive[] = {{"uranium_refined",1}};
+        Text = "STR_Process_Uranium";
+        //ScrollText = "Refine Uranium";
+        NoLicenseCost = 10000;
+    };
 };
