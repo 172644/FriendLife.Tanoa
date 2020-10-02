@@ -332,13 +332,13 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "dir_3", "", 0, "" },
-			{ "dir_4", "", 0, "" }
+            { "dir_3", "", 450, "" },
+			{ "dir_4", "", 500, "" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-			{ "H_Construction_headset_orange_F", "", 0, "" },
-			{ "H_Cap_marshal", "", 0, "" }
+			{ "H_Construction_headset_orange_F", "", 250, "" },
+			{ "H_Cap_marshal", "", 200, "" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -363,7 +363,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-			{ "jack_sac_invi", "Sac invisible", 0, "" }
+			{ "jack_sac_invi", "Sac invisible", 500, "" }
         };
     };
 	
@@ -475,150 +475,116 @@ class Clothing {
 			{ "EF_FBAG_SL_RD", "", 4000, "" }
         };
     };
-
-    class depan {
-        title = "STR_Shops_C_Depan";
-        conditions = "";
-        side = "civ";
-        uniforms[] = {
-            { "NONE", $STR_C_Remove_uniforms, 0, "" },
-			{ "U_C_Driver_1_blue", "", 0, "" }
-        };
-        headgear[] = {
-            { "NONE", $STR_C_Remove_headgear, 0, "" },
-			{ "H_Cap_blu", "", 0, "" }
-        };
-        goggles[] = {
-            { "NONE", $STR_C_Remove_goggles, 0, "" },
-            { "G_Shades_Black", "", 0, "" },
-            { "G_Shades_Blue", "", 0, "" },
-            { "G_Shades_Green", "", 0, "" },
-            { "G_Shades_Red", "", 0, "" },
-            { "G_Sport_Blackred", "", 0, "" },
-            { "G_Sport_BlackWhite", "", 0, "" },
-            { "G_Sport_Blackyellow", "", 0, "" },
-            { "G_Sport_Checkered", "", 0, "" },
-            { "G_Sport_Greenblack", "", 0, "" },
-            { "G_Sport_Red", "", 0, "" },
-            { "G_Lowprofile", "", 0, "" },
-            { "G_Squares", "", 0, "" },
-            { "G_Aviator", "", 0, "" },
-            { "G_Combat", "", 0, "" }
-        };
-        vests[] = {
-            { "NONE", $STR_C_Remove_vests, 0, "" }
-        };
-        backpacks[] = {
-            { "NONE", $STR_C_Remove_backpacks, 0, "" },
-			{ "jack_sac_invi", "Sac Invisible", 0, "" }
-        };
-    };
-
+    
     class cop {
         title = "STR_Shops_C_Police";
         conditions = "";
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-			{ "61", "", 0, "call life_coplevel == 1" },
-            { "81", "", 0, "call life_coplevel == 1" },
-			{ "31", "", 0, "call life_coplevel == 1" },
-			{ "edsr2", "", 0, "call life_coplevel == 1" },
-            { "62", "", 0, "call life_coplevel == 2" },
-			{ "82", "", 0, "call life_coplevel == 2" },
-			{ "32", "", 0, "call life_coplevel == 2" },
-			{ "edsr3", "", 0, "call life_coplevel == 2" },
-			{ "63", "", 0, "call life_coplevel == 3" },
-			{ "83", "", 0, "call life_coplevel == 3" },
-			{ "33", "", 0, "call life_coplevel == 3" },
-			{ "edsr4", "", 0, "call life_coplevel == 3" },
-			{ "64", "", 0, "call life_coplevel == 4" },
-			{ "84", "", 0, "call life_coplevel == 4" },
-			{ "34", "", 0, "call life_coplevel == 4" },
-			{ "edsr5", "", 0, "call life_coplevel == 4" },
-			{ "65", "", 0, "call life_coplevel = 5" },
-			{ "85", "", 0, "call life_coplevel == 5" },
-			{ "35", "", 0, "call life_coplevel == 5" },
-			{ "edsr6", "", 0, "call life_coplevel == 5" },
-			{ "66", "", 0, "call life_coplevel == 6" },
-			{ "86", "", 0, "call life_coplevel == 6" },
-			{ "36", "", 0, "call life_coplevel == 6" },
-			{ "edsr7", "", 0, "call life_coplevel == 6" },
-			{ "67", "", 0, "call life_coplevel == 7" },
-			{ "87", "", 0, "call life_coplevel == 7" },
-			{ "37", "", 0, "call life_coplevel == 7" },
-			{ "edsr8", "", 0, "call life_coplevel == 7" },
-			{ "68", "", 0, "call life_coplevel == 8" },
-			{ "88", "", 0, "call life_coplevel == 8" },
-			{ "38", "", 0, "call life_coplevel == 8" },
-			{ "edsr9", "", 0, "call life_coplevel == 8" },
-			{ "69", "", 0, "call life_coplevel == 9" },
-			{ "89", "", 0, "call life_coplevel == 9" },
-			{ "39", "", 0, "call life_coplevel == 9" },
-			{ "edsr10", "", 0, "call life_coplevel == 9" },
-			{ "70", "", 0, "call life_coplevel == 10" },
-			{ "90", "", 0, "call life_coplevel == 10" },
-			{ "40", "", 0, "call life_coplevel == 10" },
-			{ "edsr11", "", 0, "call life_coplevel == 10" },
-			{ "71", "", 0, "call life_coplevel == 11" },
-			{ "91", "", 0, "call life_coplevel == 11" },
-			{ "41", "", 0, "call life_coplevel == 11" },
-			{ "edsr12", "", 0, "call life_coplevel == 11" },
-			{ "72", "", 0, "call life_coplevel == 12" },
-            { "92", "", 0, "call life_coplevel == 12" },
-			{ "42", "", 0, "call life_coplevel == 12" },
-			{ "edsr13", "", 0, "call life_coplevel == 12" }
+			{ "61", "", 410, "call life_coplevel == 1" },
+            { "81", "", 420, "call life_coplevel == 1" },
+			{ "31", "", 430, "call life_coplevel == 1" },
+			{ "edsr2", "", 450, "call life_coplevel == 1" },
+            { "62", "", 410, "call life_coplevel == 2" },
+			{ "82", "", 420, "call life_coplevel == 2" },
+			{ "32", "", 430, "call life_coplevel == 2" },
+			{ "edsr3", "", 450, "call life_coplevel == 2" },
+			{ "63", "", 410, "call life_coplevel == 3" },
+			{ "83", "", 420, "call life_coplevel == 3" },
+			{ "33", "", 430, "call life_coplevel == 3" },
+			{ "edsr4", "", 450, "call life_coplevel == 3" },
+			{ "64", "", 410, "call life_coplevel == 4" },
+			{ "84", "", 420, "call life_coplevel == 4" },
+			{ "34", "", 430, "call life_coplevel == 4" },
+			{ "edsr5", "", 450, "call life_coplevel == 4" },
+			{ "65", "", 410, "call life_coplevel = 5" },
+			{ "85", "", 420, "call life_coplevel == 5" },
+			{ "35", "", 430, "call life_coplevel == 5" },
+			{ "edsr6", "", 450, "call life_coplevel == 5" },
+			{ "66", "", 410, "call life_coplevel == 6" },
+			{ "86", "", 420, "call life_coplevel == 6" },
+			{ "36", "", 430, "call life_coplevel == 6" },
+			{ "edsr7", "", 450, "call life_coplevel == 6" },
+			{ "67", "", 410, "call life_coplevel == 7" },
+			{ "87", "", 420, "call life_coplevel == 7" },
+			{ "37", "", 430, "call life_coplevel == 7" },
+			{ "edsr8", "", 450, "call life_coplevel == 7" },
+			{ "68", "", 410, "call life_coplevel == 8" },
+			{ "88", "", 420, "call life_coplevel == 8" },
+			{ "38", "", 430, "call life_coplevel == 8" },
+			{ "edsr9", "", 450, "call life_coplevel == 8" },
+			{ "69", "", 410, "call life_coplevel == 9" },
+			{ "89", "", 420, "call life_coplevel == 9" },
+			{ "39", "", 430, "call life_coplevel == 9" },
+			{ "edsr10", "", 450, "call life_coplevel == 9" },
+			{ "70", "", 410, "call life_coplevel == 10" },
+			{ "90", "", 420, "call life_coplevel == 10" },
+			{ "40", "", 430, "call life_coplevel == 10" },
+			{ "edsr11", "", 450, "call life_coplevel == 10" },
+			{ "71", "", 410, "call life_coplevel == 11" },
+			{ "91", "", 420, "call life_coplevel == 11" },
+			{ "41", "", 430, "call life_coplevel == 11" },
+			{ "edsr12", "", 450, "call life_coplevel == 11" },
+			{ "72", "", 410, "call life_coplevel == 12" },
+            { "92", "", 420, "call life_coplevel == 12" },
+			{ "42", "", 430, "call life_coplevel == 12" },
+			{ "edsr13", "", 450, "call life_coplevel == 12" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
 			{ "jack_casque_bmo_gend_1", "", 0, "call life_coplevel >= 1" },
-			{ "501", "", 0, "call life_coplevel == 1" },
-			{ "502", "", 0, "call life_coplevel == 2" },
-			{ "503", "", 0, "call life_coplevel == 3" },
-            { "504", "", 0, "call life_coplevel == 4" },
-            { "505", "", 0, "call life_coplevel == 5" },
-            { "506", "", 0, "call life_coplevel == 6" },
-            { "507", "", 0, "call life_coplevel == 7" },
-            { "508", "", 0, "call life_coplevel == 8" },
-            { "509", "", 0, "call life_coplevel == 9" },
-            { "510", "", 0, "call life_coplevel == 10" },
-            { "511", "", 0, "call life_coplevel == 11" },
-            { "512", "", 0, "call life_coplevel == 12" }
+			{ "501", "", 250, "call life_coplevel == 1" },
+			{ "502", "", 250, "call life_coplevel == 2" },
+			{ "503", "", 250, "call life_coplevel == 3" },
+            { "504", "", 250, "call life_coplevel == 4" },
+            { "505", "", 250, "call life_coplevel == 5" },
+            { "506", "", 250, "call life_coplevel == 6" },
+            { "507", "", 250, "call life_coplevel == 7" },
+            { "508", "", 250, "call life_coplevel == 8" },
+            { "509", "", 250, "call life_coplevel == 9" },
+            { "510", "", 250, "call life_coplevel == 10" },
+            { "511", "", 250, "call life_coplevel == 11" },
+            { "512", "", 250, "call life_coplevel == 12" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
-            { "G_Squares", "", 0, "" },
-            { "G_Shades_Blue", "", 0, "" },
-            { "G_Sport_Blackred", "", 0, "" },
-            { "G_Sport_Checkered", "", 0, "" },
-            { "G_Sport_Blackyellow", "", 0, "" },
-            { "G_Sport_BlackWhite", "", 0, "" },
-            { "G_Shades_Black", "", 0, "" },
-            { "G_Lowprofile", "", 0, "" },
-            { "G_Combat", "", 0, "" },
-            { "G_Aviator", "", 0, "" },
-            { "G_Lady_Mirror", "", 0, "" },
-            { "G_Lady_Dark", "", 0, "" },
-            { "G_Lady_Blue", "", 0, "" }
+            { "G_Shades_Black", "", 20, "" },
+            { "G_Shades_Blue", "", 20, "" },
+            { "G_Shades_Green", "", 20, "" },
+            { "G_Shades_Red", "", 20, "" },
+            { "G_Sport_Blackred", "", 25, "" },
+            { "G_Sport_BlackWhite", "", 25, "" },
+            { "G_Sport_Blackyellow", "", 25, "" },
+            { "G_Sport_Checkered", "", 25, "" },
+            { "G_Sport_Greenblack", "", 25, "" },
+            { "G_Sport_Red", "", 25, "" },
+            { "G_Lowprofile", "", 30, "" },
+            { "G_Squares", "", 50, "" },
+            { "G_Aviator", "", 100, "" },
+            { "G_Combat", "", 125, "" },
+            { "G_Lady_Mirror", "", 150, "" },
+            { "G_Lady_Dark", "", 150, "" },
+            { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "081", "", 0, "call life_coplevel == 1" },
-            { "082", "", 0, "call life_coplevel == 2" },
-            { "083", "", 0, "call life_coplevel == 3" },
-			{ "084", "", 0, "call life_coplevel == 4" },
-			{ "085", "", 0, "call life_coplevel == 5" },
-			{ "086", "", 0, "call life_coplevel == 6" },
-			{ "087", "", 0, "call life_coplevel == 7" },
-            { "088", "", 0, "call life_coplevel == 8" },
-			{ "089", "", 0, "call life_coplevel == 9" },
-			{ "090", "", 0, "call life_coplevel == 10" },
-			{ "091", "", 0, "call life_coplevel == 11" },
-			{ "092", "", 0, "call life_coplevel == 12" }
+            { "081", "", 500, "call life_coplevel == 1" },
+            { "082", "", 500, "call life_coplevel == 2" },
+            { "083", "", 500, "call life_coplevel == 3" },
+			{ "084", "", 500, "call life_coplevel == 4" },
+			{ "085", "", 500, "call life_coplevel == 5" },
+			{ "086", "", 500, "call life_coplevel == 6" },
+			{ "087", "", 500, "call life_coplevel == 7" },
+            { "088", "", 500, "call life_coplevel == 8" },
+			{ "089", "", 500, "call life_coplevel == 9" },
+			{ "090", "", 500, "call life_coplevel == 10" },
+			{ "091", "", 500, "call life_coplevel == 11" },
+			{ "092", "", 500, "call life_coplevel == 12" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "jack_sac_invi", "", 0, "call life_coplevel >= 1" }
+            { "jack_sac_invi", "Sac invisible", 500, "call life_coplevel >= 1" }
         };
     };
 	
@@ -628,36 +594,36 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-			{ "jack_21_uniform_1", "", 0, "call life_coplevel >= 1" },
-			{ "jack_4s_uniform_1", "", 0, "call life_coplevel >= 1" },
-            { "jack_tshirt_uniform_1", "", 0, "call life_coplevel >= 1" },
-			{ "jack_tshirt_uniform_3", "", 0, "call life_coplevel >= 4" },
-			{ "jack_pilote_hel_uniform_1", "", 0, "call life_coplevel >= 4" },
-			{ "jack_plongeur_uniform_1", "", 0, "call life_coplevel >= 1" },
-			{ "201", "", 0, "call life_coplevel >= 2" },
-			{ "jack_4s_uniform_2", "", 0, "call life_coplevel >= 3" }
+			{ "jack_21_uniform_1", "", 450, "call life_coplevel >= 1" },
+			{ "jack_4s_uniform_1", "", 350, "call life_coplevel >= 1" },
+            { "jack_tshirt_uniform_1", "", 240, "call life_coplevel >= 1" },
+			{ "jack_tshirt_uniform_3", "", 300, "call life_coplevel >= 4" },
+			{ "jack_pilote_hel_uniform_1", "", 500, "call life_coplevel >= 4" },
+			{ "jack_plongeur_uniform_1", "", 500, "call life_coplevel >= 1" },
+			{ "201", "", 450, "call life_coplevel >= 2" },
+			{ "jack_4s_uniform_2", "", 350, "call life_coplevel >= 3" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-			{ "jack_casquette_gend_3", "", 0, "call life_coplevel >= 1" },
-			{ "kepi_gn", "", 0, "call life_coplevel >= 1" },
-			{ "jack_casque_helico_gend_2", "", 0, "call life_coplevel >= 1" },
-			{ "800", "", 0, "call life_coplevel >= 2" },
-			{ "802", "", 0, "call life_coplevel >= 3" }
+			{ "jack_casquette_gend_3", "", 200, "call life_coplevel >= 1" },
+			{ "kepi_gn", "", 250, "call life_coplevel >= 1" },
+			{ "jack_casque_helico_gend_2", "", 500, "call life_coplevel >= 1" },
+			{ "800", "", 450, "call life_coplevel >= 2" },
+			{ "802", "", 450, "call life_coplevel >= 3" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
-            { "V12_POLICE", "", 0, "" }
+            { "V12_POLICE", "", 50, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "1000", "", 0, "" },
-			{ "jack_gilet_lourd_gend_2", "", 0, "call life_coplevel >= 3" }
+            { "1000", "", 500, "" },
+			{ "jack_gilet_lourd_gend_2", "", 600, "call life_coplevel >= 3" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "call life_coplevel >= 1" },
-			{ "jack_sac_invi", "", 0, "" },
-			{ "B_Parachute", "", 0, "call life_coplevel >= 1" }
+			{ "jack_sac_invi", "sac invisible", 500, "" },
+			{ "B_Parachute", "", 1500, "call life_coplevel >= 1" }
         };
     };
 
@@ -736,67 +702,76 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "PomMmE_SAPEUR_SP", "", 0, "" },
-			{ "PomMmE_FROIDSAPEUR_SP", "", 0, "" },
-			{ "PomMmE_CAPORAL_SP", "", 0, "" },
-			{ "PomMmE_FROIDCAPORAL_SP", "", 0, "" },
-			{ "PomMmE_CAPORALC_SP", "", 0, "" },
-			{ "PomMmE_FROIDCAPORALCHEF_SP", "", 0, "" },
-			{ "PomMmE_SERGENT_SP", "", 0, "" },
-			{ "PomMmE_FROIDSERGENT_SP", "", 0, "" },
-			{ "PomMmE_SERGENTC_SP", "", 0, "" },
-			{ "PomMmE_FROIDSERGENTC_SP", "", 0, "" },
-			{ "PomMmE_ADJUDANT_SP", "", 0, "" },
-			{ "PomMmE_FROIDADJUDANT_SP", "", 0, "" },
-			{ "PomMmE_ADJUDANTC_SP", "", 0, "" },
-			{ "PomMmE_FROIDADJUDANTC_SP", "", 0, "" },
-			{ "PomMmE_LIEUTENANT_SP", "", 0, "" },
-			{ "PomMmE_FROIDLIEUTENANT_SP", "", 0, "" },
-			{ "PomMmE_CAPITAINE_SP", "", 0, "" },
-			{ "PomMmE_FROIDCAPITAINE_SP", "", 0, "" },
-			{ "PomMmE_COMMANDANT_SP", "", 0, "" },
-			{ "PomMmE_FROIDCOMMANDANT_SP", "", 0, "" },
-			{ "PomMmE_LTNCOLONEL_SP", "", 0, "" },
-			{ "PomMmE_FROIDLTNCOLONEL_SP", "", 0, "" },
-			{ "PomMmE_COLONEL_SP", "", 0, "" },
-			{ "PomMmE_FROIDCOLONEL_SP", "", 0, "" }
+            { "PomMmE_SAPEUR_SP", "", 320, "" },
+			{ "PomMmE_FROIDSAPEUR_SP", "", 330, "" },
+			{ "PomMmE_CAPORAL_SP", "", 330, "" },
+			{ "PomMmE_FROIDCAPORAL_SP", "", 340, "" },
+			{ "PomMmE_CAPORALC_SP", "", 340, "" },
+			{ "PomMmE_FROIDCAPORALCHEF_SP", "", 350, "" },
+			{ "PomMmE_SERGENT_SP", "", 350, "" },
+			{ "PomMmE_FROIDSERGENT_SP", "", 360, "" },
+			{ "PomMmE_SERGENTC_SP", "", 360, "" },
+			{ "PomMmE_FROIDSERGENTC_SP", "", 370, "" },
+			{ "PomMmE_ADJUDANT_SP", "", 370, "" },
+			{ "PomMmE_FROIDADJUDANT_SP", "", 380, "" },
+			{ "PomMmE_ADJUDANTC_SP", "", 380, "" },
+			{ "PomMmE_FROIDADJUDANTC_SP", "", 390, "" },
+			{ "PomMmE_LIEUTENANT_SP", "", 390, "" },
+			{ "PomMmE_FROIDLIEUTENANT_SP", "", 400, "" },
+			{ "PomMmE_CAPITAINE_SP", "", 400, "" },
+			{ "PomMmE_FROIDCAPITAINE_SP", "", 410, "" },
+			{ "PomMmE_COMMANDANT_SP", "", 410, "" },
+			{ "PomMmE_FROIDCOMMANDANT_SP", "", 420, "" },
+			{ "PomMmE_LTNCOLONEL_SP", "", 420, "" },
+			{ "PomMmE_FROIDLTNCOLONEL_SP", "", 430, "" },
+			{ "PomMmE_COLONEL_SP", "", 430, "" },
+			{ "PomMmE_FROIDCOLONEL_SP", "", 450, "" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-            { "PomMmE_SAPEUR_BERETSP", "", 0, "" },
-			{ "PomMmE_CAPORAL_BERETSP", "", 0, "" },
-			{ "PomMmE_CAPORALC_BERETSP", "", 0, "" },
-			{ "PomMmE_SERGENT_BERETSP", "", 0, "" },
-			{ "PomMmE_SERGENTC_BERETSP", "", 0, "" },
-			{ "PomMmE_ADJUDANT_BERETSP", "", 0, "" },
-			{ "PomMmE_ADJUDANTC_BERETSP", "", 0, "" },
-			{ "PomMmE_LIEUTENANT_BERETSP", "", 0, "" },
-			{ "PomMmE_CAPITAINE_BERETSP", "", 0, "" },
-			{ "PomMmE_COMMANDANT_BERETSP", "", 0, "" },
-			{ "PomMmE_LTNCOLONEL_BERETSP", "", 0, "" },
-			{ "PomMmE_COLONEL_BERETSP", "", 0, "" }
+            { "PomMmE_SAPEUR_BERETSP", "", 250, "" },
+			{ "PomMmE_CAPORAL_BERETSP", "", 250, "" },
+			{ "PomMmE_CAPORALC_BERETSP", "", 250, "" },
+			{ "PomMmE_SERGENT_BERETSP", "", 250, "" },
+			{ "PomMmE_SERGENTC_BERETSP", "", 250, "" },
+			{ "PomMmE_ADJUDANT_BERETSP", "", 250, "" },
+			{ "PomMmE_ADJUDANTC_BERETSP", "", 250, "" },
+			{ "PomMmE_LIEUTENANT_BERETSP", "", 250, "" },
+			{ "PomMmE_CAPITAINE_BERETSP", "", 250, "" },
+			{ "PomMmE_COMMANDANT_BERETSP", "", 250, "" },
+			{ "PomMmE_LTNCOLONEL_BERETSP", "", 250, "" },
+			{ "PomMmE_COLONEL_BERETSP", "", 250, "" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
-			{ "JAS_Surgical_Mask_Blue", "", 0, "" },
-			{ "JAS_Surgical_Mask_White", "", 0, "" },
-			{ "G_Aviator", "", 0, "" },
-			{ "G_Squares", "", 0, "" },
-			{ "G_Squares_Tinted", "", 0, "" },
-			{ "G_Spectacles_Tinted", "", 0, "" },
-			{ "G_Shades_Black", "", 0, "" },
-			{ "G_Shades_Blue", "", 0, "" },
-			{ "G_Shades_Red", "", 0, "" },
-            { "G_Shades_Green", "", 0, "" }
+			{ "JAS_Surgical_Mask_Blue", "", 10, "" },
+			{ "JAS_Surgical_Mask_White", "", 10, "" },
+			{ "G_Shades_Black", "", 20, "" },
+            { "G_Shades_Blue", "", 20, "" },
+            { "G_Shades_Green", "", 20, "" },
+            { "G_Shades_Red", "", 20, "" },
+            { "G_Sport_Blackred", "", 25, "" },
+            { "G_Sport_BlackWhite", "", 25, "" },
+            { "G_Sport_Blackyellow", "", 25, "" },
+            { "G_Sport_Checkered", "", 25, "" },
+            { "G_Sport_Greenblack", "", 25, "" },
+            { "G_Sport_Red", "", 25, "" },
+            { "G_Lowprofile", "", 30, "" },
+            { "G_Squares", "", 50, "" },
+            { "G_Aviator", "", 100, "" },
+            { "G_Combat", "", 125, "" },
+            { "G_Lady_Mirror", "", 150, "" },
+            { "G_Lady_Dark", "", 150, "" },
+            { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-			{ "PomMmE_GILET_SP", "", 0, "" }
+			{ "PomMmE_GILET_SP", "", 100, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "PomMmE_SAC_SP", "", 0, "" },
-			{ "SAC_SP", "", 0, "" }
+            { "PomMmE_SAC_SP", "", 500, "" },
+			{ "SAC_SP", "", 500, "" }
         };
     };
 	
@@ -806,26 +781,35 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "MI", "", 0, "" },
-			{ "MM", "", 0, "" },
-			{ "MMC", "", 0, "" }
+            { "MI", "", 350, "" },
+			{ "MM", "", 400, "" },
+			{ "MMC", "", 450, "" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-			{ "EF_Mcap_EMSB", "", 0, "" }
+			{ "EF_Mcap_EMSB", "", 150, "" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
-			{ "JAS_Surgical_Mask_Blue", "", 0, "" },
-			{ "JAS_Surgical_Mask_White", "", 0, "" },
-            { "G_Aviator", "", 0, "" },
-			{ "G_Squares", "", 0, "" },
-			{ "G_Squares_Tinted", "", 0, "" },
-			{ "G_Spectacles_Tinted", "", 0, "" },
-			{ "G_Shades_Black", "", 0, "" },
-			{ "G_Shades_Blue", "", 0, "" },
-			{ "G_Shades_Red", "", 0, "" },
-            { "G_Shades_Green", "", 0, "" }
+			{ "JAS_Surgical_Mask_Blue", "", 10, "" },
+			{ "JAS_Surgical_Mask_White", "", 10, "" },
+            { "G_Shades_Black", "", 20, "" },
+            { "G_Shades_Blue", "", 20, "" },
+            { "G_Shades_Green", "", 20, "" },
+            { "G_Shades_Red", "", 20, "" },
+            { "G_Sport_Blackred", "", 25, "" },
+            { "G_Sport_BlackWhite", "", 25, "" },
+            { "G_Sport_Blackyellow", "", 25, "" },
+            { "G_Sport_Checkered", "", 25, "" },
+            { "G_Sport_Greenblack", "", 25, "" },
+            { "G_Sport_Red", "", 25, "" },
+            { "G_Lowprofile", "", 30, "" },
+            { "G_Squares", "", 50, "" },
+            { "G_Aviator", "", 100, "" },
+            { "G_Combat", "", 125, "" },
+            { "G_Lady_Mirror", "", 150, "" },
+            { "G_Lady_Dark", "", 150, "" },
+            { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
@@ -833,7 +817,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-			{ "sac_samu", "", 0, "" }
+			{ "sac_samu", "", 500, "" }
         };
     };
 	
@@ -843,28 +827,35 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-            { "U_IG_Guerilla1_1", "", 5000, "" },
-            { "U_I_G_Story_Protagonist_F", "", 7500, "" },
-            { "U_I_G_resistanceLeader_F", "", 11500, "" },
-            { "U_IG_leader", "", 15340, "" },
-            { "U_O_PilotCoveralls", "", 15610, "" },
-            { "U_O_SpecopsUniform_ocamo", "", 17500, "" },
-            { "U_O_GhillieSuit", "", 50000, "" },
-            { "U_B_T_Soldier_F", "", 50000, "" }, //Apex DLC
-            { "U_I_C_Soldier_Bandit_1_F", "", 50000, "" }, //Apex DLC
-            { "U_I_C_Soldier_Bandit_2_F", "", 51000, "" }, //Apex DLC
-            { "U_I_C_Soldier_Bandit_3_F", "", 50032, "" }, //Apex DLC
-            { "U_I_C_Soldier_Bandit_4_F", "", 50020, "" }, //Apex DLC
-            { "U_I_C_Soldier_Bandit_5_F", "", 50020, "" }, //Apex DLC
-            { "U_I_C_Soldier_Camo_F", "", 52000, "" } //Apex DLC
+            { "TRYK_shirts_BLK_PAD_BK", "", 500, "" },
+            { "TRYK_U_B_BLK_Tshirt", "", 500, "" },
+            { "TRYK_U_B_BLK", "", 500, "" },
+            { "TRYK_U_B_C02_Tsirt", "", 540, "" },
+            { "TRYK_U_B_PCUGs_BLK_R", "", 610, "" },
+            { "TRYK_U_B_PCUHsW9", "", 800, "" },
+            { "TRYK_U_B_PCUHsW7", "", 800, "" },
+            { "TRYK_U_B_PCUHsW8", "", 800, "" }, 
+            { "TRYK_U_B_PCUHsW3", "", 800, "" }, 
+            { "TRYK_U_B_OD_OD_CombatUniform", "", 850, "" }, 
+            { "TRYK_T_camo_tan", "", 900, "" }, 
+            { "TRYK_U_B_NATO_UCP_CombatUniform", "", 950, "" }, 
+            { "TRYK_B_TRYK_UCP_T", "", 950, "" }, 
+            { "TRYK_U_B_WDL_GRY_CombatUniform", "", 1000, "" },
+			{ "U_B_HeliPilotCoveralls", "", 2000, "" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-            { "H_Bandanna_camo", "", 650, "" },
-            { "H_ShemagOpen_khk", "", 800, "" },
-            { "H_ShemagOpen_tan", "", 850, "" },
-            { "H_Shemag_olive", "", 850, "" },
-            { "H_HelmetO_ocamo", "", 2500, "" }
+			{ "EF_wig_DHB", "", 200, "" },
+            { "TRYK_r_cap_blk_Glasses", "", 250, "" },
+            { "TRYK_H_headsetcap_blk_Glasses", "", 250, "" },
+            { "TRYK_H_DELTAHELM_NV", "", 350, "" },
+			{ "H_Bandanna_gry", "", 350, "" },
+			{ "H_Beret_blk", "", 350, "" },
+			{ "H_Cap_blk", "", 250, "" },
+			{ "TRYK_Kio_Balaclava", "", 350, "" },
+			{ "H_ShemagOpen_khk", "", 500, "" },
+            { "H_Shemag_olive", "", 500, "" },
+            { "H_CrewHelmetHeli_B", "", 1500, "" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -894,10 +885,10 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "V_BandollierB_cbr", "", 4500, "" },
-            { "V_HarnessO_brn", "", 7500, "" },
-            { "V_TacVest_khk", "", 12500, "" },
-            { "V_TacChestrig_grn_F", "", 17500, "" } //Apex DLC
+            { "V_BandollierB_blk", "", 4500, "" },
+            { "V_HarnessO_gry", "", 7500, "" },
+            { "V_TacVest_blk", "", 12500, "" },
+            { "V_TacChestrig_grn_F", "", 17500, "" } 
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },

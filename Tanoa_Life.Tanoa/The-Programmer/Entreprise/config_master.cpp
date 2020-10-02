@@ -38,17 +38,17 @@ class Max_Settings_Entreprise {
     class positions_entreprises {
         class DIR {
             markerVar = "ENT_marker_dir";
-            radius = 50;
+            radius = 100;
             price = 0;
         };
         class Gendarmerie {
             markerVar = "";
-            radius = 50;
+            radius = 100;
             price = 0;
         };
         class ServiceSecours {
             markerVar = "";
-            radius = 50;
+            radius = 100;
             price = 0;
         };
         class entreprise4 {

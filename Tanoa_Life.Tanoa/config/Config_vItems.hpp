@@ -159,6 +159,13 @@ class VirtualShops {
         conditions = "";
         items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull","fuelFull", "defusekit", "defibrillator", "speedcam", "Test_drugs", "Alcootest" };
     };
+
+    class adac {
+        name = "STR_Shops_Adac";
+        side = "civ";
+        conditions = "license_civ_dir";
+        items[] = { "donuts", "coffee", "waterBottle", "rabbit", "apple", "peach", "redgull", "fuelFull" };
+    };
 };
 
 /*
@@ -313,8 +320,8 @@ class VirtualItems {
         variable = "spikeStrip";
         displayName = "STR_Item_SpikeStrip";
         weight = 15;
-        buyPrice = 2500;
-        sellPrice = 1200;
+        buyPrice = 25;
+        sellPrice = 25;
         illegal = true;
         edible = -1;
         icon = "\Assets\Data\icons\ico_spikeStrip.paa";
@@ -368,8 +375,8 @@ class VirtualItems {
         variable = "defuseKit";
         displayName = "STR_Item_DefuseKit";
         weight = 2;
-        buyPrice = 2500;
-        sellPrice = 2000;
+        buyPrice = 25;
+        sellPrice = 25;
         illegal = true;
         edible = -1;
         icon = "\Assets\Data\icons\ico_defuseKit.paa";
@@ -749,7 +756,7 @@ class VirtualItems {
         variable = "apple";
         displayName = "STR_Item_Apple";
         weight = 1;
-        buyPrice = 5;
+        buyPrice = 6;
         sellPrice = 3;
         illegal = false;
         edible = 10;
@@ -760,8 +767,8 @@ class VirtualItems {
         variable = "peach";
         displayName = "STR_Item_Peach";
         weight = 1;
-        buyPrice = 5;
-        sellPrice = 3;
+        buyPrice = 8;
+        sellPrice = 5;
         illegal = false;
         edible = 10;
         icon = "\Assets\Data\icons\ico_peach.paa";
@@ -1124,8 +1131,8 @@ class VirtualItems {
         variable = "Alcootest";
         displayName = "STR_Item_Alcootest";
         weight = 2;
-        buyPrice = -1;
-        sellPrice = -1;
+        buyPrice = 0;
+        sellPrice = 0;
         illegal = false;
         edible = -1;
         icon = "";
@@ -1135,8 +1142,8 @@ class VirtualItems {
         variable = "Test_drugs";
         displayName = "STR_Item_Test_drugs";
         weight = 2;
-        buyPrice = 150;
-        sellPrice = -1;
+        buyPrice = 0;
+        sellPrice = 0;
         illegal = false;
         edible = -1;
         icon = "";

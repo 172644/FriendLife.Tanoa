@@ -11,7 +11,7 @@ params [
 ];
 
 /*========Configuration=========*/
-_number_cop = 0; //Minimum number of police officers to be able to rob
+_number_cop = 3; //Minimum number of police officers to be able to rob
 _add_interpol = true; //Add or not the crime in the interpol
 _marker_create = true; //Creation of a marker
 _money_fix = 2000; //Fixed money collected

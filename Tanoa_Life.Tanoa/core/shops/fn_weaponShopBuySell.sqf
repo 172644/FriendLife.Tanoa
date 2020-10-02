@@ -57,9 +57,9 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
     private _tanoaArray = ["Land_School_01_F","Land_Warehouse_03_F","Land_House_Small_02_F"];
     private _hideoutObjs = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] call TON_fnc_terrainSort;
     private _hideout = (nearestObjects[getPosATL player,_hideoutObjs,25]) select 0;
-    if (_entrepriseBuy isEqualTo false && !isNil "_hideout" && {!isNil {group player getVariable "gang_bank"}} && {(group player getVariable "gang_bank") >= _price}) then {
+    if (!_entrepriseBuy && !isNil "_hideout" && {!isNil {group player getVariable "gang_bank"}} && {(group player getVariable "gang_bank") >= _price}) then {
         _action = [
-            format [(localize "STR_Shop_Virt_Gang_FundsMSG")+ "<br/><br/>" +(localize "STR_Shop_Virt_Gang_Funds")+ " <t color='#8cff9b'>$%1</t><br/>" +(localize "STR_Shop_Virt_YourFunds")+ " <t color='#8cff9b'>$%2</t>",
+            format [(localize "STR_Shop_Virt_Gang_FundsMSG")+ "<br/><br/>" +(localize "STR_Shop_Virt_Gang_Funds")+ " <t color='#8cff9b'>€%1</t><br/>" +(localize "STR_Shop_Virt_YourFunds")+ " <t color='#8cff9b'>€%2</t>",
                 [(group player getVariable "gang_bank")] call life_fnc_numberText,
                 [CASH] call life_fnc_numberText
             ],
@@ -71,6 +71,7 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
             hint parseText format [localize "STR_Shop_Weapon_BoughtGang",_itemInfo select 1,[_price] call life_fnc_numberText];
             _funds = group player getVariable "gang_bank";
             _funds = _funds - _price;
+			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond du gang : %1",_funds]] remoteExec ["TON_fnc_insertLog",2];
             group player setVariable ["gang_bank",_funds,true];
             [_item,true] call life_fnc_handleItem;
 
@@ -85,18 +86,11 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
             if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
             hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
             CASH = CASH - _price;
-			
-			if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-				advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-			} else {
-				advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-			};
-			publicVariableServer "advanced_log";
+			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 			
             [_item,true] call life_fnc_handleItem;
         };
     } else {
-		_entreprise = nil;
 		if(_entrepriseBuy) then {
 			// LOAD ENTERPRISE IF NECESSARY
 			_oldEntACC = 0;
@@ -107,24 +101,20 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
 			
 			// ENTERPRISE BUY
 			_oldEntACC = _oldEntACC - _price;
+			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond entreprise : %1",_oldEntACC]] remoteExec ["TON_fnc_insertLog",2];
 			[1] call SOCK_fnc_updatePartial;
 			_entreprise setVariable ["entreprise_bankacc",_oldEntACC,true];
 			[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
 			[_entreprise,(name player),_amount,1] remoteExecCall ["max_entreprise_fnc_insertEntrepriseLogs",2];
+			hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
 		} else {
 			// PERSONAL BUY 
 			if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
 			CASH = CASH - _price;
+			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+			hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
 		};
 		
-        hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
-			
-		if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-			advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-		} else {
-			advanced_log = format [localize "STR_DL_ML_WeaponBuy",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-		};
-		publicVariableServer "advanced_log";
 		
 		
 		if (_itemInfo select 0 == "ACE_Wheel") then {

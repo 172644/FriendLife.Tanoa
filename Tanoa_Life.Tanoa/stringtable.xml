@@ -43,6 +43,14 @@
             <Original>Altis Police Department Shop</Original>
             <French>Vêtements de la police</French>
         </Key>
+        <Key ID="STR_MAR_Adac_Equipement">
+            <Original>Adac Shop Equipement</Original>
+            <French>Equipement DIR</French>
+        </Key>
+        <Key ID="STR_Shops_Adac">
+            <Original>Adac Item Shop</Original>
+            <French>Cafét' DIR</French>
+        </Key>
         <Key ID="STR_Shops_C_Rebel">
             <Original>Mohammed's Jihadi Shop</Original>
             <French>Vêtements Bandits</French>
@@ -1229,7 +1237,7 @@
         </Key>
         <Key ID="STR_NOTF_Earned_1">
             <Original>You have earned $%1</Original>
-            <French>Vous avez gagné %1€</French>
+            <French>Vous avez gagné €%1</French>
         </Key>
         <Key ID="STR_NOTF_NetDrop">
             <Original>Dropping fishing net...</Original>
@@ -1931,7 +1939,7 @@
         </Key>
         <Key ID="STR_Cop_BountyKill">
             <Original>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2.</Original>
-            <French>Vous avez reçu une prime de €%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu $%2.</French>
+            <French>Vous avez reçu une prime de €%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu €%2.</French>
         </Key>
         <Key ID="STR_Cop_Contraband">
             <Original>%1 has $%2 worth of contraband on them.</Original>

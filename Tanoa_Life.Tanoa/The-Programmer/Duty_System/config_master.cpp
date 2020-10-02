@@ -54,7 +54,7 @@ class The_programmer_Duty_Config {
     };
 
     class Cop_configuration {
-        coplevel_required = 20; //Minimum CopLevel level to take up duty
+        coplevel_required = 1; //Minimum CopLevel level to take up duty
         licence_required_cop[] = {"license_civ_driver"}; //All licenses that allows you to take up duty
 
         coplevel_required_to_acces_beeper = 20; //Minimum CopLevel level to open the beeper
@@ -74,7 +74,7 @@ class The_programmer_Duty_Config {
     };
 
     class Medic_configuration {
-        mediclevel_required = 20; //Minimum mediclevel level to take up duty
+        mediclevel_required = 1; //Minimum mediclevel level to take up duty
         licence_required_med[] = {"license_civ_boat"};
 
         medlevel_required_to_acces_beeper = 20; //Minimum Medleve level to open the beeper

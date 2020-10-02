@@ -39,7 +39,7 @@ switch (playerSide) do
     };
 	case east: { 
 		_handle = [] spawn life_fnc_adacLoadout; 
-	}
+	};
     waitUntil {scriptDone _handle};
 };
 

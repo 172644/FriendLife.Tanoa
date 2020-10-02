@@ -27,18 +27,18 @@ class Max_Settings_FuelStations {
 		class Land_FuelStation_01_pump_malevil_F { // class = classname of the fuel pump
 			fuel_1 = 2000; // number of litter by default and maximum per fuel per pump for the item who have as class "fuel_1" (fuel types are defined below the stations)
 			fuel_2 = 2000;
-			fuel_3 = 2000;
-			fuel_4 = 2000;
-			fuel_5 = 2000;
+			fuel_3 = 0;
+			fuel_4 = 0;
+			fuel_5 = 0;
 			fuel_6 = 0;
 			fuel_7 = 2000;
 		};
 		class Land_FuelStation_01_pump_F {
 			fuel_1 = 2000;
 			fuel_2 = 2000;
-			fuel_3 = 2000;
-			fuel_4 = 2000;
-			fuel_5 = 2000;
+			fuel_3 = 0;
+			fuel_4 = 0;
+			fuel_5 = 0;
 			fuel_6 = 0;
 			fuel_7 = 2000;
 		};
@@ -46,8 +46,8 @@ class Max_Settings_FuelStations {
 			fuel_1 = 2000;
 			fuel_2 = 2000;
 			fuel_3 = 2000;
-			fuel_4 = 2000;
-			fuel_5 = 2000;
+			fuel_4 = 0;
+			fuel_5 = 0;
 			fuel_6 = 0;
 			fuel_7 = 2000;
 		};
@@ -56,8 +56,8 @@ class Max_Settings_FuelStations {
 			fuel_2 = 2500;
 			fuel_3 = 0;
 			fuel_4 = 0;
-			fuel_5 = 2000;
-			fuel_6 = 0;
+			fuel_5 = 0;
+			fuel_6 = 10000;
 			fuel_7 = 0;
 		};
 		class Land_FuelStation_Feed_F {
@@ -75,22 +75,22 @@ class Max_Settings_FuelStations {
 		class fuel_1 {
 			displayName = "Gazole"; // not in stringtable ! only the text
 			item_refuel = "gazole"; // class and variable of the object (in the config_vItems) which makes it possible to fill the fuel station for this type of fuel
-			liter_price = 15; // price per liter of fuel purchased
-			liter_price_refuel_station = 12; // price per liter of fuel sold (when you refuel the station)
+			liter_price = 1.5; // price per liter of fuel purchased
+			liter_price_refuel_station = 1.2; // price per liter of fuel sold (when you refuel the station)
 			liters_per_item_refuel_station = 2; // number of liters in one "item_refuel"
 		};
 		class fuel_2 {
 			displayName = "Essence Sans Plomb 95";
 			item_refuel = "sp95";
-			liter_price = 9;
-			liter_price_refuel_station = 6;
+			liter_price = 1.8;
+			liter_price_refuel_station = 1.5;
 			liters_per_item_refuel_station = 2;
 		};
 		class fuel_3 {
 			displayName = "Essence Sans Plomb 98";
 			item_refuel = "sp98";
-			liter_price = 12;
-			liter_price_refuel_station = 9;
+			liter_price = 1.9;
+			liter_price_refuel_station = 1.6;
 			liters_per_item_refuel_station = 2;
 		};
 		class fuel_4 {
@@ -110,15 +110,15 @@ class Max_Settings_FuelStations {
 		class fuel_6 {
 			displayName = "Kerosene";
 			item_refuel = "kerosene";
-			liter_price = 27;
-			liter_price_refuel_station = 20;
+			liter_price = 3.5;
+			liter_price_refuel_station = 3;
 			liters_per_item_refuel_station = 2;
 		};
 		class fuel_7 {
             displayName = "Recharge électrique";
             item_refuel = "elctric";
-            liter_price = 5;
-            liter_price_refuel_station = 4;
+            liter_price = 1;
+            liter_price_refuel_station = 1;
             liters_per_item_refuel_station = 2;
         };
 	};
