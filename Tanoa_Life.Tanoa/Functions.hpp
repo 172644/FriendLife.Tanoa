@@ -19,6 +19,7 @@ class Life_Client_Core {
         class initCiv {};
         class initCop {};
         class initMedic {};
+		class initAdac {};
         class setupActions {};
         class setupEVH {};
         class survival {};
@@ -64,6 +65,12 @@ class Life_Client_Core {
         class checkAssurance {};
         class braquerleshop {};
     };
+	
+	class Adac { 
+		file = "core\adac"; 
+		class adacLoadout {}; 
+		class adacMarkers {}; 
+	};
 
     class Admin {
         file = "core\admin";
@@ -244,6 +251,7 @@ class Life_Client_Core {
         class teleport {};
         class whereAmI {};
 		class firstView {};
+		class autoMessages {}; // Message Auto
     };
 
     class Gangs {

@@ -18,10 +18,10 @@ class Max_Settings_EntreprisesMarkers {
     text_not_allowed = "You are not allowed to interact with this company !";
 
     class marker_company {
-        class company_1 {
-            marker_var = "marker_251";
+        class DIR {
+            marker_var = "ENT_marker_DIR";
             name_company = "DIR";
-            condition = "STR_License_DIR";
+            condition = "";
 
             class objects_changing {
                 class object_1 {
@@ -39,14 +39,36 @@ class Max_Settings_EntreprisesMarkers {
                 };
             };
         };
-
-        class company_2 {
-            marker_var = "marker_250";
-            name_company = "Dépanneur";
-            condition = "STR_License_Dépanneur";
+		
+        class ServiceSecours {
+            marker_var = "ADM_hospital_SP";
+            name_company = "ServiceSecours";
+            condition = "";
 
             class objects_changing {
-            	class object_1 {
+                class object_1 {
+                    position[] = {};
+                    classname = "";
+                    open_image_path = "";
+                    close_image_path = "";
+                };
+
+                class object_2 {
+                    position[] = {};
+                    classname = "";
+                    open_image_path = "";
+                    close_image_path = "";
+                };
+            };
+        };
+		
+        class Gendarmerie {
+            marker_var = "ADM_marker_GN";
+            name_company = "Gendarmerie";
+            condition = "";
+
+            class objects_changing {
+                class object_1 {
                     position[] = {};
                     classname = "";
                     open_image_path = "";

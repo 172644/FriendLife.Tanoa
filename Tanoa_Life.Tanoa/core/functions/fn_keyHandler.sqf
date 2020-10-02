@@ -124,12 +124,12 @@ switch (_code) do {
     };
 
     //Restraining (Shift + R)
-    case 19: {
+    /*case 19: {
         if (_shift) then {_handled = true;};
         if (_shift && playerSide isEqualTo west && {!isNull cursorObject} && {cursorObject isKindOf "Man"} && {(isPlayer cursorObject)} && {(side cursorObject in [civilian,independent])} && {alive cursorObject} && {cursorObject distance player < 3.5} && {!(cursorObject getVariable "Escorting")} && {!(cursorObject getVariable "restrained")} && {speed cursorObject < 1}) then {
             [] call life_fnc_restrainAction;
         };
-    };
+    };*/
 
     //Knock out, this is experimental and yeah... (Shift + G)
     case 34: {
@@ -230,7 +230,7 @@ switch (_code) do {
 		life_bar_placey pushBack life_barrier_activeObj;
 		life_barrier_active = false;
 		life_barrier_activeObj = ObjNull;
-		hint "Vous avez placé l'objet !";
+		//hint "Vous avez placé l'objet !";
    };
 
     //O Key

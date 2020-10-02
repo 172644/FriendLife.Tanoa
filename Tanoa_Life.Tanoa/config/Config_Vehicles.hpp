@@ -217,12 +217,11 @@ class CarShops {
     };
 
     class civ_DIR {
-        side = "civ";
-        conditions = "License_civ_DIR";
+        side = "adac";
+        conditions = "";
         vehicles[] = {
             { "chbalayeuse", "" },
             { "chchariot", "" },
-            { "chGrue_Mobile", "" },
             { "KangooII1_DIR", "" },
             { "Master3_DIR", "" },
             { "d3s_W2100", "" },
@@ -230,8 +229,9 @@ class CarShops {
             { "d3s_W2100", "" },
             { "ClioIV_DIR", "" },
             { "DIR_peugeot_expert", "" },
-            { "DIR_master3_v2", "" },
             { "Trafic3_DIR", "" },
+			{ "depanneuse", "" },
+            { "depanneuse_pl", "" },
             { "DIR_benne_orange", "" },
             { "DIR_gors_benne", "" },
             { "DIR_renault_saleuse", "" }
@@ -314,17 +314,6 @@ class CarShops {
         };
     };
 
-    class civ_DP {
-        side = "civ";
-        conditions = "License_civ_DP";
-        vehicles[] = {
-            { "V12_CLASSX_DEP", "" },
-            { "RealMan_DepanVL", "" },
-            { "RealMan_DepanPL", "" },
-			{ "chTransport_L", "" }
-        };
-    };
-
     class reb_car {
         side = "civ";
         conditions = "";
@@ -340,7 +329,6 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "I_Heli_light_03_unarmed_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" },
             { "EC635_Unarmed", "" }
         };
     };
@@ -444,14 +432,22 @@ class CarShops {
             { "Renault_ClioIV_civ_ae", "" }
         };
     
+    };
 
+    class civ_ups {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+            { "Hugpo_UPS_Sprinter", "" }
+        };
     };
 
     class cop_air {
         side = "cop";
         conditions = "call life_coplevel >= 3";
         vehicles[] = {
-            { "EC135GNlu", "call life_coplevel >= 4" }
+            { "EC135GNlu", "call life_coplevel >= 4" },
+			{ "O_Heli_Light_02_unarmed_F", "call life_coplevel >= 7" }
         };
     };
 
@@ -1501,6 +1497,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = { };
     };
 
+   // class rksla3_lcvpmk5_ind_viv_generic_grey {
+   //     vItemSpace = 0;
+   //     conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
+   //     price = 500000;
+   //     fuel = "fuel_1";
+   //     textures[] = { };
+   // };
+
     class Burnes_MK10_1 {
         vItemSpace = 0;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
@@ -2070,7 +2074,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class 1200RT_gn_ch {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 17850;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2078,7 +2082,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class Alessio206GND {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 7000;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2086,7 +2090,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class ClioIV_GN {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 14000;
         fuel = "fuel_2"; 
 		textures[] = { };
     };
@@ -2157,7 +2161,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class megane_4_estate_gn {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 25000;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2249,12 +2253,21 @@ will modify the virtual space and the price of the vehicle, but other informatio
         fuel = "fuel_6";
         textures[] = {};
     };
+
+   // class rksla3_lcvpmk5_viv_generic_grey {
+   //     vItemSpace = 25;
+   //     conditions = "";
+   //     price = 0;
+   //     fuel = "fuel_6";
+   //     textures[] = {};
+   // };
+	
 	/* ///////////// Pompier ///////////// */
 	
     class brancardch {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 500;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2262,7 +2275,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class devidoirch {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 800;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2270,7 +2283,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class devidoirchvsr {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 1000;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2278,7 +2291,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class berlingo2_vlcg {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 40000;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2286,7 +2299,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class chduster14_vlhr {
         vItemSpace = 25;
         conditions = "";
-        price = 0;
+        price = 35000;
         fuel = "fuel_1";
         textures[] = { };
     };
@@ -2439,14 +2452,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-    class chGrue_Mobile {
-        vItemSpace = 25;
-        conditions = "license_civ_driver";
-        price = 0;
-        fuel = "fuel_1";
-        textures[] = {};
-    };
-
     class KangooII1_DIR {
         vItemSpace = 25;
         conditions = "license_civ_driver";
@@ -2495,14 +2500,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-    class DIR_master3_v2 {
-        vItemSpace = 25;
-        conditions = "license_civ_driver";
-        price = 0;
-        fuel = "fuel_1";
-        textures[] = {};
-    };
-
     class Trafic3_DIR {
         vItemSpace = 25;
         conditions = "license_civ_driver";
@@ -2537,19 +2534,8 @@ will modify the virtual space and the price of the vehicle, but other informatio
 
     /* ///////////// DEPANNEUR ///////////// */
 
-    class chTransport_L {
-        vItemSpace = 100;
-        conditions = "";
-        price = 0;
-        fuel = "fuel_1";
-        textures[] = {
-            { "Blue", "civ", {
-                "#(argb,8,8,3)color(0.1,0.5,0.85,1)"
-            }, "" }
-		};
-    };
-
-    class RealMan_DepanPL  {
+    
+    class depanneuse_pl  {
         vItemSpace = 100;
         conditions = "";
         price = 0;
@@ -2557,24 +2543,12 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = { };
     };
 
-    class RealMan_DepanVL {
+    class depanneuse {
         vItemSpace = 100;
         conditions = "";
         price = 0;
         fuel = "fuel_1";
         textures[] = { };
-    };
-
-    class V12_CLASSX_DEP {
-        vItemSpace = 100;
-        conditions = "";
-        price = 0;
-        fuel = "fuel_1";
-        textures[] = {
-            { "Blue", "civ", {
-                "#(argb,8,8,3)color(0.1,0.5,0.85,1)"
-            }, "" }
-		};
     };
 	
     /* ///////////// GOUVERNEMENT ///////////// */	
@@ -2665,7 +2639,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class O_Heli_Light_02_unarmed_F {
         vItemSpace = 0;
         conditions = "license_civ_pilot || {license_med_mAir} || {(playerSide isEqualTo west)}";
-        price = 700000;
+        price = 0;
         fuel = "fuel_6";
         textures[] = {
             { "Black", "reb", {
@@ -2883,7 +2857,16 @@ will modify the virtual space and the price of the vehicle, but other informatio
         fuel = "fuel_2";
         textures[] = { };
     };
-
+	/* ///////////// UPS ///////////// */
+	
+	class Hugpo_UPS_Sprinter {
+        vItemSpace = 0;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 10000;
+        fuel = "fuel_1";
+        textures[] = { };
+    };
+		
 	/* ///////////// A GAGNER ///////////// */
 
     class 406_taxi {

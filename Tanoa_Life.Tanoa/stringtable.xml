@@ -45,7 +45,7 @@
         </Key>
         <Key ID="STR_Shops_C_Rebel">
             <Original>Mohammed's Jihadi Shop</Original>
-            <French>Vêtements rebelle</French>
+            <French>Vêtements Bandits</French>
         </Key>
         <Key ID="STR_Shops_C_Diving">
             <Original>Steve's Diving Shop</Original>
@@ -85,7 +85,7 @@
         </Key>
         <Key ID="STR_Shops_Rebel">
             <Original>Rebel Market</Original>
-            <French>Marché Rebelle</French>
+            <French>Marché Bandit</French>
         </Key>
         <Key ID="STR_Shops_Gang">
             <Original>Gang Market</Original>
@@ -291,15 +291,15 @@
         </Key>
         <Key ID="STR_ANOTF_CompWarn">
             <Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
-            <French>Vous êtes sur le point de vous donner $%1 pour rembourser un autre joueur &lt;br/&gt;&lt;br/&gt; Merci de le lui donner manuellement.</French>
+            <French>Vous êtes sur le point de vous donner €%1 pour rembourser un autre joueur &lt;br/&gt;&lt;br/&gt; Merci de le lui donner manuellement.</French>
         </Key>
         <Key ID="STR_ANOTF_Success">
             <Original>You have added $%1 to your account.</Original>
-            <French>Vous avez ajouté $%1 à votre compte</French>
+            <French>Vous avez ajouté €%1 à votre compte</French>
         </Key>
         <Key ID="STR_ANOTF_Fail">
             <Original>You can not go above $999,999</Original>
-            <French>Vous ne pouvez pas aller au-dessus $999,999 !</French>
+            <French>Vous ne pouvez pas aller au-dessus €999,999 !</French>
         </Key>
         <Key ID="STR_ANOTF_Amount">
             <Original>Please type in the amount to compensate.</Original>
@@ -405,7 +405,7 @@
         </Key>
         <Key ID="STR_ATM_GreaterThan">
             <Original>You can't deposit more then $999,999 at a time</Original>
-            <French>Vous ne pouvez pas déposer plus de $999,999.</French>
+            <French>Vous ne pouvez pas déposer plus de €999,999.</French>
         </Key>
         <Key ID="STR_ATM_notnumeric">
             <Original>The amount entered isn't a numeric value.</Original>
@@ -421,7 +421,7 @@
         </Key>
         <Key ID="STR_ATM_TransferMax">
             <Original>You can't transfer more then $999,999</Original>
-            <French>Vous ne pouvez pas transférer plus de $999,999.</French>
+            <French>Vous ne pouvez pas transférer plus de €999,999.</French>
         </Key>
         <Key ID="STR_ATM_NotEnoughFunds">
             <Original>You don't have that much in your bank account!</Original>
@@ -433,31 +433,31 @@
         </Key>
         <Key ID="STR_ATM_SentMoneyFail">
             <Original>You do not have enough money in your bank account, to transfer $%1 you will need $%2 as a tax fee.</Original>
-            <French>Vous n'avez pas assez d'agent dans votre compte bancaire, pour transférer $%1 vous devez payer $%2 de taxes.</French>
+            <French>Vous n'avez pas assez d'agent dans votre compte bancaire, pour transférer €%1 vous devez payer €%2 de taxes.</French>
         </Key>
         <Key ID="STR_ATM_SentMoneySuccess">
             <Original>You have transfered $%1 to %2.\n\nA tax fee of $%3 was taken for the wire transfer.</Original>
-            <French>Vous avez transféré $%1 à %2.\n\nA Une taxe de $%3 vous a été prélevée pendant le transfert.</French>
+            <French>Vous avez transféré €%1 à %2.\n\nA Une taxe de €%3 vous a été prélevée pendant le transfert.</French>
         </Key>
         <Key ID="STR_ATM_WireTransfer">
             <Original>%1 has wire transferred $%2 to you.</Original>
-            <French>%1 vous a fait un virement de $%2.</French>
+            <French>%1 vous a fait un virement de €%2.</French>
         </Key>
         <Key ID="STR_ATM_WithdrawMax">
             <Original>You can't withdraw more then $999,999</Original>
-            <French>Vous ne pouvez pas retirer plus de $999,999.</French>
+            <French>Vous ne pouvez pas retirer plus de €999,999.</French>
         </Key>
         <Key ID="STR_ATM_WithdrawMin">
             <Original>You can't withdraw less then $100</Original>
-            <French>Vous ne pouvez pas retirer moins de $100.</French>
+            <French>Vous ne pouvez pas retirer moins de €100.</French>
         </Key>
         <Key ID="STR_ATM_WithdrawSuccess">
             <Original>You have withdrawn $%1 from your bank account</Original>
-            <French>Vous avez retiré $%1 de votre compte en banque.</French>
+            <French>Vous avez retiré €%1 de votre compte en banque.</French>
         </Key>
         <Key ID="STR_ATM_WithdrawSuccessG">
             <Original>You have withdrawn $%1 from your gang.</Original>
-            <French>Vous avez retiré $%1 de votre gang.</French>
+            <French>Vous avez retiré €%1 de votre gang.</French>
         </Key>
         <Key ID="STR_ATM_WithdrawInUseG">
             <Original>Someone is already trying to withdraw from your gang.</Original>
@@ -469,11 +469,11 @@
         </Key>
         <Key ID="STR_ATM_DepositSuccess">
             <Original>You have deposited $%1 into your bank account</Original>
-            <French>Vous avez déposé $%1 dans votre compte en banque.</French>
+            <French>Vous avez déposé €%1 dans votre compte en banque.</French>
         </Key>
         <Key ID="STR_ATM_DepositSuccessG">
             <Original>You have deposited $%1 into your gang's bank account</Original>
-            <French>Vous avez déposé $%1 sur le compte en banque de votre gang.</French>
+            <French>Vous avez déposé €%1 sur le compte en banque de votre gang.</French>
         </Key>
         <Key ID="STR_ATM_DepositInUseG">
             <Original>Someone is already trying to deposit into your gang's bank account.</Original>
@@ -589,7 +589,7 @@
         </Key>
         <Key ID="STR_Gang_PriceTxt">
             <Original>To create a gang it costs $%1</Original>
-            <French>Le prix de création d'un gang est de %1$</French>
+            <French>Le prix de création d'un gang est de €%1</French>
         </Key>
         <Key ID="STR_Gang_Create">
             <Original>Create</Original>
@@ -667,11 +667,11 @@
         </Key>
         <Key ID="STR_GNOTF_NotEnoughMoney">
             <Original>You do not have enough money in your bank account.\n\nYou lack: $%1</Original>
-            <French>Vous n'avez pas assez d'argent dans votre compte en banque.\n\nIl vous manque: $%1</French>
+            <French>Vous n'avez pas assez d'argent dans votre compte en banque.\n\nIl vous manque: €%1</French>
         </Key>
         <Key ID="STR_GNOTF_CreateSuccess">
             <Original>You have created the gang %1 for $%2</Original>
-            <French>Vous avez créé le gang %1 pour $%2.</French>
+            <French>Vous avez créé le gang %1 pour €%2.</French>
         </Key>
         <Key ID="STR_GNOTF_DisbandWarn">
             <Original>You are about to disband the gang, by disbanding the gang it will be removed from the database and the group will be dropped. &lt;br/&gt;&lt;br/&gt;Are you sure you want to disband the group? You will not be refunded the price for creating it.</Original>
@@ -779,7 +779,7 @@
         </Key>
         <Key ID="STR_GNOTF_UpgradeSuccess">
             <Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
-            <French>Vous avez mis à niveau le nombre maximal de membres de %1 à %2 pour &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
+            <French>Vous avez mis à niveau le nombre maximal de membres de %1 à %2 pour &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</French>
         </Key>
         <Key ID="STR_GNOTF_UpgradeCancel">
             <Original>Upgrade cancelled.</Original>
@@ -821,7 +821,7 @@
         </Key>
         <Key ID="STR_Garage_HouseBuyMSG">
             <Original>This garage is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original>
-            <French>Ce garage est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</French>
+            <French>Ce garage est disponible pour &lt;t color='#8cff9b'&gt;€%1&lt;/t&gt;&lt;br/&gt;</French>
         </Key>
         <Key ID="STR_House_Hideout">
             <Original>This building is a Gang Hideout!</Original>
@@ -829,7 +829,7 @@
         </Key>
         <Key ID="STR_House_SellGarageMSG">
             <Original>Are you sure you want to sell your garage? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
-            <French>Êtes-vous sûr de vouloir vendre votre garage ? Vous le vendrez pour : &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
+            <French>Êtes-vous sûr de vouloir vendre votre garage ? Vous le vendrez pour : &lt;t color='#8cff9b'&gt;€%1&lt;/t&gt;</French>
         </Key>
         <Key ID="STR_House_GarageSell">
             <Original>Sell Garage</Original>
@@ -873,7 +873,7 @@
         </Key>
         <Key ID="STR_Garage_CashError">
             <Original>You don't have $%1 in your bank account</Original>
-            <French>Vous n'avez pas %1$ sur ton compte en banque.</French>
+            <French>Vous n'avez pas €%1 sur ton compte en banque.</French>
         </Key>
         <Key ID="STR_Garage_SpawningVeh">
             <Original>Spawning vehicle please wait...</Original>
@@ -893,7 +893,7 @@
         </Key>
         <Key ID="STR_Garage_SoldCar">
             <Original>You sold that vehicle for $%1</Original>
-            <French>Vous avez vendu ce véhicule pour $%1.</French>
+            <French>Vous avez vendu ce véhicule pour €%1.</French>
         </Key>
         <Key ID="STR_Garage_Store_NotPersistent">
             <Original>That vehicle is a rental and cannot be stored in your garage.</Original>
@@ -1145,7 +1145,7 @@
         </Key>
         <Key ID="STR_Wanted_Bounty">
             <Original>Current Bounty Price: $%1</Original>
-            <French>Prix de la prime: $%1</French>
+            <French>Prix de la prime: €%1</French>
         </Key>
     </Package>
     <Package name="Animals">
@@ -1201,11 +1201,11 @@
     <Package name="Notifications">
         <Key ID="STR_NOTF_NE_1">
             <Original>You do not have $%1 for a %2</Original>
-            <French>Vous n'avez pas %1$ pour cet élément : %2</French>
+            <French>Vous n'avez pas €%1 pour cet élément : %2</French>
         </Key>
         <Key ID="STR_NOTF_B_1">
             <Original>You bought a %1 for $%2</Original>
-            <French>Vous avez acheté : %1 pour %2$</French>
+            <French>Vous avez acheté : %1 pour €%2</French>
         </Key>
         <Key ID="STR_NOTF_Arrested_1">
             <Original>%1 was arrested by %2</Original>
@@ -1229,7 +1229,7 @@
         </Key>
         <Key ID="STR_NOTF_Earned_1">
             <Original>You have earned $%1</Original>
-            <French>Vous avez gagné %1$</French>
+            <French>Vous avez gagné %1€</French>
         </Key>
         <Key ID="STR_NOTF_NetDrop">
             <Original>Dropping fishing net...</Original>
@@ -1257,7 +1257,7 @@
         </Key>
         <Key ID="STR_NOTF_ChopSoldCar">
             <Original>You have sold a %1 for $%2</Original>
-            <French>Vous avez vendu un(e) %1 pour $%2</French>
+            <French>Vous avez vendu un(e) %1 pour €%2</French>
         </Key>
         <Key ID="STR_NOTF_Picked">
             <Original>You have picked %1 %2</Original>
@@ -1281,7 +1281,7 @@
         </Key>
         <Key ID="STR_NOTF_HS_NoCash">
             <Original>You do not have $%1 to be healed</Original>
-            <French>Vous n'avez pas $%1 pour être soigné.</French>
+            <French>Vous n'avez pas €%1 pour être soigné.</French>
         </Key>
         <Key ID="STR_NOTF_HS_FullHealth">
             <Original>You do not need to be healed!</Original>
@@ -1289,7 +1289,7 @@
         </Key>
         <Key ID="STR_NOTF_HS_PopUp">
             <Original>Spend $%1 to be fully healed?</Original>
-            <French>Donner $%1 pour être complètement guéri ?</French>
+            <French>Donner €%1 pour être complètement guéri ?</French>
         </Key>
         <Key ID="STR_NOTF_HS_TITLE">
             <Original>Doctor</Original>
@@ -1321,7 +1321,7 @@
         </Key>
         <Key ID="STR_NOTF_Impounded">
             <Original>You have impounded a %1\n\nYou have received $%2 for cleaning up the streets!</Original>
-            <French>Vous avez mis en fourrière un(e) %1\n\nVous avez reçu $%2.</French>
+            <French>Vous avez mis en fourrière un(e) %1\n\nVous avez reçu €%2.</French>
         </Key>
         <Key ID="STR_NOTF_HasImpounded">
             <Original>%1 has impounded %2's %3</Original>
@@ -1329,7 +1329,7 @@
         </Key>
         <Key ID="STR_NOTF_OwnImpounded">
             <Original>You paid $%1 for impounding your own %2.</Original>
-            <French>Vous avez payé $%1 pour la mise en fourrière de votre propre %2.</French>
+            <French>Vous avez payé €%1 pour la mise en fourrière de votre propre %2.</French>
         </Key>
         <Key ID="STR_NOTF_AbortESC">
             <Original>Abort available in %1</Original>
@@ -1369,11 +1369,11 @@
         </Key>
         <Key ID="STR_NOTF_PickedEvidence">
             <Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
-            <French>Vous avez mis sous scellé la drogue de %1, vous avez reçu $%2 comme récompense.</French>
+            <French>Vous avez mis sous scellé la drogue de %1, vous avez reçu €%2 comme récompense.</French>
         </Key>
         <Key ID="STR_NOTF_PickedMoney">
             <Original>You have picked up $%1</Original>
-            <French>Vous avez ramassé $%1</French>
+            <French>Vous avez ramassé €%1</French>
         </Key>
         <Key ID="STR_NOTF_Bail_Post">
             <Original>You must wait at least 3 minutes in jail before paying a bail.</Original>
@@ -1381,7 +1381,7 @@
         </Key>
         <Key ID="STR_NOTF_Bail_NotEnough">
             <Original>You do not have $%1 in your bank account to pay bail.</Original>
-            <French>Vous n'avez pas $%1 dans votre compte en banque pour payer la caution.</French>
+            <French>Vous n'avez pas €%1 dans votre compte en banque pour payer la caution.</French>
         </Key>
         <Key ID="STR_NOTF_Bail_Bailed">
             <Original>%1 has posted bail!</Original>
@@ -1425,7 +1425,7 @@
         </Key>
         <Key ID="STR_NOTF_Robbed">
             <Original>%1 has robbed %2 for $%3</Original>
-            <French>%1 a volé %2 pour $%3.</French>
+            <French>%1 a volé %2 pour €%3.</French>
         </Key>
         <Key ID="STR_NOTF_RobFail">
             <Original>%1 doesn't have any money.</Original>
@@ -1437,11 +1437,11 @@
         </Key>
         <Key ID="STR_NOTF_VehContraband">
             <Original>A vehicle was searched and has $%1 worth of drugs / contraband.</Original>
-            <French>Un véhicule venant d'être fouillé avait $%1 de drogue / contrebande.</French>
+            <French>Un véhicule venant d'être fouillé avait €%1 de drogue / contrebande.</French>
         </Key>
         <Key ID="STR_NOTF_ContainerContraband">
             <Original>A container of house was searched and has $%1 worth of drugs / contraband.</Original>
-            <French>Un conteneur de maison venant d'être fouillé avait $%1 de drogue / contrebande.</French>
+            <French>Un conteneur de maison venant d'être fouillé avait €%1 de drogue / contrebande.</French>
         </Key>
         <Key ID="STR_NOTF_PulledOut">
             <Original>You have been pulled out of the vehicle.</Original>
@@ -1453,7 +1453,7 @@
         </Key>
         <Key ID="STR_NOTF_GivenMoney">
             <Original>%1 has given you $%2.</Original>
-            <French>%1 vous a donné $%2.</French>
+            <French>%1 vous a donné €%2.</French>
         </Key>
         <Key ID="STR_NOTF_SendingData">
             <Original>Sending information to server please wait.....</Original>
@@ -1491,7 +1491,7 @@
         </Key>
         <Key ID="STR_NOTF_ProcessWOLicense">
             <Original>You need $%1 to process without a license!</Original>
-            <French>Vous devez payer $%1 pour traiter sans licence !</French>
+            <French>Vous devez payer €%1 pour traiter sans licence !</French>
         </Key>
         <Key ID="STR_NOTF_NotEnoughItemProcess">
             <Original>You don't have enough items!</Original>
@@ -1639,7 +1639,7 @@
         </Key>
         <Key ID="STR_NOTF_youGaveMoney">
             <Original>You gave $%1 to %2.</Original>
-            <French>Vous avez donné $%1 à %2.</French>
+            <French>Vous avez donné €%1 à %2.</French>
         </Key>
         <Key ID="STR_NOTF_recentlyRobbedBank">
             <Original>You recently robbed the bank! You can't give money away just yet.</Original>
@@ -1773,7 +1773,7 @@
         </Key>
         <Key ID="STR_News_NotEnough">
             <Original>You need $%1 to send a broadcast!</Original>
-            <French>Vous avez besoin de $%1 pour envoyer une diffusion !</French>
+            <French>Vous avez besoin de €%1 pour envoyer une diffusion !</French>
         </Key>
         <Key ID="STR_News_BroadcastedBy">
             <Original>&lt;t size='2'&gt;%1&lt;/t&gt;&lt;br /&gt;Broadcasted by: %2</Original>
@@ -1837,7 +1837,7 @@
         </Key>
         <Key ID="STR_Civ_Robbed">
             <Original>You stole $%1</Original>
-            <French>Vous avez volé $%1</French>
+            <French>Vous avez volé €%1</French>
         </Key>
         <Key ID="STR_Civ_VaultEmpty">
             <Original>The safe is empty!</Original>
@@ -1890,12 +1890,12 @@
             <French>Vous n'avez pas saisi de nombre.</French>
         </Key>
         <Key ID="STR_Cop_TicketOver100">
-            <Original>Tickets can not be more than $200,000!</Original>
-            <French>Les amendes ne peuvent pas dépasser plus de $200,000 !</French>
+            <Original>Tickets can not be more than $2,000,000!</Original>
+            <French>Les amendes ne peuvent pas dépasser plus de €2,000,000 !</French>
         </Key>
         <Key ID="STR_Cop_TicketGive">
             <Original>%1 gave a ticket of $%2 to %3</Original>
-            <French>%1 a mis une contravention de $%2 à %3.</French>
+            <French>%1 a mis une contravention de €%2 à %3.</French>
         </Key>
         <Key ID="STR_Cop_Ticket_NotEnough">
             <Original>You don't have enough money in your bank account or on you to pay the ticket.</Original>
@@ -1907,11 +1907,11 @@
         </Key>
         <Key ID="STR_Cop_Ticket_Paid">
             <Original>You have paid the ticket of $%1</Original>
-            <French>Vous avez payé l'amende de $%1</French>
+            <French>Vous avez payé l'amende de €%1</French>
         </Key>
         <Key ID="STR_Cop_Ticket_PaidNOTF">
             <Original>%1 paid the ticket of $%2</Original>
-            <French>%1 payé la contravention de $%2</French>
+            <French>%1 payé la contravention de €%2</French>
         </Key>
         <Key ID="STR_Cop_Ticket_PaidNOTF_2">
             <Original>%1 paid the ticket.</Original>
@@ -1919,7 +1919,7 @@
         </Key>
         <Key ID="STR_Cop_Ticket_GUI_Given">
             <Original>%1 has given you a ticket for $%2</Original>
-            <French>%1 vous a donné une amende de $%2</French>
+            <French>%1 vous a donné une amende de €%2</French>
         </Key>
         <Key ID="STR_Cop_Ticket_Refuse">
             <Original>%1 refused to pay the ticket.</Original>
@@ -1927,15 +1927,15 @@
         </Key>
         <Key ID="STR_Cop_BountyRecieve">
             <Original>You have collected a bounty of $%1 for arresting a criminal.</Original>
-            <French>Vous avez reçu une prime de $%1 pour avoir arrêté un criminel.</French>
+            <French>Vous avez reçu une prime de €%1 pour avoir arrêté un criminel.</French>
         </Key>
         <Key ID="STR_Cop_BountyKill">
             <Original>You have collected a bounty of $%1 for killing a wanted criminal, if you had arrested him you would of received $%2.</Original>
-            <French>Vous avez reçu une prime de $%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu $%2.</French>
+            <French>Vous avez reçu une prime de €%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu $%2.</French>
         </Key>
         <Key ID="STR_Cop_Contraband">
             <Original>%1 has $%2 worth of contraband on them.</Original>
-            <French>%1 a $%2 de contrebande sur lui.</French>
+            <French>%1 a €%2 de contrebande sur lui.</French>
         </Key>
         <Key ID="STR_Cop_IllegalItems">
             <Original>Illegal Items</Original>
@@ -1983,7 +1983,7 @@
         </Key>
         <Key ID="STR_Cop_RobberDead">
             <Original>$%1 from the Federal Reserve robbery was returned from the robber being killed.</Original>
-            <French>$%1 du vol de la Banque Centrale ont été récupérés sur le braqueur, qui vient d'être tué.</French>
+            <French>€%1 du vol de la Banque Centrale ont été récupérés sur le braqueur, qui vient d'être tué.</French>
         </Key>
         <Key ID="STR_Cop_RepairVault">
             <Original>Repairing vault...</Original>
@@ -2231,7 +2231,7 @@
         </Key>
         <Key ID="STR_House_BuyMSG">
             <Original>This house is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;It supports up to %2 storage containers</Original>
-            <French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
+            <French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;€%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
         </Key>
         <Key ID="STR_House_Purchase">
             <Original>Purchase House</Original>
@@ -2279,7 +2279,7 @@
         </Key>
         <Key ID="STR_House_Raid_Successful">
             <Original>A house was raided and had $%1 worth of drugs / contraband.</Original>
-            <French>Une maison a été perquisitionné et avait $%1 de drogue / contrebande.</French>
+            <French>Une maison a été perquisitionné et avait €%1 de drogue / contrebande.</French>
         </Key>
         <Key ID="STR_House_Raid_NoIllegal">
             <Original>Nothing illegal in this house.</Original>
@@ -2303,7 +2303,7 @@
         </Key>
         <Key ID="STR_House_SellHouseMSG">
             <Original>Are you sure you want to sell your house? It will sell for: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Original>
-            <French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
+            <French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;€%1&lt;/t&gt;</French>
         </Key>
         <Key ID="STR_House_DeleteContainerMSG">
             <Original>Are you sure you want to remove it?</Original>
@@ -2339,7 +2339,7 @@
         </Key>
         <Key ID="STR_Serive_Chopper_NotEnough">
             <Original>You need $1,000 to service your chopper</Original>
-            <French>Vous avez besoin de $1000 pour entretien de votre hélicoptère</French>
+            <French>Vous avez besoin de €1000 pour entretien de votre hélicoptère</French>
         </Key>
         <Key ID="STR_Service_Chopper_Servicing">
             <Original>Servicing Chopper [%1]...</Original>
@@ -2732,7 +2732,7 @@
         </Key>
         <Key ID="STR_License_Rebel">
             <Original>Rebel Training</Original>
-            <French>Entraînement rebelle</French>
+            <French>Entraînement Bandit</French>
         </Key>
         <Key ID="STR_License_Truck">
             <Original>Truck License</Original>
@@ -2866,7 +2866,7 @@
         </Key>
         <Key ID="STR_ISTR_Jerry_PopUp">
             <Original>Spend $%1 to refuel your Empty Fuel Canister?</Original>
-            <French>Dépenser $%1 pour faire le plein de votre réservoir ?</French>
+            <French>Dépenser €%1 pour faire le plein de votre réservoir ?</French>
         </Key>
         <Key ID="STR_ISTR_Jerry_Distance">
             <Original>You must be closer to the fuel pump!</Original>
@@ -3016,7 +3016,7 @@
         </Key>
         <Key ID="STR_Process_License">
             <Original>You need $%1 to process without a license!</Original>
-            <French>Vous avez besoin de $%1 pour traiter sans licence !</French>
+            <French>Vous avez besoin de €%1 pour traiter sans licence !</French>
         </Key>
         <Key ID="STR_Process_Processed">
             <Original>You have processed %1 into %2</Original>
@@ -3024,7 +3024,7 @@
         </Key>
         <Key ID="STR_Process_Processed2">
             <Original>You have processed %1 into %2 for $%3</Original>
-            <French>Vous avez traité %1 en %2 pour $%3</French>
+            <French>Vous avez traité %1 en %2 pour €%3</French>
         </Key>
     </Package>
     <Package name="Medical_Strings">
@@ -3050,7 +3050,7 @@
         </Key>
         <Key ID="STR_Medic_RevivePay">
             <Original>%1 has revived you and a fee of $%2 was taken from your bank account for their services.</Original>
-            <French>%1 vous a réanimé, des frais de $%2 ont été transférés depuis votre compte en banque sur celui du médecin.</French>
+            <French>%1 vous a réanimé, des frais de €%2 ont été transférés depuis votre compte en banque sur celui du médecin.</French>
         </Key>
         <Key ID="STR_Medic_AlreadyReviving">
             <Original>Someone else is already reviving this person</Original>
@@ -3066,7 +3066,7 @@
         </Key>
         <Key ID="STR_Medic_RevivePayReceive">
             <Original>You have revived %1 and received $%2 for your services.</Original>
-            <French>Vous avez réanimé %1, vous avez reçu $%2 pour votre aide</French>
+            <French>Vous avez réanimé %1, vous avez reçu €%2 pour votre aide</French>
         </Key>
         <Key ID="STR_Medic_TooFar">
             <Original>You got to far away from the body.</Original>
@@ -3080,7 +3080,7 @@
         </Key>
         <Key ID="STR_NOTF_FRRobbery_Success">
             <Original>$%1 was stolen from the robbery on the federal reserve</Original>
-            <French>$%1 a été volé à la Banque Centrale.</French>
+            <French>€%1 a été volé à la Banque Centrale.</French>
         </Key>
         <Key ID="STR_FEDR_VInUse">
             <Original>This vault is already being robbed by someone else</Original>
@@ -3184,7 +3184,7 @@
         </Key>
         <Key ID="STR_pInAct_GarageExtNOTF">
             <Original>You can buy a garage at this house for $%1. You must first purchase the house!</Original>
-            <French>Vous pouvez acheter un garage dans cette maison pour $%1. Vous devez d'abord acheter la maison !</French>
+            <French>Vous pouvez acheter un garage dans cette maison pour €%1. Vous devez d'abord acheter la maison !</French>
         </Key>
         <Key ID="STR_pInAct_SearchHouse">
             <Original>Search house</Original>
@@ -3374,7 +3374,7 @@
         </Key>
         <Key ID="STR_Shop_NotaReb">
             <Original>You don't have rebel training yet!</Original>
-            <French>Vous n'avez pas encore d'entraînement rebelle !</French>
+            <French>Vous n'avez pas encore d'entraînement Bandit !</French>
         </Key>
         <Key ID="STR_Shop_NotaDive">
             <Original>You need a Diving license to use this shop!</Original>
@@ -3414,7 +3414,7 @@
         </Key>
         <Key ID="STR_Shop_Unimpound_Success">
             <Original>You have unimpounded your %1 for $%3</Original>
-            <French>Vous avez sorti votre %1 pour $%3</French>
+            <French>Vous avez sorti votre %1 pour €%3</French>
         </Key>
         <Key ID="STR_Shop_Veh_DidntPick">
             <Original>You did not pick a vehicle!</Original>
@@ -3422,7 +3422,7 @@
         </Key>
         <Key ID="STR_Shop_Veh_NotEnough">
             <Original>You do not have enough cash to purchase this vehicle.\n\nAmount Lacking: $%1</Original>
-            <French>Vous n'avez pas assez d'argent pour acheter ce véhicule \n\nArgent Manquant: $%1</French>
+            <French>Vous n'avez pas assez d'argent pour acheter ce véhicule \n\nArgent Manquant: €%1</French>
         </Key>
         <Key ID="STR_Shop_Veh_NoLicense">
             <Original>You do not have the required license and/or level!</Original>
@@ -3434,7 +3434,7 @@
         </Key>
         <Key ID="STR_Shop_Veh_Bought">
             <Original>You bought a %1 for $%2</Original>
-            <French>Vous avez acheté un %1 pour $%2</French>
+            <French>Vous avez acheté un %1 pour €%2</French>
         </Key>
         <Key ID="STR_Shop_Veh_UI_Rental">
             <Original>Rental Price:</Original>
@@ -3522,15 +3522,15 @@
         </Key>
         <Key ID="STR_Shop_Virt_BoughtGang">
             <Original>You bought %1 %2 for $%3 with the gangs funds</Original>
-            <French>Vous avez acheté %1 %2 pour $%3 avec les fonds gangs</French>
+            <French>Vous avez acheté %1 %2 pour €%3 avec les fonds gangs</French>
         </Key>
         <Key ID="STR_Shop_Virt_BoughtItem">
             <Original>You bought %1 %2 for $%3</Original>
-            <French>Vous avez acheté %1 %2 pour $%3</French>
+            <French>Vous avez acheté %1 %2 pour €%3</French>
         </Key>
         <Key ID="STR_Shop_Virt_SellItem">
             <Original>You sold %1 %2 for $%3</Original>
-            <French>Vous avez vendu %1 %2 pour $%3</French>
+            <French>Vous avez vendu %1 %2 pour €%3</French>
         </Key>
         <Key ID="STR_Shop_Weapon_NoSelect">
             <Original>You need to select an item to buy/sell.</Original>
@@ -3538,15 +3538,15 @@
         </Key>
         <Key ID="STR_Shop_Weapon_Sold">
             <Original>You sold a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
-            <French>Vous avez vendu un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
+            <French>Vous avez vendu un %1 pour &lt;t color='#8cff9b'&gt;€%2&lt;/t&gt;</French>
         </Key>
         <Key ID="STR_Shop_Weapon_BoughtGang">
             <Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; with the gangs funds.</Original>
-            <French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt; avec les fonds du gang.</French>
+            <French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;€%2&lt;/t&gt; avec les fonds du gang.</French>
         </Key>
         <Key ID="STR_Shop_Weapon_BoughtItem">
             <Original>You bought a %1 for &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</Original>
-            <French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;$%2&lt;/t&gt;</French>
+            <French>Vous avez acheté un %1 pour &lt;t color='#8cff9b'&gt;€%2&lt;/t&gt;</French>
         </Key>
         <Key ID="STR_Shop_Weapon_ShopInv">
             <Original>Shop Inventory</Original>
@@ -3568,7 +3568,7 @@
         </Key>
         <Key ID="STR_FSM_ReceivedPay">
             <Original>You have received a paycheck of $%1.</Original>
-            <French>Vous avez reçu votre paye de $%1.</French>
+            <French>Vous avez reçu votre paye de €%1.</French>
         </Key>
     </Package>
     <Package name="Fuel_Pump">
@@ -3582,7 +3582,7 @@
         </Key>
         <Key ID="STR_Price_Fuel_Pump">
             <Original>Price per Liter: $%1</Original>
-            <French>Prix au Litre : $%1</French>
+            <French>Prix au Litre : €%1</French>
         </Key>
         <Key ID="STR_Fuel_Tank_Vehicle">
             <Original>Current Fuel Amount:</Original>
@@ -3658,7 +3658,7 @@
         </Key>
         <Key ID="STR_MAR_Rebel_Outpost">
             <Original>Rebel Outpost</Original>
-            <French>Avant-Poste Rebelle</French>
+            <French>Avant-Poste Bandit</French>
         </Key>
         <Key ID="STR_MAR_Air_Shop">
             <Original>Air Shop</Original>
@@ -3902,11 +3902,11 @@
         </Key>
         <Key ID="STR_MAR_Rebel_Clothing_Shop">
             <Original>Rebel Clothing Shop</Original>
-            <French>Vêtements rebelle</French>
+            <French>Vêtements Bandits</French>
         </Key>
         <Key ID="STR_MAR_Rebel_Weapon_Shop">
             <Original>Rebel Weapon Shop</Original>
-            <French>Armurerie rebelle</French>
+            <French>Armurerie Bandit</French>
         </Key>
         <Key ID="STR_MAR_Helicopter_Shop">
             <Original>Helicopter Shop</Original>
@@ -3918,7 +3918,7 @@
         </Key>
         <Key ID="STR_MAR_Rebel_Market">
             <Original>Rebel Market</Original>
-            <French>Marché Rebelle</French>
+            <French>Marché Bandit</French>
         </Key>
         <Key ID="STR_MAR_Question_Dealer">
             <Original>Question Dealer</Original>
@@ -4088,23 +4088,23 @@
         </Key>
         <Key ID="STR_SP_Reb_N">
             <Original>Northern Rebel Base</Original>
-            <French>Base rebelle nord</French>
+            <French>Base Bandit nord</French>
         </Key>
         <Key ID="STR_SP_Reb_S">
             <Original>Southern Rebel Base</Original>
-            <French>Base rebelle sud</French>
+            <French>Base Bandit sud</French>
         </Key>
         <Key ID="STR_SP_Reb_E">
             <Original>Eastern Rebel Base</Original>
-            <French>Base rebelle est</French>
+            <French>Base Bandit est</French>
         </Key>
         <Key ID="STR_SP_Reb_NW">
             <Original>North Western Rebel Base</Original>
-            <French>Base rebelle nord-ouest</French>
+            <French>Base Bandit nord-ouest</French>
         </Key>
         <Key ID="STR_SP_Reb_NE">
             <Original>North Eastern Rebel Base</Original>
-            <French>Base rebelle nord-est</French>
+            <French>Base Bandit nord-est</French>
         </Key>
         <Key ID="STR_SP_EMS_Kav">
             <Original>Kavala Hospital</Original>
@@ -4254,7 +4254,7 @@
         </Key>
         <Key ID="STR_Crime_8">
             <Original>Rebel vehicle (Not armed)</Original>
-            <French>Véhicule rebel non armé</French>
+            <French>Véhicule Bandit non armé</French>
         </Key>
         <Key ID="STR_Crime_9">
             <Original>Grand Theft (Civilian Vehicle)</Original>
@@ -4283,7 +4283,7 @@
         </Key>
         <Key ID="STR_Crime_15">
             <Original>Rebel weapon</Original>
-            <French>Armes rebelles</French>
+            <French>Armes Illégales</French>
         </Key>
         <Key ID="STR_Crime_16">
             <Original>Illegal clothing</Original>
@@ -4373,7 +4373,7 @@
         </Key>
         <Key ID="STR_FuelTank_Money">
             <Original>Your share is $%1.</Original>
-            <French>Votre part est de $%1.</French>
+            <French>Votre part est de €%1.</French>
         </Key>
     </Package>
     <Package name="NotWhitelisted">
@@ -4479,11 +4479,11 @@
         </Key>
         <Key ID="STR_Rebel_Car">
             <Original>Rebel Car</Original>
-            <French>Concessionnaire rebelle</French>
+            <French>Concessionnaire Bandit</French>
         </Key>
         <Key ID="STR_Rebel_Heli">
             <Original>Rebel Heli</Original>
-            <French>Héliport rebelle</French>
+            <French>Héliport Bandit</French>
         </Key>
         <Key ID="STR_Police_Tanoa">
             <Original>Police HQ</Original>
@@ -4515,124 +4515,124 @@
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney_BEF">
             <Original>picked up $%1 from the ground. Bank Balance: $%2  On Hand Balance: $%3</Original>
-            <French>a récupéré $%1 par terre. Argent en banque : $%2 - Cash : $%3</French>
+            <French>a récupéré €%1 par terre. Argent en banque : €%2 - Cash : €%3</French>
         </Key>
         <Key ID="STR_DL_ML_pickedUpMoney">
-            <Original>{'player':'%1','uid':%2,'action':{'type':'picked up', 'nbr':'%3', 'item':'$'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
+            <Original>{'player':'%1','uid':%2,'action':{'type':'picked up', 'nbr':'%3', 'item':'€'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_pickedUpMoney">
             <Original>%1 - %2 picked up $%3 from the ground. Bank Balance: $%4  On Hand Balance $%5</Original>
-            <French>%1 - %2 a récupéré $%3 par terre. Argent en banque : $%4 Cash : $%5</French>
+            <French>%1 - %2 a récupéré €%3 par terre. Argent en banque : €%4 Cash : €%5</French>
         </Key>
         <Key ID="STR_DL_ML_Robbed_BEF">
             <Original>robbed $%1 from %2. Bank Balance: $%3  On Hand Balance: $%4</Original>
-            <French>a volé $%1 de %2. Argent en banque : $%4 Cash : $%4</French>
+            <French>a volé €%1 de %2. Argent en banque : €%4 Cash : €%4</French>
         </Key>
         <Key ID="STR_DL_ML_Robbed">
             <Original>{'player':'%1','uid':%2,'action':{'type':'robbed', 'target':'%4', 'receive':'%3'},'money':{'bank':'%5','cash':'%6'},'_player':'%4','KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_Robbed">
             <Original>%1 - %2 robbed $%3 from %4. Bank Balance: $%5  On Hand Balance: $%6</Original>
-            <French>%1 - %2 a volé $%3 de %4. Argent en banque : $%5. Cash : $%6</French>
+            <French>%1 - %2 a volé €%3 de %4. Argent en banque : €%5. Cash : €%6</French>
         </Key>
         <Key ID="STR_DL_AL_createdGang_BEF">
             <Original>created a gang named: %1 for $%2</Original>
-            <French>a créé un gang nommé : %1 pour $%2</French>
+            <French>a créé un gang nommé : %1 pour €%2</French>
         </Key>
         <Key ID="STR_DL_AL_createdGang">
             <Original>{'player':'%1','uid':%2,'action':{'type':'created a gang', 'name':'%3', 'cost':'%4'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_createdGang">
             <Original>%1 - %2 created a gang named: %3 for $%4</Original>
-            <French>%1 - %2 a créé un gang nommé : %3 pour $%4</French>
+            <French>%1 - %2 a créé un gang nommé : %3 pour €%4</French>
         </Key>
         <Key ID="STR_DL_AL_boughtHouse_BEF">
             <Original>bought a house for $%1. Bank Balance: $%2  On Hand Cash: $%3</Original>
-            <French>a acheté une maison pour $%1. Argent en banque : $%2 Cash : $%3</French>
+            <French>a acheté une maison pour €%1. Argent en banque : €%2 Cash : €%3</French>
         </Key>
         <Key ID="STR_DL_AL_boughtHouse">
             <Original>{'player':'%1','uid':%2,'action':{'type':'bought', 'item':'house', 'cost':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_boughtHouse">
             <Original>%1 - %2 bought a house for $%3. Bank Balance: $%4  On Hand Cash: $%5</Original>
-            <French>%1 - %2 a acheté une maison pour $%3. Argent en banque : $%4 Cash : $%5</French>
+            <French>%1 - %2 a acheté une maison pour €%3. Argent en banque : €%4 Cash : €%5</French>
         </Key>
         <Key ID="STR_DL_AL_soldHouse_BEF">
             <Original>sold a house for $%1. Bank Balance: $%2</Original>
-            <French>a vendu une maison pour $%1. Argent en banque : $%2</French>
+            <French>a vendu une maison pour €%1. Argent en banque : €%2</French>
         </Key>
         <Key ID="STR_DL_AL_soldHouse">
             <Original>{'player':'%1','uid':%2,'action':{'type':'sold', 'item':'house', 'receive':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_soldHouse">
             <Original>%1 - %2 sold a house for $%3. Bank Balance: $%4</Original>
-            <French>%1 - %2 a vendu une maison pour $%3. Argent en banque : $%4</French>
+            <French>%1 - %2 a vendu une maison pour €%3. Argent en banque : €%4</French>
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle_BEF">
             <Original>chopped vehicle %1 for $%2  On Hand Cash(pre-chop): $%3</Original>
-            <French>a mis en pièces le véhicule %1 pour $%2. Cash (avant la vente) : $%3</French>
+            <French>a mis en pièces le véhicule %1 pour €%2. Cash (avant la vente) : €%3</French>
         </Key>
         <Key ID="STR_DL_AL_choppedVehicle">
             <Original>{'player':'%1','uid':%2,'action':{'type':'chopped', 'item':'vehicle', 'vehicle':'%3', 'owner':'%4', 'receive':'%5'},'money':{'cash':'%6'},'_player':'%4','KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_choppedVehicle">
             <Original>%1 - %2 chopped vehicle %3 of %4 for $%5  On Hand Cash(pre-chop): $%6</Original>
-            <French>%1 - %2 a revendu le véhicule %3 - %4 pour $%5. Cash (avant la vente) : $%6</French>
+            <French>%1 - %2 a revendu le véhicule %3 - %4 pour €%5. Cash (avant la vente) : €%6</French>
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle_BEF">
             <Original>bought vehicle %1 for $%2. On Hand Cash: $%3  Bank Balance: $%4</Original>
-            <French>a acheté le véhicule %1 pour $%2. Cash : $%3 Argent en banque : $%4</French>
+            <French>a acheté le véhicule %1 pour €%2. Cash : €%3 Argent en banque : €%4</French>
         </Key>
         <Key ID="STR_DL_AL_boughtVehicle">
             <Original>{'player':'%1','uid':%2,'action':{'type':'bought', 'item':'vehicle', 'vehicle':'%3', 'cost':'%4'},'money':{'bank':'%6','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_boughtVehicle">
             <Original>%1 - %2 bought vehicle %3 for $%4. On Hand Cash: $%5  Bank Balance $%6</Original>
-            <French>%1 - %2 a acheté le véhicule %3 pour $%4. Cash $%5 Argent en banque : $%6</French>
+            <French>%1 - %2 a acheté le véhicule %3 pour €%4. Cash €%5 Argent en banque : €%6</French>
         </Key>
         <Key ID="STR_DL_AL_soldVehicle_BEF">
             <Original>sold vehicle %1 for $%2. Bank Balance: $%3  On Hand Balance: $%4</Original>
-            <French>a vendu le véhicule %1 pour $%2. Argent en banque : $%3 Cash : $%4</French>
+            <French>a vendu le véhicule %1 pour €%2. Argent en banque : €%3 Cash : €%4</French>
         </Key>
         <Key ID="STR_DL_AL_soldVehicle">
             <Original>{'player':'%1','uid':%2,'action':{'type':'sold', 'item':'vehicle', 'vehicle':'%3', 'receive':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_AL_soldVehicle">
             <Original>%1 - %2 sold vehicle %3 for $%4. Bank Balance: $%5  On Hand Balance: $%6</Original>
-            <French>%1 - %2 a vendu le véhicule %3 pour $%4. Argent en banque : $%5 Cash : $%6</French>
+            <French>%1 - %2 a vendu le véhicule %3 pour €%4. Argent en banque : €%5 Cash : €%6</French>
         </Key>
         <Key ID="STR_DL_ML_withdrewGang_BEF">
             <Original>withdrew $%1 from their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original>
-            <French>a retiré $%1 du compte bancaire du Gang. Solde bancaire du Gang : $%2 Argent en banque(perso) : $%3 Cash : $%4</French>
+            <French>a retiré €%1 du compte bancaire du Gang. Solde bancaire du Gang : €%2 Argent en banque(perso) : €%3 Cash : €%4</French>
         </Key>
         <Key ID="STR_DL_ML_withdrewGang">
             <Original>{'player':'%1','uid':%2,'action':{'type':'withdrew', 'from':'gang', 'receive':'%3', 'Gang Balance':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="-STR_DL_ML_withdrewGang">
             <Original>%1 - %2 withdrew $%3 from their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original>
-            <French>%1 - %2 a retiré $%3 du compte bancaire du Gang. Solde bancaire du Gang : $%4 Argent en banque(perso) : $%5 Cash : $%6</French>
+            <French>%1 - %2 a retiré €%3 du compte bancaire du Gang. Solde bancaire du Gang : €%4 Argent en banque(perso) : €%5 Cash : €%6</French>
         </Key>
         <Key ID="STR_DL_ML_depositeGang_BEF">
             <Original>deposited $%1 into their gang bank. Gang Bank Balance: $%2  Bank Balance: $%3  On Hand Balance: $%4</Original>
-            <French>a déposé $%1 sur compte bancaire du Gang. Solde bancaire du Gang : $%2  Argent en banque(perso) : $%3 Cash : $%4</French>
+            <French>a déposé $%1 sur compte bancaire du Gang. Solde bancaire du Gang : €%2  Argent en banque(perso) : €%3 Cash : €%4</French>
         </Key>
         <Key ID="STR_DL_ML_depositeGang">
             <Original>{'player':'%1','uid':%2,'action':{'type':'deposit', 'from':'gang', 'cost':'%3', 'Gang Balance':'%4'},'money':{'bank':'%5','cash':'%6'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_depositeGang">
             <Original>%1 - %2 deposited $%3 into their gang bank. Gang Bank Balance: $%4  Bank Balance: $%5  On Hand Balance: $%6</Original>
-            <French>%1 - %2 a déposé $%3 sur compte bancaire du Gang. Solde bancaire du Gang : $%4 Argent en banque(perso) : $%5 Cash : $%6</French>
+            <French>%1 - %2 a déposé €%3 sur compte bancaire du Gang. Solde bancaire du Gang : €%4 Argent en banque(perso) : €%5 Cash : €%6</French>
         </Key>
         <Key ID="STR_DL_ML_withdrewBank_BEF">
             <Original>withdrew $%1 from their bank. Bank Balance: $%2  On Hand Balance: $%3</Original>
-            <French>a retiré $%1 de sa banque. Argent en banque : $%2 Cash : $%3</French>
+            <French>a retiré €%1 de sa banque. Argent en banque : €%2 Cash : €%3</French>
         </Key>
         <Key ID="STR_DL_ML_withdrewBank">
             <Original>{'player':'%1','uid':%2,'action':{'type':'withdrew', 'from':'ATM', 'receive':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_withdrewBank">
             <Original>%1 - %2 withdrew $%3 from their bank. Bank Balance: $%4  On Hand Balance: $%5</Original>
-            <French>%1 - %2 a retiré $%3 de sa banque. Argent en banque : $%4 Cash : $%5</French>
+            <French>%1 - %2 a retiré €%3 de sa banque. Argent en banque : €%4 Cash : €%5</French>
         </Key>
         <Key ID="STR_DL_ML_withdrewItem">
             <Original>{'player':'%1','uid':%2,'action':{'type':'withdrewItem', 'item':'%4', 'nbr':'%3', 'idinv':'%5', 'inventory':'%6'},'money':{'bank':'%7','cash':'%8'},'_player':0,'KEY':'JSON_LOG'}</Original>
@@ -4650,25 +4650,25 @@
         </Key>
         <Key ID="STR_DL_ML_transferredBank_BEF">
             <Original>transferred $%1 to %2. Bank Balance: $%3  On Hand Balance: $%4</Original>
-            <French>a transféré $%1 à %2. Argent en banque : $%3 Cash : $%4</French>
+            <French>a transféré €%1 à %2. Argent en banque : €%3 Cash : €%4</French>
         </Key>
         <Key ID="STR_DL_ML_transferredBank">
             <Original>{'player':'%1','uid':%2,'action':{'type':'tranferred', 'target':'%4', 'cost':'%3'},'money':{'bank':'%7','cash':'%8'},'_player':'%4','KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_transferredBank">
             <Original>%1 - %2 transferred $%3 to %4. Bank Balance: $%5  On Hand Balance: $%6</Original>
-            <French>%1 - %2 a transféré $%3 à %4. Argent en banque : $%5 Cash : $%6</French>
+            <French>%1 - %2 a transféré €%3 à %4. Argent en banque : €%5 Cash : €%6</French>
         </Key>
         <Key ID="STR_DL_ML_depositedBank_BEF">
             <Original>deposited $%1 into their bank. Bank Balance: $%2  On Hand Balance: $%3</Original>
-            <French>a déposé $%1 dans son compte. Argent en banque $%2 Cash : $%3</French>
+            <French>a déposé €%1 dans son compte. Argent en banque €%2 Cash : €%3</French>
         </Key>
         <Key ID="STR_DL_ML_depositedBank">
             <Original>{'player':'%1','uid':%2,'action':{'type':'deposit', 'from':'ATM', 'cost':'%3'},'money':{'bank':'%4','cash':'%5'},'_player':0,'KEY':'JSON_LOG'}</Original>
         </Key>
         <Key ID="_STR_DL_ML_depositedBank">
             <Original>%1 - %2 deposited $%3 into their bank. Bank Balance: $%4  On Hand Balance: $%5</Original>
-            <French>%1 - %2 a déposé $%3 dans son compte. Argent en banque : $%4 Cash : $%5</French>
+            <French>%1 - %2 a déposé €%3 dans son compte. Argent en banque : €%4 Cash : €%5</French>
         </Key>
         <Key ID="STR_DL_ML_ClotheBuy">
             <Original>{'player':'%1','uid':%2,'action':{'type':'bought', 'item':'Cloth', 'shop':'%3', 'clothes':'%4', 'price':'%5', 'cost':'%6'},'money':{'bank':'%7','cash':'%8'},'_player':0,'KEY':'JSON_LOG'}</Original>

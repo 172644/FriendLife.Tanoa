@@ -13,6 +13,7 @@
 #include "FuelStations\remoteExec.cpp"
 #include "Entreprise\remoteExec.cpp"
 #include "SpeedCam\remoteExec.cpp"
+#include "Phone\remoteExec.cpp"
 
 
 

@@ -1,5 +1,4 @@
 #include "..\script_macros.hpp"
-if !(isNil "The_programmer_initialised") exitWith {};
 
 /*
     File: fn_initCiv.sqf
@@ -8,6 +7,7 @@ if !(isNil "The_programmer_initialised") exitWith {};
     Description:
     Initializes the civilian.
 */
+if !(isNil "The_programmer_initialised") exitWith {};
 private _altisArray = ["Land_i_Shop_01_V1_F","Land_i_Shop_01_V2_F","Land_i_Shop_01_V3_F","Land_i_Shop_02_V1_F","Land_i_Shop_02_V2_F","Land_i_Shop_02_V3_F"];
 private _tanoaArray = ["Land_House_Small_01_F","Land_Offices_01_V1_F"];
 private _spawnBuildings = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] call TON_fnc_terrainSort;

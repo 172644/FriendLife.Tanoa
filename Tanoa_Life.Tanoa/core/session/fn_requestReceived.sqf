@@ -34,8 +34,8 @@ if (LIFE_SETTINGS(getNumber,"donor_level") isEqualTo 1) then {
 };
 
 //Loop through licenses
+#define CONST(var1,var2) var1 = compile (if (var2 isEqualType "") then {var2} else {str(var2)})
 if (count (_this select 6) > 0) then {
-	#define CONST(var1,var2) var1 = compile (if (var2 isEqualType "") then {var2} else {str(var2)})
     {missionNamespace setVariable [(_x select 0),(_x select 1)];} forEach (_this select 6);
 };
 
@@ -95,6 +95,14 @@ switch (playerSide) do {
             player setDamage ((_this select 9) select 2);
         };
     };
+	case east: { 
+		CONST(life_adacLevel,(_this select 7));
+		CONST(life_coplevel,0); 
+		if (LIFE_SETTINGS(getNumber,"save_playerStats") isEqualTo 1) then {
+			life_hunger = ((_this select 9) select 0);
+			life_thirst = ((_this select 9) select 1);
+		}; 
+	};
 };
 
 life_gear = _this select 8;

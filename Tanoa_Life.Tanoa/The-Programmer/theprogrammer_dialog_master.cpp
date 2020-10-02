@@ -21,6 +21,8 @@
 #include "Dispatch\dialogs.cpp"
 #include "MarkersFilter\dialogs.cpp"
 #include "SpeedCam\dialogs.cpp"
+#include "DrivingExam\dialogs.cpp"
+#include "Phone\dialogs.cpp"
 
 
 

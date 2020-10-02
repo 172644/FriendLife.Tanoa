@@ -37,8 +37,8 @@ class Max_Settings_Driving_Questions {
             permis_class_in_points_driving_config = "driver"; // Only if points_driving_license_script_enable = true;
 
             display_number_of_answers_to_find = true;
-            number_of_questions = 10; // If you put more than number_of_questions questions in the class below, they will be randomed (RECOMMANDED)
-            limited_time_to_answer = 30; // In seconds, -1 = unlimited
+            number_of_questions = 20; // If you put more than number_of_questions questions in the class below, they will be randomed (RECOMMANDED)
+            limited_time_to_answer = 10; // In seconds, -1 = unlimited
 
             percentage_of_good_answers_required = 0.75;
 

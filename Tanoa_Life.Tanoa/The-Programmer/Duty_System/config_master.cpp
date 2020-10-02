@@ -31,7 +31,7 @@ class The_programmer_Duty_Config {
     type_of_check = "Level";
 
     class east_configuration {
-        east_side = false; //If you have the east side on your server = true 
+        east_side = true; //If you have the east side on your server = true 
         name_of_column_for_adac_level = "adaclevel"; //The name of the column in your database for the adac level
 
         adaclevel_required = 1; //Minimum Adaclevel level to take up duty

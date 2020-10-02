@@ -19,8 +19,8 @@ class The_Programmer_Settings_Iphone {
 
     gps_script_enable = true;
     interpol_script_enable = true;
-    phone_numbers_script_enable = false;
-    advanced_phone_script_enable = false;
+    phone_numbers_script_enable = true;
+    advanced_phone_script_enable = true;
     bill_system_script_enable = true;
     companies_script_enable = true;
     governement_script_enable = false;
@@ -31,7 +31,7 @@ class The_Programmer_Settings_Iphone {
 
     enable_cellphone_animations = true; // You need to put the "The_Programmer_Cellphone" mod into your modpack !
 
-    reboot_1 = "00H00";
+    reboot_1 = "01H00";
     reboot_2 = "06H00";
     reboot_3 = "12H00";
     reboot_4 = "18H00";

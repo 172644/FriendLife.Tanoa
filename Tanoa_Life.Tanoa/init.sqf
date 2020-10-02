@@ -12,6 +12,9 @@ if (hasInterface) then {
 };
 [] execVM "KRON_Strings.sqf";
 
+[] spawn life_fnc_autoMessages; // Message Auto
+
 StartProgress = true;
 
 [] execVM "core\functions\fn_customAction.sqf"; 
+

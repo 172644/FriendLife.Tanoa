@@ -115,9 +115,7 @@ class WeaponShops {
             { "ACE_fieldDressing", "", 25, -1, "" },
 			{ "ToolKit", "", 350, -1, "" },
 			{ "Itemradio", "", 500, -1, "" },
-            { "NVGoggles", "", 2000, -1, "" },
-            { "axe", "", 300, -1, "" },
-            { "pickaxe", "", 300, -1, "" }
+            { "NVGoggles", "", 2000, -1, "" }
         };
         mags[] = {};
         accs[] = {};
@@ -210,6 +208,7 @@ class WeaponShops {
 			{ "NVGogglesB_blk_F", "", 0, 0, "" },
             { "ItemWatch", "", 0, 0, "" },
 			{ "ToolKit", "", 0, -1, "" },
+			{ "FirstAidKit", "", 0, 0, "" },
 			{ "ACE_CableTie", "", 0, 0, "" },
 			{ "ACE_rope36", "", 0, 0, "" },
 			{ "ACE_SpottingScopeObject", "", 0, 0, "call life_coplevel >= 4" },

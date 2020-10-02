@@ -37,11 +37,11 @@ life_vInact_curTarget = _curTarget;
 _id = getObjectDLC _curTarget;
 
 //Set Repair Action
-_Btn1 ctrlSetText localize "STR_vInAct_Repair";
-_Btn1 buttonSetAction "[cursorObject] spawn TheProgrammer_fnc_RepairSwitch;";
+//_Btn1 ctrlSetText localize "STR_vInAct_Repair";
+//_Btn1 buttonSetAction "[cursorObject] spawn TheProgrammer_fnc_RepairSwitch;";
+_Btn1 ctrlShow false;
 
-
-
+/*
 _fnCountDepanneurs = {
     _count = 0;
 
@@ -56,7 +56,7 @@ _fnCountDepanneurs = {
 
 if ((([] call _fnCountDepanneurs) >= 1) && !license_civ_DP) then {_Btn1 ctrlEnable false;};
 
-if ((life_inv_toolkit >= 1) && {alive life_vInact_curTarget} && {([life_vInact_curTarget] call life_fnc_isDamaged)}) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
+if ((life_inv_toolkit >= 1) && {alive life_vInact_curTarget} && {([life_vInact_curTarget] call life_fnc_isDamaged)}) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};//*/
 
 if (playerSide isEqualTo west) then {
     _Btn2 ctrlSetText localize "STR_vInAct_Registration";
@@ -72,10 +72,6 @@ if (playerSide isEqualTo west) then {
     _Btn5 ctrlSetText localize "STR_vInAct_Impound";
     _Btn5 buttonSetAction "[life_vInact_curTarget] spawn max_fourriere_fnc_impoundAction; closeDialog 0;";
 
-     // Revoke Licenses
-    _Btn9 ctrlSetText localize "STR_pInAct_RevokeLicense";
-    _Btn9 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
-
     if (_curTarget isKindOf "Ship") then {
         _Btn6 ctrlSetText localize "STR_vInAct_PushBoat";
         _Btn6 buttonSetAction "[] spawn life_fnc_pushObject; closeDialog 0;";
@@ -88,9 +84,10 @@ if (playerSide isEqualTo west) then {
                 if (crew _curTarget isEqualTo [] && {canMove _curTarget} && {locked _curTarget isEqualTo 0}) then {_Btn6 ctrlEnable true;} else {_Btn6 ctrlEnable false};
             };
         } else {
-            _Btn6 ctrlSetText localize "STR_vInAct_Unflip";
-            _Btn6 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
-            if (alive _curTarget && {crew _curTarget isEqualTo []} && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
+            //_Btn6 ctrlSetText localize "STR_vInAct_Unflip";
+            //_Btn6 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
+            //if (alive _curTarget && {crew _curTarget isEqualTo []} && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
+			_Btn6 ctrlEnable false
         };
     };
 	
@@ -111,9 +108,10 @@ if (playerSide isEqualTo west) then {
                 if (crew _curTarget isEqualTo [] && {canMove _curTarget} && {locked _curTarget isEqualTo 0}) then {_Btn2 ctrlEnable true;} else {_Btn2 ctrlEnable false};
             };
         } else {
-            _Btn2 ctrlSetText localize "STR_vInAct_Unflip";
-            _Btn2 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
-            if (alive _curTarget && {crew _curTarget isEqualTo []} && {canMove _curTarget}) then { _Btn2 ctrlEnable false;} else {_Btn2 ctrlEnable true;};
+            //_Btn2 ctrlSetText localize "STR_vInAct_Unflip";
+            //_Btn2 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
+            //if (alive _curTarget && {crew _curTarget isEqualTo []} && {canMove _curTarget}) then { _Btn2 ctrlEnable false;} else {_Btn2 ctrlEnable true;};
+			_Btn6 ctrlEnable false
         };
     };
     if (typeOf _curTarget == "O_Truck_03_device_F") then {

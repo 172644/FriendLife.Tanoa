@@ -30,15 +30,6 @@ class Max_Settings_PermisPoints {
             max_remove_points_per_time = 8;
         };
 
-        class trucking {
-            associateed_license = "trucking";
-            points_variable = "trucking_points";
-            display_name = "Permis Camions";
-
-            maximum_points = 12;
-            max_remove_points_per_time = 8;
-        };
-
         class boat {
             associateed_license = "boat";
             points_variable = "boat_points";

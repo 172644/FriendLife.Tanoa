@@ -21,23 +21,28 @@ private _initalPrice = M_CONFIG(getNumber,"LifeCfgVehicles",_className,"price");
 
 private "_buyMultiplier";
 private "_rentMultiplier";
+private _entrepriseBuy = false;
 
 switch (playerSide) do {
     case civilian: {
         _buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_CIVILIAN");
         _rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_CIVILIAN");
+		_entrepriseBuy = false;
     };
     case west: {
         _buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_COP");
         _rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_COP");
+		_entrepriseBuy = true;
     };
     case independent: {
         _buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_MEDIC");
         _rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_MEDIC");
+		_entrepriseBuy = true;
     };
     case east: {
         _buyMultiplier = LIFE_SETTINGS(getNumber,"vehicle_purchase_multiplier_OPFOR");
         _rentMultiplier = LIFE_SETTINGS(getNumber,"vehicle_rental_multiplier_OPFOR");
+		_entrepriseBuy = true;
     };
 };
 
@@ -55,8 +60,22 @@ if !([_conditions] call life_fnc_levelCheck) exitWith {hint localize "STR_Shop_V
 
 private _colorIndex = lbValue[2304,(lbCurSel 2304)];
 
+_oldEntACC = 0;
+_entreprise = nil;
+if(_entrepriseBuy) then {
+	_entreprise = player getVariable ["current_entreprise",objNull];
+	if (isNull _entreprise) exitWith {closeDialog 0; hint (["STR_NO_ENTERPRISE","Max_Settings_Entreprise","Entreprise_Localization"] call theprogrammer_core_fnc_localize);};
+	_oldEntACC = _entreprise getVariable ["entreprise_bankacc",0];
+};
+
 if (_purchasePrice < 0) exitWith {closeDialog 0;}; //Bad price entry
-if ((CASH < _purchasePrice) && (BANK < _purchasePrice)) exitWith {hint format [localize "STR_Shop_Veh_NotEnough",[_purchasePrice - CASH] call life_fnc_numberText];closeDialog 0;};
+
+if(_entrepriseBuy) then {
+	if (_oldEntACC < _purchasePrice) exitWith {hint (["STR_NOT_ENOUGHT_MONEY_ENTREPRISE_ACC","Max_Settings_Entreprise","Entreprise_Localization"] call theprogrammer_core_fnc_localize);};
+} else {
+	if ((CASH < _purchasePrice) && (BANK < _purchasePrice)) exitWith {hint format [localize "STR_Shop_Veh_NotEnough",[_purchasePrice - CASH] call life_fnc_numberText];closeDialog 0;};
+};
+
 
 private _spawnPoints = life_veh_shop select 1;
 private _spawnPoint = "";
@@ -78,12 +97,22 @@ if ((life_veh_shop select 0) == "med_air_hs") then {
 
 
 if (_spawnPoint isEqualTo "") exitWith {hint localize "STR_Shop_Veh_Block"; closeDialog 0;};
-if (CASH < _purchasePrice) then {
-    BANK = BANK - _purchasePrice;
+if(_entrepriseBuy) then {
+	// ENTERPRISE BUY
+	_oldEntACC = _oldEntACC - _purchasePrice;
+	[1] call SOCK_fnc_updatePartial;
+	_entreprise setVariable ["entreprise_bankacc",_oldEntACC,true];
+	[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
+	[_entreprise,(name player),_amount,1] remoteExecCall ["max_entreprise_fnc_insertEntrepriseLogs",2];
 } else {
-    CASH = CASH - _purchasePrice;
+	// NORMAL BUY
+	if (CASH < _purchasePrice) then {
+		BANK = BANK - _purchasePrice;
+	} else {
+		CASH = CASH - _purchasePrice;
+	};
+	[0] call SOCK_fnc_updatePartial;
 };
-[0] call SOCK_fnc_updatePartial;
 hint format [localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_purchasePrice] call life_fnc_numberText];
 
 //Spawn the vehicle and prep it.

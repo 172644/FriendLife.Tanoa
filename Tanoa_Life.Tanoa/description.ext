@@ -1,6 +1,6 @@
 #include "infiSTAR_AdminMenu.hpp"
 //disableChannels[] = {{0,true,true},{1,true,true},{2,true,true}};    // Disabled text and voice for global, side, and command channels. Syntax: disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
-disableChannels[] = {{0,false,false},{1,false,false},{2,false,false},{3,false,false},{4,false,false},{5,false,false},{6,false,false}};
+disableChannels[] = {{0,true,true},{1,true,true},{2,true,true},{3,true,true},{4,true,true},{5,true,true},{6,true,true},{7,true,true}};
 overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the overviewPicture on the mission selection screen when the mission is available to play.
 
 #include "CfgRemoteExec.hpp"
@@ -28,12 +28,20 @@ class RscTitles {
 	#include "The-Programmer\AdvancedIdentity\RscTitles.hpp"
 	#include "The-Programmer\GPS\RscTitles.hpp"
 	#include "dialog\new_HUD.hpp"
+	#include "The-Programmer\DrivingExam\dialogs\hud.hpp"
+
 	//#include "dialog\hud_stats.hpp"
 	
 };
 
 class CfgFunctions {
     #include "Functions.hpp"
+	
+	class AR_Client_Rappel_From_Heli { allowedTargets=0; }; 
+	class AR_Hint { allowedTargets=1; }; 
+	class AR_Hide_Object_Global { allowedTargets=2; }; 
+	class AR_Enable_Rappelling_Animation { allowedTargets=2; }; 
+	class AR_Rappel_From_Heli { allowedTargets=2; }; 
 };
 
 class CfgSounds {
@@ -88,6 +96,12 @@ class CfgSounds {
         sound[] = {"\sounds\carUnlock.ogg", 0.25, 1};
         titles[] = {};
     };
+	class sonnerie { 
+		name = "sonnerie"; 
+		sound[] = {"The-Programmer\Phone\sons\sonnerie.ogg", 1, 1, 5}; 
+		titles[] = {}; 
+	};
+
 };
 
 class CfgDebriefing {

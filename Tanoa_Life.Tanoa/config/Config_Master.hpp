@@ -113,10 +113,12 @@ class Life_Settings {
     bank_cop = 0; //Amount of cash in bank for new cops
     bank_civ = 9000; //Amount of cash in bank for new civillians
     bank_med = 0; //Amount of cash in bank for new medics
+    bank_adac = 0; //Amount of cash in bank for new medics
 
     paycheck_cop = 825; //Payment for cops
     paycheck_civ = 225; //Payment for civillians
     paycheck_med = 725; //Payment for medics
+    paycheck_adac = 525; //Payment for medics
 
     paycheck_period = 15; //Scaled in minutes
     bank_transferTax = .00; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
@@ -140,8 +142,8 @@ class Life_Settings {
 
     /* Vehicle Purchase Prices */
     vehicle_purchase_multiplier_CIVILIAN = 1; //Civilian Vehicle Buy Price = Config_Vehicle price * multiplier
-    vehicle_purchase_multiplier_COP = .2; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
-    vehicle_purchase_multiplier_MEDIC = .2; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_COP = 1; //Cop Vehicle Buy Price = Config_Vehicle price * multiplier
+    vehicle_purchase_multiplier_MEDIC = 1; //Medic Vehicle Buy Price = Config_Vehicle price * multiplier
     vehicle_purchase_multiplier_OPFOR = -1; // -- NOT IN USE -- Simply left in for east support.
 
     /* Vehicle Rental Prices */

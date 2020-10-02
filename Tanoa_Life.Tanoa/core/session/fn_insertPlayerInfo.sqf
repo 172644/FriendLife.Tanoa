@@ -24,6 +24,8 @@ switch (playerSide) do {
     };
 };
 
+player setPos (getMarkerPos "civ_spawn_1");
+
 if (life_HC_isActive) then {
     [getPlayerUID player,profileName,CASH,_bank,player] remoteExecCall ["HC_fnc_insertRequest",HC_Life];
 } else {

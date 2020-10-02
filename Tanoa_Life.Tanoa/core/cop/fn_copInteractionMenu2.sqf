@@ -55,12 +55,15 @@ _Btn2 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; clos
 _Btn3 ctrlSetText localize "STR_pInAct_TicketBtn";
 _Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
 
-// Saisie armes
-_Btn4 ctrlSetText localize "STR_pInAct_Seize";
-_Btn4 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_seizePlayerAction; closeDialog 0;";
+
+_Btn4 ctrlSetText "Informations Permis"; 
+_Btn4 buttonSetAction "[] remoteExec ['max_permisPoints_fnc_getPermisInfo', life_pInact_curTarget];"; 
+
+
+_Btn5 ctrlSetText localize "Enlever le permis";
+_Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
 
 // Boutons Libre
-_Btn5 ctrlShow false;
 _Btn6 ctrlShow false;
 _Btn7 ctrlShow false;
 _Btn8 ctrlShow false;

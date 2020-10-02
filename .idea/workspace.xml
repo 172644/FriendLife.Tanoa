@@ -3,6 +3,337 @@
   <component name="ChangeListManager">
     <list default="true" id="411e92c1-d811-44e8-ad12-f0a9b35c42cc" name="Default" comment="Initial commint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/KRON_Strings.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/KRON_Strings.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/endoftheline.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/endoftheline.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_cmdMenuCheck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_cmdMenuCheck.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_cookieJar.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_cookieJar.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_initSpy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_initSpy.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_menuCheck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_menuCheck.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_notifyAdmins.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_notifyAdmins.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_observe.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_observe.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_variableCheck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_variableCheck.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/briefing.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/briefing.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_arrestAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_arrestAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_buyLicense.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_buyLicense.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_captureHideout.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_captureHideout.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_catchFish.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_catchFish.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_dpFinish.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_dpFinish.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_dropFishingNet.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_dropFishingNet.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_escortAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_escortAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_gather.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_gather.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_getDPMission.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_getDPMission.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_gutAnimal.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_gutAnimal.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_healHospital.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_healHospital.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_impoundAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_impoundAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_mine.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_mine.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_newsBroadcast.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_newsBroadcast.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_packupSpikes.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_packupSpikes.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_pickupItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_pickupItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_pickupMoney.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_pickupMoney.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_postBail.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_postBail.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_processAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_processAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_pulloutAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_pulloutAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_putInCar.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_putInCar.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_removeContainer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_removeContainer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_repairTruck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_repairTruck.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_restrainAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_restrainAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_robAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_robAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_searchAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_searchAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_searchVehAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_searchVehAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_seizePlayerAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_seizePlayerAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_serviceChopper.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_serviceChopper.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_stopEscorting.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_stopEscorting.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_storeVehicle.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_storeVehicle.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_surrender.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_surrender.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_ticketAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_ticketAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_unrestrain.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_unrestrain.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminCompensate.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminCompensate.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminDebugCon.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminDebugCon.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminFreeze.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminFreeze.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminGetID.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminGetID.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminGodMode.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminGodMode.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminID.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminID.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminInfo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminInfo.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminMarkers.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminMarkers.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminQuery.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminQuery.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminSpectate.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminSpectate.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminTeleport.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminTeleport.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminTpHere.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/admin/fn_adminTpHere.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_civLoadout.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_civLoadout.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_civMarkers.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_civMarkers.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_demoChargeTimer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_demoChargeTimer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_freezePlayer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_freezePlayer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_jail.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_jail.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_jailMe.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_jailMe.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_knockedOut.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_knockedOut.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_knockoutAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_knockoutAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_removeLicenses.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_removeLicenses.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_robPerson.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_robPerson.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_robReceive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_robReceive.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_tazed.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/civilian/fn_tazed.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/clientValidator.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/clientValidator.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_houseConfig.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_houseConfig.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_itemWeight.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_itemWeight.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_vehicleAnimate.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_vehicleAnimate.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_vehicleWeightCfg.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/config/fn_vehicleWeightCfg.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/configuration.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/configuration.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_bountyReceive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_bountyReceive.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_containerInvSearch.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_containerInvSearch.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copInteractionMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copInteractionMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copLights.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copLights.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copLoadout.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copLoadout.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copMarkers.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copMarkers.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copSearch.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copSearch.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copSiren.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_copSiren.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_doorAnimate.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_doorAnimate.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_fedCamDisplay.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_fedCamDisplay.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_licenseCheck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_licenseCheck.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_licensesRead.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_licensesRead.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_questionDealer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_questionDealer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_radar.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_radar.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_repairDoor.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_repairDoor.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_restrain.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_restrain.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_searchClient.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_searchClient.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_seizeClient.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_seizeClient.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_sirenLights.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_sirenLights.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_spikeStripEffect.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_spikeStripEffect.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketGive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketGive.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketPaid.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketPaid.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketPay.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketPay.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketPrompt.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_ticketPrompt.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_vehInvSearch.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_vehInvSearch.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_wantedGrab.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/cop/fn_wantedGrab.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_initCiv.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_initCiv.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_initCop.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_initCop.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_initMedic.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_initMedic.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_setupActions.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_setupActions.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_setupEVH.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_setupEVH.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_setupStationService.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_setupStationService.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_survival.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_survival.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_welcomeNotification.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fn_welcomeNotification.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fsm/client.fsm" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fsm/client.fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/fsm/timeModule.fsm" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/fsm/timeModule.fsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_AAN.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_AAN.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_accType.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_accType.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_actionKeyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_actionKeyHandler.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_animSync.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_animSync.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_calWeightDiff.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_calWeightDiff.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_clearVehicleAmmo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_clearVehicleAmmo.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_dropItems.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_dropItems.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_escInterupt.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_escInterupt.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_fetchCfgDetails.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_fetchCfgDetails.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_fetchDeadGear.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_fetchDeadGear.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_fetchVehInfo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_fetchVehInfo.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_giveDiff.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_giveDiff.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_handleDamage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_handleDamage.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_handleInv.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_handleInv.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_handleItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_handleItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_hideObj.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_hideObj.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_hudSetup.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_hudSetup.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_hudUpdate.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_hudUpdate.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_inString.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_inString.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_inventoryClosed.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_inventoryClosed.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_inventoryOpened.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_inventoryOpened.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_isDamaged.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_isDamaged.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_isUIDActive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_isUIDActive.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_keyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_keyHandler.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_loadDeadGear.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_loadDeadGear.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_loadGear.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_loadGear.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_nearATM.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_nearATM.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_nearUnits.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_nearUnits.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_nearestDoor.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_nearestDoor.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_numberText.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_numberText.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_onFired.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_onFired.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_onPutItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_onPutItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_onTakeItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_onTakeItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_playerSkins.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_playerSkins.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_playerTags.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_playerTags.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_postNewsBroadcast.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_postNewsBroadcast.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_pullOutVeh.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_pullOutVeh.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_pushObject.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_pushObject.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_receiveItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_receiveItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_receiveMoney.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_receiveMoney.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_revealObjects.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_revealObjects.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_saveGear.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_saveGear.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_searchPosEmpty.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_searchPosEmpty.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_simDisable.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_simDisable.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_stripDownPlayer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_stripDownPlayer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_tazeSound.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_tazeSound.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_teleport.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_teleport.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_whereAmI.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/fn_whereAmI.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_broadcast.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_broadcast.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_corpse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_corpse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_jumpFnc.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_jumpFnc.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_say3D.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_say3D.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_setFuel.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_setFuel.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_soundDevice.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/functions/network/fn_soundDevice.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_createGang.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_createGang.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangCreated.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangCreated.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangDisband.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangDisband.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangDisbanded.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangDisbanded.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangInvite.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangInvite.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangInvitePlayer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangInvitePlayer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangKick.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangKick.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangLeave.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangLeave.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangNewLeader.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangNewLeader.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangUpgrade.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_gangUpgrade.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_initGang.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/gangs/fn_initGang.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_buyHouse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_buyHouse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_buyHouseGarage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_buyHouseGarage.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_containerMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_containerMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_copBreakDoor.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_copBreakDoor.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_copHouseOwner.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_copHouseOwner.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_garageRefund.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_garageRefund.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_getBuildingPositions.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_getBuildingPositions.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_houseMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_houseMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_initHouses.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_initHouses.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lightHouse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lightHouse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lightHouseAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lightHouseAction.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lockHouse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lockHouse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lockupHouse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_lockupHouse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_placeContainer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_placeContainer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_playerInBuilding.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_playerInBuilding.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_raidHouse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_raidHouse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_sellHouse.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_sellHouse.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_sellHouseGarage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/housing/fn_sellHouseGarage.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/init.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_blastingCharge.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_blastingCharge.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_boltcutter.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_boltcutter.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_defuseKit.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_defuseKit.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_flashbang.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_flashbang.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_jerryCanRefuel.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_jerryCanRefuel.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_jerryRefuel.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_jerryRefuel.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_lockpick.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_lockpick.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_placestorage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_placestorage.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_spikeStrip.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_spikeStrip.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_storageBox.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/items/fn_storageBox.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_deathScreen.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_deathScreen.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicLights.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicLights.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicLoadout.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicLoadout.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicMarkers.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicMarkers.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicRequest.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicRequest.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicSiren.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicSiren.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicSirenLights.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_medicSirenLights.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_onPlayerKilled.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_onPlayerKilled.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_onPlayerRespawn.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_onPlayerRespawn.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_requestMedic.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_requestMedic.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_respawned.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_respawned.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_revivePlayer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_revivePlayer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_revived.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/medical/fn_revived.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_cellphone.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_cellphone.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_giveItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_giveItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_giveMoney.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_giveMoney.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_keyDrop.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_keyDrop.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_keyGive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_keyGive.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_keyMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_keyMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_p_openMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_p_openMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_p_updateMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_p_updateMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_pardon.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_pardon.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_removeItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_removeItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_s_onChar.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_s_onChar.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_s_onCheckedChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_s_onCheckedChange.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_s_onSliderChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_s_onSliderChange.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_settingsMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_settingsMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_updateViewDistance.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_updateViewDistance.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_useItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_useItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedAddP.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedAddP.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedInfo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedInfo.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedList.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedList.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/pmenu/fn_wantedMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_dataQuery.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_dataQuery.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_insertPlayerInfo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_insertPlayerInfo.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_requestReceived.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_requestReceived.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_syncData.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_syncData.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_updatePartial.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_updatePartial.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_updateRequest.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/session/fn_updateRequest.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_atmMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_atmMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_buyClothes.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_buyClothes.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_changeClothes.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_changeClothes.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_chopShopMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_chopShopMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_chopShopSelection.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_chopShopSelection.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_chopShopSell.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_chopShopSell.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_clothingFilter.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_clothingFilter.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_clothingMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_clothingMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_fuelLBChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_fuelLBChange.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_fuelStatOpen.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_fuelStatOpen.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_impoundMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_impoundMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_levelCheck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_levelCheck.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShop3DPreview.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShop3DPreview.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopBuy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopBuy.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopEnd3DPreview.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopEnd3DPreview.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopInit3DPreview.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopInit3DPreview.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopLBChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopLBChange.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_vehicleShopMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_buy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_buy.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_menu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_menu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_sell.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_sell.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_update.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_virt_update.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopAccs.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopAccs.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopBuySell.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopBuySell.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopFilter.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopFilter.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopMags.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopMags.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopSelection.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/shops/fn_weaponShopSelection.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_addVehicle2Chain.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_addVehicle2Chain.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_colorVehicle.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_colorVehicle.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_deviceMine.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_deviceMine.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_fuelRefuelCar.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_fuelRefuelCar.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_fuelStore.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_fuelStore.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_fuelSupply.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_fuelSupply.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_lockVehicle.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_lockVehicle.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_openInventory.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_openInventory.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vInteractionMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vInteractionMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehInventory.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehInventory.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehStoreItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehStoreItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehTakeItem.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehTakeItem.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehicleColor3DRefresh.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehicleColor3DRefresh.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehicleOwners.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehicleOwners.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehicleWeight.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/vehicle/fn_vehicleWeight.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/description.ext" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/description.ext" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_bankDeposit.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_bankDeposit.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_bankTransfer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_bankTransfer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_bankWithdraw.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_bankWithdraw.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_displayHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_displayHandler.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_gangDeposit.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_gangDeposit.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_gangWithdraw.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_gangWithdraw.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_garageLBChange.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_garageLBChange.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_impoundMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_impoundMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_progressBar.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_progressBar.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeFix.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeFix.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeInventory.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeInventory.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeOpen.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeOpen.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeStore.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeStore.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeTake.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_safeTake.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_sellGarage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_sellGarage.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_setMapPosition.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_setMapPosition.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnConfirm.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnConfirm.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnPointCfg.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnPointCfg.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnPointSelected.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_spawnPointSelected.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_unimpound.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_unimpound.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_vehicleGarage.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_vehicleGarage.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_wireTransfer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/function/fn_wireTransfer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/dialog/player_sys.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/dialog/player_sys.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/init.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/initPlayerServer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/initPlayerServer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/initServer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/initServer.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/Functions.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/Functions.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/DrivingQuestions/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/DrivingQuestions/config_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/initAdac.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/initAdac.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Entreprise/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Entreprise/config_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/EntreprisesMarkers/config.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/EntreprisesMarkers/config.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Iphone_X/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Iphone_X/config_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/PermisPoints/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/PermisPoints/config_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_remoteExec_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_remoteExec_master.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Master.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Master.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Weapons.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Weapons.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_DYNMARKET_getPrice.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_DisplayPrices.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_ForcePrice.sqf" beforeDir="false" />
@@ -10,8 +341,32 @@
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_bought.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_update.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/macro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu2.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu2.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketGive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketGive.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketPaid.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketPaid.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_initCiv.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_initCiv.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_setupEVH.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_setupEVH.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_keyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_keyHandler.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/init.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/pmenu/fn_cellphone.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/pmenu/fn_cellphone.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_requestReceived.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_requestReceived.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updatePartial.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updatePartial.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_atmMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_atmMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_virt_buy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_virt_buy.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_weaponShopBuySell.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_weaponShopBuySell.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/vehicle/fn_vInteractionMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/vehicle/fn_vInteractionMenu.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/description.ext" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/description.ext" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_changeprice.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_prices.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_spawnPointCfg.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_spawnPointCfg.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/init.sqf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/mission.sqm" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/mission.sqm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +381,8 @@
       <file leaf-file-name="fn_customAction.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="629">
+              <caret line="37" column="98" selection-start-line="37" selection-start-column="98" selection-end-line="37" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -35,80 +390,76 @@
       <file leaf-file-name="fn_serviceChopper.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configuration.sqf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="configuration.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/configuration.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config_SpawnPoints.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
+      <file leaf-file-name="CfgRemoteExec.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/CfgRemoteExec.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="731">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_respawned.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf">
+      <file leaf-file-name="config_master.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="21" selection-start-line="46" selection-start-column="19" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="578">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_vehicleShopMenu.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopMenu.sqf">
+      <file leaf-file-name="max_cell_phone.hpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Phone/dialogs/max_cell_phone.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+            <state relative-caret-position="2091">
+              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_vehicleShopBuy.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf">
+      <file leaf-file-name="fn_autoMessages.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_autoMessages.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_unimpound.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
+      <file leaf-file-name="fn_insertPlayerInfo.sqf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="fn_updateRequest.sqf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+            <state relative-caret-position="493">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_sellGarage.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf">
+      <file leaf-file-name="theprogrammer_dialog_master.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fn_garageLBChange.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+            <state relative-caret-position="578">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -120,20 +471,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vehicle setVariable</find>
-      <find>STR_pInAct_StoreVeh</find>
-      <find>_retrievePrice</find>
-      <find>HC_fnc_vehicleStore</find>
-      <find>select</find>
-      <find>SOCK_fnc_updateRequest</find>
-      <find>dynmarke</find>
-      <find>Compense</find>
-      <find>life_fnc_adminGetID</find>
-      <find>&quot;extDB3&quot; callExtension &quot;0</find>
-      <find>STR_SP_Reb_NE</find>
-      <find>spawnVehicle</find>
-      <find>vehicleUpda</find>
-      <find>vehicleUpdate</find>
       <find>envoyer</find>
       <find>STR_pInAct_Arrest</find>
       <find>jail</find>
@@ -150,6 +487,20 @@
       <find>life_firstSpawn</find>
       <find>\n</find>
       <find>civLoadout</find>
+      <find>200000</find>
+      <find>_TP_Authorized_Adac</find>
+      <find>TP_Authorized_Adac</find>
+      <find>The_programmer_Duty_Config</find>
+      <find>STR_NOTF_Gather_Success</find>
+      <find>Land_InfoStand_V1_F</find>
+      <find>STR_NOT_ADAC</find>
+      <find>Veuillez en</find>
+      <find>STR_YOU_MUST_SET_MESSAGE</find>
+      <find>sendMSG</find>
+      <find>3004</find>
+      <find>hint</find>
+      <find>save_civilian_position</find>
+      <find>civ_spawn_1</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Erwan\Desktop\FriendLifeGit\FriendLife.Tanoa\Tanoa_Life.Tanoa\The-Programmer\AdvancedIdentity\dialogs</dir>
@@ -183,6 +534,7 @@
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf" />
         <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/configuration.sqf" />
+        <option value="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp" />
       </list>
     </option>
   </component>
@@ -248,6 +600,13 @@
               <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="session" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
@@ -700,7 +1059,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="unimpound&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf&#10;custo&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf&#10;heal&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Altis_Life.Altis/core/actions/fn_healHospital.sqf&#10;chop&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf&#10;fede&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/federalReserve.hpp&#10;bank&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/bank.hpp&#10;hud&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
+    <property name="SearchEverywhereHistoryKey" value="levelCheck&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLifeGit/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/shops/fn_levelCheck.sqf&#10;theprogrammer_dialog_master&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLifeGit/FriendLife.Tanoa/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp&#10;cfgremoteexec&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLifeGit/FriendLife.Tanoa/Tanoa_Life.Tanoa/CfgRemoteExec.hpp&#10;unimpound&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf&#10;custo&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf&#10;heal&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Altis_Life.Altis/core/actions/fn_healHospital.sqf&#10;chop&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/core/shops/fn_chopShopMenu.sqf&#10;fede&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/federalReserve.hpp&#10;bank&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/bank.hpp&#10;hud&#9;FILE&#9;file://C:/Users/Erwan/Desktop/FriendLife.Tanoa/Tanoa_Life.Tanoa/dialog/new_HUD.hpp" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -741,6 +1100,9 @@
       <workItem from="1598635746175" duration="20830000" />
       <workItem from="1598719612064" duration="29698000" />
       <workItem from="1600609978313" duration="4298000" />
+      <workItem from="1600795808570" duration="11207000" />
+      <workItem from="1601159928239" duration="2168000" />
+      <workItem from="1601316715753" duration="1321000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commint">
       <created>1598635836220</created>
@@ -791,11 +1153,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600611480891</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit from FTP">
+      <created>1600796354688</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600796354688</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54826000" />
+    <option name="totallyTimeSpent" value="69522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -804,17 +1173,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.44117647" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.44117647" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22068231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -825,24 +1194,24 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24403341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -895,51 +1264,10 @@
     <MESSAGE value="Set retrieval price to 0" />
     <MESSAGE value="Update Spawn Point &amp;&amp; Update distance for service Chopper &amp;&amp; Add Admin heal menu &amp;&amp; Keep weapon on floor when respawn" />
     <MESSAGE value="Merge from FTP server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge from FTP server" />
+    <MESSAGE value="Commit from FTP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit from FTP" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_sellGarage.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_garageLBChange.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_boltcutter.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/items/fn_blastingCharge.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../test_files/d3s/d3s_kuruma_gtaV/config.cpp" />
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1130,13 +1458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_dataQuery.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1144,13 +1465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_prices.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_prices.hpp" />
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminSelfHeal.sqf" />
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/admin/fn_adminGodMode.sqf">
       <provider selected="true" editor-type-id="text-editor">
@@ -1203,43 +1518,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="1802">
+          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_unimpound.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="66" column="36" lean-forward="true" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="1122">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
+        <state relative-caret-position="1955">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_serviceChopper.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="391">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/configuration.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        <state relative-caret-position="1411">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/CfgRemoteExec.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="98" selection-start-line="37" selection-start-column="98" selection-end-line="37" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Phone/dialogs/max_cell_phone.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_autoMessages.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>

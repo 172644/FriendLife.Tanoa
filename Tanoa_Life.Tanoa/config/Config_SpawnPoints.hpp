@@ -223,6 +223,15 @@ class CfgSpawnPoints {
             };*/
 
         };
+		
+		class adac {
+			class Kavala {
+				displayName = "Adac HQ";
+				spawnMarker = "medic_spawn_2";
+				icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+				conditions = "";
+			};
+		};
 
     };
 
