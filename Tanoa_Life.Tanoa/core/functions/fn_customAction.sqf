@@ -241,19 +241,4 @@ while {true} do {
 			[format ["Vous avez environ %1 minutes pour trouver un abrit.", (60-_actualminute)],2,1,8]
 		] spawn BIS_fnc_EXP_camp_SITREP;
 	};//*/
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

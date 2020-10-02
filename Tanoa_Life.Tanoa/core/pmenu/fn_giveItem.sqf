@@ -31,6 +31,7 @@ if (!([false,_item,(parseNumber _val)] call life_fnc_handleInv)) exitWith {hint 
 
 [_unit,_val,_item,player] remoteExecCall ["life_fnc_receiveItem",_unit];
 _type = M_CONFIG(getText,"VirtualItems",_item,"displayName");
+["Send",(getPlayerUID player), side player, getPosATL player, "item", _val, _type, _item, "", "", "", (getPlayerUID _unit), _unit getVariable ["realname",name _unit]] remoteExec ["TON_fnc_insertLog",2];
 hint format [localize "STR_NOTF_youGaveItem",_unit getVariable ["RP_ID",name _unit],_val,(localize _type)];
 [] call life_fnc_p_updateMenu;
 

@@ -52,11 +52,4 @@ if (!(_diff isEqualTo (_itemInfo select 1))) then {
     };
 };
 
-if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-    if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format [localize "STR_DL_AL_pickedUp_BEF",_diff,_itemName];
-    } else {
-        advanced_log = format [localize "STR_DL_AL_pickedUp",profileName,(getPlayerUID player),_diff,_itemName];
-    };
-    publicVariableServer "advanced_log";
-};
+["picked up", (getPlayerUID player), side player, getPosATL player, "vItem", _diff, _itemName, _itemName, "", "", "", "", ""] remoteExec ["TON_fnc_insertLog",2];

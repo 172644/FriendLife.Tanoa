@@ -23,4 +23,6 @@ life_vehicles = life_vehicles - [_vehicle];
 _owners deleteAt _index;
 _vehicle setVariable ["vehicle_info_owners",_owners,true];
 
+["Delete",(getPlayerUID player), side player, getPosATL player, "key", "", typeOf _vehicle, _vehicle, "", "", "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+
 [] spawn life_fnc_keyMenu;

@@ -17,3 +17,5 @@ CASH = CASH - _pockets;
 hint format[localize "STR_ATM_DepositAllSuccess"];
 [] call life_fnc_atmMenu;
 [6] call SOCK_fnc_updatePartial;
+
+["deposit", (getPlayerUID player), side player, getPosATL player, "", "", "", "ATM", "", _pockets, "", "", ""] remoteExec ["TON_fnc_insertLog",2];

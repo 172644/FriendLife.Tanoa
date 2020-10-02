@@ -29,7 +29,9 @@ _action = [
 
 if (_action) then {
     if (BANK < (_houseCfg select 0)) exitWith {hint format [localize "STR_House_NotEnough"]};
+    _houseName = FETCH_CONFIG2(getText,"CfgVehicles",(typeOf _house), "displayName");
     BANK = BANK - (_houseCfg select 0);
+	["bought", (getPlayerUID player), side player, getPosATL player, "house", "", _houseName, _house, (_houseCfg select 0), (_houseCfg select 0), "", "", ""] remoteExec ["TON_fnc_insertLog",2];
     [1] call SOCK_fnc_updatePartial;
 
     if (life_HC_isActive) then {
@@ -55,7 +57,6 @@ if (_action) then {
     life_vehicles pushBack _house;
     life_houses pushBack [str(getPosATL _house),[]];
     _marker = createMarkerLocal [format ["house_%1",(_house getVariable "uid")],getPosATL _house];
-    _houseName = FETCH_CONFIG2(getText,"CfgVehicles",(typeOf _house), "displayName");
     _marker setMarkerTextLocal _houseName;
     _marker setMarkerColorLocal "ColorBlue";
     _marker setMarkerTypeLocal "loc_Lighthouse";

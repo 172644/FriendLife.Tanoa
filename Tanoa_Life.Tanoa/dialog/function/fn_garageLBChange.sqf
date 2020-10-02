@@ -67,9 +67,9 @@ _insurancePrice = _purchasePrice * _insuranceMultiplier;
     //(localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>
     //" +
     (localize "STR_Shop_Veh_UI_SellP")+ " <t color='#8cff9b'>$%2</t><br/>
-    Prix de l'assurance: <t color='#8cff9b'>%9$</t><br/>
-    Etat de l'assurance: %10 <br/>
-	Type d’essence : %9<br/>
+    " +(localize "STR_Shop_Veh_UI_InsurePrice")+ " <t color='#8cff9b'>%9$</t><br/>
+    " +(localize "STR_Shop_Veh_UI_InsureState")+ " %10 <br/>
+	" +(localize "STR_Shop_Veh_UI_FuelType")+ " %11<br/>
     " +(localize "STR_Shop_Veh_UI_Color")+ " %8<br/>
     " +(localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>
     " +(localize "STR_Shop_Veh_UI_HPower")+ " %4<br/>
@@ -77,17 +77,17 @@ _insurancePrice = _purchasePrice * _insuranceMultiplier;
     " +(localize "STR_Shop_Veh_UI_Trunk")+ " %6<br/>
     " +(localize "STR_Shop_Veh_UI_Fuel")+ " %7
     ",
-[_retrievePrice] call life_fnc_numberText,
-[_sellPrice] call life_fnc_numberText,
-(_vehicleInfo select 8),
-(_vehicleInfo select 11),
-(_vehicleInfo select 10),
-if (_trunkSpace isEqualTo -1) then {"None"} else {_trunkSpace},
-(_vehicleInfo select 12),
-_vehicleColor,
-[_insurancePrice] call life_fnc_numberText,
-if (_insurance isEqualTo 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
-[_classNameLife] call max_fuelstations_fnc_getFuelType
+	[_retrievePrice] call life_fnc_numberText,
+	[_sellPrice] call life_fnc_numberText,
+	(_vehicleInfo select 8),
+	(_vehicleInfo select 11),
+	(_vehicleInfo select 10),
+	if (_trunkSpace isEqualTo -1) then {"None"} else {_trunkSpace},
+	(_vehicleInfo select 12),
+	_vehicleColor,
+	[_insurancePrice] call life_fnc_numberText,
+	if (_insurance isEqualTo 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
+	[_classNameLife] call max_fuelstations_fnc_getFuelType
 ];
 
 ctrlShow [2803,true];

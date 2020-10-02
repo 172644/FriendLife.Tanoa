@@ -97,18 +97,15 @@ if (_exit) exitWith {
 "progressBar" cutText ["","PLAIN"];
 titleText[format["Vous avez volé %1 $,fuyez maintenant avant l'arrivée de la Gendarmerie !",[_money] call life_fnc_numberText], "PLAIN"];
 playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", _robber];
-[1, format["News : A Gas Station has just been robbed of %1 $",[_money] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast", west];
+
+["Rob", (getPlayerUID player), side player, getPosATL player, "Shop", "", "", _shop, _money, _money, "", "", format ["Nbr GN : %1, Weapon : [%2, %3]", (west countSide playableUnits), primaryWeapon player, handgunWeapon player]] remoteExec ["TON_fnc_insertLog",2];
+
+[1, format["News : A Gas Station has just been robbed of %1 €",[_money] call life_fnc_numberText]] remoteExec ["life_fnc_broadcast", west];
 
 //if (_add_interpol) then {
 //    [getPlayerUID _robber, _robber getVariable ["realname",name _robber], "211"] remoteExecCall ["life_fnc_wantedAdd", RSERV];
 //};
 
-if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-	advanced_log = format [localize "STR_DL_ML_RobShop",profileName,(getPlayerUID player),_shop,_money,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-} else {
-	advanced_log = format [localize "STR_DL_ML_RobShop",profileName,(getPlayerUID player),_shop,_money,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-};
-publicVariableServer "advanced_log";
 
 life_cash = life_cash + _money;
 call SOCK_fnc_updatePartial;

@@ -25,14 +25,7 @@ if (life_HC_isActive) then {
     [player,getPlayerUID player,_gangName] remoteExec ["TON_fnc_insertGang",RSERV];
 };
 
-if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-    if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format [localize "STR_DL_AL_createdGang_BEF",_gangName,(LIFE_SETTINGS(getNumber,"gang_price"))];
-    } else {
-        advanced_log = format [localize "STR_DL_AL_createdGang",profileName,(getPlayerUID player),_gangName,(LIFE_SETTINGS(getNumber,"gang_price"))];
-    };
-    publicVariableServer "advanced_log";
-};
+["CreateGang", (getPlayerUID player), side player, getPosATL player, "", "", _gangName, "", "", (LIFE_SETTINGS(getNumber,"gang_price")), "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 
 hint localize "STR_NOTF_SendingData";
 closeDialog 0;

@@ -34,22 +34,17 @@ if (_action) then {
         [_house] remoteExecCall ["TON_fnc_sellHouse",RSERV];
     };
 
+    _houseName = FETCH_CONFIG2(getText,"CfgVehicles",(typeOf _house), "displayName");
     _house setVariable ["locked",false,true];
     deleteMarkerLocal format ["house_%1",_house getVariable "uid"];
     _house setVariable ["uid",nil,true];
 
-    BANK = BANK + (round((_houseCfg select 0)/2));
+	_price = (round((_houseCfg select 0)/2));
+    BANK = BANK + _price;
+	//["_action", _pid, "_side", "_pos", "_type", "_nbr", "_name", "_object", "_price", "_movement", "_veh", "_target", "_details"] remoteExec ["TON_fnc_insertLog",2];
+	["sold", (getPlayerUID player), side player, getPosATL player, "house", "", _houseName, _house, (_houseCfg select 0), _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
     [1] call SOCK_fnc_updatePartial;
     _index = life_vehicles find _house;
-
-    if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-        if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-            advanced_log = format [localize "STR_DL_AL_soldHouse_BEF",(round((_houseCfg select 0)/2)),[BANK] call life_fnc_numberText];
-        } else {
-            advanced_log = format [localize "STR_DL_AL_soldHouse",profileName,(getPlayerUID player),(round((_houseCfg select 0)/2)),[BANK] call life_fnc_numberText];
-            };
-        publicVariableServer "advanced_log";
-    };
 
     if !(_index isEqualTo -1) then {
         life_vehicles deleteAt _index;

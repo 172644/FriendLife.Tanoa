@@ -30,6 +30,7 @@ life_cur_task setTaskState "Assigned";
 player setCurrentTask life_cur_task;
 
 ["DeliveryAssigned",[format [localize "STR_NOTF_DPTask",toUpper _dp]]] call bis_fnc_showNotification;
+["DP", (getPlayerUID player), side player, getPosATL player, "Assigned", "", life_dp_start, life_dp_start, "", "", "", _dp, ""] remoteExec ["TON_fnc_insertLog",2];
 
 [] spawn {
     waitUntil {!life_delivery_in_progress || !alive player};

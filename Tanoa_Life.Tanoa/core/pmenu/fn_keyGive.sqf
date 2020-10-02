@@ -34,5 +34,6 @@ if (_index isEqualTo -1) then  {
     _vehicle setVariable ["vehicle_info_owners",_owners,true];
 };
 
+["Send",(getPlayerUID player), side player, getPosATL player, "key", "", typeOf _vehicle, _vehicle, "", "", "", (getPlayerUID _unit), _unit getVariable ["realname",name _unit]] remoteExec ["TON_fnc_insertLog",2];
 hint format [localize "STR_NOTF_givenKeysTo",_unit getVariable ["RP_ID",name _unit],typeOf _vehicle];
 [_vehicle,_unit,profileName] remoteExecCAll ["TON_fnc_clientGetKey",_unit];

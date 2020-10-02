@@ -29,9 +29,6 @@ class RscTitles {
 	#include "The-Programmer\GPS\RscTitles.hpp"
 	#include "dialog\new_HUD.hpp"
 	#include "The-Programmer\DrivingExam\dialogs\hud.hpp"
-
-	//#include "dialog\hud_stats.hpp"
-	
 };
 
 class CfgFunctions {

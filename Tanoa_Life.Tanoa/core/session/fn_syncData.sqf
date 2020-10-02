@@ -18,12 +18,4 @@ hint localize "STR_Session_SyncData";
     life_session_time = false;
 };
 
-
-if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_Sync",profileName,(getPlayerUID player),[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	} else {
-		advanced_log = format [localize "STR_DL_ML_Sync",profileName,(getPlayerUID player),[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	};
-	publicVariableServer "advanced_log";
-};
+["sync", (getPlayerUID player), side player, getPosATL player, "", "", "", "", "", "", "", "", ""] remoteExec ["TON_fnc_insertLog",2];

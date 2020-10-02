@@ -97,11 +97,14 @@ if ((life_veh_shop select 0) == "med_air_hs") then {
 
 
 if (_spawnPoint isEqualTo "") exitWith {hint localize "STR_Shop_Veh_Block"; closeDialog 0;};
+_vehName = getText(configFile >> "CfgVehicles" >> _className >> "displayName");
 if(_entrepriseBuy) then {
 	// ENTERPRISE BUY
 	_oldEntACC = _oldEntACC - _purchasePrice;
+	["bought", (getPlayerUID player), side player, getPosATL player, "vehicle", "", _vehName, _className, _initalPrice, _purchasePrice, _className, "", format ["Spawn : %1, Fond entreprise : %2, Type : %3",_spawnPoint,_oldEntACC, _mode]] remoteExec ["TON_fnc_insertLog",2];
 	[1] call SOCK_fnc_updatePartial;
 	_entreprise setVariable ["entreprise_bankacc",_oldEntACC,true];
+	hint format [localize "STR_Shop_Veh_Bought",_vehName,[_purchasePrice] call life_fnc_numberText];
 	[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
 	[_entreprise,(name player),_amount,1] remoteExecCall ["max_entreprise_fnc_insertEntrepriseLogs",2];
 } else {
@@ -111,9 +114,10 @@ if(_entrepriseBuy) then {
 	} else {
 		CASH = CASH - _purchasePrice;
 	};
+	hint format [localize "STR_Shop_Veh_Bought",_vehName,[_purchasePrice] call life_fnc_numberText];
+	["bought", (getPlayerUID player), side player, getPosATL player, "vehicle", "", _vehName, _className, _initalPrice, _purchasePrice, _className, "", format ["Spawn : %1, Type : %2", _spawnPoint, _mode]] remoteExec ["TON_fnc_insertLog",2];
 	[0] call SOCK_fnc_updatePartial;
 };
-hint format [localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_purchasePrice] call life_fnc_numberText];
 
 //Spawn the vehicle and prep it.
 
@@ -180,15 +184,6 @@ if (_mode) then {
             [(getPlayerUID player),playerSide,_vehicle,_colorIndex] remoteExecCall ["TON_fnc_vehicleCreate",RSERV];
         };
     };
-};
-
-if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-    if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format [localize "STR_DL_AL_boughtVehicle_BEF",_className,[_purchasePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
-    } else {
-        advanced_log = format [localize "STR_DL_AL_boughtVehicle",profileName,(getPlayerUID player),_className,[_purchasePrice] call life_fnc_numberText,[CASH] call life_fnc_numberText,[BANK] call life_fnc_numberText];
-    };
-    publicVariableServer "advanced_log";
 };
 
 closeDialog 0; //Exit the menu.

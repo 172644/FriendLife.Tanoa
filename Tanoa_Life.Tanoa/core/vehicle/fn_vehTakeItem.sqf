@@ -51,14 +51,7 @@ if (_ctrl == "money") then {
             _data set[_index,[_ctrl,(_value - _num)]];
         };
 		
-		if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-			if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-			} else {
-				advanced_log = format [localize "STR_DL_ML_withdrewItem",profileName,(getPlayerUID player),_num,_ctrl,_index,_data,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-			};
-			publicVariableServer "advanced_log";
-		};
+		["withdrewItem", (getPlayerUID player), side player, getPosATL player, "", _num, _ctrl, _ctrl, "", "", "", "", _data] remoteExec ["TON_fnc_insertLog",2];
 		
         life_trunk_vehicle setVariable ["Trunk",[_data,(_old select 1) - _weight],true];
         [life_trunk_vehicle] call life_fnc_vehInventory;

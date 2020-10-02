@@ -10,7 +10,7 @@ class DeathScreen {
         class MedicsOnline: Life_RscText {
             idc = 7304;
             colorBackground[] = {0,0,0,0};
-            text = "Medics Online: 1";
+            text = "$STR_Medics_Online"; //Medics Online: 1
             x = 0.005 * safezoneW + safezoneX;
             y = 0.015 * safezoneH + safezoneY;
             w = 0.8;
@@ -20,7 +20,7 @@ class DeathScreen {
         class MedicsNearby: Life_RscText {
             idc = 7305;
             colorBackground[] = {0,0,0,0};
-            text = "Medics Nearby: No";
+            text = "$STR_Medics_Online"; // Medics Nearby: No
             x = 0.005 * safezoneW + safezoneX;
             y = 0.040 * safezoneH + safezoneY;
             w = 0.8;
@@ -33,10 +33,8 @@ class DeathScreen {
             y = 0.015 * safezoneH + safezoneY;
             w = (9 / 40);
             h = (1 / 25);
-            text = "Respawn";
-//            onButtonClick = "closeDialog 0; life_respawned = true; [] call life_fnc_spawnMenu;";
+            text = "$STR_Medics_Respawn"; // Respawn
             onButtonClick = "closeDialog 0; life_respawned = true; [] call life_fnc_respawnHospital;";
-//            onButtonClick = "closeDialog 0; life_respawned = true; [] call life_fnc_respawned;";
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.7};
             class Attributes {align = "center";};
         };
@@ -48,7 +46,7 @@ class DeathScreen {
             w = (9 / 40);
             h = (1 / 25);
             onButtonClick = "[] call life_fnc_requestMedic;";
-            text = "Request Medic";
+            text = "$STR_Medics_Request"; // Request Medic
             colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.7};
             class Attributes {align = "center";};
         };
@@ -56,7 +54,7 @@ class DeathScreen {
         class respawnTime: Life_RscText {
             idc = 7301;
             colorBackground[] = {0,0,0,0.5};
-            text = "Vous êtes mort appeler un médecin!";
+            text = "$STR_Medics_Coma_Info"; // Vous êtes dans un état grave appeler vite les secours !
             x = 0.4175 * safezoneW + safezoneX;
             y = 0.7 * safezoneH + safezoneY;
             w = 0.4;

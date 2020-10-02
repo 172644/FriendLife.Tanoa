@@ -14,8 +14,6 @@
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_observe.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_observe.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_variableCheck.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/SpyGlass/fn_variableCheck.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/briefing.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/briefing.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_arrestAction.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_arrestAction.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_buyLicense.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_buyLicense.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_captureHideout.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_captureHideout.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_catchFish.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_catchFish.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_dpFinish.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/core/actions/fn_dpFinish.sqf" afterDir="false" />
@@ -320,20 +318,6 @@
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/init.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/initPlayerServer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/initPlayerServer.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Altis_Life.Altis/initServer.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Altis_Life.Altis/initServer.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/Functions.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/Functions.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/DrivingQuestions/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/DrivingQuestions/config_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/config_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/initAdac.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Duty_System/initAdac.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Entreprise/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Entreprise/config_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/EntreprisesMarkers/config.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/EntreprisesMarkers/config.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Iphone_X/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Iphone_X/config_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/PermisPoints/config_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/PermisPoints/config_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_dialog_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_remoteExec_master.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/theprogrammer_remoteExec_master.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Master.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Master.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_SpawnPoints.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Vehicles.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Weapons.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/config/Config_Weapons.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_DYNMARKET_getPrice.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_DisplayPrices.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_ForcePrice.sqf" beforeDir="false" />
@@ -341,33 +325,11 @@
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_bought.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/fn_update.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/DynMarket/macro.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/actions/fn_healHospital.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu2.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_copInteractionMenu2.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketGive.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketGive.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketPaid.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/cop/fn_ticketPaid.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_initCiv.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_initCiv.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_setupEVH.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/fn_setupEVH.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_keyHandler.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_keyHandler.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/init.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/medical/fn_respawned.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/pmenu/fn_cellphone.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/pmenu/fn_cellphone.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_requestReceived.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_requestReceived.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updatePartial.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updatePartial.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_atmMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_atmMenu.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_vehicleShopBuy.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_virt_buy.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_virt_buy.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_weaponShopBuySell.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_weaponShopBuySell.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/vehicle/fn_vInteractionMenu.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/vehicle/fn_vInteractionMenu.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/description.ext" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/description.ext" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/core/shops/fn_buyAceWheel.sqf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_changeprice.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/dynmarket_prices.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_spawnPointCfg.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/dialog/function/fn_spawnPointCfg.sqf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/init.sqf" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/init.sqf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/mission.sqm" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/mission.sqm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -381,8 +343,8 @@
       <file leaf-file-name="fn_customAction.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="98" selection-start-line="37" selection-start-column="98" selection-end-line="37" selection-end-column="98" />
+            <state relative-caret-position="1377">
+              <caret line="81" column="98" selection-start-line="81" selection-start-column="98" selection-end-line="81" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -423,11 +385,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="max_cell_phone.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="max_cell_phone.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Phone/dialogs/max_cell_phone.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2091">
-              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+            <state relative-caret-position="171">
+              <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -441,16 +403,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fn_insertPlayerInfo.sqf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="fn_updateRequest.sqf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fn_updateRequest.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -471,7 +428,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>envoyer</find>
       <find>STR_pInAct_Arrest</find>
       <find>jail</find>
       <find>cop_air_1</find>
@@ -501,6 +457,7 @@
       <find>hint</find>
       <find>save_civilian_position</find>
       <find>civ_spawn_1</find>
+      <find>buyAceWheel</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Erwan\Desktop\FriendLifeGit\FriendLife.Tanoa\Tanoa_Life.Tanoa\The-Programmer\AdvancedIdentity\dialogs</dir>
@@ -563,6 +520,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -607,6 +565,13 @@
               <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="session" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FriendLife.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tanoa_Life.Tanoa" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shops" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="FriendLife.Tanoa" type="b2602c69:ProjectViewProjectNode" />
@@ -1055,7 +1020,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1103,6 +1067,7 @@
       <workItem from="1600795808570" duration="11207000" />
       <workItem from="1601159928239" duration="2168000" />
       <workItem from="1601316715753" duration="1321000" />
+      <workItem from="1601654042770" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commint">
       <created>1598635836220</created>
@@ -1160,11 +1125,25 @@
       <option name="project" value="LOCAL" />
       <updated>1600796354688</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="MAJ from prod for add ADACS &amp; other fixes">
+      <created>1601654627307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601654627307</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update 2 from prod">
+      <created>1601658317487</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601658317487</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69522000" />
+    <option name="totallyTimeSpent" value="72017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1173,17 +1152,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.44117647" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22707888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1201,14 +1180,14 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.25962597" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1265,9 +1244,18 @@
     <MESSAGE value="Update Spawn Point &amp;&amp; Update distance for service Chopper &amp;&amp; Add Admin heal menu &amp;&amp; Keep weapon on floor when respawn" />
     <MESSAGE value="Merge from FTP server" />
     <MESSAGE value="Commit from FTP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit from FTP" />
+    <MESSAGE value="MAJ from prod for add ADACS &amp; other fixes" />
+    <MESSAGE value="Update 2 from prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2 from prod" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../test_files/d3s/d3s_kuruma_gtaV/config.cpp" />
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/stringtable.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1567,8 +1555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_customAction.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="98" selection-start-line="37" selection-start-column="98" selection-end-line="37" selection-end-column="98" />
+        <state relative-caret-position="1377">
+          <caret line="81" column="98" selection-start-line="81" selection-start-column="98" selection-end-line="81" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -1579,13 +1567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Phone/dialogs/max_cell_phone.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/functions/fn_autoMessages.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1593,13 +1574,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_insertPlayerInfo.sqf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/core/session/fn_updateRequest.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tanoa_Life.Tanoa/The-Programmer/Phone/dialogs/max_cell_phone.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="105" column="26" lean-forward="true" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
         </state>
       </provider>
     </entry>

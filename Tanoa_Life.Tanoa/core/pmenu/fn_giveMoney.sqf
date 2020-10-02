@@ -26,6 +26,7 @@ if (isNil "_unit") exitWith {ctrlShow[2001,true]; hint localize "STR_NOTF_notWit
 
 hint format [localize "STR_NOTF_youGaveMoney",[(parseNumber(_amount))] call life_fnc_numberText,_unit getVariable ["RP_ID",name _unit]];
 CASH = CASH - (parseNumber(_amount));
+["Send",(getPlayerUID player), side player, getPosATL player, "money", "", "", "", _amount, _amount, "", (getPlayerUID _unit), _unit getVariable ["realname",name _unit]] remoteExec ["TON_fnc_insertLog",2];
 [0] call SOCK_fnc_updatePartial;
 
 [_unit,_amount,player] remoteExecCall ["life_fnc_receiveMoney",_unit];

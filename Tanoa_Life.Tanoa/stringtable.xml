@@ -947,6 +947,26 @@
         </Key>
     </Package>
     <Package name="Player_Menu">
+        <Key ID="STR_Medics_Online">
+            <Original>Medics Online: 1</Original>
+            <French>Médecins en ligne : 1</French>
+        </Key>
+        <Key ID="STR_Medics_Online">
+            <Original>Medics Nearby: No</Original>
+            <French>Médecins proche : Non</French>
+        </Key>
+        <Key ID="STR_Medics_Respawn">
+            <Original>Respawn</Original>
+            <French>Réaparaitre</French>
+        </Key>
+        <Key ID="STR_Medics_Request">
+            <Original>Request Medic</Original>
+            <French>Appeler les secours</French>
+        </Key>
+        <Key ID="STR_Medics_Coma_Info">
+            <Original>You have a serious injuries call for help quickly!</Original>
+            <French>Vous êtes dans un état grave appeler vite les secours !</French>
+        </Key>
         <Key ID="STR_PM_Title">
             <Original>Player Menu</Original>
             <French>Menu du Joueur</French>
@@ -3487,6 +3507,18 @@
         <Key ID="STR_Shop_Veh_UI_Color">
             <Original>Color:</Original>
             <French>Couleur :</French>
+        </Key>
+        <Key ID="STR_Shop_Veh_UI_FuelType">
+            <Original>Fuel Typ:e</Original>
+            <French>Type d’essence :</French>
+        </Key>
+        <Key ID="STR_Shop_Veh_UI_InsureState">
+            <Original>Insure State:</Original>
+            <French>Etat de l'assurance :</French>
+        </Key>
+        <Key ID="STR_Shop_Veh_UI_InsurePrice">
+            <Original>Insure Price :</Original>
+            <French>Prix de l'assurance :</French>
         </Key>
         <Key ID="STR_Shop_Veh_NotAllowed">
             <Original>You are not allowed to use this shop!</Original>

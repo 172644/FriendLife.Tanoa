@@ -83,6 +83,8 @@ if(_ctrl == "money") then
 		_inv set[_index,[_ctrl,_val + _num]];
 	};
 	
+	["depositItem", (getPlayerUID player), side player, getPosATL player, "", _num, _ctrl, _ctrl, "", "", "", "", _inv] remoteExec ["TON_fnc_insertLog",2];
+	
 	Life_trunk_vehicle setVariable["Trunk",[_inv,(_veh_data select 1) + _itemWeight],true];
 	[Life_trunk_vehicle] call Life_fnc_vehInventory;
 };

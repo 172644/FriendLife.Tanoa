@@ -17,15 +17,8 @@ _varName = LICENSE_VARNAME(_type,_sideFlag);
 
 if (CASH < _price) exitWith {hint format [localize "STR_NOTF_NE_1",[_price] call life_fnc_numberText,localize _displayName];};
 CASH = CASH - _price;
+["bought", (getPlayerUID player), side player, getPosATL player, "License", "", _displayName, _varName, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 
-if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_LicenceBought",profileName,(getPlayerUID player),_varName,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	} else {
-		advanced_log = format [localize "STR_DL_ML_LicenceBought",profileName,(getPlayerUID player),_varName,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	};
-	publicVariableServer "advanced_log";
-};
 
 [0] call SOCK_fnc_updatePartial;
 

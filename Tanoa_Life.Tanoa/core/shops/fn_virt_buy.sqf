@@ -48,7 +48,7 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
             _funds = _funds - (_price * _amount);
             group player setVariable ["gang_bank",_funds,true];
 			
-			//["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", format ["Fond du gang : %1",_funds]] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", format ["Fond du gang : %1",_funds]] remoteExec ["TON_fnc_insertLog",2];
 
 
             if (life_HC_isActive) then {
@@ -61,7 +61,7 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
             if ((_price * _amount) > CASH) exitWith {[false,_type,_amount] call life_fnc_handleInv; hint localize "STR_NOTF_NotEnoughMoney";};
             hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
             CASH = CASH - _price * _amount;
-			//["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", ""] remoteExec ["TON_fnc_insertLog",2];
         };
     } else {
 		if(_entrepriseBuy) then {
@@ -74,17 +74,16 @@ if ([true,_type,_amount] call life_fnc_handleInv) then {
 			
 			// ENTERPRISE BUY
 			_oldEntACC = _oldEntACC - (_price * _amount);
-			//["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", format ["Fond entreprise : %1",_oldEntACC]] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", format ["Fond entreprise : %1",_oldEntACC]] remoteExec ["TON_fnc_insertLog",2];
 			[1] call SOCK_fnc_updatePartial;
 			_entreprise setVariable ["entreprise_bankacc",_oldEntACC,true];
 			[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
 			[_entreprise,(name player),_amount,1] remoteExecCall ["max_entreprise_fnc_insertEntrepriseLogs",2];
-			hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
 		} else {
 			if ((_price * _amount) > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"; [false,_type,_amount] call life_fnc_handleInv;};
 			hint format [localize "STR_Shop_Virt_BoughtItem",_amount,(localize _name),[(_price * _amount)] call life_fnc_numberText];
 			CASH = CASH - _price * _amount;
-			//["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "virtual", _amount, (localize _name), _name, _price, (_price * _amount), "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 		};
     };
     [] call life_fnc_virt_update;

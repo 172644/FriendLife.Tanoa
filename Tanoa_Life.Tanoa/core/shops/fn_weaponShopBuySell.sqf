@@ -71,7 +71,7 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
             hint parseText format [localize "STR_Shop_Weapon_BoughtGang",_itemInfo select 1,[_price] call life_fnc_numberText];
             _funds = group player getVariable "gang_bank";
             _funds = _funds - _price;
-			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond du gang : %1",_funds]] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond du gang : %1",_funds]] remoteExec ["TON_fnc_insertLog",2];
             group player setVariable ["gang_bank",_funds,true];
             [_item,true] call life_fnc_handleItem;
 
@@ -86,7 +86,7 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
             if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
             hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
             CASH = CASH - _price;
-			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 			
             [_item,true] call life_fnc_handleItem;
         };
@@ -101,7 +101,7 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
 			
 			// ENTERPRISE BUY
 			_oldEntACC = _oldEntACC - _price;
-			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond entreprise : %1",_oldEntACC]] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond entreprise : %1",_oldEntACC]] remoteExec ["TON_fnc_insertLog",2];
 			[1] call SOCK_fnc_updatePartial;
 			_entreprise setVariable ["entreprise_bankacc",_oldEntACC,true];
 			[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
@@ -111,7 +111,7 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
 			// PERSONAL BUY 
 			if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
 			CASH = CASH - _price;
-			//["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+			["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 			hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
 		};
 		

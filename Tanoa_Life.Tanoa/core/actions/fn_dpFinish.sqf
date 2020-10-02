@@ -20,4 +20,5 @@ _price = round(1.7 * _dis);
 life_cur_task setTaskState "Succeeded";
 player removeSimpleTask life_cur_task;
 CASH = CASH + _price;
+["DP", (getPlayerUID player), side player, getPosATL player, "Delivery", "", _dp, _dp, _price, _price, "", "", format ["From %1 : %2", life_dp_start, getPos life_dp_start]] remoteExec ["TON_fnc_insertLog",2];
 [0] call SOCK_fnc_updatePartial;

@@ -6,7 +6,6 @@
     Description:
     Master client initialization file
 */
-
 private ["_handle","_timeStamp","_extDB_notLoaded"];
 life_firstSpawn = true;
 life_session_completed = false;
@@ -130,13 +129,7 @@ player setVariable ["realname",profileName,true];
 player setVariable ["RP_ID",_rp_id,true]; 
 //player setVariable ["realname",format ["%1", random 99999],true]; 
 
-
-if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-	advanced_log = format [localize "STR_DL_ML_GetRPID",profileName,(getPlayerUID player),_rp_id,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-} else {
-	advanced_log = format [localize "STR_DL_ML_GetRPID",profileName,(getPlayerUID player),_rp_id,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-};
-publicVariableServer "advanced_log";
+["setRP_ID", (getPlayerUID player), side player, getPosATL player, _rp_id, "", "", "", "", "", "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 
 
 life_fnc_moveIn = compileFinal
@@ -269,6 +262,10 @@ diag_log "----------------------------------------------------------------------
 };
 
 
+if (!(currentWeapon player isEqualTo "")) then {
+	player action ["SwitchWeapon", player, player, 100];
+}
+	
 // down weapon when exit veh
 player addEventHandler ["GetOutMan", {
 	params ["_unit", "_role", "_vehicle", "_turret"];
@@ -277,24 +274,14 @@ player addEventHandler ["GetOutMan", {
         player action ["SwitchWeapon", player, player, 100];
     }
 	
-	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_GetOutVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	} else {
-		advanced_log = format [localize "STR_DL_ML_GetOutVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	};
-	publicVariableServer "advanced_log";
+	["exit", (getPlayerUID player), side player, getPosATL player, "vehicule", "", getText(configFile >> "CfgVehicles" >> typeOf _vehicle >> "displayName"), _vehicle, "", "", typeOf _vehicle, "", _role] remoteExec ["TON_fnc_insertLog",2];
 }];
 
 
-player addEventHandler ["GetOutMan", {
+player addEventHandler ["GetInMan", {
 	params ["_unit", "_role", "_vehicle", "_turret"];
 	
-	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_GetInVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	} else {
-		advanced_log = format [localize "STR_DL_ML_GetInVeh",profileName,(getPlayerUID player),_role, typeOf _vehicle,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	};
-	publicVariableServer "advanced_log";
+	["enter", (getPlayerUID player), side player, getPosATL player, "vehicule", "", getText(configFile >> "CfgVehicles" >> typeOf _vehicle >> "displayName"), _vehicle, "", "", typeOf _vehicle, "", _role] remoteExec ["TON_fnc_insertLog",2];
 }];
 
 

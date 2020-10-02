@@ -21,12 +21,8 @@ _unit setVariable ["steam64id",getPlayerUID player,true]; //Reset the UID.
 _unit setVariable ["realname",profileName,true]; //Reset the players name.
 _unit setVariable ["RP_ID", _rp_id,true]; //Reset the players ID.
 
-if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-	advanced_log = format [localize "STR_DL_ML_GetRPID",profileName,(getPlayerUID player),_rp_id,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-} else {
-	advanced_log = format [localize "STR_DL_ML_GetRPID",profileName,(getPlayerUID player),_rp_id,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-};
-publicVariableServer "advanced_log";
+
+["setRP_ID", (getPlayerUID player), side player, getPosATL player, _rp_id, "", "", "", "", "", "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 
 
 _unit addRating 1e12; //Set our rating to a high value, this is for a ARMA engine thing.

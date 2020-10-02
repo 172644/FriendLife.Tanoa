@@ -58,6 +58,9 @@ if(_ctrl == "money") then {
 		} else {
 			_data set[_index,[_ctrl,(_value - _num)]];
 		};
+		
+		["withdrewItem", (getPlayerUID player), side player, getPosATL player, "", _num, _ctrl, _ctrl, "", "", "", "", _data] remoteExec ["TON_fnc_insertLog",2];
+		
 		Life_trunk_vehicle setVariable["Trunk",[_data,(_old select 1) - _weight],true];
 		[Life_trunk_vehicle] call Life_fnc_vehInventory;
 	} else {
