@@ -1,12 +1,12 @@
 class Repair_Job_Localization {
 	class STR_LEAVE_JOB {
 		en = "Jobs <br/>You have just left your job as a repairman.";
-		fr = "Pole Emploie <br/>Tu viens de quitter ton métier d'agent de réparation.";
+		fr = "Pole Emploi <br/>Tu viens de quitter ton métier d'agent de réparation.";
 		de = "Jobs <br/>Du hast den Job als Mechaniker verlassen.";
 	};
 	class STR_BECAME_REPAIR_MAN {
 		en = "Jobs <br/>You have become a repairman, you can now go around the map by repairing objects.";
-		fr = "Pole Emploie <br/>Vous êtes devenu agent de réparation, vous pouvez maintenant faire le tour de la carte en reparant des objets.";
+		fr = "Pole Emploi <br/>Vous êtes devenu agent de réparation, vous pouvez maintenant faire le tour de la carte en reparant des objets.";
 		de = "Jobs <br/>Du bist nun ein Mechaniker, lauf umher und Repariere kaputte Objekte.";
 	};
 	class STR_MONEY_RECEIVE {

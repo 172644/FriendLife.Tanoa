@@ -115,7 +115,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, -1, "" },
             { "ACE_fieldDressing", "", 25, -1, "" },
 			{ "ToolKit", "", 350, -1, "" },
-			{ "Itemradio", "", 500, -1, "" },
+			{ "tf_anprc152", "", 500, -1, "" },
             { "NVGoggles", "", 2000, -1, "" }
         };
         mags[] = {};
@@ -133,7 +133,7 @@ class WeaponShops {
             { "ItemMap", "", 50, -1, "" },
             { "ItemCompass", "", 50, -1, "" },
             { "ItemWatch", "", 50, -1, "" },
-			{ "Itemradio", "", 500, -1, "" },
+			{ "tf_anprc152", "", 500, -1, "" },
             { "ACE_fieldDressing", "", 25, -1, "" },
             { "NVGoggles", "", 2000, -1, "" },
 			{ "ToolKit", "", 350, -1, "" },
@@ -210,6 +210,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, 50, "" },
 			{ "ToolKit", "", 300, 300, "" },
 			{ "FirstAidKit", "", 100, 0, "" },
+			{ "defibinvch", "", 100, 0, "" },
 			{ "ACE_CableTie", "", 30, 0, "" },
 			{ "ACE_rope36", "", 50, 50, "" },
 			{ "ACE_SpottingScopeObject", "", 500, 500, "call life_coplevel >= 4" },
@@ -221,10 +222,10 @@ class WeaponShops {
     };
 	
 	//Adac shop	
-	class Adac_store {
+	class adac_store {
         name = "Altis Dir Store";
         side = "civ";
-        conditions = "license_civ_dir";
+        conditions = "license_adac_DIR";
         items[] = {
 			{ "ACE_key_east", "", 0, 0, "" },
 			{ "triangleinvch", "", 20, -1, "" },
@@ -236,7 +237,7 @@ class WeaponShops {
             { "ItemWatch", "", 50, -1, "" },
             { "ACE_fieldDressing", "", 25, -1, "" },
 			{ "ToolKit", "", 250, -1, "" },
-			{ "Itemradio", "", 500, -1, "" },
+			{ "tf_anprc152", "", 500, -1, "" },
             { "NVGoggles", "", 2000, -1, "" }
         };
         mags[] = {};
@@ -260,6 +261,7 @@ class WeaponShops {
 			{ "ItemWatch", "", 50, 0, "" },
 			{ "ToolKit", "", 350, -1, "" },
 			{ "FirstAidKit", "", 100, 0, "" },
+			{ "defibinvch", "", 100, 0, "" },
 			{ "ACE_morphine", "", 20, 0, "" },
 			{ "ACE_adenosine", "", 20, 0, "" },
 			{ "ACE_epinephrine", "", 20, 0, "" },

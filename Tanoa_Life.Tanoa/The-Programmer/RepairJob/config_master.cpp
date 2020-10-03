@@ -19,12 +19,13 @@ class The_Programmer_Repair_Config {
     /* Here you put the beginning of the cursorObject result in the console 
     For example :  for city_pillar_f.p3d you just put city */
     
-    Cop_Repairing = true; //Allow cops to repair objects
-    Medic_Repairing = true; //Allow medics to repair objects
-    Civ_Repairing = true; //Allow civs to repair objects
+    Cop_Repairing = false; //Allow cops to repair objects
+    Medic_Repairing = false; //Allow medics to repair objects
+    Civ_Repairing = false; //Allow civs to repair objects
+	Adac_Repairing = true;
 
-    allow_repairing_without_licenses = false;
-    allowed_licenses[] = { "license_civ_DIR" }; //Only if allow_repairing_without_licenses = false // OPTIONAL OPTION
+    allow_repairing_without_licenses = true;
+    allowed_licenses[] = { "" }; //Only if allow_repairing_without_licenses = false // OPTIONAL OPTION
 
     class Civilian {
         Repair_Reward_Min = 5; //How much they get per object they repair (minimum)
@@ -39,6 +40,11 @@ class The_Programmer_Repair_Config {
     class Medic {
         Repair_Reward_Min = 20; //How much they get per object they repair (minimum)
         Repair_Reward_Max = 100; //How much they get per object they repair (maximum)
+        Cooldown_Time = 0; //Time is seconds for the cooldown between repairing
+    };    
+    class Adac {
+        Repair_Reward_Min = 50; //How much they get per object they repair (minimum)
+        Repair_Reward_Max = 150; //How much they get per object they repair (maximum)
         Cooldown_Time = 0; //Time is seconds for the cooldown between repairing
     };    
 };

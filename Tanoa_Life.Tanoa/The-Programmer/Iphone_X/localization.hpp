@@ -56,7 +56,7 @@ class Iphone_Localization {
     };
     class STR_MONTH_5 {
         en = "May";
-        fr = "Mais";
+        fr = "Mai";
         es = "Mayo";
     };
     class STR_MONTH_6 {

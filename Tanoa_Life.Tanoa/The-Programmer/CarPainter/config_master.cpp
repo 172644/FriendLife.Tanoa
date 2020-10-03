@@ -15,8 +15,8 @@ class The_Programmer_CarPainter_Config {
 
 	who_can_use_repaint			= 1; // 0 = No one can use CarPainter, 1 = everyone can use CarPainter.
 
-	paint_mode_license_own		= "license_civ_dir"; // The condition to repaint his own vehicles (exemple : "license_civ_painter", only players who has this license can repaint his vehicles). Leave blank for no condition.
-	paint_mode_license_any		= "license_civ_dir"; // The condition to repaint any vehicles (exemple : "license_civ_painter", only players who has this license can repaint any vehicles). Leave blank for no condition.
+	paint_mode_license_own		= "license_adac_DIR"; // The condition to repaint his own vehicles (exemple : "license_civ_painter", only players who has this license can repaint his vehicles). Leave blank for no condition.
+	paint_mode_license_any		= "license_adac_DIR"; // The condition to repaint any vehicles (exemple : "license_civ_painter", only players who has this license can repaint any vehicles). Leave blank for no condition.
 
 	allow_rvmats_onAllVeh		= false; // /!\ false by default. I advise not to touch this. By turning this to true, this will allow players to change the rvmats for free for the vehicles that doesn't have a rvmat texture by default. The CarPainter system reset the texture and the rvmat texture when the player leave the dialog without paying. But if the vehicle doesn't have a rvmat texture by default, I can't reset it, so the rvmat texture will stay until the player store his vehicle in a garage. Waiting for an update from Bohemia.
 	blacklisted_vehicles[]  	= {}; // Classname of vehicles you want to blacklist like this : {"C_Offroad_01_F", "O_MRAP_02_F"}

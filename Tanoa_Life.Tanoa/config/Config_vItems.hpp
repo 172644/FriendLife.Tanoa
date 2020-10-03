@@ -45,7 +45,7 @@ class VirtualShops {
         name = "STR_Shops_Market";
         side = "med";
         conditions = "";
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach", "defibrillator" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach" };
     };
 
     class rebel {
@@ -157,13 +157,13 @@ class VirtualShops {
         name = "STR_Shops_Cop";
         side = "cop";
         conditions = "";
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull","fuelFull", "defusekit", "defibrillator", "speedcam", "Test_drugs", "Alcootest" };
+        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull","fuelFull", "defusekit", "speedcam", "Test_drugs", "Alcootest" };
     };
 
     class adac {
         name = "STR_Shops_Adac";
         side = "civ";
-        conditions = "license_civ_dir";
+        conditions = "license_adac_DIR";
         items[] = { "donuts", "coffee", "waterBottle", "rabbit", "apple", "peach", "redgull", "fuelFull" };
     };
 };

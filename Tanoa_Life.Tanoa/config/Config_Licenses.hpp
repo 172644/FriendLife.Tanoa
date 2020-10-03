@@ -78,7 +78,7 @@ class Licenses {
         displayName = "STR_License_DIR";
         price = 0;
         illegal = false;
-        side = "civ";
+        side = "adac";
     };
 
     class DEPANNEUR {
@@ -198,7 +198,7 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 100000;
+        price = 75000;
         illegal = true;
         side = "civ";
     };

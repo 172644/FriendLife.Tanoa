@@ -24,7 +24,7 @@ class Max_Settings_Phone {
     textures_base_path = "The-Programmer\Phone\textures";
 
     iphone_xi_script_enable = false;
-    dispatch_system_script_enable = false;
+    dispatch_system_script_enable = true;
 
     price_buy_sim = 50;
     price_offer_1 = 100;
@@ -51,8 +51,8 @@ class Max_Settings_Phone {
     num_cop = 17; // NUMERO POUR ENVOYER UN MESSAGE AUX GENDARMES
     num_med = 18; // NUMERO POUR ENVOYER UN MESSAGE AUX MEDECINS
     num_cop_med = 112; // NUMERO POUR ENVOYER UN MESSAGE AUX GENDARMES ET MEDECINS
-    num_dep = 60; // NUMERO POUR ENVOYER UN MESSAGE AUX DEPANNEURS
-    num_east = 80; // NUMERO POUR ENVOYER UN MESSAGE AUX ESAT (ADAC)
+    num_dep = 80; // NUMERO POUR ENVOYER UN MESSAGE AUX DEPANNEURS
+    num_east = 60; // NUMERO POUR ENVOYER UN MESSAGE AUX ESAT (DIR)
 
     time_before_delete_dep_marker = 300; // in seconds
 
@@ -62,7 +62,7 @@ class Max_Settings_Phone {
         police_contact = true;
         medic_contact = true;
         contact_cop_med = true;
-        contact_dep = true;
+        contact_dep = false;
         east_contact = true;
 
         customized_contact[] = {

@@ -697,43 +697,43 @@ class Phone_Localization {
     };
     class STR_RECEIVE_MESSAGE_FROM_X_EAST {
         en = "<t color='#316dff'><t size='2'><t align='center'>Adac request<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Recipient: <t color='#ffffff'>All officers<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><t color='#33CC33'>Position: <t color='#ffffff'>%2<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%3";
-        fr = "<t color='#316dff'><t size='2'><t align='center'>Demande adac<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Destinataire: <t color='#ffffff'>Tous les officiers<br/><t color='#33CC33'>De: <t color='#ffffff'>%1<br/><t color='#33CC33'>Position: <t color='#ffffff'>%2<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%3";
+        fr = "<t color='#316dff'><t size='2'><t align='center'>Demande DIR<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Destinataire: <t color='#ffffff'>Tous les officiers<br/><t color='#33CC33'>De: <t color='#ffffff'>%1<br/><t color='#33CC33'>Position: <t color='#ffffff'>%2<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%3";
         de = "<t color='#316dff'><t size='2'><t align='center'>Adac Notruf<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Empfänger: <t color='#ffffff'>Alle Offiziere<br/><t color='#33CC33'>Von: <t color='#ffffff'>%1<br/><t color='#33CC33'>Position: <t color='#ffffff'>%2<br/><br/><t color='#33CC33'>Nachricht:<br/><t color='#ffffff'>%3";
         es = "<t color='#316dff'><t size='2'><t align='center'>Solicitud Adac<br/><br/><t color='#33CC33'><t align='left'><t size='1'>Destinatario: <t color='#ffffff'>Todos los oficiales<br/><t color='#33CC33'>De: <t color='#ffffff'>%1<br/><t color='#33CC33'>Posicion: <t color='#ffffff'>%2<br/><br/><t color='#33CC33'>Mensaje:<br/><t color='#ffffff'>%3";
     };
     class STR_SEND_TO_EAST {
         en = "You sent to the adacs: %1";
-        fr = "Vous avez envoyé aux adacs: %1";
+        fr = "Vous avez envoyé aux DIR: %1";
         de = "Ihre Nachricht an den adacs: %1";
         es = "Has enviado a los adacs: %1";
     };
     class STR_DEFAUT_CONTACT_5 {
         en = "Adac";
-        fr = "Adac";
+        fr = "DIR";
         de = "Adac";
         es = "Adac";
     };
     class STR_NO_EAST_CALL {
         en = "No adac takes care of the switchboard, send a message.";
-        fr = "Aucun adac s'occupe du standard téléphonique, envoyez un message.";
+        fr = "Aucun DIR s'occupe du standard téléphonique, envoyez un message.";
         de = "Die adac ist nur über eine Textnachricht erreichbar.";
         es = "Ningun adac esta a cargo de la centralita, envia un mensaje.";
     };
     class STR_SOMEONE_ALREADY_RECEIVE_EAST {
         en = "An east already picks up the calls to %1.";
-        fr = "Un adac récupère déjà les appels vers le %1.";
+        fr = "Un DIR récupère déjà les appels vers le %1.";
         de = "Ein adac hat schon den Anruf von %1 angenommen.";
         es = "Un adac ya coge las llamadas a %1.";
     };
     class STR_ADDACTION_TAKE_EAST {
         en = "Take the standard of adacs";
-        fr = "Prendre le standard des adacs";
+        fr = "Prendre le standard de la DIR";
         de = "Nehme den Standart der adacs";
         es = "Coger el estándar del adacs";
     };
     class STR_ADDACTION_LET_EAST {
         en = "Leave the standard of adacs";
-        fr = "Laisser le standard des adacs";
+        fr = "Laisser le standard de la DIR";
         de = "Verlasse den Standart der adacs";
         es = "Dejar estandarte del adacs";
     };

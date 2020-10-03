@@ -11,9 +11,9 @@
 #define IDC_LIFE_BAR_FOOD_RING 3200
 #define IDC_LIFE_BAR_WATER 2201
 #define IDC_LIFE_BAR_WATER_RING 3201
-#define IDC_LIFE_BAR_HEALTH 2202
+//#define IDC_LIFE_BAR_HEALTH 2202
 #define IDC_LIFE_BAR_InfoID 2203
-#define IDC_LIFE_BAR_HEALTH_RING 3202
+//#define IDC_LIFE_BAR_HEALTH_RING 3202
 #define IDC_LIFE_BAR_Speaker 3007
 #define IDC_LIFE_BAR_SeatBelt 4203
 
@@ -104,7 +104,7 @@ if(!isNil "life_thirst") then
 		LIFEctrl(IDC_LIFE_BAR_WATER_RING) ctrlSetText "\Assets\Data\textures\HUD\water10.paa";
 	};
 };
-
+/*
 if (damage player >= 0) then
 {
 	LIFEctrl(IDC_LIFE_BAR_HEALTH_RING) ctrlSetText "\Assets\Data\textures\HUD\health0.paa";
@@ -159,7 +159,7 @@ if (damage player >= 1) then
 {
 	LIFEctrl(IDC_LIFE_BAR_HEALTH_RING) ctrlSetText "\Assets\Data\textures\HUD\health10.paa";
 };
-
+*/
 if(!isNil "life_hunger") then
 {
 	if (life_hunger <= 100) then

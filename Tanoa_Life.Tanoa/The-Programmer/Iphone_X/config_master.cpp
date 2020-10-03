@@ -32,7 +32,7 @@ class The_Programmer_Settings_Iphone {
     enable_cellphone_animations = true; // You need to put the "The_Programmer_Cellphone" mod into your modpack !
 
     reboot_1 = "01H00";
-    reboot_2 = "06H00";
+    reboot_2 = "07H00";
     reboot_3 = "12H00";
     reboot_4 = "18H00";
 
