@@ -10,9 +10,9 @@
     Documentation: https://community.bistudio.com/wiki/removeMagazinesTurret
 */
 private ["_vehicle","_veh"];
-_vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
+private _vehicle = [_this,0,objNull,[objNull]] call BIS_fnc_param;
 if (isNull _vehicle) exitWith {};
-_veh = typeOf _vehicle;
+private _veh = typeOf _vehicle;
 
 if (_veh isEqualTo "B_Boat_Armed_01_minigun_F") then {
     _vehicle removeMagazinesTurret ["200Rnd_40mm_G_belt",[0]];
@@ -38,3 +38,21 @@ clearWeaponCargoGlobal _vehicle;
 clearMagazineCargoGlobal _vehicle;
 clearItemCargoGlobal _vehicle;
 clearBackpackCargoGlobal _vehicle;
+
+[_vehicle] spawn {
+	private _vehicle = _this select 0;
+	private _vInfo = _vehicle getVariable ["dbInfo",[]];
+	while {alive _vehicle} do {
+		sleep 300;
+
+		private _damage = getAllHitPointsDamage _vehicle;
+		[
+			format ["%1", (_vInfo select 0)],
+			format ["%1", (_vInfo select 1)],
+			format ["%1", getPosATL _vehicle],
+			getDir _vehicle,
+			format ["%1", fuel _vehicle],
+			format ["%1", _damage select 2]
+		] remoteExec ["TON_fnc_saveVehiclePos",2];
+	};
+};

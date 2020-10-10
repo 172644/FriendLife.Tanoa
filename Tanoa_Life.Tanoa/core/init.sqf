@@ -199,6 +199,9 @@ diag_log "----------------------------------------------------------------------
 diag_log format ["               End of Altis Life Client Init :: Total Execution Time %1 seconds ",(diag_tickTime) - _timeStamp];
 diag_log "----------------------------------------------------------------------------------------------------";
 
+//bourse 5.0
+DYNAMICMARKET_boughtItems = [];
+[player] remoteExec ["TON_fnc_playerLogged",RSERV];
 
 /*
     Author: Maxence for The Programmer Forum
@@ -261,31 +264,29 @@ diag_log "----------------------------------------------------------------------
     };  
 };
 
+private _allcars = entities "Car";
+{
+	if(!(_x in life_vehicles)) then {
+		diag_log format["GetKey : %1", _x];
+		private _vInfo = _x getVariable ["dbInfo",[0]];
+		private _ownerPid = format ["%1", (_vInfo select 0)];
+		if (_ownerPid isEqualTo (getPlayerUID player)) then {
+			life_vehicles pushBack _x;
+		};
+	};
+} foreach _allcars;
+//[(getPlayerUID player),side player] remoteExec ["TON_fnc_recupKeyForHC",2];
+//[(getPlayerUID player),side player] remoteExec ["TON_fnc_recupKeyForHC",_unit];
+
+//diag_log format["VarVeh : %1", missionNamespace getVariable [format ["%1_KEYS_%2",(getPlayerUID player),side player],[]]];
+/*{
+	diag_log format["GetKey : %1", _x];
+	life_vehicles pushBack _x;
+} foreach (missionNamespace getVariable [format ["%1_KEYS_%2",(getPlayerUID player),side player],[]]);*/
 
 if (!(currentWeapon player isEqualTo "")) then {
 	player action ["SwitchWeapon", player, player, 100];
 }
-	
-// down weapon when exit veh
-player addEventHandler ["GetOutMan", {
-	params ["_unit", "_role", "_vehicle", "_turret"];
-	
-    if (!(currentWeapon player isEqualTo "")) then {
-        player action ["SwitchWeapon", player, player, 100];
-    }
-	
-	["exit", (getPlayerUID player), side player, getPosATL player, "vehicule", "", getText(configFile >> "CfgVehicles" >> typeOf _vehicle >> "displayName"), _vehicle, "", "", typeOf _vehicle, "", _role] remoteExec ["TON_fnc_insertLog",2];
-}];
-
-
-player addEventHandler ["GetInMan", {
-	params ["_unit", "_role", "_vehicle", "_turret"];
-	
-	["enter", (getPlayerUID player), side player, getPosATL player, "vehicule", "", getText(configFile >> "CfgVehicles" >> typeOf _vehicle >> "displayName"), _vehicle, "", "", typeOf _vehicle, "", _role] remoteExec ["TON_fnc_insertLog",2];
-}];
-
-
-
 
 // switch anim sit
 MAC_fnc_switchMove = {

@@ -111,12 +111,17 @@ if(_entrepriseBuy) then {
 	// NORMAL BUY
 	if (CASH < _purchasePrice) then {
 		BANK = BANK - _purchasePrice;
+		
+		hint format [localize "STR_Shop_Veh_Bought",_vehName,[_purchasePrice] call life_fnc_numberText];
+		["bought", (getPlayerUID player), side player, getPosATL player, "vehicle", "", _vehName, _className, _initalPrice, _purchasePrice, _className, "", format ["Spawn : %1, Type : %2", _spawnPoint, _mode]] remoteExec ["TON_fnc_insertLog",2];
+		[0] call SOCK_fnc_updatePartial;
 	} else {
 		CASH = CASH - _purchasePrice;
+		
+		hint format [localize "STR_Shop_Veh_Bought",_vehName,[_purchasePrice] call life_fnc_numberText];
+		["bought", (getPlayerUID player), side player, getPosATL player, "vehicle", "", _vehName, _className, _initalPrice, _purchasePrice, _className, "", format ["Spawn : %1, Type : %2", _spawnPoint, _mode]] remoteExec ["TON_fnc_insertLog",2];
+		[0] call SOCK_fnc_updatePartial;
 	};
-	hint format [localize "STR_Shop_Veh_Bought",_vehName,[_purchasePrice] call life_fnc_numberText];
-	["bought", (getPlayerUID player), side player, getPosATL player, "vehicle", "", _vehName, _className, _initalPrice, _purchasePrice, _className, "", format ["Spawn : %1, Type : %2", _spawnPoint, _mode]] remoteExec ["TON_fnc_insertLog",2];
-	[0] call SOCK_fnc_updatePartial;
 };
 
 //Spawn the vehicle and prep it.

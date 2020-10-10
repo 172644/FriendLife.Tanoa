@@ -23,7 +23,7 @@ class The_Programmer_Settings_Identity {
 
     server_name = "The-Programmer";
 
-    phone_numbers_script_enable = false;
+    phone_numbers_script_enable = true;
     companies_script_enable = false;
     enable_companies_card = false;
     license_points_variable = "driver_points"; // Only if you have the point system : Variable which contains the number of points of the selected license
@@ -31,7 +31,7 @@ class The_Programmer_Settings_Identity {
     enable_depanneurs_card = true;
     depanneurs_licence = "license_civ_depanneur";
 
-    allow_players_to_change_player_name = true; // Allows the player to change his name between disconnections !
+    allow_players_to_change_player_name = false; // Allows the player to change his name between disconnections !
 
     allow_custom_name = false; // Put true if you want the person to be able to put a custom name 
     bad_usernames[] = {"Sacha Touille"};
@@ -47,7 +47,7 @@ class The_Programmer_Settings_Identity {
     object_given = ""; // Virtuel Object (vitems) given when you create your identity card 
     object_required = ""; //Virtual object (vitems) required to show you his identity card 
 
-    allow_take_identity_card = true; // Put true if you want the police and medic are able to take the identity papers by "force"
+    allow_take_identity_card = false; // Put true if you want the police and medic are able to take the identity papers by "force"
 
     class Configuration_license_card {
         /*You can put 8 licenses

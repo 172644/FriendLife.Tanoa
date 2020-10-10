@@ -13,7 +13,7 @@
         "Notre TeamSpeak :<br/><t color='#e32828' size='1.5'>78.143.39.176:11650</t>"  
     ];  
 
-    _refreshTime = 1800; // Time between each message (in seconds)  
+    _refreshTime = 7200; // Time between each message (in seconds)  
 
     _i = 0;  
     while {true} do {  

@@ -36,7 +36,9 @@ if (KINDOF_ARRAY(_container,_list)) exitWith {
 };
 /*
 //Allow alive players who've been knocked out to be looted, just not the dead ones
-if (_container isKindOf "Man" && !alive _container) exitWith {
+if (_container isKindOf "Man" && alive _container) exitWith {
     hint localize "STR_NOTF_NoLootingPerson";
     true;
-};*/
+};
+
+//waitUntil{!isNull (findDisplay 602) && _canOpen}; (findDisplay 602) closeDisplay 1;

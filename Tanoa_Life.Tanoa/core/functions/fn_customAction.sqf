@@ -85,12 +85,17 @@ while {true} do {
     //player globalChat format ["DATE : %2 - %1", diag_tickTime, missionStart];
 	
 	if(getPlayerUID player isEqualTo "76561198117139041") then {
+		
+		/*_objs = nearestObjects [player, ["Car"], 20000];
+		diag_log format ["%1", _objs];
+		hint format ["%1", _objs];*/
+		
+		
 		//_CowsSlot = FETCH_CONFIG3(getArray,"CfgWeapons","srifle_DMR_01_ACO_F","WeaponSlotsInfo","CowsSlot","compatibleItems");
         //player globalChat "MSG LOG : Save vehicules";
 		
         //player globalChat format ["DATE : %1", missionStart];
 		
-		//[ "/!\ ALERTE MÉTÉO /!\ ", format ["Une tempête est prévu pour 18h"], format ["Vous avez environ %1 minutes pour vous abriter", "30"]] spawn BIS_fnc_infoText;
 		//diag_log format ["srifle_DMR_01_ACO_F : %1", _CowsSlot];
 		//diag_log format ["srifle_DMR_01_ACO_F : %1", FETCH_CONFIG3(getArray,"CfgWeapons",srifle_DMR_01_ACO_F,"WeaponSlotsInfo","MuzzleSlot","compatibleItems")];
 		//diag_log format ["srifle_DMR_01_ACO_F : %1", FETCH_CONFIG3(getArray,"CfgWeapons",srifle_DMR_01_ACO_F,"WeaponSlotsInfo","PointerSlot","compatibleItems")];

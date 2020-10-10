@@ -170,6 +170,8 @@ class CfgRemoteExec {
         F(SPY_fnc_notifyAdmins,ANYONE)
 		
 		F(TON_fnc_insertLog,SERVER)
+		F(TON_fnc_saveVehiclePos,SERVER)
+		
     };
 
     class Commands {

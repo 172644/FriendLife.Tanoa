@@ -32,5 +32,15 @@ player addEventHandler ["GetOutMan", {
         player action ["SwitchWeapon", player, player, 100];
     };
 	
+	private _vInfo = _vehicle getVariable ["dbInfo",[]];
+    private _damage = getAllHitPointsDamage _vehicle;
+    [
+        format ["%1", (_vInfo select 0)],
+        format ["%1", (_vInfo select 1)],
+        format ["%1", getPosATL _vehicle],
+        getDir _vehicle,
+        format ["%1", fuel _vehicle],
+        format ["%1", _damage select 2]
+    ] remoteExec ["TON_fnc_saveVehiclePos",2];
 	["Event", (getPlayerUID player), side player, getPosATL player, "exitVehicle", "", getText(configFile >> "CfgVehicles" >> typeOf _vehicle >> "displayName"), _vehicle, "", "", typeOf _vehicle, "", _role] remoteExec ["TON_fnc_insertLog",2];
 }];

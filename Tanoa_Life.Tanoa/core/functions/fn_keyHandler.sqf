@@ -74,7 +74,8 @@ switch (_code) do {
             _handled = true;
         };
     };
-
+	
+	/*
     //Surrender (Shift + B)
     case 48: {
         if (_shift) then {
@@ -85,7 +86,7 @@ switch (_code) do {
             };
             _handled = true;
         };
-    };
+    };//*/
 
     //Map Key
     case _mapKey: {
@@ -161,7 +162,9 @@ switch (_code) do {
                 } else {
                     _list = ["landVehicle","Air","Ship"];
                     if (KINDOF_ARRAY(cursorObject,_list) && {player distance cursorObject < 7} && {isNull objectParent player} && {alive cursorObject} && {!life_action_inUse}) then {
-                        if (cursorObject in life_vehicles || {locked cursorObject isEqualTo 0}) then {
+						//private _vInfo = _veh getVariable ["dbInfo",[]];
+						//private _ownerPid = format ["%1", (_vInfo select 0)];
+                        if (cursorObject in life_vehicles /*|| _ownerPid isEqualTo (getPlayerUID player)*/ || {locked cursorObject isEqualTo 0}) then {
                             [cursorObject] spawn life_fnc_openInventory;
                         };
                     };
@@ -254,6 +257,7 @@ switch (_code) do {
             } else {
                 _veh = vehicle player;
             };
+				//hint format ["%1", _veh];
 
             if (_veh isKindOf "House_F" && {playerSide isEqualTo civilian}) then {
                 if (_veh in life_vehicles && {player distance _veh < 20}) then {
@@ -273,7 +277,11 @@ switch (_code) do {
                 };
             } else {
                 _locked = locked _veh;
-                if (_veh in life_vehicles && {player distance _veh < 20}) then {
+				
+				//private _vInfo = _veh getVariable ["dbInfo",[]];
+				//private _ownerPid = format ["%1", (_vInfo select 0)];
+				
+                if ((_veh in life_vehicles /*|| _ownerPid isEqualTo (getPlayerUID player)*/) && {player distance _veh < 20}) then {
                     if (_locked isEqualTo 2) then {
                         if (local _veh) then {
                             _veh lock 0;

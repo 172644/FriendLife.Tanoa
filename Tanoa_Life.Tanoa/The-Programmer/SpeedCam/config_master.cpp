@@ -18,7 +18,7 @@ class FC_Settings_SpeedCam {
 
 	license_plate_script_enable = false;
 	governement_system_script_enable = false;
-	points_driving_script_enable = false;
+	points_driving_script_enable = true;
 
 	permis_class_in_points_driving_config = "driver"; // Only if points_driving_license_script_enable = true;
 	points_lost_per_infraction = 2; // Only if points_driving_script_enable = true. Default : 2
