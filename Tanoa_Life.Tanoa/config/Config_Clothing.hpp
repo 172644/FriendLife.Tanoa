@@ -359,7 +359,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "", "", 0, "" }
+            { "V_Safety_yellow_F", "", 10, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
@@ -594,31 +594,36 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
-			{ "jack_21_uniform_1", "", 450, "call life_coplevel >= 1" },
-			{ "jack_4s_uniform_1", "", 350, "call life_coplevel >= 1" },
-            { "jack_tshirt_uniform_1", "", 240, "call life_coplevel >= 1" },
-			{ "jack_tshirt_uniform_3", "", 300, "call life_coplevel >= 4" },
-			{ "jack_pilote_hel_uniform_1", "", 500, "call life_coplevel >= 4" },
-			{ "jack_plongeur_uniform_1", "", 500, "call life_coplevel >= 1" },
-			{ "201", "", 450, "call life_coplevel >= 2" },
-			{ "jack_4s_uniform_2", "", 350, "call life_coplevel >= 3" }
+			{ "jack_21_uniform_1", "", 400, "call life_coplevel >= 1" },
+			{ "jack_4s_uniform_1", "", 150, "call life_coplevel >= 1" },
+            { "jack_tshirt_uniform_1", "", 50, "call life_coplevel >= 1" },
+			{ "jack_tshirt_uniform_3", "", 50, "call life_coplevel >= 4" },
+			{ "jack_pilote_hel_uniform_1", "", 150, "call life_coplevel >= 4" },
+			{ "jack_plongeur_uniform_1", "", 200, "call life_coplevel >= 1" },
+			{ "201", "", 150, "call life_coplevel >= 2" },
+			{ "jack_4s_uniform_2", "", 150, "call life_coplevel >= 3" }
         };
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
-			{ "jack_casquette_gend_3", "", 200, "call life_coplevel >= 1" },
+			{ "jack_casquette_gend_1", "", 50, "call life_coplevel >= 1" },
 			{ "kepi_gn", "", 250, "call life_coplevel >= 1" },
 			{ "jack_casque_helico_gend_2", "", 500, "call life_coplevel >= 1" },
-			{ "800", "", 450, "call life_coplevel >= 2" },
-			{ "802", "", 450, "call life_coplevel >= 3" }
+			{ "800", "", 250, "call life_coplevel >= 2" },
+			{ "gnd_casque_leger_noir", "", 200, "call life_coplevel >= 3" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
-            { "V12_POLICE", "", 50, "" }
+            { "V12_POLICE", "", 10, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "1000", "", 500, "" },
-			{ "jack_gilet_lourd_gend_2", "", 600, "call life_coplevel >= 3" }
+			{ "jack_gilet_tic_gend", "", 50, "" },
+            { "EF_SH_BK", "", 200, "" },
+			{ "EF_SHF_BW", "", 200, "" },
+			{ "jack_ceinturon_gend_1", "", 150, "" },
+			{ "1000", "", 500, "" },
+			{ "jack_recycleur_gend", "", 400, "" },
+			{ "jack_gilet_lourd_gend_2", "", 500, "call life_coplevel >= 3" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "call life_coplevel >= 1" },
@@ -666,7 +671,11 @@ class Clothing {
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "V_Rangemaster_belt", "", 4900, "" }
+            { "V_Rangemaster_belt", "", 600, "" },
+			{ "jack_ceinturon_gend_1", "Ceinturon", 700, "" },
+			{ "EF_SH_BK", "", 900, "" },
+			{ "EF_SHF_BW", "", 900, "" },
+			{ "EF_SHF_PK", "", 900, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" }
@@ -692,7 +701,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-			{ "B_Parachute", "", 0, "call life_coplevel >= 1" }
+			{ "B_Parachute", "", 0, "" }
         };
     };
 

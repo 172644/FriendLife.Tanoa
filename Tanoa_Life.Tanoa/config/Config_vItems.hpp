@@ -45,7 +45,7 @@ class VirtualShops {
         name = "STR_Shops_Market";
         side = "med";
         conditions = "";
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach" };
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach", "defibrillator" };
     };
 
     class rebel {
@@ -157,7 +157,7 @@ class VirtualShops {
         name = "STR_Shops_Cop";
         side = "cop";
         conditions = "";
-        items[] = { "donuts", "coffee", "spikeStrip", "waterBottle", "rabbit", "apple", "redgull","fuelFull", "defusekit", "speedcam", "Test_drugs", "Alcootest" };
+        items[] = { "donuts", "coffee", "waterBottle", "rabbit", "apple", "redgull", "fuelFull", "defibrillator", "spikeStrip", "defusekit", "speedcam" };
     };
 
     class adac {
@@ -265,8 +265,8 @@ class VirtualItems {
         variable = "pickaxe";
         displayName = "STR_Item_Pickaxe";
         weight = 1;
-        buyPrice = 750;
-        sellPrice = 350;
+        buyPrice = 75;
+        sellPrice = 0;
         illegal = false;
         edible = -1;
         icon = "\Assets\Data\icons\ico_pickaxe.paa";
@@ -656,7 +656,7 @@ class VirtualItems {
         variable = "redgull";
         displayName = "STR_Item_RedGull";
         weight = 1;
-        buyPrice = 50;
+        buyPrice = 5;
         sellPrice = 20;
         illegal = false;
         edible = 50;

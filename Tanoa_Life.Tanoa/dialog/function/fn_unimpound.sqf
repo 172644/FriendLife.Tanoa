@@ -59,12 +59,8 @@ if (life_garage_sp isEqualType []) then {
 };
 
 
-if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-	advanced_log = format [localize "STR_DL_ML_GetVehicle",profileName,(getPlayerUID player),_vehicle,_vid,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-} else {
-	advanced_log = format [localize "STR_DL_ML_GetVehicle",profileName,(getPlayerUID player),_vehicle,_vid,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-};
-publicVariableServer "advanced_log";
+["getVehicle", (getPlayerUID player), side player, getPosATL player, "", "", _vehicle, _vehicle, "", "", "", "", format ["ID véhicule : %1", _vid]] remoteExec ["TON_fnc_insertLog",2];
+
 
 
 hint localize "STR_Garage_SpawningVeh";

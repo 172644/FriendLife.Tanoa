@@ -29,17 +29,16 @@ class WeaponShops {
             { "hgun_Rook40_F", "", 1500, 750, "" },
             { "hgun_Pistol_01_F", "", 3000, 1500, "" }, //Apex DLC
             { "hgun_Pistol_heavy_02_F", "", 5850, 2925, "" },
-            { "hgun_ACPC2_F", "", 11500, 5750, "" },
-            { "SMG_05_F", "", 8000, 4000, "" }, //Apex DLC
-            { "hgun_PDW2000_F", "", 10000, 5000, "" }
+            { "hgun_ACPC2_F", "", 8500, 4750, "" },
+			{ "sgun_HunterShotgun_01_F", "Fusil Réservé pour la Chasse", 2000, 1000, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 125, 60, "" },
             { "6Rnd_45ACP_Cylinder", "", 150, 75, "" },
             { "9Rnd_45ACP_Mag", "", 200, 100, "" },
+			{ "2Rnd_12Gauge_Pellets", "", 15, 10, "" },
             { "30Rnd_9x21_Mag", "", 250, 125, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" }, //Apex DLC
-            { "10Rnd_9x21_Mag", "", 250, 125, "" } //Apex DLC
+            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 500, 250, "" }
@@ -137,7 +136,7 @@ class WeaponShops {
             { "ACE_fieldDressing", "", 25, -1, "" },
             { "NVGoggles", "", 2000, -1, "" },
 			{ "ToolKit", "", 350, -1, "" },
-			{ "ACE_Wheel", "", 200, -1, "" }
+			{ "ACE_Wheel", "", 75, -1, "" }
         };
         mags[] = {};
         accs[] = {};
@@ -154,7 +153,7 @@ class WeaponShops {
 			{ "SMG_02_ARCO_pointg_F", "", 1800, 1800, "call life_coplevel >= 4" },
 			{ "arifle_SPAR_01_blk_ERCO_Pointer_F", "", 3100, 3100, "call life_coplevel >= 6" },
 			{ "SMG_05_F", "", 2000, 2000, "call life_coplevel >= 2" },
-			{ "hgun_Rook40_snds_F", "", 700, 7000, "call life_coplevel >= 1" },
+			{ "CSW_FN57", "", 700, 7000, "call life_coplevel >= 1" },
 			{ "CSW_M26C", $STR_W_items_StunPistol, 500, 500, "call life_coplevel >= 1" },
 			{ "CSW_FN57_Ballistic_Shield", "", 500, 500, "call life_coplevel >= 5" },
 			{ "CSW_FN57_Barska", "", 700, 700, "call life_coplevel >= 5" },
@@ -169,6 +168,7 @@ class WeaponShops {
         };
         mags[] = {
 			{ "CSW_Taser_Probe_Mag", "", 50, 50, "call life_coplevel >= 1" },
+			{ "CSW_20Rnd_57x28_SS190", "", 50, 50, "call life_coplevel >= 1" },
             { "30Rnd_9x21_Mag", "", 50, 50, "call life_coplevel >= 1" },
             { "30Rnd_9x21_Mag_SMG_02", "", 50, 50, "call life_coplevel >= 2" },
             { "30Rnd_556x45_Stanag", "", 50, 50, "call life_coplevel >= 6" },
@@ -208,8 +208,8 @@ class WeaponShops {
 			{ "tf_anprc152", "", 50, 50, "" },
 			{ "NVGogglesB_blk_F", "", 2000, 2000, "" },
             { "ItemWatch", "", 50, 50, "" },
-			{ "ToolKit", "", 300, 300, "" },
 			{ "FirstAidKit", "", 100, 0, "" },
+			{ "ToolKit", "", 300, 300, "" },
 			{ "defibinvch", "", 100, 0, "" },
 			{ "ACE_CableTie", "", 30, 0, "" },
 			{ "ACE_rope36", "", 50, 50, "" },

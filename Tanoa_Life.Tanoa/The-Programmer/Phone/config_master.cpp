@@ -21,7 +21,7 @@ class Max_Settings_Phone {
     default_lang = "fr"; // fr / en / de / es
 
     tonic_version = 5; //5 if you are on version 5.0 or 4 if you are on version 4.X
-    textures_base_path = "The-Programmer\Phone\textures";
+    textures_base_path = "\Assets\Data\The-Programmer\Phone\textures";
 
     iphone_xi_script_enable = false;
     dispatch_system_script_enable = true;

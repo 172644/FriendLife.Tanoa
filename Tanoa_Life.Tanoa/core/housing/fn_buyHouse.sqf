@@ -40,15 +40,6 @@ if (_action) then {
         [_uid,_house] remoteExec ["TON_fnc_addHouse",RSERV];
     };
 
-    if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-        if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-            advanced_log = format [localize "STR_DL_AL_boughtHouse_BEF",[(_houseCfg select 0)] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-        } else {
-            advanced_log = format [localize "STR_DL_AL_boughtHouse",profileName,(getPlayerUID player),[(_houseCfg select 0)] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-        };
-        publicVariableServer "advanced_log";
-    };
-
     _house setVariable ["house_owner",[_uid,profileName],true];
     _house setVariable ["locked",true,true];
     _house setVariable ["containers",[],true];

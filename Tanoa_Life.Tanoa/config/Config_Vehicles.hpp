@@ -435,7 +435,19 @@ class CarShops {
         };
     
     };
-
+	
+	class gofast {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+            { "d3s_svr_17_007", "" },
+            { "AlessioRS4Gofast", "" },
+            { "AlessioRS5Gofast", "" },
+            { "AlessioM5Gofast", "" },
+			{ "d3s_kuruma_gtaV", "" }
+        };
+	};
+	
     class civ_ups {
         side = "civ";
         conditions = "";
@@ -1188,7 +1200,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
     class chsandero {
-        vItemSpace = 30;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 8290;
 		fuel = "fuel_1";
@@ -1196,7 +1208,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
     class Zoech {
-        vItemSpace = 30;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 11400;
 		fuel = "fuel_7";
@@ -1204,7 +1216,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
     class chds3 {
-        vItemSpace = 35;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 11990;
 		fuel = "fuel_1";
@@ -1212,7 +1224,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
     class chduster14_civ {
-        vItemSpace = 45;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 12490;
 		fuel = "fuel_1";
@@ -1220,7 +1232,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
     class chCeed {
-        vItemSpace = 45;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 12500;
 		fuel = "fuel_1";
@@ -1238,7 +1250,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };  
 
     class d3s_giulietta_16 {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 26750;
         fuel = "fuel_2";
@@ -1246,7 +1258,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };  
 
     class chds4_noir {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 29800;
         fuel = "fuel_2";
@@ -1254,7 +1266,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };  
 
     class d3s_civic_17_R {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 30000;
         fuel = "fuel_2";
@@ -1270,7 +1282,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     }; 
 
     class d3s_300C_12 {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 34700;
         fuel = "fuel_2";
@@ -1278,7 +1290,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     }; 
 
     class V12_CL651 {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 38600;
         fuel = "fuel_7";
@@ -1286,7 +1298,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };     
 
     class V12_V6_BLEU {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 39700;
         fuel = "fuel_2";
@@ -1294,7 +1306,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     }; 
 
     class V12_GTS2 {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 43300;
         fuel = "fuel_1";
@@ -1302,7 +1314,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_CUPRA3 {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 49150;
         fuel = "fuel_2";
@@ -1310,7 +1322,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlpineArdos_bleu {
-        vItemSpace = 60;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 61500;
         fuel = "fuel_2";
@@ -1318,7 +1330,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_RS3_BLEU {
-        vItemSpace = 60;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 62800;
         fuel = "fuel_2";
@@ -1326,7 +1338,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlessioBM4M {
-        vItemSpace = 65;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 89250;
         fuel = "fuel_2";
@@ -1334,7 +1346,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlessioRS5 {
-        vItemSpace = 70;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 97570;
         fuel = "fuel_2";
@@ -1342,7 +1354,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_RS7 {
-        vItemSpace = 70;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 110000;
         fuel = "fuel_2";
@@ -1352,7 +1364,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     /* ///////////// Familliale ///////////// */
 
     class Renault_Espace_civ {
-        vItemSpace = 90;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 15000;
         fuel = "fuel_1";
@@ -1360,7 +1372,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class d3s_juke_15 {
-        vItemSpace = 80;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 19900;
         fuel = "fuel_2";
@@ -1384,7 +1396,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class Scenic3_civ {
-        vItemSpace = 80;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 27600;
         fuel = "fuel_1";
@@ -1408,7 +1420,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class d3s_vklasse_17 {
-        vItemSpace = 95;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 90000;
         fuel = "fuel_1";
@@ -1416,7 +1428,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlessioRS4Mat {
-        vItemSpace = 80;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 95500;
         fuel = "fuel_1";
@@ -1424,7 +1436,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_RS6AV20B {
-        vItemSpace = 85;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 120000;
         fuel = "fuel_1";
@@ -1476,7 +1488,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     /* ///////////// Bateau ///////////// */
 
     class C_Scooter_Transport_01_F {
-        vItemSpace = 10;
+        vItemSpace = 0;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
         price = 4200;
         fuel = "fuel_2";
@@ -1484,7 +1496,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class I_C_Boat_Transport_02_F {
-        vItemSpace = 50;
+        vItemSpace = 25;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
         price = 32400;
         fuel = "fuel_2";
@@ -1492,7 +1504,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class C_Grady_White_01_F {
-        vItemSpace = 70;
+        vItemSpace = 50;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
         price = 117720;
         fuel = "fuel_2";
@@ -1508,7 +1520,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
    // };
 
     class Burnes_MK10_1 {
-        vItemSpace = 20;
+        vItemSpace = 0;
         conditions = "license_civ_boat || {!(playerSide isEqualTo civilian)}";
         price = 5000000;
         fuel = "fuel_1";
@@ -1682,7 +1694,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class d3s_skyline_02 {
-        vItemSpace = 50;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 78880;
         fuel = "fuel_2";
@@ -1690,7 +1702,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlessioC63M {
-        vItemSpace = 50;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 83350;
         fuel = "fuel_2";
@@ -1706,7 +1718,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_C63AMG16_BLEU {
-        vItemSpace = 50;
+        vItemSpace = 25;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 89100;
         fuel = "fuel_2";
@@ -1780,7 +1792,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_KTM_XBOW {
-        vItemSpace = 30;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 145300;
         fuel = "fuel_2";
@@ -1788,7 +1800,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_GHIBLI {
-        vItemSpace = 25;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 165100;
         fuel = "fuel_2";
@@ -1982,7 +1994,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     /* ///////////// SUV 4x4 ///////////// */
 
     class d3s_svr_17_V8 {
-        vItemSpace = 55;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 49600;
         fuel = "fuel_2";
@@ -1990,7 +2002,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class cWrangler_1 {
-        vItemSpace = 60;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 50650;
         fuel = "fuel_1";
@@ -1998,7 +2010,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_CLASSX_NOIR {
-        vItemSpace = 85;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 62900;
         fuel = "fuel_2";
@@ -2006,7 +2018,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_X6_MET {
-        vItemSpace = 85;
+        vItemSpace = 75;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 73500;
         fuel = "fuel_1";
@@ -2014,7 +2026,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlessioTouaregM {
-        vItemSpace = 80;
+        vItemSpace = 100;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 88200;
         fuel = "fuel_1";
@@ -2022,15 +2034,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_MACAN_NOIR {
-        vItemSpace = 90;
+        vItemSpace = 100;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 938000;
+        price = 93800;
         fuel = "fuel_2";
         textures[] = { };
     };
 
     class V12_ESCALADE_MET {
-        vItemSpace = 90;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 111000;
         fuel = "fuel_2";
@@ -2038,7 +2050,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_H1_NOIR {
-        vItemSpace = 90;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 130000;
         fuel = "fuel_1";
@@ -2046,7 +2058,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_H1TOP_NOIRB {
-        vItemSpace = 80;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 135000;
         fuel = "fuel_2";
@@ -2054,7 +2066,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_GL63AMG {
-        vItemSpace = 90;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 146000;
         fuel = "fuel_2";
@@ -2062,7 +2074,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class V12_URUS19 {
-        vItemSpace = 95;
+        vItemSpace = 50;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 223300;
         fuel = "fuel_2";
@@ -2244,7 +2256,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 25;
         conditions = "";
         price = 680000;
-        fuel = "fuel_1";
+        fuel = "fuel_6";
         textures[] = {};
     };
 
@@ -2252,7 +2264,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 25;
         conditions = "";
         price = 550000;
-        fuel = "fuel_1";
+        fuel = "fuel_6";
         textures[] = {};
     };
 
@@ -2829,14 +2841,15 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class d3s_svr_17_007 {
         vItemSpace = 150;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 110000;
         fuel = "fuel_2";
         textures[] = { };
     };
 	
 	class d3s_kuruma_gtaV {
-        vItemSpace = 50;
+        vItemSpace = 110;
         conditions = "license_civ_driver";
-        price = 350000;
+        price = 210000;
         fuel = "fuel_2";
         textures[] = {
             { "Black", "civ", {
@@ -2848,8 +2861,9 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 
     class AlessioRS4Gofast {
-        vItemSpace = 150;
+        vItemSpace = 160;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 150000;
         fuel = "fuel_2";
         textures[] = { };
     };
@@ -2857,6 +2871,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class AlessioRS5Gofast {
         vItemSpace = 150;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 155000;
         fuel = "fuel_2";
         textures[] = { };
     };
@@ -2864,6 +2879,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     class AlessioM5Gofast {
         vItemSpace = 150;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 160000;
         fuel = "fuel_2";
         textures[] = { };
     };

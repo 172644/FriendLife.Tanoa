@@ -234,11 +234,20 @@ while {true} do {
 	};
 	//_showMessage = true;
 	if(_showMessage) then {
-		//[ "/!\ ALERTE MÉTÉO /!\ ", format ["Tempête prévu pour %1h", _rebootHour], format ["Vous avez environ %1 minutes pour vous abriter", (_actualminute-60)]] spawn BIS_fnc_infoText;
 		[
+			[
+				["/!\ ALERTE MÉTÉO /!\ ", "align = 'center' shadow = '1' size = '0.7' font='PuristaBold'", "#ff0000"],
+				["","<br/>"], // line break
+				[format ["Tempête prévu pour %1h", _rebootHour], "align = 'center' shadow = '1' size = '1.0'"],
+				["","<br/>"], // line break
+				[format ["Vous avez environ %1 minutes pour trouver un abrit.", (60-_actualminute)],"align = 'center' shadow = '1' size = '0.7'", "#aaaaaa"]
+			]
+		] spawn BIS_fnc_typeText2;
+		
+		/*[
 			["/!\ ALERTE MÉTÉO /!\ ",2,1],
 			[format ["Tempête prévu pour %1h", _rebootHour],2,1],
 			[format ["Vous avez environ %1 minutes pour trouver un abrit.", (60-_actualminute)],2,1,8]
-		] spawn BIS_fnc_EXP_camp_SITREP;
-	};//*/
+		] spawn BIS_fnc_EXP_camp_SITREP;*/
+	};
 }

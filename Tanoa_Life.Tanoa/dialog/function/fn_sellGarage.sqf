@@ -54,16 +54,11 @@ if (life_HC_isActive) then {
 
 hint format [localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText];
 BANK = BANK + _sellPrice;
+["sold", (getPlayerUID player), side player, getPosATL player, "vehicle", "", typeOf _vehicleLife, _vehicleLife, _purchasePrice, _sellPrice, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
+
 [1] call SOCK_fnc_updatePartial;
 
-if (LIFE_SETTINGS(getNumber,"player_advancedLog") isEqualTo 1) then {
-    if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-        advanced_log = format [localize "STR_DL_AL_soldVehicle_BEF",_vehicleLife,[_sellPrice] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-    } else {
-        advanced_log = format [localize "STR_DL_AL_soldVehicle",profileName,(getPlayerUID player),_vehicleLife,[_sellPrice] call life_fnc_numberText,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-    };
-    publicVariableServer "advanced_log";
-};
+
 
 life_action_delay = time;
 closeDialog 0;

@@ -14,8 +14,9 @@
 class Max_Settings_Driving_Exam {
     default_lang = "fr"; // fr / en / de / es
 
-    allRoads_path = "The-Programmer\DrivingExam\data\%1\AllRoads.sqf"; // The file is same as the GPS one, you can put the same path as GPS to save space ; %1 = worldname DO NOT REPLACE
-    textures_base_path = "The-Programmer\DrivingExam\textures";
+    //allRoads_path = "The-Programmer\DrivingExam\data\%1\AllRoads.sqf"; // The file is same as the GPS one, you can put the same path as GPS to save space ; %1 = worldname DO NOT REPLACE
+    allRoads_path = "\Assets\Data\The-Programmer\GPS\data\%1\AllRoads.sqf"; // The file is same as the GPS one, you can put the same path as GPS to save space ; %1 = worldname DO NOT REPLACE
+    textures_base_path = "\Assets\Data\The-Programmer\DrivingExam\textures";
 
     meters = "m";
     kilometers = "km";

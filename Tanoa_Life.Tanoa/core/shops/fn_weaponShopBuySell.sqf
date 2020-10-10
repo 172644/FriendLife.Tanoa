@@ -38,16 +38,11 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
 		_entreprise setVariable ["entreprise_bankacc",_oldEntACC,true];
 		[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
 		[_entreprise,(name player),_amount,2] remoteExecCall ["max_entreprise_fnc_insertEntrepriseLogs",2];
+		["sold", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", format ["Fond entreprise : %1",_oldEntACC]] remoteExec ["TON_fnc_insertLog",2];
 	} else {
 		CASH = CASH + _price;
+		["sold", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 	};
-			
-	if (LIFE_SETTINGS(getNumber,"battlEye_friendlyLogging") isEqualTo 1) then {
-		advanced_log = format [localize "STR_DL_ML_WeaponSell",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	} else {
-		advanced_log = format [localize "STR_DL_ML_WeaponSell",profileName,(getPlayerUID player),_itemInfo select 1,_price,_price,[BANK] call life_fnc_numberText,[CASH] call life_fnc_numberText];
-	};
-	publicVariableServer "advanced_log";
 			
     [_item,false] call life_fnc_handleItem;
     hint parseText format [localize "STR_Shop_Weapon_Sold",_itemInfo select 1,[_price] call life_fnc_numberText];
@@ -107,28 +102,43 @@ if ((uiNamespace getVariable ["Weapon_Shop_Filter",0]) isEqualTo 1) then {
 			[(_entreprise getVariable ["entreprise_id",0]),5,(_entreprise getVariable ["entreprise_bankacc",0])] remoteExecCall ["max_entreprise_fnc_updateEntreprise",2];
 			[_entreprise,(name player),_amount,1] remoteExecCall ["max_entreprise_fnc_insertEntrepriseLogs",2];
 			hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
+			
+			
+			if (_itemInfo select 0 == "ACE_Wheel") then {
+				_spawnedWheel = false;
+				_posSpawn = nearestObjects[position player,["VR_Area_01_square_1x1_grey_F"],15];
+				{
+					if(!_spawnedWheel) then {
+						createVehicle ["ACE_Wheel", [(visiblePosition _x select 0), (visiblePosition _x select 1), (getPosATL _x select 2) + 0.15], [], 0, "CAN_COLLIDE"];
+						_spawnedWheel = true;
+					};
+				} forEach _posSpawn;
+			} else {
+				[_item,true] call life_fnc_handleItem;
+			};
 		} else {
 			// PERSONAL BUY 
 			if (_price > CASH) exitWith {hint localize "STR_NOTF_NotEnoughMoney"};
 			CASH = CASH - _price;
 			["bought", (getPlayerUID player), side player, getPosATL player, "item", 1, _itemInfo select 1, _itemInfo select 0, _price, _price, "", "", ""] remoteExec ["TON_fnc_insertLog",2];
 			hint parseText format [localize "STR_Shop_Weapon_BoughtItem",_itemInfo select 1,[_price] call life_fnc_numberText];
+			
+			
+			if (_itemInfo select 0 == "ACE_Wheel") then {
+				_spawnedWheel = false;
+				_posSpawn = nearestObjects[position player,["VR_Area_01_square_1x1_grey_F"],15];
+				{
+					if(!_spawnedWheel) then {
+						createVehicle ["ACE_Wheel", [(visiblePosition _x select 0), (visiblePosition _x select 1), (getPosATL _x select 2) + 0.15], [], 0, "CAN_COLLIDE"];
+						_spawnedWheel = true;
+					};
+				} forEach _posSpawn;
+			} else {
+				[_item,true] call life_fnc_handleItem;
+			};
 		};
 		
 		
-		
-		if (_itemInfo select 0 == "ACE_Wheel") then {
-			_spawnedWheel = false;
-			_posSpawn = nearestObjects[position player,["VR_Area_01_square_1x1_grey_F"],15];
-			{
-				if(!_spawnedWheel) then {
-					createVehicle ["ACE_Wheel", [(visiblePosition _x select 0), (visiblePosition _x select 1), (getPosATL _x select 2) + 0.15], [], 0, "CAN_COLLIDE"];
-					_spawnedWheel = true;
-				};
-			} forEach _posSpawn;
-		} else {
-            [_item,true] call life_fnc_handleItem;
-        };
     };
 };
 [0] call SOCK_fnc_updatePartial;
